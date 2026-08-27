@@ -8,7 +8,7 @@
     "seat_url_hint": "choice_seat",
     "robots_url": "https://tjoy.jp/robots.txt"
   },
-  "fetched_at": "2026-08-28T00:10:12.893730+09:00",
+  "fetched_at": "2026-08-28T08:16:33.471263+09:00",
   "days": {
     "2026-08-27": {
       "open": "8:00",
@@ -1193,8 +1193,8 @@
           "film_code": "C4806000",
           "status": "provisional",
           "attempts": 0,
-          "captures": 1,
-          "last_attempt_at": null,
+          "captures": 2,
+          "last_attempt_at": "2026-08-28T08:16:45.760342+09:00",
           "day_open": "7:30",
           "day_note": null
         },
@@ -2866,9 +2866,9 @@
           "screen_no": "07",
           "screen_seats": 141,
           "availability": {
-            "code": "available",
-            "mark": "○",
-            "label": "空席があります"
+            "code": "plenty",
+            "mark": "◎",
+            "label": "空席に余裕があります"
           },
           "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785694/C4908000/7/2026-08-29?type=film",
           "schedule_id": "785694",
@@ -2954,9 +2954,9 @@
           "screen_no": "01",
           "screen_seats": 376,
           "availability": {
-            "code": "plenty",
-            "mark": "◎",
-            "label": "空席に余裕があります"
+            "code": "few",
+            "mark": "△",
+            "label": "空席がわずかです"
           },
           "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785659/C4463060/1/2026-08-29?type=film",
           "schedule_id": "785659",
