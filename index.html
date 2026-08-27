@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>座席表アーカイブ — T・ジョイ梅田</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Old+Mincho:wght@600;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#E4E9EF; --sheet:#F8FAFC; --ink:#131C26; --line:#C6D0DB;
+  --muted:#71808F; --accent:#D4000F; --rail-w:132px;
+  --mono:'DM Mono',ui-monospace,monospace;
+  --sans:'Zen Kaku Gothic New',system-ui,sans-serif;
+  --serif:'Zen Old Mincho',serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--paper); color:var(--ink); font-family:var(--sans);
+  font-size:15px; line-height:1.65; -webkit-font-smoothing:antialiased;
+  background-image:linear-gradient(rgba(19,28,38,.045) 1px,transparent 1px),
+                   linear-gradient(90deg,rgba(19,28,38,.045) 1px,transparent 1px);
+  background-size:24px 24px;
+}
+button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+
+.top{position:sticky;top:0;z-index:40;backdrop-filter:blur(8px);
+  background:rgba(228,233,239,.88);border-bottom:1px solid var(--line)}
+.top-in{max-width:1280px;margin:0 auto;padding:14px 24px;display:flex;
+  align-items:baseline;gap:18px;flex-wrap:wrap}
+.brand{font-family:var(--serif);font-weight:900;font-size:21px;letter-spacing:.04em}
+.brand em{font-style:normal;color:var(--accent)}
+.stat{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.top-actions{margin-left:auto;display:flex;gap:8px}
+.btn{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;
+  padding:7px 14px;border:1px solid var(--ink);border-radius:2px;background:var(--sheet);
+  transition:background .15s,color .15s}
+.btn:hover{background:var(--ink);color:var(--sheet)}
+.btn.-ghost{border-color:var(--line);color:var(--muted)}
+.btn.-ghost:hover{background:var(--ink);border-color:var(--ink);color:var(--sheet)}
+
+.shell{max-width:1280px;margin:0 auto;padding:28px 24px 96px;display:grid;
+  grid-template-columns:var(--rail-w) minmax(0,1fr);gap:34px;align-items:start}
+
+/* 日付レール：フィルムの縁 */
+.rail{position:sticky;top:78px}
+.rail-jump{margin-bottom:12px}
+.rail-jump label{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.14em;
+  color:var(--muted);text-transform:uppercase;margin-bottom:5px}
+.rail-jump input{width:100%;font-family:var(--mono);font-size:12px;padding:7px 8px;
+  border:1px solid var(--line);border-radius:2px;background:var(--sheet);color:var(--ink)}
+.strip{position:relative;background:var(--ink);border-radius:3px;padding:14px 13px;
+  max-height:calc(100vh - 190px);overflow-y:auto;scrollbar-width:thin}
+.strip::before,.strip::after{content:"";position:absolute;top:0;bottom:0;width:7px;
+  background-image:radial-gradient(var(--paper) 0 2.6px,transparent 2.7px);
+  background-size:7px 15px;background-position:0 6px}
+.strip::before{left:3px} .strip::after{right:3px}
+.strip-in{position:relative;z-index:1;display:flex;flex-direction:column;gap:2px}
+.day-chip{display:flex;align-items:baseline;gap:7px;width:100%;padding:6px 8px;
+  border-radius:2px;font-family:var(--mono);font-size:13px;color:#95A4B4;text-align:left}
+.day-chip:hover{color:#fff;background:rgba(255,255,255,.07)}
+.day-chip .wd{font-size:10px}
+.day-chip .n{margin-left:auto;font-size:10px;color:#5C6B7C}
+.day-chip[aria-current="true"]{color:#fff;background:var(--accent)}
+.day-chip[aria-current="true"] .n{color:rgba(255,255,255,.7)}
+
+.day{margin-bottom:52px;scroll-margin-top:92px}
+.day-head{display:flex;align-items:flex-end;gap:14px;padding-bottom:9px;
+  border-bottom:2px solid var(--ink);margin-bottom:22px}
+.day-num{font-family:var(--serif);font-weight:900;font-size:38px;line-height:.9}
+.day-meta{font-family:var(--mono);font-size:11px;color:var(--muted);padding-bottom:4px}
+.day-meta b{color:var(--accent);font-weight:500}
+.day-count{margin-left:auto;font-family:var(--mono);font-size:11px;
+  color:var(--muted);padding-bottom:4px}
+
+.film{display:grid;grid-template-columns:56px minmax(0,1fr);gap:16px;margin-bottom:26px}
+.poster{width:56px;aspect-ratio:2/3;object-fit:cover;background:var(--line);
+  border:1px solid var(--line);border-radius:2px;transition:transform .16s}
+.poster:hover{transform:translateY(-2px)}
+.poster.-ph{display:flex;align-items:center;justify-content:center;font-family:var(--mono);
+  font-size:9px;color:var(--muted);text-align:center;padding:4px}
+.film-head{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap;margin-bottom:11px}
+.film-title{font-family:var(--serif);font-weight:600;font-size:18px;text-align:left;
+  border-bottom:1px solid transparent;transition:border-color .15s}
+.film-title:hover{border-bottom-color:var(--accent)}
+.tag{font-family:var(--mono);font-size:10px;color:var(--muted);
+  border:1px solid var(--line);border-radius:2px;padding:1px 5px}
+
+.shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(178px,1fr));gap:13px}
+.shot{background:var(--sheet);border:1px solid var(--line);border-radius:2px;
+  overflow:hidden;display:flex;flex-direction:column;transition:border-color .15s,box-shadow .15s}
+.shot:hover{border-color:var(--ink);box-shadow:0 3px 14px rgba(19,28,38,.12)}
+.shot-img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#fff;
+  display:block;cursor:zoom-in}
+.shot-none{width:100%;aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;
+  background:repeating-linear-gradient(45deg,#fff,#fff 6px,var(--sheet) 6px,var(--sheet) 12px);
+  font-family:var(--mono);font-size:10px;color:var(--muted)}
+.shot-foot{padding:7px 9px 4px;border-top:1px solid var(--line);
+  display:flex;align-items:center;gap:7px}
+.shot-sub{padding:0 9px 8px;font-family:var(--mono);font-size:10px;
+  color:var(--muted);letter-spacing:.01em}
+.shot-sub .lead{color:var(--ink);opacity:.55}
+.shot-sub .flag{color:var(--accent)}
+.shot-time{font-family:var(--mono);font-size:15px;font-weight:500}
+.shot-scr{font-family:var(--mono);font-size:10px;color:var(--muted)}
+.occ{margin-left:auto;display:flex;align-items:center;gap:5px;
+  font-family:var(--mono);font-size:10px;color:var(--muted)}
+.occ-bar{width:30px;height:4px;background:var(--line);border-radius:2px;overflow:hidden}
+.occ-bar i{display:block;height:100%;background:var(--accent)}
+.mark{width:15px;height:15px;border-radius:50%;display:grid;place-items:center;
+  font-size:9px;font-family:var(--mono);border:1px solid var(--line);color:var(--muted)}
+.mark.-full{background:var(--accent);border-color:var(--accent);color:#fff}
+.mark.-few{border-color:var(--accent);color:var(--accent)}
+
+.wide{grid-column:1/-1}
+#rail[hidden] + #view { grid-column: 1 / -1; }
+.crumb{display:flex;align-items:center;gap:12px;margin-bottom:24px}
+.film-hero{display:grid;grid-template-columns:132px minmax(0,1fr);gap:24px;
+  padding-bottom:22px;border-bottom:2px solid var(--ink);margin-bottom:30px}
+.film-hero .poster{width:132px}
+.film-hero h1{font-family:var(--serif);font-weight:900;font-size:31px;
+  line-height:1.25;margin:0 0 9px}
+.hero-facts{font-family:var(--mono);font-size:12px;color:var(--muted);
+  display:flex;gap:16px;flex-wrap:wrap}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(148px,1fr));gap:22px 18px}
+.gal-item{text-align:left}
+.gal-item .poster{width:100%}
+.gal-name{font-family:var(--serif);font-weight:600;font-size:14px;
+  line-height:1.4;margin-top:9px;display:block}
+.gal-sub{font-family:var(--mono);font-size:10px;color:var(--muted)}
+
+.lb{position:fixed;inset:0;z-index:90;background:rgba(19,28,38,.94);display:none;
+  align-items:center;justify-content:center;padding:36px;cursor:zoom-out}
+.lb[open]{display:flex}
+.lb img{max-width:100%;max-height:82vh;background:#fff}
+.lb-cap{position:absolute;bottom:22px;left:0;right:0;text-align:center;
+  color:#B9C5D2;font-family:var(--mono);font-size:12px}
+.empty{padding:70px 0;text-align:center;color:var(--muted);
+  font-family:var(--mono);font-size:13px}
+.empty b{display:block;font-family:var(--serif);font-size:19px;
+  color:var(--ink);margin-bottom:8px}
+
+@media (max-width:860px){
+  .shell{grid-template-columns:1fr;gap:20px;padding:18px 16px 72px}
+  .rail{position:static}
+  .strip{max-height:none;padding:11px 13px}
+  .strip-in{flex-direction:row;overflow-x:auto;gap:5px}
+  .day-chip{width:auto;flex:0 0 auto;gap:5px}
+  .day-chip .n{display:none}
+  .film{grid-template-columns:44px minmax(0,1fr);gap:11px}
+  .poster{width:44px}
+  .film-hero{grid-template-columns:88px minmax(0,1fr);gap:16px}
+  .film-hero .poster{width:88px}
+  .film-hero h1{font-size:23px}
+  .day-num{font-size:29px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="top-in">
+    <span class="brand">座席表<em>アーカイブ</em></span>
+    <span class="stat" id="stat">読み込み中…</span>
+    <span class="top-actions">
+      <button class="btn -ghost" id="btn-home">日別</button>
+      <button class="btn" id="btn-gallery">作品一覧</button>
+    </span>
+  </div>
+</header>
+
+<main class="shell">
+  <nav class="rail" id="rail" hidden>
+    <div class="rail-jump">
+      <label for="jump">日付へ移動</label>
+      <input type="date" id="jump">
+    </div>
+    <div class="strip"><div class="strip-in" id="strip"></div></div>
+  </nav>
+  <div id="view"><div class="empty">読み込み中…</div></div>
+</main>
+
+<div class="lb" id="lb"><img id="lb-img" alt=""><div class="lb-cap" id="lb-cap"></div></div>
+
+<script>
+'use strict';
+
+const INDEX = 'data/index.json';
+const WD = ['日','月','火','水','木','金','土'];
+const $ = s => document.querySelector(s);
+const state = {captures:[], byDate:new Map(), byFilm:new Map(), films:new Map()};
+
+async function load(){
+  const idx = await fetch(INDEX, {cache:'no-cache'}).then(r => {
+    if(!r.ok) throw new Error(`data/index.json が読めません（HTTP ${r.status}）`);
+    return r.json();
+  });
+  (idx.films || []).forEach(f => state.films.set(f.key, f));
+
+  const months = await Promise.all((idx.months || []).map(mo =>
+    fetch(mo.file, {cache:'no-cache'})
+      .then(r => r.ok ? r.json() : {captures:[]})
+      .catch(() => ({captures:[]}))));
+  state.captures = months.flatMap(mo => mo.captures || []);
+
+  for(const c of state.captures){
+    if(!state.byDate.has(c.date)) state.byDate.set(c.date, []);
+    state.byDate.get(c.date).push(c);
+    if(!state.byFilm.has(c.film_key)) state.byFilm.set(c.film_key, []);
+    state.byFilm.get(c.film_key).push(c);
+  }
+  for(const list of state.byDate.values()) list.sort((a,b) => a.start.localeCompare(b.start));
+
+  $('#stat').textContent =
+    `${idx.theater?.name || ''} · ${state.captures.length} 回`
+    + `（座席表 ${idx.total_captures ?? 0}）· ${state.films.size} 作品`;
+}
+
+const dates = () => [...state.byDate.keys()].sort().reverse();
+const fmtDay = d => { const t = new Date(d + 'T00:00:00+09:00');
+  return {md:`${t.getMonth()+1}/${t.getDate()}`, wd:WD[t.getDay()]}; };
+const esc = s => String(s ?? '').replace(/[&<>"']/g,
+  c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+function posterEl(film, extra){
+  const cls = `poster ${extra || ''}`;
+  if(film?.poster) return `<img class="${cls}" src="${esc(film.poster)}" alt="" loading="lazy"
+    onerror="this.replaceWith(Object.assign(document.createElement('div'),
+      {className:'${cls} -ph',textContent:'NO IMAGE'}))">`;
+  return `<div class="${cls} -ph">NO IMAGE</div>`;
+}
+
+// 取得時刻。captured_at は JST の文字列なので、閲覧側の時間帯に
+// 引きずられないよう Date を通さずそのまま切り出す。
+function stampEl(c){
+  const isSeat = !!(c.seat_image || c.occupancy != null || c.lead_minutes != null);
+  // 撮影済みの回に updated_at（＝予定を書いた時刻）を流用しない。
+  // 撮影時刻として意味を持つのは captured_at だけ。
+  const iso = isSeat ? c.captured_at : (c.captured_at || c.updated_at);
+  if(!iso) return isSeat
+    ? `<div class="shot-sub">取得 時刻不明${c.repaired ? ' <span class="flag">復元</span>' : ''}</div>`
+    : '';
+  const sameDay = iso.slice(0,10) === c.date;
+  const t = (sameDay ? '' : iso.slice(5,10).replace('-','/') + ' ') + iso.slice(11,16);
+  if(!isSeat) return `<div class="shot-sub">予定のみ · ${t} 更新</div>`;
+  const lead = typeof c.lead_minutes === 'number'
+    ? ` <span class="lead">開映 ${Math.round(c.lead_minutes)} 分前</span>` : '';
+  const flag = c.repaired ? ' <span class="flag">復元</span>' : '';
+  return `<div class="shot-sub">取得 ${t}${lead}${flag}</div>`;
+}
+
+function shotEl(c){
+  const img = c.seat_image
+    ? `<img class="shot-img" src="${esc(c.seat_image)}" loading="lazy"
+         alt="${esc(c.film_title)} ${esc(c.start)} の座席表"
+         data-cap="${esc(c.film_title)} ／ ${esc(c.date)} ${esc(c.start)} ／ ${esc(c.screen)}${
+           c.captured_at ? ' ／ 取得 ' + esc(c.captured_at.slice(11,16))
+             + (typeof c.lead_minutes === 'number'
+                ? `（開映 ${Math.round(c.lead_minutes)} 分前）` : '') : ''}">`
+    : `<div class="shot-none">${c.source === 'schedule' ? '未取得' : '画像なし'}</div>`;
+  let occ = '';
+  if(typeof c.occupancy === 'number'){
+    const p = Math.round(c.occupancy * 100);
+    const n = c.seat_counts || {};
+    occ = `<span class="occ" title="${n.sold ?? '?'} / ${n.total ?? '?'} 席">
+      <span class="occ-bar"><i style="width:${p}%"></i></span>${p}%</span>`;
+  }else if(c.availability?.mark){
+    const k = c.availability.code === 'full' ? ' -full'
+            : c.availability.code === 'few' ? ' -few' : '';
+    occ = `<span class="occ" title="${esc(c.availability.label)}">
+      <span class="mark${k}">${esc(c.availability.mark)}</span></span>`;
+  }
+  return `<article class="shot">${img}<div class="shot-foot">
+    <span class="shot-time">${esc(c.start)}</span>
+    <span class="shot-scr">${esc(c.screen || '')}</span>${occ}</div>
+    ${stampEl(c)}</article>`;
+}
+
+function filmRow(fkey, list){
+  const film = state.films.get(fkey) || {title:list[0].film_title, key:fkey};
+  const tags = (film.tags || []).slice(0,4).map(t => `<span class="tag">${esc(t)}</span>`).join('');
+  return `<div class="film">
+    <button data-film="${esc(fkey)}" style="padding:0;display:block">${posterEl(film)}</button>
+    <div><div class="film-head">
+      <button class="film-title" data-film="${esc(fkey)}">${esc(film.title)}</button>${tags}
+    </div><div class="shots">${list.map(shotEl).join('')}</div></div></div>`;
+}
+
+function renderRail(active){
+  $('#strip').innerHTML = dates().map(d => {
+    const {md, wd} = fmtDay(d);
+    return `<button class="day-chip" data-date="${d}" ${d === active ? 'aria-current="true"' : ''}>
+      <span>${md}</span><span class="wd">${wd}</span>
+      <span class="n">${state.byDate.get(d).length}</span></button>`;
+  }).join('');
+  $('#rail').hidden = false;
+}
+
+function viewDays(){
+  renderRail(null);
+  const ds = dates();
+  if(!ds.length){
+    $('#view').innerHTML = `<div class="empty"><b>まだ記録がありません</b>
+      cinema.py が最初の回を取得すると、ここに並びます。</div>`;
+    return;
+  }
+  $('#view').innerHTML = ds.map(d => {
+    const list = state.byDate.get(d);
+    const {md, wd} = fmtDay(d);
+    const groups = new Map();
+    for(const c of list){
+      if(!groups.has(c.film_key)) groups.set(c.film_key, []);
+      groups.get(c.film_key).push(c);
+    }
+    const note = list[0]?.day_note ? ` <b>${esc(list[0].day_note)}</b>` : '';
+    return `<section class="day" id="d-${d}">
+      <div class="day-head"><span class="day-num">${md}</span>
+        <span class="day-meta">${wd}曜${note}</span>
+        <span class="day-count">${list.length} 回 / ${groups.size} 作品</span></div>
+      ${[...groups].map(([k, l]) => filmRow(k, l)).join('')}</section>`;
+  }).join('');
+}
+
+function viewFilm(fkey){
+  $('#rail').hidden = true;
+  const list = (state.byFilm.get(fkey) || []).slice()
+    .sort((a,b) => (b.date + b.start).localeCompare(a.date + a.start));
+  const film = state.films.get(fkey) || {title:fkey, key:fkey};
+  if(!list.length){
+    $('#view').innerHTML = `<div class="wide"><div class="empty"><b>記録がありません</b>
+      <button class="btn" data-nav="#/">日別へ戻る</button></div></div>`;
+    return;
+  }
+  const byDate = new Map();
+  for(const c of list){
+    if(!byDate.has(c.date)) byDate.set(c.date, []);
+    byDate.get(c.date).push(c);
+  }
+  const occs = list.map(c => c.occupancy).filter(v => typeof v === 'number');
+  const avg = occs.length
+    ? `平均 ${Math.round(occs.reduce((a,b) => a+b, 0) / occs.length * 100)}%` : '';
+  $('#view').innerHTML = `<div class="wide">
+    <div class="crumb"><button class="btn" data-nav="#/">← 日別へ戻る</button>
+      <button class="btn -ghost" data-nav="#/films">作品一覧</button></div>
+    <div class="film-hero">${posterEl(film)}<div><h1>${esc(film.title)}</h1>
+      <div class="hero-facts"><span>${list.length} 回</span><span>${byDate.size} 日</span>
+        ${film.runtime_min ? `<span>本編 ${film.runtime_min} 分</span>` : ''}
+        ${avg ? `<span>${avg}</span>` : ''}
+        <span>${esc(list[list.length-1].date)} — ${esc(list[0].date)}</span></div>
+      <div class="film-head" style="margin-top:10px">
+        ${(film.tags || []).map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>
+    </div></div>
+    ${[...byDate].map(([d, l]) => {
+      const {md, wd} = fmtDay(d);
+      return `<section class="day"><div class="day-head">
+        <span class="day-num">${md}</span><span class="day-meta">${wd}曜</span>
+        <span class="day-count">${l.length} 回</span></div>
+        <div class="shots">${l.map(shotEl).join('')}</div></section>`;
+    }).join('')}</div>`;
+  window.scrollTo(0, 0);
+}
+
+function viewGallery(){
+  $('#rail').hidden = true;
+  const items = [...state.byFilm.keys()].map(k => ({
+    k, film: state.films.get(k) || {title:k, key:k},
+    n: state.byFilm.get(k).length,
+    last: state.byFilm.get(k).reduce((mx, c) => c.date > mx ? c.date : mx, ''),
+  })).sort((a,b) => b.last.localeCompare(a.last));
+
+  $('#view').innerHTML = `<div class="wide">
+    <div class="crumb"><button class="btn" data-nav="#/">← 日別へ戻る</button>
+      <span class="stat">${items.length} 作品</span></div>
+    <div class="gal">${items.map(({k, film, n}) =>
+      `<button class="gal-item" data-film="${esc(k)}">${posterEl(film)}
+        <span class="gal-name">${esc(film.title)}</span>
+        <span class="gal-sub">${n} 回</span></button>`).join('')}</div></div>`;
+  window.scrollTo(0, 0);
+}
+
+function route(){
+  const h = location.hash || '#/';
+  if(h.startsWith('#/film/')) viewFilm(decodeURIComponent(h.slice(7)));
+  else if(h === '#/films') viewGallery();
+  else {
+    viewDays();
+    const m = h.match(/^#\/day\/(\d{4}-\d{2}-\d{2})/);
+    if(m) requestAnimationFrame(() => {
+      document.getElementById('d-' + m[1])?.scrollIntoView({behavior:'smooth', block:'start'});
+      $(`.day-chip[data-date="${m[1]}"]`)?.setAttribute('aria-current','true');
+    });
+  }
+}
+
+document.addEventListener('click', e => {
+  const nav = e.target.closest('[data-nav]');
+  if(nav){ location.hash = nav.dataset.nav; return; }
+  const film = e.target.closest('[data-film]');
+  if(film){ location.hash = '#/film/' + encodeURIComponent(film.dataset.film); return; }
+  const chip = e.target.closest('[data-date]');
+  if(chip){ location.hash = '#/day/' + chip.dataset.date; return; }
+  const img = e.target.closest('.shot-img');
+  if(img){
+    $('#lb-img').src = img.src;
+    $('#lb-cap').textContent = img.dataset.cap || '';
+    $('#lb').setAttribute('open','');
+  }
+});
+$('#lb').addEventListener('click', () => $('#lb').removeAttribute('open'));
+document.addEventListener('keydown', e => {
+  if(e.key === 'Escape') $('#lb').removeAttribute('open');
+});
+$('#btn-home').addEventListener('click', () => location.hash = '#/');
+$('#btn-gallery').addEventListener('click', () => location.hash = '#/films');
+$('#jump').addEventListener('change', e => {
+  const d = e.target.value;
+  if(state.byDate.has(d)) location.hash = '#/day/' + d;
+  else alert('その日の記録はまだありません。');
+});
+window.addEventListener('hashchange', route);
+
+load().then(route).catch(err => {
+  $('#stat').textContent = '';
+  $('#view').innerHTML = `<div class="empty"><b>データを読み込めませんでした</b>
+    ${esc(err.message)}<br>ローカルでは file:// ではなく
+    <code>python -m http.server</code> 経由で開いてください。</div>`;
+});
+</script>
+</body>
+</html>

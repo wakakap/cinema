@@ -1,0 +1,94 @@
+# .github/workflows/capture.yml
+#
+# 15 分ごとに起きて、開映が近い回の座席表を取る。
+# データは cinema-data ブランチへ。main には snapshot.yml が 1 日 1 回まとめる。
+name: Capture
+
+on:
+  schedule:
+    # UTC 23:00–15:00 = JST 08:00–翌 00:59（深夜帯は上映が無いので止める）
+    #
+    # 注意：この刻みは**そのままには届かない**。実測では 14〜69 分間隔、
+    # 数時間空くこともある。だから cinema.py 側の窓を 90 分に広げてあり、
+    # cron の精度には依存しない設計になっている。
+    - cron: '*/15 23 * * *'
+    - cron: '*/15 0-15 * * *'
+  workflow_dispatch:
+    inputs:
+      command:
+        description: '実行するコマンド'
+        required: false
+        default: 'run'
+        type: choice
+        options: [run, sync, capture, index, doctor, inspect]
+      extra:
+        description: '追加オプション（例: --full --force）'
+        required: false
+        default: ''
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cinema
+  # 詰まった実行が後続を塞がないようにする。処理は 1〜2 分で再入可能なので、
+  # 途中で打ち切られても失うものは無い。
+  cancel-in-progress: true
+
+env:
+  DATA_BRANCH: cinema-data
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Configure git
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Cache Playwright
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-chromium-v1
+
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright
+          playwright install --with-deps chromium
+
+      # run は内部で pull → 取得 → push まで面倒を見る。
+      # 他のコマンドのときは後段の Push data ステップが送信する。
+      - name: Run
+        env:
+          TZ: Asia/Tokyo
+        run: python cinema.py "${{ inputs.command || 'run' }}" ${{ inputs.extra }}
+
+      - name: Show log tail
+        if: always()
+        run: python cinema.py log -n 25 || true
+
+      # 取得・合流・送信はすべて cinema.py が行う。ここで shell に書くと
+      # ローカルとクラウドで挙動がずれるので、実装は 1 か所に寄せてある。
+      - name: Push data
+        if: ${{ inputs.command != 'inspect' && inputs.command != 'doctor' }}
+        run: python cinema.py push
+
+      - name: Upload inspect output
+        if: ${{ inputs.command == 'inspect' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: inspect
+          path: inspect/
+          retention-days: 7

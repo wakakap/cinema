@@ -1,0 +1,653 @@
+{
+  "theater": {
+    "id": "tjoyumeda",
+    "code": "320",
+    "name": "T・ジョイ梅田",
+    "url": "https://tjoy.jp/t-joy_umeda",
+    "schedule_url": "https://tjoy.jp/t-joy_umeda#schedule-content",
+    "seat_url_hint": "choice_seat",
+    "robots_url": "https://tjoy.jp/robots.txt"
+  },
+  "generated_at": "2026-08-28T00:15:29.340840+09:00",
+  "total_records": 371,
+  "total_captures": 13,
+  "pending_showings": 318,
+  "warnings": [],
+  "months": [
+    {
+      "month": "2026-08",
+      "file": "data/captures/2026-08.json",
+      "count": 223
+    },
+    {
+      "month": "2026-09",
+      "file": "data/captures/2026-09.json",
+      "count": 148
+    }
+  ],
+  "dates": [
+    {
+      "date": "2026-09-09",
+      "count": 3,
+      "captured": 0,
+      "films": [
+        "film-39f4f9",
+        "sekiro-no-defeat-pg12-334c43",
+        "film-29719f"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "count": 3,
+      "captured": 0,
+      "films": [
+        "film-39f4f9",
+        "sekiro-no-defeat-pg12-334c43",
+        "film-29719f"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "count": 3,
+      "captured": 0,
+      "films": [
+        "film-39f4f9",
+        "sekiro-no-defeat-pg12-334c43",
+        "film-29719f"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "count": 3,
+      "captured": 0,
+      "films": [
+        "film-39f4f9",
+        "sekiro-no-defeat-pg12-334c43",
+        "film-29719f"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "count": 47,
+      "captured": 0,
+      "films": [
+        "blue-lock-4f16c3",
+        "heikou-to-suichoku-b9aaec",
+        "puella-magi-madoka-magica-walpurgisnacht-0fd537",
+        "crayon-shin-chan-2026-07920d",
+        "kingdom-ae54ae",
+        "moana-3624e0",
+        "tomorrow-x-together-vr-concert-endless-r-180136",
+        "shiranuhi-6c2ef4",
+        "25-harry-potter-and-the-sorcerer-s-stone-0c741e",
+        "chiikawa-0377e3",
+        "in-ohsama-sentai-king-ohger-film-concert-9144c0",
+        "the-end-of-oak-street-964311",
+        "film-39f4f9",
+        "sekiro-no-defeat-pg12-334c43",
+        "performance1984-2012-tatsuro-yamashita-t-6f5b8b",
+        "toy-story-5-7e34e5",
+        "spider-man-brand-new-day-0fdee1",
+        "michael-michael-43664c",
+        "minions-monsters-a63f70",
+        "kamen-rider-zeztz-and-super-space-sherif-e34ed8",
+        "film-29719f"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "count": 44,
+      "captured": 0,
+      "films": [
+        "blue-lock-4f16c3",
+        "minions-monsters-a63f70",
+        "puella-magi-madoka-magica-walpurgisnacht-0fd537",
+        "crayon-shin-chan-2026-07920d",
+        "moana-3624e0",
+        "kingdom-ae54ae",
+        "spider-man-brand-new-day-0fdee1",
+        "performance1984-2012-tatsuro-yamashita-t-6f5b8b",
+        "shiranuhi-6c2ef4",
+        "heikou-to-suichoku-b9aaec",
+        "25-harry-potter-and-the-sorcerer-s-stone-0c741e",
+        "chiikawa-0377e3",
+        "in-ohsama-sentai-king-ohger-film-concert-9144c0",
+        "the-end-of-oak-street-964311",
+        "film-39f4f9",
+        "sekiro-no-defeat-pg12-334c43",
+        "toy-story-5-7e34e5",
+        "michael-michael-43664c",
+        "kamen-rider-zeztz-and-super-space-sherif-e34ed8",
+        "film-29719f"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "count": 45,
+      "captured": 0,
+      "films": [
+        "blue-lock-4f16c3",
+        "minions-monsters-a63f70",
+        "puella-magi-madoka-magica-walpurgisnacht-0fd537",
+        "crayon-shin-chan-2026-07920d",
+        "moana-3624e0",
+        "kingdom-ae54ae",
+        "spider-man-brand-new-day-0fdee1",
+        "shiranuhi-6c2ef4",
+        "heikou-to-suichoku-b9aaec",
+        "25-harry-potter-and-the-sorcerer-s-stone-0c741e",
+        "chiikawa-0377e3",
+        "in-ohsama-sentai-king-ohger-film-concert-9144c0",
+        "the-end-of-oak-street-964311",
+        "film-39f4f9",
+        "performance1984-2012-tatsuro-yamashita-t-6f5b8b",
+        "sekiro-no-defeat-pg12-334c43",
+        "toy-story-5-7e34e5",
+        "michael-michael-43664c",
+        "kamen-rider-zeztz-and-super-space-sherif-e34ed8",
+        "film-29719f"
+      ]
+    },
+    {
+      "date": "2026-08-31",
+      "count": 42,
+      "captured": 0,
+      "films": [
+        "blue-lock-4f16c3",
+        "puella-magi-madoka-magica-walpurgisnacht-0fd537",
+        "crayon-shin-chan-2026-07920d",
+        "moana-3624e0",
+        "kingdom-ae54ae",
+        "spider-man-brand-new-day-0fdee1",
+        "minions-monsters-a63f70",
+        "shiranuhi-6c2ef4",
+        "heikou-to-suichoku-b9aaec",
+        "25-harry-potter-and-the-sorcerer-s-stone-0c741e",
+        "chiikawa-0377e3",
+        "in-ohsama-sentai-king-ohger-film-concert-9144c0",
+        "the-end-of-oak-street-964311",
+        "film-39f4f9",
+        "sekiro-no-defeat-pg12-334c43",
+        "toy-story-5-7e34e5",
+        "michael-michael-43664c",
+        "performance1984-2012-tatsuro-yamashita-t-6f5b8b",
+        "kamen-rider-zeztz-and-super-space-sherif-e34ed8",
+        "film-29719f"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "count": 45,
+      "captured": 0,
+      "films": [
+        "blue-lock-4f16c3",
+        "minions-monsters-a63f70",
+        "puella-magi-madoka-magica-walpurgisnacht-0fd537",
+        "crayon-shin-chan-2026-07920d",
+        "moana-3624e0",
+        "kingdom-ae54ae",
+        "spider-man-brand-new-day-0fdee1",
+        "shiranuhi-6c2ef4",
+        "heikou-to-suichoku-b9aaec",
+        "25-harry-potter-and-the-sorcerer-s-stone-0c741e",
+        "chiikawa-0377e3",
+        "in-ohsama-sentai-king-ohger-film-concert-9144c0",
+        "the-end-of-oak-street-964311",
+        "film-39f4f9",
+        "performance1984-2012-tatsuro-yamashita-t-6f5b8b",
+        "sekiro-no-defeat-pg12-334c43",
+        "toy-story-5-7e34e5",
+        "michael-michael-43664c",
+        "kamen-rider-zeztz-and-super-space-sherif-e34ed8",
+        "film-29719f"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "count": 44,
+      "captured": 0,
+      "films": [
+        "blue-lock-4f16c3",
+        "minions-monsters-a63f70",
+        "crayon-shin-chan-2026-07920d",
+        "moana-3624e0",
+        "kingdom-ae54ae",
+        "spider-man-brand-new-day-0fdee1",
+        "puella-magi-madoka-magica-walpurgisnacht-0fd537",
+        "shiranuhi-6c2ef4",
+        "heikou-to-suichoku-b9aaec",
+        "25-harry-potter-and-the-sorcerer-s-stone-0c741e",
+        "chiikawa-0377e3",
+        "puella-magi-madoka-magica-walpurgisnacht-e46fb0",
+        "in-ohsama-sentai-king-ohger-film-concert-9144c0",
+        "the-end-of-oak-street-964311",
+        "film-39f4f9",
+        "performance1984-2012-tatsuro-yamashita-t-6f5b8b",
+        "sekiro-no-defeat-pg12-334c43",
+        "toy-story-5-7e34e5",
+        "michael-michael-43664c",
+        "kamen-rider-zeztz-and-super-space-sherif-e34ed8",
+        "film-29719f"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "count": 45,
+      "captured": 8,
+      "films": [
+        "puella-magi-madoka-magica-walpurgisnacht-0fd537",
+        "blue-lock-4f16c3",
+        "crayon-shin-chan-2026-07920d",
+        "minions-monsters-a63f70",
+        "kamen-rider-zeztz-and-super-space-sherif-e34ed8",
+        "shiranuhi-6c2ef4",
+        "chiikawa-0377e3",
+        "25-harry-potter-and-the-sorcerer-s-stone-0c741e",
+        "in-ohsama-sentai-king-ohger-film-concert-9144c0",
+        "heikou-to-suichoku-b9aaec",
+        "spider-man-brand-new-day-0fdee1",
+        "film-39f4f9",
+        "sekiro-no-defeat-pg12-334c43",
+        "the-end-of-oak-street-964311",
+        "performance1984-2012-tatsuro-yamashita-t-6f5b8b",
+        "toy-story-5-7e34e5",
+        "kingdom-ae54ae",
+        "moana-3624e0",
+        "film-29719f",
+        "michael-michael-43664c"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "count": 47,
+      "captured": 5,
+      "films": [
+        "sound-euphonium-e53fd5",
+        "crayon-shin-chan-2026-07920d",
+        "puella-magi-madoka-magica-f4772b",
+        "spider-man-brand-new-day-0fdee1",
+        "moana-3624e0",
+        "chiikawa-0377e3",
+        "minions-monsters-a63f70",
+        "shiranuhi-6c2ef4",
+        "the-end-of-oak-street-964311",
+        "performance1984-2012-tatsuro-yamashita-t-6f5b8b",
+        "michael-michael-43664c",
+        "kingdom-ae54ae",
+        "blue-lock-4f16c3",
+        "film-39f4f9",
+        "sekiro-no-defeat-pg12-334c43",
+        "toy-story-5-7e34e5",
+        "film-29719f",
+        "kamen-rider-zeztz-and-super-space-sherif-e34ed8"
+      ]
+    }
+  ],
+  "films": [
+    {
+      "key": "film-29719f",
+      "title": "追加上映『髑髏城の七人 1997』",
+      "poster": null,
+      "tags": [],
+      "runtime_min": 175,
+      "codes": [
+        "E2805000"
+      ],
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-09-09",
+      "showing_count": 12,
+      "capture_count": 0
+    },
+    {
+      "key": "film-39f4f9",
+      "title": "特別イベント上映『髑髏城の七人 1997』登壇付き",
+      "poster": null,
+      "tags": [],
+      "runtime_min": 210,
+      "codes": [],
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-09-09",
+      "showing_count": 12,
+      "capture_count": 0
+    },
+    {
+      "key": "sekiro-no-defeat-pg12-334c43",
+      "title": "[公開記念舞台挨拶]SEKIRO:NO DEFEAT(PG12)",
+      "poster": null,
+      "tags": [
+        "PG12"
+      ],
+      "runtime_min": 137,
+      "codes": [
+        "C4986300"
+      ],
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-09-09",
+      "showing_count": 12,
+      "capture_count": 0
+    },
+    {
+      "key": "in-ohsama-sentai-king-ohger-film-concert-9144c0",
+      "title": "王様戦隊キングオージャー フィルム・コンサート in シネマ Ohsama Sentai King-Ohger Film Concert in Cinema",
+      "poster": null,
+      "tags": [],
+      "runtime_min": 162,
+      "codes": [
+        "C5008000"
+      ],
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-09-03",
+      "showing_count": 14,
+      "capture_count": 0
+    },
+    {
+      "key": "crayon-shin-chan-2026-07920d",
+      "title": "映画クレヨンしんちゃん 奇々怪々！オラの妖怪バケ～ション Crayon Shin-Chan 2026",
+      "poster": "media/posters/crayon-shin-chan-2026-07920d.jpg",
+      "tags": [],
+      "runtime_min": 101,
+      "codes": [
+        "C4806000"
+      ],
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-09-03",
+      "showing_count": 9,
+      "capture_count": 1
+    },
+    {
+      "key": "chiikawa-0377e3",
+      "title": "映画ちいかわ 人魚の島のひみつ Chiikawa",
+      "poster": null,
+      "tags": [],
+      "runtime_min": 99,
+      "codes": [
+        "C4805000"
+      ],
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-09-03",
+      "showing_count": 38,
+      "capture_count": 1
+    },
+    {
+      "key": "kamen-rider-zeztz-and-super-space-sherif-e34ed8",
+      "title": "映画『仮面ライダーゼッツ さよならのミッション』／映画『超宇宙刑事ギャバン インフィニティ 太陽が泣いた日』 Kamen Rider ZEZTZ and Super Space Sheriff GAVAN Infinity",
+      "poster": "media/posters/kamen-rider-zeztz-and-super-space-sherif-e34ed8.jpg",
+      "tags": [],
+      "runtime_min": 96,
+      "codes": [
+        "C4864000"
+      ],
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-09-03",
+      "showing_count": 8,
+      "capture_count": 1
+    },
+    {
+      "key": "heikou-to-suichoku-b9aaec",
+      "title": "平行と垂直 Heikou to Suichoku",
+      "poster": null,
+      "tags": [],
+      "runtime_min": 118,
+      "codes": [
+        "C4908000"
+      ],
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-09-03",
+      "showing_count": 32,
+      "capture_count": 0
+    },
+    {
+      "key": "puella-magi-madoka-magica-walpurgisnacht-0fd537",
+      "title": "劇場版 魔法少女まどか☆マギカ〈ワルプルギスの廻天〉 Puella Magi Madoka Magica Walpurgisnacht: Rising",
+      "poster": "media/posters/puella-magi-madoka-magica-walpurgisnacht-0fd537.jpg",
+      "tags": [
+        "Dolby Atmos"
+      ],
+      "runtime_min": 120,
+      "codes": [
+        "C4463000",
+        "C4463060"
+      ],
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-09-03",
+      "showing_count": 59,
+      "capture_count": 4
+    },
+    {
+      "key": "moana-3624e0",
+      "title": "モアナと伝説の海 Moana",
+      "poster": null,
+      "tags": [
+        "吹替"
+      ],
+      "runtime_min": 116,
+      "codes": [
+        "C4902200"
+      ],
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-09-03",
+      "showing_count": 8,
+      "capture_count": 0
+    },
+    {
+      "key": "minions-monsters-a63f70",
+      "title": "ミニオンズ＆モンスターズ Minions & Monsters",
+      "poster": "media/posters/minions-monsters-a63f70.jpg",
+      "tags": [
+        "吹替",
+        "2D"
+      ],
+      "runtime_min": 91,
+      "codes": [
+        "C4860200"
+      ],
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-09-03",
+      "showing_count": 16,
+      "capture_count": 1
+    },
+    {
+      "key": "blue-lock-4f16c3",
+      "title": "ブルーロック BLUE LOCK",
+      "poster": "media/posters/blue-lock-4f16c3.jpg",
+      "tags": [
+        "DolbyCinema"
+      ],
+      "runtime_min": 127,
+      "codes": [
+        "C4803080",
+        "C4803000"
+      ],
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-09-03",
+      "showing_count": 18,
+      "capture_count": 2
+    },
+    {
+      "key": "toy-story-5-7e34e5",
+      "title": "トイ・ストーリー５ Toy Story 5",
+      "poster": null,
+      "tags": [
+        "吹替"
+      ],
+      "runtime_min": 102,
+      "codes": [
+        "C4901201"
+      ],
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-09-03",
+      "showing_count": 8,
+      "capture_count": 0
+    },
+    {
+      "key": "spider-man-brand-new-day-0fdee1",
+      "title": "スパイダーマン：ブランド・ニュー・デイ Spider-Man: Brand New Day",
+      "poster": null,
+      "tags": [
+        "字幕",
+        "吹替",
+        "DolbyCinema"
+      ],
+      "runtime_min": 149,
+      "codes": [
+        "C4918200",
+        "C4918180"
+      ],
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-09-03",
+      "showing_count": 24,
+      "capture_count": 0
+    },
+    {
+      "key": "kingdom-ae54ae",
+      "title": "キングダム 魂の決戦 kingdom",
+      "poster": null,
+      "tags": [],
+      "runtime_min": 134,
+      "codes": [
+        "C4804000"
+      ],
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-09-03",
+      "showing_count": 9,
+      "capture_count": 0
+    },
+    {
+      "key": "the-end-of-oak-street-964311",
+      "title": "オークストリートの異変 The End of Oak Street",
+      "poster": null,
+      "tags": [
+        "DolbyCinema",
+        "字幕",
+        "吹替"
+      ],
+      "runtime_min": 100,
+      "codes": [
+        "C4943100"
+      ],
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-09-03",
+      "showing_count": 18,
+      "capture_count": 1
+    },
+    {
+      "key": "shiranuhi-6c2ef4",
+      "title": "しらぬひ Shiranuhi",
+      "poster": null,
+      "tags": [],
+      "runtime_min": 36,
+      "codes": [
+        "C4819000"
+      ],
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-09-03",
+      "showing_count": 18,
+      "capture_count": 1
+    },
+    {
+      "key": "performance1984-2012-tatsuro-yamashita-t-6f5b8b",
+      "title": "[アンコール上映]山下達郎 シアター・ライブ PERFORMANCE1984-2012 Tatsuro Yamashita Theater Live PERFORMANCE 1984-2012",
+      "poster": null,
+      "tags": [],
+      "runtime_min": 92,
+      "codes": [
+        "C4993000"
+      ],
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-09-03",
+      "showing_count": 12,
+      "capture_count": 0
+    },
+    {
+      "key": "tomorrow-x-together-vr-concert-endless-r-180136",
+      "title": "TOMORROW X TOGETHER VR CONCERT：ENDLESS RIDE",
+      "poster": null,
+      "tags": [],
+      "runtime_min": 80,
+      "codes": [],
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-03",
+      "showing_count": 8,
+      "capture_count": 0
+    },
+    {
+      "key": "michael-michael-43664c",
+      "title": "Michael／マイケル Michael",
+      "poster": null,
+      "tags": [
+        "字幕",
+        "DolbyCinema"
+      ],
+      "runtime_min": 133,
+      "codes": [
+        "C4739100"
+      ],
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-09-03",
+      "showing_count": 11,
+      "capture_count": 0
+    },
+    {
+      "key": "25-harry-potter-and-the-sorcerer-s-stone-0c741e",
+      "title": "25周年記念 『ハリー・ポッターと賢者の石』 Harry Potter and the Sorcerer's Stone",
+      "poster": null,
+      "tags": [
+        "DolbyCinema",
+        "字幕",
+        "3D",
+        "吹替"
+      ],
+      "runtime_min": 169,
+      "codes": [
+        "C4991190",
+        "C4991200"
+      ],
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-09-03",
+      "showing_count": 21,
+      "capture_count": 0
+    },
+    {
+      "key": "puella-magi-madoka-magica-walpurgisnacht-e46fb0",
+      "title": "[公開記念舞台挨拶中継]劇場版 魔法少女まどか☆マギカ〈ワルプルギスの廻天〉 Puella Magi Madoka Magica Walpurgisnacht: Rising",
+      "poster": null,
+      "tags": [],
+      "runtime_min": 165,
+      "codes": [
+        "C4463001"
+      ],
+      "first_seen": "2026-08-29",
+      "last_seen": "2026-08-29",
+      "showing_count": 1,
+      "capture_count": 0
+    },
+    {
+      "key": "sound-euphonium-e53fd5",
+      "title": "最終楽章 響け！ユーフォニアム 前編 Sound! Euphonium",
+      "poster": null,
+      "tags": [
+        "DolbyCinema"
+      ],
+      "runtime_min": 124,
+      "codes": [],
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "showing_count": 1,
+      "capture_count": 0
+    },
+    {
+      "key": "puella-magi-madoka-magica-f4772b",
+      "title": "「劇場版 魔法少女まどか☆マギカ [新編]叛逆の物語」リバイバル上映 Puella Magi Madoka Magica",
+      "poster": null,
+      "tags": [
+        "DolbyCinema"
+      ],
+      "runtime_min": 125,
+      "codes": [],
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "showing_count": 2,
+      "capture_count": 1
+    }
+  ]
+}

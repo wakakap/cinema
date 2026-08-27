@@ -1,0 +1,73 @@
+# .github/workflows/snapshot.yml
+#
+# 毎日 02:00（JST）、cinema-data に溜まった 1 日分の変更を
+# **1 コミット**にまとめて main へ入れる。main の履歴は 1 日 1 行だけ増える。
+#
+# なぜ分けるか：Actions のランナーは毎回破棄されるので、コミットしないと
+# データは消える。かといって 15 分ごとに main へ積むと年 3 万コミットになる。
+name: Daily Snapshot
+
+on:
+  schedule:
+    - cron: '0 17 * * *'      # UTC 17:00 = JST 翌 02:00
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cinema-snapshot
+
+env:
+  DATA_BRANCH: cinema-data
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Squash into main
+        run: |
+          set -euo pipefail
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+
+          if ! git ls-remote --exit-code --heads origin "$DATA_BRANCH" >/dev/null 2>&1; then
+            echo "データブランチが無い"
+            exit 0
+          fi
+
+          git fetch origin "$DATA_BRANCH"
+          # 履歴はマージせず中身だけ取る → main には綺麗な 1 コミットが残る
+          git checkout "origin/$DATA_BRANCH" -- data media logs 2>/dev/null || {
+            echo "データがまだ無い"; exit 0; }
+
+          # 見張り：スナップショットで記録数が減るのは異常
+          NEW=$(python3 -c "import json;print(json.load(open('data/index.json'))['total_records'])" 2>/dev/null || echo 0)
+          OLD=$(git show "HEAD:data/index.json" 2>/dev/null | python3 -c "import json,sys;print(json.load(sys.stdin)['total_records'])" 2>/dev/null || echo 0)
+          if [ "$NEW" -lt "$OLD" ]; then
+            echo "::error::記録数が $OLD → $NEW に減少。main を守るため中断"
+            exit 1
+          fi
+          echo "記録数 $OLD → $NEW"
+
+          git add -f data media logs
+          if git diff --cached --quiet; then
+            echo "main と同一、コミット不要"
+            exit 0
+          fi
+
+          COUNT=$(python3 -c "import json;d=json.load(open('data/index.json',encoding='utf-8'));print(f\"{d.get('total_captures','?')}/{d.get('total_records','?')}\")" 2>/dev/null || echo '?')
+          DAY=$(TZ=Asia/Tokyo date -d 'yesterday' +'%Y-%m-%d')
+          git commit -m "snapshot ${DAY} (座席 ${COUNT})"
+
+          for i in 1 2 3; do
+            if git push origin main; then exit 0; fi
+            sleep $((i * 5))
+            git pull --rebase --autostash origin main || true
+          done
+          echo "push 失敗" && exit 1
