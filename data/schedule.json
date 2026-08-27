@@ -2866,9 +2866,9 @@
           "screen_no": "07",
           "screen_seats": 141,
           "availability": {
-            "code": "plenty",
-            "mark": "◎",
-            "label": "空席に余裕があります"
+            "code": "available",
+            "mark": "○",
+            "label": "空席があります"
           },
           "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785694/C4908000/7/2026-08-29?type=film",
           "schedule_id": "785694",
@@ -2954,9 +2954,9 @@
           "screen_no": "01",
           "screen_seats": 376,
           "availability": {
-            "code": "few",
-            "mark": "△",
-            "label": "空席がわずかです"
+            "code": "plenty",
+            "mark": "◎",
+            "label": "空席に余裕があります"
           },
           "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785659/C4463060/1/2026-08-29?type=film",
           "schedule_id": "785659",
