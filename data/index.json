@@ -8,10 +8,10 @@
     "seat_url_hint": "choice_seat",
     "robots_url": "https://tjoy.jp/robots.txt"
   },
-  "generated_at": "2026-08-28T08:52:23.638434+09:00",
+  "generated_at": "2026-08-28T19:00:22.214874+09:00",
   "total_records": 371,
-  "total_captures": 13,
-  "pending_showings": 315,
+  "total_captures": 29,
+  "pending_showings": 285,
   "warnings": [],
   "months": [
     {
@@ -233,7 +233,7 @@
     {
       "date": "2026-08-28",
       "count": 45,
-      "captured": 8,
+      "captured": 24,
       "films": [
         "puella-magi-madoka-magica-walpurgisnacht-0fd537",
         "blue-lock-4f16c3",
@@ -296,7 +296,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-09",
       "showing_count": 12,
-      "capture_count": 0
+      "capture_count": 1
     },
     {
       "key": "film-39f4f9",
@@ -357,7 +357,7 @@
     {
       "key": "chiikawa-0377e3",
       "title": "映画ちいかわ 人魚の島のひみつ Chiikawa",
-      "poster": null,
+      "poster": "media/posters/chiikawa-0377e3.jpg",
       "tags": [],
       "runtime_min": 99,
       "codes": [
@@ -366,7 +366,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 38,
-      "capture_count": 1
+      "capture_count": 2
     },
     {
       "key": "kamen-rider-zeztz-and-super-space-sherif-e34ed8",
@@ -385,7 +385,7 @@
     {
       "key": "heikou-to-suichoku-b9aaec",
       "title": "平行と垂直 Heikou to Suichoku",
-      "poster": null,
+      "poster": "media/posters/heikou-to-suichoku-b9aaec.jpg",
       "tags": [],
       "runtime_min": 118,
       "codes": [
@@ -394,7 +394,7 @@
       "first_seen": "2026-08-28",
       "last_seen": "2026-09-03",
       "showing_count": 32,
-      "capture_count": 0
+      "capture_count": 1
     },
     {
       "key": "puella-magi-madoka-magica-walpurgisnacht-0fd537",
@@ -411,12 +411,12 @@
       "first_seen": "2026-08-28",
       "last_seen": "2026-09-03",
       "showing_count": 59,
-      "capture_count": 4
+      "capture_count": 7
     },
     {
       "key": "moana-3624e0",
       "title": "モアナと伝説の海 Moana",
-      "poster": null,
+      "poster": "media/posters/moana-3624e0.jpg",
       "tags": [
         "吹替"
       ],
@@ -427,7 +427,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 8,
-      "capture_count": 0
+      "capture_count": 1
     },
     {
       "key": "minions-monsters-a63f70",
@@ -444,7 +444,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 16,
-      "capture_count": 1
+      "capture_count": 2
     },
     {
       "key": "blue-lock-4f16c3",
@@ -466,7 +466,7 @@
     {
       "key": "toy-story-5-7e34e5",
       "title": "トイ・ストーリー５ Toy Story 5",
-      "poster": null,
+      "poster": "media/posters/toy-story-5-7e34e5.jpg",
       "tags": [
         "吹替"
       ],
@@ -477,12 +477,12 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 8,
-      "capture_count": 0
+      "capture_count": 1
     },
     {
       "key": "spider-man-brand-new-day-0fdee1",
       "title": "スパイダーマン：ブランド・ニュー・デイ Spider-Man: Brand New Day",
-      "poster": null,
+      "poster": "media/posters/spider-man-brand-new-day-0fdee1.jpg",
       "tags": [
         "字幕",
         "吹替",
@@ -490,18 +490,18 @@
       ],
       "runtime_min": 149,
       "codes": [
-        "C4918200",
-        "C4918180"
+        "C4918180",
+        "C4918200"
       ],
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 24,
-      "capture_count": 0
+      "capture_count": 1
     },
     {
       "key": "kingdom-ae54ae",
       "title": "キングダム 魂の決戦 kingdom",
-      "poster": null,
+      "poster": "media/posters/kingdom-ae54ae.jpg",
       "tags": [],
       "runtime_min": 134,
       "codes": [
@@ -510,12 +510,12 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 9,
-      "capture_count": 0
+      "capture_count": 1
     },
     {
       "key": "the-end-of-oak-street-964311",
       "title": "オークストリートの異変 The End of Oak Street",
-      "poster": null,
+      "poster": "media/posters/the-end-of-oak-street-964311.jpg",
       "tags": [
         "DolbyCinema",
         "字幕",
@@ -528,12 +528,12 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 18,
-      "capture_count": 1
+      "capture_count": 3
     },
     {
       "key": "shiranuhi-6c2ef4",
       "title": "しらぬひ Shiranuhi",
-      "poster": null,
+      "poster": "media/posters/shiranuhi-6c2ef4.jpg",
       "tags": [],
       "runtime_min": 36,
       "codes": [
@@ -542,12 +542,12 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 18,
-      "capture_count": 1
+      "capture_count": 2
     },
     {
       "key": "performance1984-2012-tatsuro-yamashita-t-6f5b8b",
       "title": "[アンコール上映]山下達郎 シアター・ライブ PERFORMANCE1984-2012 Tatsuro Yamashita Theater Live PERFORMANCE 1984-2012",
-      "poster": null,
+      "poster": "media/posters/performance1984-2012-tatsuro-yamashita-t-6f5b8b.jpg",
       "tags": [],
       "runtime_min": 92,
       "codes": [
@@ -556,7 +556,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 12,
-      "capture_count": 0
+      "capture_count": 1
     },
     {
       "key": "tomorrow-x-together-vr-concert-endless-r-180136",
@@ -590,7 +590,7 @@
     {
       "key": "25-harry-potter-and-the-sorcerer-s-stone-0c741e",
       "title": "25周年記念 『ハリー・ポッターと賢者の石』 Harry Potter and the Sorcerer's Stone",
-      "poster": null,
+      "poster": "media/posters/25-harry-potter-and-the-sorcerer-s-stone-0c741e.jpg",
       "tags": [
         "DolbyCinema",
         "字幕",
@@ -605,7 +605,7 @@
       "first_seen": "2026-08-28",
       "last_seen": "2026-09-03",
       "showing_count": 21,
-      "capture_count": 0
+      "capture_count": 1
     },
     {
       "key": "puella-magi-madoka-magica-walpurgisnacht-e46fb0",
