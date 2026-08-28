@@ -3043,14 +3043,32 @@
       "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785640/C4803000/4/2026-08-28?type=film",
       "schedule_id": "785640",
       "film_code": "C4803000",
+      "status": "captured",
+      "attempts": 0,
+      "captures": 1,
+      "last_attempt_at": "2026-08-28T21:16:13.218399+09:00",
       "day_open": "7:30",
       "day_note": null,
-      "source": "schedule",
-      "updated_at": "2026-08-28T15:25:02.583697+09:00",
+      "movie_date_text": "08/28（金）21:20 ～ 23:35",
+      "poster_url": "https://cdn.tjoy.jp/images/_up/cinema/1781750243cv767opauq.jpg",
+      "screen_image_url": "https://cdn.tjoy.jp/images/_up/theater/320_04_20191008.png",
+      "seat_counts": {
+        "vacant": 71,
+        "sold": 24,
+        "total": 95,
+        "expected": 95
+      },
+      "occupancy": 0.2526,
+      "seat_image": "media/seats/2026-08/blue-lock-4f16c3_20260828_2120_tjoyumeda.jpg",
+      "seat_image_bytes": 78986,
+      "poster": "media/posters/blue-lock-4f16c3.jpg",
+      "screen_image": "media/screens/tjoyumeda_04_063ab0cc.png",
+      "source": "seat",
+      "lead_minutes": 3.7,
+      "captured_at": "2026-08-28T21:16:17.647448+09:00",
+      "capture_round": 1,
       "theater": "tjoyumeda",
-      "theater_name": "T・ジョイ梅田",
-      "seat_image": null,
-      "occupancy": null
+      "theater_name": "T・ジョイ梅田"
     },
     {
       "id": "20260828-2120-s06-puella-magi-madoka-magica-walpurgisnacht-0fd537",
@@ -3073,14 +3091,32 @@
       "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785650/C4463000/6/2026-08-28?type=film",
       "schedule_id": "785650",
       "film_code": "C4463000",
+      "status": "captured",
+      "attempts": 0,
+      "captures": 1,
+      "last_attempt_at": "2026-08-28T21:16:21.764112+09:00",
       "day_open": "7:30",
       "day_note": null,
-      "source": "schedule",
-      "updated_at": "2026-08-28T15:25:02.583697+09:00",
+      "movie_date_text": "08/28（金）21:20 ～ 23:30",
+      "poster_url": "https://cdn.tjoy.jp/images/_up/cinema/178357230377be692651.jpg",
+      "screen_image_url": "https://cdn.tjoy.jp/images/_up/theater/320_06_20191008.png",
+      "seat_counts": {
+        "vacant": 101,
+        "sold": 229,
+        "total": 330,
+        "expected": 330
+      },
+      "occupancy": 0.6939,
+      "seat_image": "media/seats/2026-08/puella-magi-madoka-magica-walpurgisnacht-0fd537_20260828_2120_tjoyumeda.jpg",
+      "seat_image_bytes": 135132,
+      "poster": "media/posters/puella-magi-madoka-magica-walpurgisnacht-0fd537.jpg",
+      "screen_image": "media/screens/tjoyumeda_06_0fd98c99.png",
+      "source": "seat",
+      "lead_minutes": 3.6,
+      "captured_at": "2026-08-28T21:16:26.733566+09:00",
+      "capture_round": 1,
       "theater": "tjoyumeda",
-      "theater_name": "T・ジョイ梅田",
-      "seat_image": null,
-      "occupancy": null
+      "theater_name": "T・ジョイ梅田"
     },
     {
       "id": "20260829-0830-s01-blue-lock-4f16c3",
@@ -6974,5 +7010,5 @@
       "occupancy": null
     }
   ],
-  "updated_at": "2026-08-28T19:00:14.073244+09:00"
+  "updated_at": "2026-08-28T21:16:26.736081+09:00"
 }
