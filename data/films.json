@@ -52,8 +52,8 @@
     ],
     "runtime_min": 149,
     "codes": [
-      "C4918200",
-      "C4918180"
+      "C4918180",
+      "C4918200"
     ],
     "first_seen": "2026-08-27",
     "last_seen": "2026-09-03",
@@ -105,12 +105,12 @@
     "first_seen": "2026-08-27",
     "last_seen": "2026-09-03",
     "showing_count": 16,
-    "capture_count": 1
+    "capture_count": 2
   },
   "shiranuhi-6c2ef4": {
     "key": "shiranuhi-6c2ef4",
     "title": "しらぬひ Shiranuhi",
-    "poster": null,
+    "poster": "media/posters/shiranuhi-6c2ef4.jpg",
     "tags": [],
     "runtime_min": 36,
     "codes": [
@@ -119,7 +119,7 @@
     "first_seen": "2026-08-27",
     "last_seen": "2026-09-03",
     "showing_count": 18,
-    "capture_count": 1
+    "capture_count": 2
   },
   "the-end-of-oak-street-964311": {
     "key": "the-end-of-oak-street-964311",
@@ -173,7 +173,7 @@
   "kingdom-ae54ae": {
     "key": "kingdom-ae54ae",
     "title": "キングダム 魂の決戦 kingdom",
-    "poster": null,
+    "poster": "media/posters/kingdom-ae54ae.jpg",
     "tags": [],
     "runtime_min": 134,
     "codes": [
@@ -182,7 +182,7 @@
     "first_seen": "2026-08-27",
     "last_seen": "2026-09-03",
     "showing_count": 9,
-    "capture_count": 0
+    "capture_count": 1
   },
   "blue-lock-4f16c3": {
     "key": "blue-lock-4f16c3",
@@ -288,7 +288,7 @@
     "first_seen": "2026-08-28",
     "last_seen": "2026-09-03",
     "showing_count": 59,
-    "capture_count": 4
+    "capture_count": 5
   },
   "25-harry-potter-and-the-sorcerer-s-stone-0c741e": {
     "key": "25-harry-potter-and-the-sorcerer-s-stone-0c741e",
@@ -327,7 +327,7 @@
   "heikou-to-suichoku-b9aaec": {
     "key": "heikou-to-suichoku-b9aaec",
     "title": "平行と垂直 Heikou to Suichoku",
-    "poster": null,
+    "poster": "media/posters/heikou-to-suichoku-b9aaec.jpg",
     "tags": [],
     "runtime_min": 118,
     "codes": [
@@ -336,7 +336,7 @@
     "first_seen": "2026-08-28",
     "last_seen": "2026-09-03",
     "showing_count": 32,
-    "capture_count": 0
+    "capture_count": 1
   },
   "puella-magi-madoka-magica-walpurgisnacht-e46fb0": {
     "key": "puella-magi-madoka-magica-walpurgisnacht-e46fb0",
