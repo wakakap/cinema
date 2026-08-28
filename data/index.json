@@ -8,10 +8,10 @@
     "seat_url_hint": "choice_seat",
     "robots_url": "https://tjoy.jp/robots.txt"
   },
-  "generated_at": "2026-08-28T18:42:54.648366+09:00",
+  "generated_at": "2026-08-28T19:00:19.438437+09:00",
   "total_records": 371,
-  "total_captures": 28,
-  "pending_showings": 288,
+  "total_captures": 29,
+  "pending_showings": 285,
   "warnings": [],
   "months": [
     {
@@ -233,7 +233,7 @@
     {
       "date": "2026-08-28",
       "count": 45,
-      "captured": 23,
+      "captured": 24,
       "films": [
         "puella-magi-madoka-magica-walpurgisnacht-0fd537",
         "blue-lock-4f16c3",
@@ -590,7 +590,7 @@
     {
       "key": "25-harry-potter-and-the-sorcerer-s-stone-0c741e",
       "title": "25周年記念 『ハリー・ポッターと賢者の石』 Harry Potter and the Sorcerer's Stone",
-      "poster": null,
+      "poster": "media/posters/25-harry-potter-and-the-sorcerer-s-stone-0c741e.jpg",
       "tags": [
         "DolbyCinema",
         "字幕",
@@ -605,7 +605,7 @@
       "first_seen": "2026-08-28",
       "last_seen": "2026-09-03",
       "showing_count": 21,
-      "capture_count": 0
+      "capture_count": 1
     },
     {
       "key": "puella-magi-madoka-magica-walpurgisnacht-e46fb0",

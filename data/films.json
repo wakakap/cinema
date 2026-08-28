@@ -293,7 +293,7 @@
   "25-harry-potter-and-the-sorcerer-s-stone-0c741e": {
     "key": "25-harry-potter-and-the-sorcerer-s-stone-0c741e",
     "title": "25周年記念 『ハリー・ポッターと賢者の石』 Harry Potter and the Sorcerer's Stone",
-    "poster": null,
+    "poster": "media/posters/25-harry-potter-and-the-sorcerer-s-stone-0c741e.jpg",
     "tags": [
       "DolbyCinema",
       "字幕",
@@ -308,7 +308,7 @@
     "first_seen": "2026-08-28",
     "last_seen": "2026-09-03",
     "showing_count": 21,
-    "capture_count": 0
+    "capture_count": 1
   },
   "in-ohsama-sentai-king-ohger-film-concert-9144c0": {
     "key": "in-ohsama-sentai-king-ohger-film-concert-9144c0",
