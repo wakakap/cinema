@@ -8,10 +8,10 @@
     "seat_url_hint": "choice_seat",
     "robots_url": "https://tjoy.jp/robots.txt"
   },
-  "generated_at": "2026-08-29T06:11:03.607990+09:00",
+  "generated_at": "2026-08-29T08:50:55.645444+09:00",
   "total_records": 371,
-  "total_captures": 31,
-  "pending_showings": 279,
+  "total_captures": 32,
+  "pending_showings": 273,
   "warnings": [],
   "months": [
     {
@@ -205,7 +205,7 @@
     {
       "date": "2026-08-29",
       "count": 44,
-      "captured": 0,
+      "captured": 1,
       "films": [
         "blue-lock-4f16c3",
         "minions-monsters-a63f70",
@@ -411,7 +411,7 @@
       "first_seen": "2026-08-28",
       "last_seen": "2026-09-03",
       "showing_count": 59,
-      "capture_count": 8
+      "capture_count": 9
     },
     {
       "key": "moana-3624e0",
