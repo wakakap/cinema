@@ -8,10 +8,10 @@
     "seat_url_hint": "choice_seat",
     "robots_url": "https://tjoy.jp/robots.txt"
   },
-  "generated_at": "2026-08-28T15:25:57.111426+09:00",
+  "generated_at": "2026-08-28T18:42:51.848748+09:00",
   "total_records": 371,
-  "total_captures": 23,
-  "pending_showings": 294,
+  "total_captures": 28,
+  "pending_showings": 288,
   "warnings": [],
   "months": [
     {
@@ -233,7 +233,7 @@
     {
       "date": "2026-08-28",
       "count": 45,
-      "captured": 18,
+      "captured": 23,
       "films": [
         "puella-magi-madoka-magica-walpurgisnacht-0fd537",
         "blue-lock-4f16c3",
@@ -296,7 +296,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-09",
       "showing_count": 12,
-      "capture_count": 0
+      "capture_count": 1
     },
     {
       "key": "film-39f4f9",
@@ -411,12 +411,12 @@
       "first_seen": "2026-08-28",
       "last_seen": "2026-09-03",
       "showing_count": 59,
-      "capture_count": 5
+      "capture_count": 7
     },
     {
       "key": "moana-3624e0",
       "title": "モアナと伝説の海 Moana",
-      "poster": null,
+      "poster": "media/posters/moana-3624e0.jpg",
       "tags": [
         "吹替"
       ],
@@ -427,7 +427,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 8,
-      "capture_count": 0
+      "capture_count": 1
     },
     {
       "key": "minions-monsters-a63f70",
@@ -528,7 +528,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 18,
-      "capture_count": 2
+      "capture_count": 3
     },
     {
       "key": "shiranuhi-6c2ef4",
