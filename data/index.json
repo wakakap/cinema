@@ -8,10 +8,10 @@
     "seat_url_hint": "choice_seat",
     "robots_url": "https://tjoy.jp/robots.txt"
   },
-  "generated_at": "2026-08-29T08:50:58.219949+09:00",
+  "generated_at": "2026-08-29T11:55:12.016794+09:00",
   "total_records": 371,
-  "total_captures": 32,
-  "pending_showings": 273,
+  "total_captures": 34,
+  "pending_showings": 262,
   "warnings": [],
   "months": [
     {
@@ -205,7 +205,7 @@
     {
       "date": "2026-08-29",
       "count": 44,
-      "captured": 1,
+      "captured": 3,
       "films": [
         "blue-lock-4f16c3",
         "minions-monsters-a63f70",
@@ -313,7 +313,7 @@
     {
       "key": "sekiro-no-defeat-pg12-334c43",
       "title": "[公開記念舞台挨拶]SEKIRO:NO DEFEAT(PG12)",
-      "poster": null,
+      "poster": "media/posters/sekiro-no-defeat-pg12-334c43.jpg",
       "tags": [
         "PG12"
       ],
@@ -324,7 +324,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-09",
       "showing_count": 12,
-      "capture_count": 0
+      "capture_count": 1
     },
     {
       "key": "in-ohsama-sentai-king-ohger-film-concert-9144c0",
@@ -556,7 +556,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 12,
-      "capture_count": 1
+      "capture_count": 2
     },
     {
       "key": "tomorrow-x-together-vr-concert-endless-r-180136",

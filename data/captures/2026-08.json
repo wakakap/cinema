@@ -3645,21 +3645,39 @@
       "screen_no": "03",
       "screen_seats": 207,
       "availability": {
-        "code": "full",
-        "mark": "×",
-        "label": "満席"
+        "code": "few",
+        "mark": "△",
+        "label": "空席がわずかです"
       },
-      "reserve_url": null,
-      "schedule_id": null,
-      "film_code": null,
+      "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785670/C4993000/3/2026-08-29?type=film",
+      "schedule_id": "785670",
+      "film_code": "C4993000",
+      "status": "provisional",
+      "attempts": 0,
+      "captures": 1,
+      "last_attempt_at": "2026-08-29T11:54:54.057034+09:00",
       "day_open": "8:00",
       "day_note": null,
-      "source": "schedule",
-      "updated_at": "2026-08-29T06:10:58.427679+09:00",
+      "movie_date_text": "08/29（土）13:05 ～ 14:45",
+      "poster_url": "https://cdn.tjoy.jp/images/_up/cinema/1782702425wrdm88h94n.jpg",
+      "screen_image_url": "https://cdn.tjoy.jp/images/_up/theater/320_03_20191008.png",
+      "seat_counts": {
+        "vacant": 0,
+        "sold": 207,
+        "total": 207,
+        "expected": 207
+      },
+      "occupancy": 1.0,
+      "seat_image": "media/seats/2026-08/performance1984-2012-tatsuro-yamashita-t-6f5b8b_20260829_1305_tjoyumeda.jpg",
+      "seat_image_bytes": 104866,
+      "poster": "media/posters/performance1984-2012-tatsuro-yamashita-t-6f5b8b.jpg",
+      "screen_image": "media/screens/tjoyumeda_03_bad41a0e.png",
+      "source": "seat",
+      "lead_minutes": 70.0,
+      "captured_at": "2026-08-29T11:54:59.238888+09:00",
+      "capture_round": 1,
       "theater": "tjoyumeda",
-      "theater_name": "T・ジョイ梅田",
-      "seat_image": null,
-      "occupancy": null
+      "theater_name": "T・ジョイ梅田"
     },
     {
       "id": "20260829-1305-s03-sekiro-no-defeat-pg12-334c43",
@@ -3684,14 +3702,33 @@
       "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785292/C4986300/3/2026-09-05?type=event",
       "schedule_id": "785292",
       "film_code": "C4986300",
+      "status": "provisional",
+      "attempts": 0,
+      "captures": 1,
+      "last_attempt_at": "2026-08-29T11:55:02.590823+09:00",
       "day_open": "8:00",
       "day_note": null,
-      "source": "schedule",
-      "updated_at": "2026-08-29T06:10:58.427679+09:00",
+      "movie_date_text": "09/05（土）13:05 ～ 15:30",
+      "poster_url": "https://cdn.tjoy.jp/images/_up/cinema/17827092521dpezcuy69.jpg",
+      "screen_image_url": "https://cdn.tjoy.jp/images/_up/theater/320_03_20191008.png",
+      "seat_counts": {
+        "vacant": 88,
+        "sold": 101,
+        "total": 189,
+        "expected": 207
+      },
+      "occupancy": 0.5344,
+      "seat_warning": "座席数 189 ≠ 公称 207",
+      "seat_image": "media/seats/2026-08/sekiro-no-defeat-pg12-334c43_20260829_1305_tjoyumeda.jpg",
+      "seat_image_bytes": 92288,
+      "poster": "media/posters/sekiro-no-defeat-pg12-334c43.jpg",
+      "screen_image": "media/screens/tjoyumeda_03_bad41a0e.png",
+      "source": "seat",
+      "lead_minutes": 69.9,
+      "captured_at": "2026-08-29T11:55:07.276907+09:00",
+      "capture_round": 1,
       "theater": "tjoyumeda",
-      "theater_name": "T・ジョイ梅田",
-      "seat_image": null,
-      "occupancy": null
+      "theater_name": "T・ジョイ梅田"
     },
     {
       "id": "20260829-1330-s07-heikou-to-suichoku-b9aaec",
@@ -7028,5 +7065,5 @@
       "occupancy": null
     }
   ],
-  "updated_at": "2026-08-29T08:50:51.107266+09:00"
+  "updated_at": "2026-08-29T11:55:07.278632+09:00"
 }
