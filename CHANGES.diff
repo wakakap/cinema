@@ -1,0 +1,1276 @@
+# 既存ファイルへの変更点（適用済み）
+
+--- a/toho.py
++++ b/toho.py
+@@ -33,16 +33,21 @@
+ import re
+ import sys
+ import time
+-from datetime import datetime, timedelta, timezone
++from datetime import datetime, timedelta, timezone, tzinfo
+ from pathlib import Path
+ from typing import Any, Iterable
+ from urllib.robotparser import RobotFileParser
+ 
+-try:
+-    from zoneinfo import ZoneInfo
+-    JST = ZoneInfo("Asia/Tokyo")
+-except Exception:                                   # tzdata が無い環境向け
+-    JST = timezone(timedelta(hours=9))
++def _jst() -> tzinfo:
++    """日本時間。tzdata が入っていない環境では固定の +09:00 で代用する。"""
++    try:
++        from zoneinfo import ZoneInfo
++        return ZoneInfo("Asia/Tokyo")
++    except Exception:
++        return timezone(timedelta(hours=9))
++
++
++JST = _jst()
+ 
+ 
+ # ═══════════════════════════════════════════════════════════════════
+@@ -123,18 +128,51 @@
+ # --- 取得タイミング -------------------------------------------------
+ # 窓は cron の**実際の**間隔より広くないと、回が丸ごと漏れる。
+ # GitHub Actions の schedule は指定どおりには来ない（実測 14〜69 分間隔）。
+-CAPTURE_LEAD_MIN = 90       # 開映何分前から対象にするか（＝取りこぼさないための窓）
++# ローカル運転版。GitHub Actions の cron は指定どおりに来なかった
++# （実測 14〜69 分間隔、数時間空くこともある）ので、「広い窓で待ち構える」
++# のをやめ、**開映からの逆算で撮る時刻を決め打ち**する方式に変えた。
++# 起こす役は hub.py。この 3 点を撮る。
++#
++#   slot 0 … 1 日 1 回の大範囲走査。今日から SWEEP_DAYS 日先までの全回に
++#            ついて、その時点の座席を 1 枚（＝ベースライン）
++#   slot 1 … 開映 30 分前
++#   slot 2 … 開映  5 分前   ← 実態に一番近い読み
++#
++# 点を増やすなら CAPTURE_PLAN に足す（降順で書くこと）。
++CAPTURE_PLAN = [30, 5]
++PLAN_TOLERANCE_MIN = 2      # 起こされるのが多少早くても撮ってよい幅
++                            # （hub.py の刻みより広く、点の間隔より狭く）
+ LATE_GRACE_MIN = 5          # 開映後の猶予
+-TARGET_LEAD_MIN = 25        # 2 枚目以降はここまで引きつけてから撮る
+-FINAL_LEAD_MIN = 15         # これ以内で撮れたら確定
+-MAX_CAPTURES = 3            # 1 回あたりの最大撮影回数
++SWEEP_DAYS = 2              # 大範囲走査で何日先まで見るか（今日 + N 日）
++SWEEP_DAYS_NIGHT = 1        # 深夜〜早朝はここまで（先の日付はまだ売っていない）
++NIGHT_HOURS = (1, 7)        # 「深夜〜早朝」の範囲（JST の時、終端は含まない）
++
++
++def sweep_days(now) -> int:
++    """その時刻に走査で何日先まで見るか。
++
++    01:00〜07:00 に回すぶんには、先の日付を舐めても実りが少ない。TOHO は
++    3 日先までしか売らず、朝の販売開始前は翌々日の回に選座画面から入れない。
++    空振りに数十分かけるより射程を 1 日縮めたほうが、同じ時間で今日と明日を
++    丁寧に撮れる。日中に回したときは従来どおり 2 日先まで。
++    """
++    lo, hi = NIGHT_HOURS
++    return SWEEP_DAYS_NIGHT if lo <= now.hour < hi else SWEEP_DAYS
++
++
++# 座席図を計画点ごとに別ファイルで残すか。False なら 1 回につき 1 枚を
++# 上書きし、数値だけが記録の history に全点ぶん残る（画像が 3 倍にならない）。
++KEEP_SLOT_SHOTS = False
++
++CAPTURE_LEAD_MIN = CAPTURE_PLAN[0] + PLAN_TOLERANCE_MIN   # capture の既定の窓
++MAX_CAPTURES = 1 + len(CAPTURE_PLAN)
+ 
+ # --- 撮影対象の絞り込み ---------------------------------------------
+ # TOHO は 1 回撮るのに「一覧 → 日付タブ → 上映回 → 中間ページ → 座席表」の
+ # 5 手が要る。全 44 回を毎ラウンド追うと、購入フローへの出入りが 1 日で
+ # 数百回になる。相手にとっても自分にとっても重いので、要るものだけ撮る
+ # 余地を残してある。空の条件は「絞らない」の意味。
+-CAPTURE_ONLY = {
++CAPTURE_ONLY: dict[str, Any] = {
+     "screens": [],          # 例: ["01", "02", "03"] 大きい箱だけ
+     "film_keys": [],        # 例: 特定作品の film_key
+     "min_seats": None,      # 例: 400  これ未満の箱は撮らない
+@@ -145,8 +183,7 @@
+ # --- スケジュール同期 -----------------------------------------------
+ # 待ち行列に要るのは販売中の日だけ。実測では今日を含めて 3 日分が
+ # 「販売中」で、4 日目以降は全回「販売期間外」だった（8/29・30・31 が販売中、
+-# 9/1 以降は 44 件すべて販売期間外）。2 にすると 3 日目が台帳から落ちる。
+-LIGHT_SYNC_DAYS = 3
++# 9/1 以降は 44 件すべて販売期間外）。大範囲走査の射程と揃えておく。
+ SCHEDULE_TTL_MIN = 360
+ 
+ # --- 相手サイトへの配慮 ---------------------------------------------
+@@ -938,6 +975,7 @@
+                           "section_id": r.get("section_id"),
+                           "item_index": r.get("item_index")},
+             "status": "pending", "attempts": 0, "captures": 0,
++            "slots": [],                 # 消化済みの計画点（due_slot 参照）
+             "last_attempt_at": None,
+         })
+     return out
+@@ -1045,7 +1083,8 @@
+         for s in payload["showings"]:
+             if s["id"] in prev:
+                 keep = prev[s["id"]]
+-                for field in ("status", "attempts", "captures", "last_attempt_at"):
++                for field in ("status", "attempts", "captures", "slots",
++                              "last_attempt_at"):
+                     s[field] = keep.get(field, s[field])
+             rows.append(s)
+ 
+@@ -1194,24 +1233,40 @@
+     return {"rules": [[state, keys] for state, keys in SEAT_STATE_RULES]}
+ 
+ 
+-def should_capture(showing: dict, lead: float) -> bool:
+-    """今このタイミングで撮るべきか。
+-
+-    1 枚目は窓に入った瞬間に撮る（cron が次いつ来るか分からないので保険）。
+-    2 枚目以降は開映が近づくまで待つ。直前に買う客が少なくないため、
+-    遅く撮るほど実態に近い。
+-    """
+-    n = showing.get("captures", 0)
+-    if n == 0:
+-        return True
+-    if n >= MAX_CAPTURES:
+-        return False
+-    return lead <= TARGET_LEAD_MIN
+-
+-
+-def due_showings(schedule: dict, now: datetime, lead_min: int) -> list[dict]:
++def due_slot(showing: dict, lead: float, sweep: bool = False) -> int | None:
++    """今この瞬間に撮るべき計画点の番号。無ければ None。
++
++    slot 0     大範囲走査のベースライン（開映がまだ遠い回も 1 枚撮っておく）
++    slot 1..N  CAPTURE_PLAN の各点（開映 30 分前・5 分前 …）
++
++    起こされるのが遅れて 30 分前と 5 分前をまたいでしまったときは、**深いほう**
++    （開映に近いほう）だけを撮る。跨いだ点をあとから撮り直しても実態には
++    近づかないので、まとめて済みにする。
++    """
++    done = set(showing.get("slots") or [])
++    crossed = [i + 1 for i, p in enumerate(CAPTURE_PLAN)
++               if lead <= p + PLAN_TOLERANCE_MIN]
++    for i in reversed(crossed):
++        if i not in done:
++            return i
++    if sweep and not crossed and 0 not in done:
++        return 0
++    return None
++
++
++def slots_covered(slot: int, lead: float) -> list[int]:
++    """その 1 枚で消化したことにする計画点の一覧。"""
++    if slot == 0:
++        return [0]
++    return [0] + [i + 1 for i, p in enumerate(CAPTURE_PLAN)
++                  if lead <= p + PLAN_TOLERANCE_MIN and i + 1 <= slot]
++
++
++def due_showings(schedule: dict, now: datetime, lead_min: int,
++                 sweep: bool = False) -> list[tuple[dict, int]]:
++    """今撮るべき回と、その計画点の番号を並べて返す。"""
+     active_ids = {c["id"] for c in active_cinemas()}
+-    out = []
++    out: list[tuple[dict, int]] = []
+     for payload in schedule.get("days", {}).values():
+         for s in payload.get("showings", []):
+             if s.get("cinema") not in active_ids:
+@@ -1240,21 +1295,30 @@
+             except (ValueError, KeyError):
+                 continue
+             lead = (start - now).total_seconds() / 60
+-            if -LATE_GRACE_MIN <= lead <= lead_min and should_capture(s, lead):
+-                out.append(s)
+-    out.sort(key=lambda s: (s["start_at"], s.get("cinema", ""), s["screen_no"]))
++            if lead < -LATE_GRACE_MIN:
++                continue
++            horizon = (sweep_days(now) + 1) * 1440 if sweep else lead_min
++            if lead > horizon:
++                continue
++            slot = due_slot(s, lead, sweep=sweep)
++            if slot is not None:
++                out.append((s, slot))
++    out.sort(key=lambda t: (t[0]["start_at"], t[0].get("cinema", ""), t[0]["screen_no"]))
+ 
+     # 絞り込みは並べ替えたあとに掛ける。max_per_round が「開映の早い順に N 件」
+     # を意味するようにするため。
+-    only = CAPTURE_ONLY
+-    if only.get("screens"):
+-        out = [s for s in out if s.get("screen_no") in only["screens"]]
+-    if only.get("film_keys"):
+-        out = [s for s in out if s.get("film_key") in only["film_keys"]]
+-    if only.get("min_seats"):
+-        out = [s for s in out if (s.get("screen_seats") or 0) >= only["min_seats"]]
+-    if only.get("max_per_round"):
+-        out = out[:only["max_per_round"]]
++    screens = CAPTURE_ONLY.get("screens")
++    if screens:
++        out = [t for t in out if t[0].get("screen_no") in screens]
++    keys = CAPTURE_ONLY.get("film_keys")
++    if keys:
++        out = [t for t in out if t[0].get("film_key") in keys]
++    min_seats = CAPTURE_ONLY.get("min_seats")
++    if isinstance(min_seats, int):
++        out = [t for t in out if (t[0].get("screen_seats") or 0) >= min_seats]
++    cap = CAPTURE_ONLY.get("max_per_round")
++    if isinstance(cap, int):
++        out = out[:cap]
+     return out
+ 
+ 
+@@ -1627,16 +1691,116 @@
+     return "schedule"
+ 
+ 
++def lead_of(rec: dict, default: float = 9999.0) -> float:
++    """開映まで何分か。数値として使えないときは default を返す。
++
++    lead_minutes は「予定だけの記録」には無く、古い記録では欠けていることも
++    ある。並べ替えの鍵に直接入れると None が紛れて比較が壊れるので、
++    ここで必ず float にしてから使う。
++    """
++    v = rec.get("lead_minutes") if "lead_minutes" in rec else rec.get("lead")
++    return float(v) if isinstance(v, (int, float)) else default
++
++
++def record_quality(rec: dict) -> int:
++    """記録の質。2 = 信用できる座席の読み、1 = 怪しい、0 = 予定だけ。
++
++    ここが記録を守る要になる。同じ回の記録は id が同じなので 1 件しか残らず、
++    順位は「開映に近いほうが勝つ」で決めていた。ところが座席ページには
++    入れたのに座席表が描かれない、途中までしか描かれない、という失敗の仕方が
++    ある。そのまま順位を付けると、開映 5 分前に取れた **0 席の読み** が
++    30 分前の正しい読みを追い出してしまう。
++
++    質を順位の第 1 要素に置くと、それが起きない。壊れた読みは既存を
++    押しのけられず、記録に残るのは最後に取れた **まともな** 読みになる。
++
++    満席は壊れた読みではない。sold=376 / vacant=0 / total=376 は
++    公称席数と一致するので質 2 と判定され、通常どおり更新される。
++    """
++    if record_source(rec) != "seat":
++        return 0
++    counts = rec.get("seat_counts") or {}
++    total = counts.get("total") or 0
++    if total <= 0 or rec.get("occupancy") is None:
++        return 1                       # 座席が 1 つも読めていない
++    expected = counts.get("expected")
++    if expected and abs(total - expected) > 2:
++        return 1                       # 公称席数と食い違う＝読み落としている
++    return 2
++
++
+ def record_rank(rec: dict) -> tuple:
+-    """大きいほど優先。seat > schedule、seat 同士は開映に近いほうが勝つ。"""
+-    if record_source(rec) == "seat":
+-        lead = rec.get("lead_minutes")
+-        return (1, -(lead if lead is not None else 9999), rec.get("captured_at") or "")
+-    return (0, 0, rec.get("updated_at") or "")
++    """大きいほど優先。まず質、次に開映への近さ。"""
++    q = record_quality(rec)
++    if q == 0:
++        return (0, 0, rec.get("updated_at") or "")
++    return (q, -lead_of(rec), rec.get("captured_at") or "")
+ 
+ 
+ def sort_key(c: dict) -> tuple:
+     return (c["date"], c["start"], c.get("cinema", ""), c.get("screen_no", ""))
++
++
++def record_history(rec: dict | None) -> list[dict]:
++    """記録が持っている「読みの並び」。撮影記録なら自分自身も 1 点として数える。
++
++    同じ回を 3 回撮っても、id が同じなので勝ち残る記録は 1 件だけ（開映に一番
++    近い読み）。それだけだと売れ方の推移が消えてしまうので、数値の点だけを
++    history に畳んで持たせる。id が決定的なぶん、この配列も点の和集合として
++    合流でき、順番が違っても二度流しても同じ結果になる。
++    """
++    out = list(rec.get("history") or []) if rec else []
++    p = record_point(rec) if rec else None
++    if p:
++        out.append(p)
++    return out
++
++
++def record_point(rec: dict) -> dict | None:
++    """その記録自身を推移の 1 点として表したもの。怪しい読みなら None。"""
++    if record_quality(rec) < 2:
++        return None
++    counts = rec.get("seat_counts") or {}
++    return {"at": rec.get("captured_at"), "lead": rec.get("lead_minutes"),
++            "slot": rec.get("capture_slot"), "sold": counts.get("sold"),
++            "vacant": counts.get("vacant"), "total": counts.get("total"),
++            "occupancy": rec.get("occupancy")}
++
++
++def _hist_rank(h: dict) -> tuple:
++    return (-lead_of(h), h.get("at") or "")
++
++
++def merge_history(*groups) -> list[dict]:
++    """点の和集合。同じ計画点が二重に来たら開映に近い読みを残す。"""
++    best: dict[Any, dict] = {}
++    for group in groups:
++        for h in group or []:
++            if not h or h.get("sold") is None:
++                continue
++            key = h.get("slot")
++            if key is None:
++                key = round(h.get("lead") or 0)
++            cur = best.get(key)
++            if cur is None or _hist_rank(h) > _hist_rank(cur):
++                best[key] = h
++    # 開映から遠い点（＝早い時刻に撮ったもの）を先頭に置く。lead が欠けている
++    # 点はいつの読みか分からないので末尾に回す。record_rank とは既定値が逆に
++    # なるが、あちらは「不明なら既存を押しのけない」で、こちらは「不明なら
++    # 推移の途中に割り込ませない」。どちらも安全側に倒している。
++    return sorted(best.values(), key=lambda h: -lead_of(h, -1.0))
++
++
++def looks_truncated(new: dict, cur: dict) -> bool:
++    """新しい読みで席数が目減りしていないか。
++
++    公称席数が分からないスクリーンでは record_quality が働かない。その場合は
++    既存の記録そのものを物差しにする。同じ回で箱の大きさが 1 割も縮むのは
++    座席表を読み切れていないときだけで、正常な変化ではない。
++    """
++    a = (new.get("seat_counts") or {}).get("total") or 0
++    b = (cur.get("seat_counts") or {}).get("total") or 0
++    return b > 0 and a < b * 0.9
+ 
+ 
+ def archive_many(records: list[dict]) -> int:
+@@ -1655,8 +1819,34 @@
+         changed = False
+         for rec in batch:
+             cur = index.get(rec["id"])
+-            if cur is None or record_rank(rec) > record_rank(cur):
+-                index[rec["id"]] = rec
++            if cur is None:
++                winner = rec
++            elif record_quality(rec) != record_quality(cur):
++                # まず質。0 席や公称と食い違う読みは、開映に近くても勝てない。
++                winner = rec if record_quality(rec) > record_quality(cur) else cur
++            elif looks_truncated(rec, cur):
++                # 質が同点でも席数が縮んでいる＝読み切れていない。既存を守る。
++                LOG.warning("席数の目減りを検知したので更新しない: %s（%s → %s 席）",
++                            rec.get("id"), (cur.get("seat_counts") or {}).get("total"),
++                            (rec.get("seat_counts") or {}).get("total"))
++                winner = cur
++            elif looks_truncated(cur, rec):
++                # 逆向き。先に入っていたほうが読み切れていなかった場合。
++                winner = rec
++            else:
++                winner = rec if record_rank(rec) > record_rank(cur) else cur
++
++            # 推移の点。負けたほうの数値も残す（票の動きはここにしか無い）。
++            hist = merge_history(record_history(cur), record_history(rec))
++            # 読み切れていない点は落とす。折れ線が谷になるだけで「その時刻に
++            # それだけしか売れていなかった」ではない。物差しは勝った記録の席数。
++            # 一度取り込んでしまった点にも遡って効く。
++            floor = ((winner.get("seat_counts") or {}).get("total") or 0) * 0.9
++            if floor:
++                hist = [h for h in hist if not h.get("total") or h["total"] >= floor]
++            merged = {**winner, "history": hist} if hist else winner
++            if merged != cur:
++                index[rec["id"]] = merged
+                 changed = True
+                 written += 1
+         if not changed:
+@@ -1726,6 +1916,32 @@
+         payload["showings"] = [s for s in payload.get("showings", []) if s["id"] not in ids]
+ 
+ 
++SHARED_POSTERS_FILE = DATA / "posters_shared.json"
++
++
++def apply_shared_posters(films: dict) -> int:
++    """ポスターが取れなかった作品に、隣（T・ジョイ側）の画像を借りる。
++
++    TOHO の座席ページには作品画像が無いことが多い。同じ作品を撮っている
++    T・ジョイ側には画像があるので、hub.py が題名で突き合わせて作った対応表
++    （data/posters_shared.json）を当てる。対応表が無ければ何もしない
++    ＝ 今までどおり空欄のまま。借り物には poster_from を立てておく。
++    """
++    shared = read_json(SHARED_POSTERS_FILE, {})
++    if not isinstance(shared, dict) or not shared:
++        return 0
++    n = 0
++    for key, entry in films.items():
++        if entry.get("poster") or not shared.get(key):
++            continue
++        entry["poster"] = shared[key]
++        entry["poster_from"] = "tjoy"
++        n += 1
++    if n:
++        EV.add("INDEX", "poster", f"T・ジョイ側から {n} 作品ぶん借用")
++    return n
++
++
+ def rebuild_index() -> None:
+     """films.json と index.json を captures/ から作り直す。
+ 
+@@ -1749,9 +1965,11 @@
+             f"撮影済み {prev_seat}→{seat_total}）。data/captures/ を確認すること")
+ 
+     films = build_films(records)
++    apply_shared_posters(films)
+     write_json(FILMS_FILE, films)
+ 
+-    months, dates = [], {}
++    months: list[dict] = []
++    dates: dict[str, dict] = {}
+     for path in sorted(CAPTURES.glob("*.json")):
+         caps = read_json(path, {}).get("captures", [])
+         if caps:
+@@ -1926,6 +2144,7 @@
+                 mine["status"] = s["status"]
+             mine["captures"] = max(mine.get("captures", 0), s.get("captures", 0))
+             mine["attempts"] = max(mine.get("attempts", 0), s.get("attempts", 0))
++            mine["slots"] = sorted(set(mine.get("slots") or []) | set(s.get("slots") or []))
+             for field in ("reserve_url", "end", "availability"):
+                 if not mine.get(field) and s.get(field):
+                     mine[field] = s[field]
+@@ -2086,7 +2305,8 @@
+             if not robots_allows(cinema, cinema["schedule_url"]):
+                 EV.add("SYNC", "robots", f"{cinema['id']} robots.txt により中止")
+                 continue
+-            days = scrape_schedule(page, cinema, None if full else LIGHT_SYNC_DAYS)
++            days = scrape_schedule(page, cinema,
++                                   None if full else sweep_days(now_jst()) + 1)
+             for date, payload in days.items():
+                 all_days.setdefault(date, {"showings": []})["showings"] += payload["showings"]
+             polite_sleep()
+@@ -2121,10 +2341,10 @@
+ 
+ 
+ def cmd_capture(lead_min: int = CAPTURE_LEAD_MIN, limit: int | None = None,
+-                dry_run: bool = False) -> None:
++                dry_run: bool = False, sweep: bool = False) -> None:
+     schedule = read_json(SCHEDULE_FILE, {"days": {}})
+     now = now_jst()
+-    due = due_showings(schedule, now, lead_min)
++    due = due_showings(schedule, now, lead_min, sweep=sweep)
+     if limit:
+         due = due[:limit]
+ 
+@@ -2148,7 +2368,7 @@
+         page = ctx.new_page()
+         # 先に一覧を開いて cookie / session を作る（劇場ごとに 1 回）
+         opened: set[str] = set()
+-        for s in due:
++        for s, _ in due:
+             cinema = cinema_by_id(s["cinema"])
+             if cinema is None or cinema["id"] in opened:
+                 continue
+@@ -2160,7 +2380,7 @@
+             opened.add(cinema["id"])
+         ctx.image_flags["images"] = True     # 座席図は撮影対象
+ 
+-        for s in due:
++        for s, slot in due:
+             cinema = cinema_by_id(s["cinema"])
+             if cinema is None:
+                 continue
+@@ -2168,8 +2388,12 @@
+             try:
+                 seat_page, probe = open_seat_page(page, s, cinema)
+                 if seat_page is None:
+-                    s["attempts"] += 1
+-                    s["status"] = "retry" if s["attempts"] < MAX_ATTEMPTS else "failed"
++                    # 大範囲走査には販売前の回も混ざる。ここで失敗回数を
++                    # 数えると、本番（30 分前・5 分前）までに上限を使い切る。
++                    if not sweep:
++                        s["attempts"] += 1
++                        s["status"] = ("retry" if s["attempts"] < MAX_ATTEMPTS
++                                       else "failed")
+                     fail += 1
+                     EV.add("CAP", "no-page",
+                            f"{s['date'][5:]} {s['start']} {s['film_title'][:14]}")
+@@ -2177,9 +2401,10 @@
+ 
+                 shot = None
+                 if SAVE_SEAT_SHOT and not dry_run:
++                    suffix = f"_p{slot}" if KEEP_SLOT_SHOTS else ""
+                     name = (f"{s['film_key']}_{s['date'].replace('-', '')}"
+                             f"_{s['start'].replace(':', '')}"
+-                            f"_{s['cinema']}_s{s['screen_no']}.jpg")
++                            f"_{s['cinema']}_s{s['screen_no']}{suffix}.jpg")
+                     shot = SEATS / s["date"][:7] / name
+ 
+                 rec = read_seat_page(seat_page, probe, shot, s.get("screen_seats"))
+@@ -2191,11 +2416,13 @@
+                     p = POSTERS / f"{s['film_key']}.jpg"
+                     poster = rel(p) if p.exists() else download(seat_page, rec["poster_url"], p)
+ 
+-                s["captures"] += 1
+-                final = lead <= FINAL_LEAD_MIN or s["captures"] >= MAX_CAPTURES
++                s["captures"] = s.get("captures", 0) + 1
++                s["slots"] = sorted(set(s.get("slots") or [])
++                                    | set(slots_covered(slot, lead)))
++                final = slot >= len(CAPTURE_PLAN)
+                 record = {**s, **rec, "poster": poster, "source": "seat",
+                           "lead_minutes": lead, "captured_at": now_jst().isoformat(),
+-                          "capture_round": s["captures"],
++                          "capture_round": s["captures"], "capture_slot": slot,
+                           "status": "captured" if final else "provisional"}
+ 
+                 if not dry_run:
+@@ -2206,7 +2433,7 @@
+                 ok += 1
+ 
+                 occ = rec.get("occupancy")
+-                EV.add("CAP", "final" if final else f"{s['captures']}/{MAX_CAPTURES}",
++                EV.add("CAP", "final" if final else f"slot{slot}",
+                        f"{s['date'][5:]} {s['start']} {s['cinema']}/s{s['screen_no']} "
+                        f"{s['film_title'][:14]} lead={lead:.0f}m "
+                        f"occ={f'{occ:.0%}' if occ is not None else '?'}"
+@@ -2232,8 +2459,9 @@
+         write_json(SCHEDULE_FILE, schedule)
+         rebuild_index()
+ 
+-    EV.add("CAP", "done", f"対象 {len(due)} / 成功 {ok} / 失敗 {fail} / {time.time() - t0:.0f}s"
+-                          + ("   [dry-run]" if dry_run else ""))
++    EV.add("CAP", "sweep" if sweep else "done",
++           f"対象 {len(due)} / 成功 {ok} / 失敗 {fail} / {time.time() - t0:.0f}s"
++           + ("   [dry-run]" if dry_run else ""))
+ 
+ 
+ def cmd_repair() -> int:
+@@ -2673,15 +2901,18 @@
+         description="TOHOシネマズ梅田 座席表アーカイバ",
+         epilog="まず `python toho.py doctor --deep` で取得経路を確認してください。")
+     p.add_argument("command", nargs="?", default="run",
+-                   choices=["run", "sync", "capture", "index", "doctor", "log",
+-                            "inspect", "pull", "push", "repair"])
++                   choices=["run", "sweep", "sync", "capture", "index", "doctor",
++                            "log", "inspect", "pull", "push", "repair"])
+     p.add_argument("--force", action="store_true", help="sync で TTL を無視する")
+-    p.add_argument("--full", action="store_true", help="sync で全日程を見る（既定は今日と明日）")
++    p.add_argument("--full", action="store_true",
++                   help="sync で全日程を見る（既定は今日から SWEEP_DAYS 日先まで）")
+     p.add_argument("--deep", action="store_true", help="doctor で座席ページまで入る")
+     p.add_argument("--lead", type=int, metavar="MIN",
+                    help=f"capture の対象窓を一時的に変える（既定 {CAPTURE_LEAD_MIN} 分）")
+     p.add_argument("--limit", type=int, metavar="N", help="capture で最初の N 件だけ処理する")
+     p.add_argument("--dry-run", action="store_true", help="取得はするがファイルを書かない")
++    p.add_argument("--sweep", action="store_true",
++                   help="capture で窓を無視し、先の回もベースラインとして撮る")
+     p.add_argument("-n", type=int, default=40, help="log で表示する行数")
+     p.add_argument("--url", help="inspect の対象 URL")
+     p.add_argument("--live", action="store_true", help="inspect で座席ページまで入る")
+@@ -2728,11 +2959,12 @@
+     try:
+         if sync_repo:
+             cmd_pull()            # 走る前にリモートの成果を取り込む
+-        if args.command in ("run", "sync"):
+-            cmd_sync(force=args.force, full=args.full)
+-        if args.command in ("run", "capture"):
++        sweep = args.sweep or args.command == "sweep"
++        if args.command in ("run", "sweep", "sync"):
++            cmd_sync(force=args.force or sweep, full=args.full)
++        if args.command in ("run", "sweep", "capture"):
+             cmd_capture(lead_min=args.lead if args.lead is not None else CAPTURE_LEAD_MIN,
+-                        limit=args.limit, dry_run=args.dry_run)
++                        limit=args.limit, dry_run=args.dry_run, sweep=sweep)
+     except Blocked as exc:
+         enter_cooldown(str(exc))
+         EV.flush()
+
+--- a/tjoy.py → cinema.py
++++ b/tjoy.py → cinema.py
+@@ -22,16 +22,21 @@
+ import re
+ import sys
+ import time
+-from datetime import datetime, timedelta, timezone
++from datetime import datetime, timedelta, timezone, tzinfo
+ from pathlib import Path
+ from typing import Any, Iterable
+ from urllib.robotparser import RobotFileParser
+ 
+-try:
+-    from zoneinfo import ZoneInfo
+-    JST = ZoneInfo("Asia/Tokyo")
+-except Exception:                                   # tzdata が無い環境向け
+-    JST = timezone(timedelta(hours=9))
++def _jst() -> tzinfo:
++    """日本時間。tzdata が入っていない環境では固定の +09:00 で代用する。"""
++    try:
++        from zoneinfo import ZoneInfo
++        return ZoneInfo("Asia/Tokyo")
++    except Exception:
++        return timezone(timedelta(hours=9))
++
++
++JST = _jst()
+ 
+ 
+ # ═══════════════════════════════════════════════════════════════════
+@@ -67,23 +72,49 @@
+ # --- 取得タイミング -------------------------------------------------
+ # 窓は cron の**実際の**間隔より広くないと、回が丸ごと漏れる。
+ # 実測：設定 10 分に対し実間隔 14〜69 分、数時間空くこともある。
+-CAPTURE_LEAD_MIN = 90       # 開映何分前から対象にするか（＝取りこぼさないための窓）
++# ローカル運転版。GitHub Actions の cron は指定どおりに来なかった
++# （実測 14〜69 分間隔、数時間空くこともある）ので、「広い窓で待ち構える」
++# のをやめ、**開映からの逆算で撮る時刻を決め打ち**する方式に変えた。
++# 起こす役は hub.py。この 3 点を撮る。
++#
++#   slot 0 … 1 日 1 回の大範囲走査。今日から SWEEP_DAYS 日先までの全回に
++#            ついて、その時点の座席を 1 枚（＝ベースライン）
++#   slot 1 … 開映 30 分前
++#   slot 2 … 開映  5 分前   ← 実態に一番近い読み
++#
++# 点を増やすなら CAPTURE_PLAN に足す（降順で書くこと）。
++CAPTURE_PLAN = [30, 5]
++PLAN_TOLERANCE_MIN = 2      # 起こされるのが多少早くても撮ってよい幅
++                            # （hub.py の刻みより広く、点の間隔より狭く）
+ LATE_GRACE_MIN = 5          # 開映後の猶予
+-TARGET_LEAD_MIN = 25        # 2 枚目以降はここまで引きつけてから撮る
+-FINAL_LEAD_MIN = 15         # これ以内で撮れたら確定
+-MAX_CAPTURES = 3            # 1 回あたりの最大撮影回数
+-
+-# 窓が広いこと自体は害ではないが、「窓に入った端から撮る」と撮影予算を
+-# 誰も買っていない時間帯で使い切ってしまう（90→75→60 分前で打ち止め）。
+-# そこで 1 枚目だけ保険として即撮り、2 枚目以降は TARGET_LEAD_MIN まで待つ。
+-# 結果：90 分前（保険）→ 24 分前 → 12 分前（確定）のように予算が活きる。
+-# 窓＝取りこぼさないため、撮影時機＝正確さのため、と役割を分けている。
++SWEEP_DAYS = 2              # 大範囲走査で何日先まで見るか（今日 + N 日）
++SWEEP_DAYS_NIGHT = 1        # 深夜〜早朝はここまで（先の日付はまだ売っていない）
++NIGHT_HOURS = (1, 7)        # 「深夜〜早朝」の範囲（JST の時、終端は含まない）
++
++
++def sweep_days(now) -> int:
++    """その時刻に走査で何日先まで見るか。
++
++    01:00〜07:00 に回すぶんには、先の日付を舐めても実りが少ない。TOHO は
++    3 日先までしか売らず、朝の販売開始前は翌々日の回に選座画面から入れない。
++    空振りに数十分かけるより射程を 1 日縮めたほうが、同じ時間で今日と明日を
++    丁寧に撮れる。日中に回したときは従来どおり 2 日先まで。
++    """
++    lo, hi = NIGHT_HOURS
++    return SWEEP_DAYS_NIGHT if lo <= now.hour < hi else SWEEP_DAYS
++
++
++# 座席図を計画点ごとに別ファイルで残すか。False なら 1 回につき 1 枚を
++# 上書きし、数値だけが記録の history に全点ぶん残る（画像が 3 倍にならない）。
++KEEP_SLOT_SHOTS = False
++
++CAPTURE_LEAD_MIN = CAPTURE_PLAN[0] + PLAN_TOLERANCE_MIN   # capture の既定の窓
++MAX_CAPTURES = 1 + len(CAPTURE_PLAN)
++
+ MAX_ATTEMPTS = 3            # 失敗の上限。超えたら failed にして行列から外す
+ 
+ # --- スケジュール同期 -----------------------------------------------
+-# 待ち行列に要るのは今日・明日だけ（フロントは captures/ を見るので
+-# 先の日付は使われない）。全件走査は手動の `sync --full` に降格。
+-LIGHT_SYNC_TABS = 2
++# 待ち行列に要るのは大範囲走査の射程ぶんだけ。全件走査は `sync --full`。
+ SCHEDULE_TTL_MIN = 360
+ 
+ # --- 相手サイトへの配慮 ---------------------------------------------
+@@ -625,6 +656,7 @@
+                 "schedule_id": schedule_id,
+                 "film_code": film_code,
+                 "status": "pending", "attempts": 0, "captures": 0,
++                "slots": [],             # 消化済みの計画点（due_slot 参照）
+                 "last_attempt_at": None,
+             })
+     return result
+@@ -697,7 +729,8 @@
+         for s in payload["showings"]:
+             if s["id"] in prev:
+                 keep = prev[s["id"]]
+-                for field in ("status", "attempts", "captures", "last_attempt_at"):
++                for field in ("status", "attempts", "captures", "slots",
++                              "last_attempt_at"):
+                     s[field] = keep.get(field, s[field])
+             rows.append(s)
+ 
+@@ -719,23 +752,39 @@
+ #  座席取得
+ # ═══════════════════════════════════════════════════════════════════
+ 
+-def should_capture(showing: dict, lead: float) -> bool:
+-    """今このタイミングで撮るべきか。
+-
+-    1 枚目は窓に入った瞬間に撮る（cron が次いつ来るか分からないので保険）。
+-    2 枚目以降は開映が近づくまで待つ。直前に買う客が少なくないため、
+-    遅く撮るほど実態に近い。
++def due_slot(showing: dict, lead: float, sweep: bool = False) -> int | None:
++    """今この瞬間に撮るべき計画点の番号。無ければ None。
++
++    slot 0     大範囲走査のベースライン（開映がまだ遠い回も 1 枚撮っておく）
++    slot 1..N  CAPTURE_PLAN の各点（開映 30 分前・5 分前 …）
++
++    起こされるのが遅れて 30 分前と 5 分前をまたいでしまったときは、**深いほう**
++    （開映に近いほう）だけを撮る。跨いだ点をあとから撮り直しても実態には
++    近づかないので、まとめて済みにする。
+     """
+-    n = showing.get("captures", 0)
+-    if n == 0:
+-        return True
+-    if n >= MAX_CAPTURES:
+-        return True # False
+-    return lead <= TARGET_LEAD_MIN
+-
+-
+-def due_showings(schedule: dict, now: datetime, lead_min: int) -> list[dict]:
+-    out = []
++    done = set(showing.get("slots") or [])
++    crossed = [i + 1 for i, p in enumerate(CAPTURE_PLAN)
++               if lead <= p + PLAN_TOLERANCE_MIN]
++    for i in reversed(crossed):
++        if i not in done:
++            return i
++    if sweep and not crossed and 0 not in done:
++        return 0
++    return None
++
++
++def slots_covered(slot: int, lead: float) -> list[int]:
++    """その 1 枚で消化したことにする計画点の一覧。"""
++    if slot == 0:
++        return [0]
++    return [0] + [i + 1 for i, p in enumerate(CAPTURE_PLAN)
++                  if lead <= p + PLAN_TOLERANCE_MIN and i + 1 <= slot]
++
++
++def due_showings(schedule: dict, now: datetime, lead_min: int,
++                 sweep: bool = False) -> list[tuple[dict, int]]:
++    """今撮るべき回と、その計画点の番号を並べて返す。"""
++    out: list[tuple[dict, int]] = []
+     for payload in schedule.get("days", {}).values():
+         for s in payload.get("showings", []):
+             if s.get("status") not in ("pending", "retry", "provisional"):
+@@ -747,9 +796,15 @@
+             except (ValueError, KeyError):
+                 continue
+             lead = (start - now).total_seconds() / 60
+-            if -LATE_GRACE_MIN <= lead <= lead_min and should_capture(s, lead):
+-                out.append(s)
+-    out.sort(key=lambda s: (s["start_at"], s["screen_no"]))
++            if lead < -LATE_GRACE_MIN:
++                continue
++            horizon = (sweep_days(now) + 1) * 1440 if sweep else lead_min
++            if lead > horizon:
++                continue
++            slot = due_slot(s, lead, sweep=sweep)
++            if slot is not None:
++                out.append((s, slot))
++    out.sort(key=lambda t: (t[0]["start_at"], t[0]["screen_no"]))
+     return out
+ 
+ 
+@@ -920,16 +975,112 @@
+     return "schedule"
+ 
+ 
++def lead_of(rec: dict, default: float = 9999.0) -> float:
++    """開映まで何分か。数値として使えないときは default を返す。
++
++    lead_minutes は「予定だけの記録」には無く、古い記録では欠けていることも
++    ある。並べ替えの鍵に直接入れると None が紛れて比較が壊れるので、
++    ここで必ず float にしてから使う。
++    """
++    v = rec.get("lead_minutes") if "lead_minutes" in rec else rec.get("lead")
++    return float(v) if isinstance(v, (int, float)) else default
++
++
++def record_quality(rec: dict) -> int:
++    """記録の質。2 = 信用できる座席の読み、1 = 怪しい、0 = 予定だけ。
++
++    ここが記録を守る要になる。同じ回の記録は id が同じなので 1 件しか残らず、
++    順位は「開映に近いほうが勝つ」で決めていた。ところが座席ページには
++    入れたのに座席表が描かれない、途中までしか描かれない、という失敗の仕方が
++    ある。そのまま順位を付けると、開映 5 分前に取れた **0 席の読み** が
++    30 分前の正しい読みを追い出してしまう。
++
++    質を順位の第 1 要素に置くと、それが起きない。壊れた読みは既存を
++    押しのけられず、記録に残るのは最後に取れた **まともな** 読みになる。
++
++    満席は壊れた読みではない。sold=376 / vacant=0 / total=376 は
++    公称席数と一致するので質 2 と判定され、通常どおり更新される。
++    """
++    if record_source(rec) != "seat":
++        return 0
++    counts = rec.get("seat_counts") or {}
++    total = counts.get("total") or 0
++    if total <= 0 or rec.get("occupancy") is None:
++        return 1                       # 座席が 1 つも読めていない
++    expected = counts.get("expected")
++    if expected and abs(total - expected) > 2:
++        return 1                       # 公称席数と食い違う＝読み落としている
++    return 2
++
++
+ def record_rank(rec: dict) -> tuple:
+-    """大きいほど優先。seat > schedule、seat 同士は開映に近いほうが勝つ。
+-
+-    段が違えば下の段は決して上を追い越さない。つまり予定だけの記録が
+-    撮影済みの記録を上書きすることは、どんな時刻であってもあり得ない。
++    """大きいほど優先。まず質、次に開映への近さ。"""
++    q = record_quality(rec)
++    if q == 0:
++        return (0, 0, rec.get("updated_at") or "")
++    return (q, -lead_of(rec), rec.get("captured_at") or "")
++
++
++def record_history(rec: dict | None) -> list[dict]:
++    """記録が持っている「読みの並び」。撮影記録なら自分自身も 1 点として数える。
++
++    同じ回を 3 回撮っても、id が同じなので勝ち残る記録は 1 件だけ（開映に一番
++    近い読み）。それだけだと売れ方の推移が消えてしまうので、数値の点だけを
++    history に畳んで持たせる。id が決定的なぶん、この配列も点の和集合として
++    合流でき、順番が違っても二度流しても同じ結果になる。
+     """
+-    if record_source(rec) == "seat":
+-        lead = rec.get("lead_minutes")
+-        return (1, -(lead if lead is not None else 9999), rec.get("captured_at") or "")
+-    return (0, 0, rec.get("updated_at") or "")
++    out = list(rec.get("history") or []) if rec else []
++    p = record_point(rec) if rec else None
++    if p:
++        out.append(p)
++    return out
++
++
++def record_point(rec: dict) -> dict | None:
++    """その記録自身を推移の 1 点として表したもの。怪しい読みなら None。"""
++    if record_quality(rec) < 2:
++        return None
++    counts = rec.get("seat_counts") or {}
++    return {"at": rec.get("captured_at"), "lead": rec.get("lead_minutes"),
++            "slot": rec.get("capture_slot"), "sold": counts.get("sold"),
++            "vacant": counts.get("vacant"), "total": counts.get("total"),
++            "occupancy": rec.get("occupancy")}
++
++
++def _hist_rank(h: dict) -> tuple:
++    return (-lead_of(h), h.get("at") or "")
++
++
++def merge_history(*groups) -> list[dict]:
++    """点の和集合。同じ計画点が二重に来たら開映に近い読みを残す。"""
++    best: dict[Any, dict] = {}
++    for group in groups:
++        for h in group or []:
++            if not h or h.get("sold") is None:
++                continue
++            key = h.get("slot")
++            if key is None:
++                key = round(h.get("lead") or 0)
++            cur = best.get(key)
++            if cur is None or _hist_rank(h) > _hist_rank(cur):
++                best[key] = h
++    # 開映から遠い点（＝早い時刻に撮ったもの）を先頭に置く。lead が欠けている
++    # 点はいつの読みか分からないので末尾に回す。record_rank とは既定値が逆に
++    # なるが、あちらは「不明なら既存を押しのけない」で、こちらは「不明なら
++    # 推移の途中に割り込ませない」。どちらも安全側に倒している。
++    return sorted(best.values(), key=lambda h: -lead_of(h, -1.0))
++
++
++def looks_truncated(new: dict, cur: dict) -> bool:
++    """新しい読みで席数が目減りしていないか。
++
++    公称席数が分からないスクリーンでは record_quality が働かない。その場合は
++    既存の記録そのものを物差しにする。同じ回で箱の大きさが 1 割も縮むのは
++    座席表を読み切れていないときだけで、正常な変化ではない。
++    """
++    a = (new.get("seat_counts") or {}).get("total") or 0
++    b = (cur.get("seat_counts") or {}).get("total") or 0
++    return b > 0 and a < b * 0.9
+ 
+ 
+ def archive_many(records: list[dict]) -> int:
+@@ -948,8 +1099,34 @@
+         changed = False
+         for rec in batch:
+             cur = index.get(rec["id"])
+-            if cur is None or record_rank(rec) > record_rank(cur):
+-                index[rec["id"]] = rec
++            if cur is None:
++                winner = rec
++            elif record_quality(rec) != record_quality(cur):
++                # まず質。0 席や公称と食い違う読みは、開映に近くても勝てない。
++                winner = rec if record_quality(rec) > record_quality(cur) else cur
++            elif looks_truncated(rec, cur):
++                # 質が同点でも席数が縮んでいる＝読み切れていない。既存を守る。
++                LOG.warning("席数の目減りを検知したので更新しない: %s（%s → %s 席）",
++                            rec.get("id"), (cur.get("seat_counts") or {}).get("total"),
++                            (rec.get("seat_counts") or {}).get("total"))
++                winner = cur
++            elif looks_truncated(cur, rec):
++                # 逆向き。先に入っていたほうが読み切れていなかった場合。
++                winner = rec
++            else:
++                winner = rec if record_rank(rec) > record_rank(cur) else cur
++
++            # 推移の点。負けたほうの数値も残す（票の動きはここにしか無い）。
++            hist = merge_history(record_history(cur), record_history(rec))
++            # 読み切れていない点は落とす。折れ線が谷になるだけで「その時刻に
++            # それだけしか売れていなかった」ではない。物差しは勝った記録の席数。
++            # 一度取り込んでしまった点にも遡って効く。
++            floor = ((winner.get("seat_counts") or {}).get("total") or 0) * 0.9
++            if floor:
++                hist = [h for h in hist if not h.get("total") or h["total"] >= floor]
++            merged = {**winner, "history": hist} if hist else winner
++            if merged != cur:
++                index[rec["id"]] = merged
+                 changed = True
+                 written += 1
+         if not changed:
+@@ -1054,7 +1231,8 @@
+     films = build_films(records)
+     write_json(FILMS_FILE, films)
+ 
+-    months, dates = [], {}
++    months: list[dict] = []
++    dates: dict[str, dict] = {}
+     for path in sorted(CAPTURES.glob("*.json")):
+         caps = read_json(path, {}).get("captures", [])
+         if caps:
+@@ -1220,6 +1398,7 @@
+                 mine["status"] = s["status"]
+             mine["captures"] = max(mine.get("captures", 0), s.get("captures", 0))
+             mine["attempts"] = max(mine.get("attempts", 0), s.get("attempts", 0))
++            mine["slots"] = sorted(set(mine.get("slots") or []) | set(s.get("slots") or []))
+             for field in ("reserve_url", "schedule_id", "film_code"):
+                 if not mine.get(field) and s.get(field):
+                     mine[field] = s[field]
+@@ -1373,7 +1552,8 @@
+     pw, browser, ctx = browser_session()
+     try:
+         ctx.image_flags["images"] = False        # 一覧は本文と属性しか要らない
+-        days = scrape_schedule(ctx.new_page(), None if full else LIGHT_SYNC_TABS)
++        days = scrape_schedule(ctx.new_page(),
++                               None if full else sweep_days(now_jst()) + 1)
+     finally:
+         ctx.close(); browser.close(); pw.stop()
+ 
+@@ -1405,10 +1585,10 @@
+ 
+ 
+ def cmd_capture(lead_min: int = CAPTURE_LEAD_MIN, limit: int | None = None,
+-                dry_run: bool = False) -> None:
++                dry_run: bool = False, sweep: bool = False) -> None:
+     schedule = read_json(SCHEDULE_FILE, {"days": {}})
+     now = now_jst()
+-    due = due_showings(schedule, now, lead_min)
++    due = due_showings(schedule, now, lead_min, sweep=sweep)
+     if limit:
+         due = due[:limit]
+ 
+@@ -1436,13 +1616,17 @@
+         page.wait_for_timeout(2000)
+         ctx.image_flags["images"] = True     # 座席図と販売済マークは撮影対象
+ 
+-        for s in due:
++        for s, slot in due:
+             s["last_attempt_at"] = now_jst().isoformat()
+             try:
+                 seat_page = open_seat_page(page, s)
+                 if seat_page is None:
+-                    s["attempts"] += 1
+-                    s["status"] = "retry" if s["attempts"] < MAX_ATTEMPTS else "failed"
++                    # 大範囲走査には販売前の回も混ざる。ここで失敗回数を
++                    # 数えると、本番（30 分前・5 分前）までに上限を使い切る。
++                    if not sweep:
++                        s["attempts"] += 1
++                        s["status"] = ("retry" if s["attempts"] < MAX_ATTEMPTS
++                                       else "failed")
+                     fail += 1
+                     EV.add("CAP", "no-page",
+                            f"{s['date'][5:]} {s['start']} {s['film_title'][:14]}"
+@@ -1451,8 +1635,10 @@
+ 
+                 shot = None
+                 if SAVE_SEAT_SHOT and not dry_run:
++                    suffix = f"_p{slot}" if KEEP_SLOT_SHOTS else ""
+                     name = (f"{s['film_key']}_{s['date'].replace('-', '')}"
+-                            f"_{s['start'].replace(':', '')}_{THEATER['id']}.jpg")
++                            f"_{s['start'].replace(':', '')}_{THEATER['id']}"
++                            f"{suffix}.jpg")
+                     shot = SEATS / s["date"][:7] / name
+ 
+                 rec = read_seat_page(seat_page, shot, s.get("screen_seats"))
+@@ -1470,12 +1656,14 @@
+                         dedupe_dir=SCREENS if DEDUPE_SCREENS else None,
+                         prefix=f"{THEATER['id']}_{s['screen_no']}_")
+ 
+-                s["captures"] += 1
+-                final = lead <= FINAL_LEAD_MIN or s["captures"] >= MAX_CAPTURES
++                s["captures"] = s.get("captures", 0) + 1
++                s["slots"] = sorted(set(s.get("slots") or [])
++                                    | set(slots_covered(slot, lead)))
++                final = slot >= len(CAPTURE_PLAN)
+                 record = {**s, **rec, "poster": poster, "screen_image": screen_img,
+                           "source": "seat",
+                           "lead_minutes": lead, "captured_at": now_jst().isoformat(),
+-                          "capture_round": s["captures"],
++                          "capture_round": s["captures"], "capture_slot": slot,
+                           "status": "captured" if final else "provisional",
+                           "theater": THEATER["id"], "theater_name": THEATER["name"]}
+ 
+@@ -1487,7 +1675,7 @@
+                 ok += 1
+ 
+                 occ = rec.get("occupancy")
+-                EV.add("CAP", "final" if final else f"{s['captures']}/{MAX_CAPTURES}",
++                EV.add("CAP", "final" if final else f"slot{slot}",
+                        f"{s['date'][5:]} {s['start']} s{s['screen_no']} "
+                        f"{s['film_title'][:14]} lead={lead:.0f}m "
+                        f"occ={f'{occ:.0%}' if occ is not None else '?'}"
+@@ -1513,8 +1701,9 @@
+         write_json(SCHEDULE_FILE, schedule)
+         rebuild_index()
+ 
+-    EV.add("CAP", "done", f"対象 {len(due)} / 成功 {ok} / 失敗 {fail} / {time.time() - t0:.0f}s"
+-                          + ("   [dry-run]" if dry_run else ""))
++    EV.add("CAP", "sweep" if sweep else "done",
++           f"対象 {len(due)} / 成功 {ok} / 失敗 {fail} / {time.time() - t0:.0f}s"
++           + ("   [dry-run]" if dry_run else ""))
+ 
+ 
+ 
+@@ -1735,14 +1924,17 @@
+         description="T・ジョイ梅田 座席表アーカイバ",
+         epilog="まず `python cinema.py doctor` で環境を確認してください。")
+     p.add_argument("command", nargs="?", default="run",
+-                   choices=["run", "sync", "capture", "index", "doctor", "log",
+-                            "inspect", "pull", "push", "repair"])
++                   choices=["run", "sweep", "sync", "capture", "index", "doctor",
++                            "log", "inspect", "pull", "push", "repair"])
+     p.add_argument("--force", action="store_true", help="sync で TTL を無視する")
+-    p.add_argument("--full", action="store_true", help="sync で全日程を見る（既定は今日と明日）")
++    p.add_argument("--full", action="store_true",
++                   help="sync で全日程を見る（既定は今日から SWEEP_DAYS 日先まで）")
+     p.add_argument("--lead", type=int, metavar="MIN",
+                    help=f"capture の対象窓を一時的に変える（既定 {CAPTURE_LEAD_MIN} 分）")
+     p.add_argument("--limit", type=int, metavar="N", help="capture で最初の N 件だけ処理する")
+     p.add_argument("--dry-run", action="store_true", help="取得はするがファイルを書かない")
++    p.add_argument("--sweep", action="store_true",
++                   help="capture で窓を無視し、先の回もベースラインとして撮る")
+     p.add_argument("-n", type=int, default=40, help="log で表示する行数")
+     p.add_argument("--url", help="inspect の対象 URL")
+     p.add_argument("--live", nargs="?", const="", default=None, metavar="YYYY-MM-DD",
+@@ -1794,11 +1986,12 @@
+     try:
+         if sync_repo:
+             cmd_pull()            # 走る前にリモートの成果を取り込む
+-        if args.command in ("run", "sync"):
+-            cmd_sync(force=args.force, full=args.full)
+-        if args.command in ("run", "capture"):
++        sweep = args.sweep or args.command == "sweep"
++        if args.command in ("run", "sweep", "sync"):
++            cmd_sync(force=args.force or sweep, full=args.full)
++        if args.command in ("run", "sweep", "capture"):
+             cmd_capture(lead_min=args.lead if args.lead is not None else CAPTURE_LEAD_MIN,
+-                        limit=args.limit, dry_run=args.dry_run)
++                        limit=args.limit, dry_run=args.dry_run, sweep=sweep)
+     except Blocked as exc:
+         enter_cooldown(str(exc))
+         EV.flush()
+
+--- a/toho/index.html
++++ b/toho/index.html
+@@ -38,6 +38,7 @@
+ .btn{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;
+   padding:7px 14px;border:1px solid var(--ink);border-radius:2px;background:var(--sheet);
+   transition:background .15s,color .15s}
++.btn{display:inline-block;text-decoration:none}
+ .btn:hover{background:var(--ink);color:var(--sheet)}
+ .btn.-ghost{border-color:var(--line);color:var(--muted)}
+ .btn.-ghost:hover{background:var(--ink);border-color:var(--ink);color:var(--sheet)}
+@@ -66,6 +67,9 @@
+ .day-chip .n{margin-left:auto;font-size:10px;color:#5C6B7C}
+ .day-chip[aria-current="true"]{color:#fff;background:var(--accent)}
+ .day-chip[aria-current="true"] .n{color:rgba(255,255,255,.7)}
++.day-chip.-today{color:#fff}
++.day-chip.-today::before{content:"●";font-size:7px;color:var(--accent);margin-right:-1px}
++.day-chip.-today[aria-current="true"]::before{color:#fff}
+ 
+ .day{margin-bottom:52px;scroll-margin-top:92px}
+ .day-head{display:flex;align-items:flex-end;gap:14px;padding-bottom:9px;
+@@ -179,9 +183,10 @@
+ 
+ <header class="top">
+   <div class="top-in">
+-    <span class="brand">座席表<em>アーカイブ</em></span>
++    <span class="brand">TOHOシネマズ<em>梅田</em></span>
+     <span class="stat" id="stat">読み込み中…</span>
+     <span class="top-actions">
++      <a class="btn -ghost" href="../index.html">← 二館</a>
+       <button class="btn -ghost" id="btn-home">日別</button>
+       <button class="btn" id="btn-gallery">作品一覧</button>
+     </span>
+@@ -208,6 +213,10 @@
+ 
+ const INDEX = 'data/index.json';
+ const WD = ['日','月','火','水','木','金','土'];
++
++// 今日（JST）。閲覧側の時計が別の帯にいても、劇場の日付に合わせる。
++const TODAY = new Date(Date.now() + (new Date().getTimezoneOffset() + 540) * 60000)
++  .toISOString().slice(0, 10);
+ const $ = s => document.querySelector(s);
+ const state = {captures:[], all:[], byDate:new Map(), byFilm:new Map(),
+                films:new Map(), venues:[], venue:'*'};
+@@ -329,10 +338,19 @@
+     </div><div class="shots">${list.map(shotEl).join('')}</div></div></div>`;
+ }
+ 
++// 今日の記録があればその日。無ければ直近の過去、それも無ければ一番早い未来。
++function nearestDay(){
++  const ds = dates();                         // 新しい順
++  if(!ds.length) return null;
++  if(state.byDate.has(TODAY)) return TODAY;
++  return ds.find(d => d < TODAY) || ds[ds.length - 1];
++}
++
+ function renderRail(active){
+   $('#strip').innerHTML = dates().map(d => {
+     const {md, wd} = fmtDay(d);
+-    return `<button class="day-chip" data-date="${d}" ${d === active ? 'aria-current="true"' : ''}>
++    return `<button class="day-chip${d === TODAY ? ' -today' : ''}" data-date="${d}"
++      ${d === active ? 'aria-current="true"' : ''}>
+       <span>${md}</span><span class="wd">${wd}</span>
+       <span class="n">${state.byDate.get(d).length}</span></button>`;
+   }).join('');
+@@ -395,12 +413,18 @@
+     </div></div>
+     ${[...byDate].map(([d, l]) => {
+       const {md, wd} = fmtDay(d);
+-      return `<section class="day"><div class="day-head">
++      return `<section class="day" id="d-${d}"><div class="day-head">
+         <span class="day-num">${md}</span><span class="day-meta">${wd}曜</span>
+         <span class="day-count">${l.length} 回</span></div>
+         <div class="shots">${l.map(shotEl).join('')}</div></section>`;
+     }).join('')}</div>`;
+   window.scrollTo(0, 0);
++
++  // 作品ページも同じ。先の日付が上に積まれていたら今日まで送る。
++  const ds = [...byDate.keys()];
++  const t = byDate.has(TODAY) ? TODAY : ds.find(d => d < TODAY);
++  if(t && t !== ds[0]) requestAnimationFrame(() =>
++    document.getElementById('d-' + t)?.scrollIntoView({block:'start'}));
+ }
+ 
+ function viewGallery(){
+@@ -428,10 +452,13 @@
+   else if(h === '#/films') viewGallery();
+   else {
+     viewDays();
++    // 日付の指定が無ければ今日を出す。既に先頭が今日なら動かさない。
+     const m = h.match(/^#\/day\/(\d{4}-\d{2}-\d{2})/);
+-    if(m) requestAnimationFrame(() => {
+-      document.getElementById('d-' + m[1])?.scrollIntoView({behavior:'smooth', block:'start'});
+-      $(`.day-chip[data-date="${m[1]}"]`)?.setAttribute('aria-current','true');
++    const target = m ? m[1] : nearestDay();
++    if(target && (m || target !== dates()[0])) requestAnimationFrame(() => {
++      document.getElementById('d-' + target)
++        ?.scrollIntoView({behavior: m ? 'smooth' : 'auto', block:'start'});
++      $(`.day-chip[data-date="${target}"]`)?.setAttribute('aria-current','true');
+     });
+   }
+ }
+
+--- a/tjoy/index.html
++++ b/tjoy/index.html
+@@ -38,6 +38,7 @@
+ .btn{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;
+   padding:7px 14px;border:1px solid var(--ink);border-radius:2px;background:var(--sheet);
+   transition:background .15s,color .15s}
++.btn{display:inline-block;text-decoration:none}
+ .btn:hover{background:var(--ink);color:var(--sheet)}
+ .btn.-ghost{border-color:var(--line);color:var(--muted)}
+ .btn.-ghost:hover{background:var(--ink);border-color:var(--ink);color:var(--sheet)}
+@@ -66,6 +67,9 @@
+ .day-chip .n{margin-left:auto;font-size:10px;color:#5C6B7C}
+ .day-chip[aria-current="true"]{color:#fff;background:var(--accent)}
+ .day-chip[aria-current="true"] .n{color:rgba(255,255,255,.7)}
++.day-chip.-today{color:#fff}
++.day-chip.-today::before{content:"●";font-size:7px;color:var(--accent);margin-right:-1px}
++.day-chip.-today[aria-current="true"]::before{color:#fff}
+ 
+ .day{margin-bottom:52px;scroll-margin-top:92px}
+ .day-head{display:flex;align-items:flex-end;gap:14px;padding-bottom:9px;
+@@ -164,9 +168,10 @@
+ 
+ <header class="top">
+   <div class="top-in">
+-    <span class="brand">座席表<em>アーカイブ</em></span>
++    <span class="brand">T・ジョイ<em>梅田</em></span>
+     <span class="stat" id="stat">読み込み中…</span>
+     <span class="top-actions">
++      <a class="btn -ghost" href="../index.html">← 二館</a>
+       <button class="btn -ghost" id="btn-home">日別</button>
+       <button class="btn" id="btn-gallery">作品一覧</button>
+     </span>
+@@ -191,6 +196,10 @@
+ 
+ const INDEX = 'data/index.json';
+ const WD = ['日','月','火','水','木','金','土'];
++
++// 今日（JST）。閲覧側の時計が別の帯にいても、劇場の日付に合わせる。
++const TODAY = new Date(Date.now() + (new Date().getTimezoneOffset() + 540) * 60000)
++  .toISOString().slice(0, 10);
+ const $ = s => document.querySelector(s);
+ const state = {captures:[], byDate:new Map(), byFilm:new Map(), films:new Map()};
+ 
+@@ -290,10 +299,19 @@
+     </div><div class="shots">${list.map(shotEl).join('')}</div></div></div>`;
+ }
+ 
++// 今日の記録があればその日。無ければ直近の過去、それも無ければ一番早い未来。
++function nearestDay(){
++  const ds = dates();                         // 新しい順
++  if(!ds.length) return null;
++  if(state.byDate.has(TODAY)) return TODAY;
++  return ds.find(d => d < TODAY) || ds[ds.length - 1];
++}
++
+ function renderRail(active){
+   $('#strip').innerHTML = dates().map(d => {
+     const {md, wd} = fmtDay(d);
+-    return `<button class="day-chip" data-date="${d}" ${d === active ? 'aria-current="true"' : ''}>
++    return `<button class="day-chip${d === TODAY ? ' -today' : ''}" data-date="${d}"
++      ${d === active ? 'aria-current="true"' : ''}>
+       <span>${md}</span><span class="wd">${wd}</span>
+       <span class="n">${state.byDate.get(d).length}</span></button>`;
+   }).join('');
+@@ -356,12 +374,18 @@
+     </div></div>
+     ${[...byDate].map(([d, l]) => {
+       const {md, wd} = fmtDay(d);
+-      return `<section class="day"><div class="day-head">
++      return `<section class="day" id="d-${d}"><div class="day-head">
+         <span class="day-num">${md}</span><span class="day-meta">${wd}曜</span>
+         <span class="day-count">${l.length} 回</span></div>
+         <div class="shots">${l.map(shotEl).join('')}</div></section>`;
+     }).join('')}</div>`;
+   window.scrollTo(0, 0);
++
++  // 作品ページも同じ。先の日付が上に積まれていたら今日まで送る。
++  const ds = [...byDate.keys()];
++  const t = byDate.has(TODAY) ? TODAY : ds.find(d => d < TODAY);
++  if(t && t !== ds[0]) requestAnimationFrame(() =>
++    document.getElementById('d-' + t)?.scrollIntoView({block:'start'}));
+ }
+ 
+ function viewGallery(){
+@@ -388,10 +412,13 @@
+   else if(h === '#/films') viewGallery();
+   else {
+     viewDays();
++    // 日付の指定が無ければ今日を出す。既に先頭が今日なら動かさない。
+     const m = h.match(/^#\/day\/(\d{4}-\d{2}-\d{2})/);
+-    if(m) requestAnimationFrame(() => {
+-      document.getElementById('d-' + m[1])?.scrollIntoView({behavior:'smooth', block:'start'});
+-      $(`.day-chip[data-date="${m[1]}"]`)?.setAttribute('aria-current','true');
++    const target = m ? m[1] : nearestDay();
++    if(target && (m || target !== dates()[0])) requestAnimationFrame(() => {
++      document.getElementById('d-' + target)
++        ?.scrollIntoView({behavior: m ? 'smooth' : 'auto', block:'start'});
++      $(`.day-chip[data-date="${target}"]`)?.setAttribute('aria-current','true');
+     });
+   }
+ }

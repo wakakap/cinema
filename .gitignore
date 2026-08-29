@@ -1,4 +1,4 @@
-inspect/
 __pycache__/
-logs/doctor_seat.jpg
+*.pyc
 *.tmp
+inspect/

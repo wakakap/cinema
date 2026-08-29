@@ -1,0 +1,326 @@
+{
+  "film-e259f3": {
+    "key": "film-e259f3",
+    "title": "時には懺悔を",
+    "poster": null,
+    "tags": [
+      "レイトショー"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-31",
+    "cinemas": [
+      "tohoumeda"
+    ],
+    "showing_count": 15,
+    "capture_count": 13
+  },
+  "film-01dfa3": {
+    "key": "film-01dfa3",
+    "title": "シェルター",
+    "poster": null,
+    "tags": [
+      "字幕",
+      "レイトショー"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-31",
+    "cinemas": [
+      "tohoumeda"
+    ],
+    "showing_count": 12,
+    "capture_count": 9
+  },
+  "film-2bf82d": {
+    "key": "film-2bf82d",
+    "title": "パウっと！ファミリーシアター",
+    "poster": null,
+    "tags": [
+      "パウ・パトロール ザ・ダイノ・ムービー・吹替版",
+      "吹替"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-31",
+    "cinemas": [
+      "tohoumeda"
+    ],
+    "showing_count": 3,
+    "capture_count": 2
+  },
+  "film-2fcda0": {
+    "key": "film-2fcda0",
+    "title": "スパイダーマン：ブランド・ニュー・デイ",
+    "poster": "../tjoy/media/posters/spider-man-brand-new-day-0fdee1.jpg",
+    "tags": [
+      "字幕",
+      "吹替",
+      "レイトショー"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-31",
+    "cinemas": [
+      "tohoumeda"
+    ],
+    "showing_count": 8,
+    "capture_count": 6,
+    "poster_from": "tjoy"
+  },
+  "film-71cf8f": {
+    "key": "film-71cf8f",
+    "title": "ラスト・サバイバー",
+    "poster": null,
+    "tags": [
+      "Ｄｏｌｂｙ－ＡＴＭＯＳ・字幕版",
+      "Dolby Atmos",
+      "ATMOS",
+      "字幕",
+      "レイトショー"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-31",
+    "cinemas": [
+      "tohoumeda"
+    ],
+    "showing_count": 13,
+    "capture_count": 12
+  },
+  "film-f63727": {
+    "key": "film-f63727",
+    "title": "オークストリートの異変",
+    "poster": "../tjoy/media/posters/the-end-of-oak-street-964311.jpg",
+    "tags": [
+      "字幕"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-31",
+    "cinemas": [
+      "tohoumeda"
+    ],
+    "showing_count": 5,
+    "capture_count": 4,
+    "poster_from": "tjoy"
+  },
+  "film-dfd467": {
+    "key": "film-dfd467",
+    "title": "劇場版 魔法少女まどか☆マギカ〈ワルプルギスの廻天〉",
+    "poster": "../tjoy/media/posters/puella-magi-madoka-magica-walpurgisnacht-0fd537.jpg",
+    "tags": [
+      "舞台挨拶中継・Ｄｏｌｂｙ－ＡＴＭＯＳ",
+      "Dolby Atmos",
+      "ATMOS",
+      "Ｄｏｌｂｙ－ＡＴＭＯＳ",
+      "レイトショー"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-31",
+    "cinemas": [
+      "tohoumeda"
+    ],
+    "showing_count": 15,
+    "capture_count": 13,
+    "poster_from": "tjoy"
+  },
+  "film-8ff868": {
+    "key": "film-8ff868",
+    "title": "八月の声を運ぶ男",
+    "poster": null,
+    "tags": [],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-31",
+    "cinemas": [
+      "tohoumeda"
+    ],
+    "showing_count": 3,
+    "capture_count": 2
+  },
+  "film-e97bc9": {
+    "key": "film-e97bc9",
+    "title": "ミニオンズ＆モンスターズ",
+    "poster": "../tjoy/media/posters/minions-monsters-a63f70.jpg",
+    "tags": [
+      "吹替",
+      "レイトショー"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-31",
+    "cinemas": [
+      "tohoumeda"
+    ],
+    "showing_count": 6,
+    "capture_count": 6,
+    "poster_from": "tjoy"
+  },
+  "film-5a6ba2": {
+    "key": "film-5a6ba2",
+    "title": "映画クレヨンしんちゃん 奇々怪々！オラの妖怪バケ～ション",
+    "poster": "../tjoy/media/posters/crayon-shin-chan-2026-07920d.jpg",
+    "tags": [],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-31",
+    "cinemas": [
+      "tohoumeda"
+    ],
+    "showing_count": 3,
+    "capture_count": 3,
+    "poster_from": "tjoy"
+  },
+  "film-3838a2": {
+    "key": "film-3838a2",
+    "title": "映画ちいかわ 人魚の島のひみつ",
+    "poster": "../tjoy/media/posters/chiikawa-0377e3.jpg",
+    "tags": [
+      "レイトショー"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-31",
+    "cinemas": [
+      "tohoumeda"
+    ],
+    "showing_count": 15,
+    "capture_count": 15,
+    "poster_from": "tjoy"
+  },
+  "film-8d7903": {
+    "key": "film-8d7903",
+    "title": "ドラマなふたり",
+    "poster": null,
+    "tags": [
+      "字幕",
+      "レイトショー"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-31",
+    "cinemas": [
+      "tohoumeda"
+    ],
+    "showing_count": 5,
+    "capture_count": 5
+  },
+  "film-87658e": {
+    "key": "film-87658e",
+    "title": "ハリー・ポッターと賢者の石",
+    "poster": null,
+    "tags": [
+      "吹替",
+      "レイトショー"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-31",
+    "cinemas": [
+      "tohoumeda"
+    ],
+    "showing_count": 6,
+    "capture_count": 6
+  },
+  "film-b1b479": {
+    "key": "film-b1b479",
+    "title": "トイ・ストーリー５",
+    "poster": null,
+    "tags": [
+      "吹替"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-31",
+    "cinemas": [
+      "tohoumeda"
+    ],
+    "showing_count": 6,
+    "capture_count": 6
+  },
+  "film-5043c7": {
+    "key": "film-5043c7",
+    "title": "キングダム 魂の決戦",
+    "poster": "../tjoy/media/posters/kingdom-ae54ae.jpg",
+    "tags": [
+      "Ｄｏｌｂｙ－ＡＴＭＯＳ",
+      "ATMOS",
+      "レイトショー"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-31",
+    "cinemas": [
+      "tohoumeda"
+    ],
+    "showing_count": 6,
+    "capture_count": 5,
+    "poster_from": "tjoy"
+  },
+  "film-d3b025": {
+    "key": "film-d3b025",
+    "title": "ブルーロック",
+    "poster": "../tjoy/media/posters/blue-lock-4f16c3.jpg",
+    "tags": [],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-31",
+    "cinemas": [
+      "tohoumeda"
+    ],
+    "showing_count": 3,
+    "capture_count": 3,
+    "poster_from": "tjoy"
+  },
+  "michael-9b1cba": {
+    "key": "michael-9b1cba",
+    "title": "Ｍｉｃｈａｅｌ／マイケル",
+    "poster": "../tjoy/media/posters/michael-michael-43664c.jpg",
+    "tags": [
+      "発声＆スタンディングＯＫ・Ｄｏｌｂｙ－ＡＴＭＯＳ・ＭＶ付・字幕版",
+      "Dolby Atmos",
+      "ATMOS",
+      "字幕",
+      "Ｄｏｌｂｙ－ＡＴＭＯＳ・ＭＶ付・字幕版"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-31",
+    "cinemas": [
+      "tohoumeda"
+    ],
+    "showing_count": 3,
+    "capture_count": 3,
+    "poster_from": "tjoy"
+  },
+  "film-a90019": {
+    "key": "film-a90019",
+    "title": "モアナと伝説の海",
+    "poster": "../tjoy/media/posters/moana-3624e0.jpg",
+    "tags": [
+      "吹替",
+      "レイトショー"
+    ],
+    "first_seen": "2026-08-29",
+    "last_seen": "2026-08-31",
+    "cinemas": [
+      "tohoumeda"
+    ],
+    "showing_count": 3,
+    "capture_count": 3,
+    "poster_from": "tjoy"
+  },
+  "stray-kids-world-tour-run-it-japan-live-1c02c1": {
+    "key": "stray-kids-world-tour-run-it-japan-live-1c02c1",
+    "title": "Ｓｔｒａｙ Ｋｉｄｓ Ｗｏｒｌｄ Ｔｏｕｒ ＜ＲＵＮ ＩＴ ＪＡＰＡＮ＞ Ｌｉｖｅ Ｖｉｅｗｉｎｇ",
+    "poster": null,
+    "tags": [],
+    "first_seen": "2026-08-30",
+    "last_seen": "2026-08-30",
+    "cinemas": [
+      "tohoumeda"
+    ],
+    "showing_count": 1,
+    "capture_count": 1
+  },
+  "film-d0ad07": {
+    "key": "film-d0ad07",
+    "title": "大長編 タローマン 万博大爆発",
+    "poster": null,
+    "tags": [
+      "レイトショー"
+    ],
+    "first_seen": "2026-08-31",
+    "last_seen": "2026-08-31",
+    "cinemas": [
+      "tohoumeda"
+    ],
+    "showing_count": 1,
+    "capture_count": 1
+  }
+}

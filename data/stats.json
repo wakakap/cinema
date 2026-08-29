@@ -1,0 +1,743 @@
+{
+ "generated_at": "2026-08-29T18:53:42.205944+09:00",
+ "note": "開映直前の座席表から数えた販売席数。興行収入ではない。",
+ "cinemas": [
+  {
+   "id": "tjoy",
+   "dir": "tjoy",
+   "name": "T・ジョイ梅田",
+   "short": "T・ジョイ",
+   "color": "#D4000F"
+  },
+  {
+   "id": "toho",
+   "dir": "toho",
+   "name": "TOHOシネマズ梅田",
+   "short": "TOHO",
+   "color": "#1B62C8"
+  }
+ ],
+ "dates": [
+  "2026-08-28",
+  "2026-08-29",
+  "2026-08-30",
+  "2026-08-31"
+ ],
+ "films": [
+  {
+   "key": "劇場版魔法少女まどかマギカワルプルギスの廻天",
+   "title": "劇場版 魔法少女まどか☆マギカ〈ワルプルギスの廻天〉",
+   "poster": "tjoy/media/posters/puella-magi-madoka-magica-walpurgisnacht-0fd537.jpg",
+   "first": "2026-08-28",
+   "last": "2026-08-31",
+   "totals": {
+    "tjoy": {
+     "sold": 2804,
+     "shows": 29,
+     "seats": 7997
+    },
+    "toho": {
+     "sold": 1819,
+     "shows": 13,
+     "seats": 7666
+    }
+   },
+   "series": {
+    "tjoy": {
+     "2026-08-28": 1569,
+     "2026-08-29": 733,
+     "2026-08-30": 429,
+     "2026-08-31": 73
+    },
+    "toho": {
+     "2026-08-29": 964,
+     "2026-08-30": 674,
+     "2026-08-31": 181
+    }
+   }
+  },
+  {
+   "key": "映画ちいかわ人魚の島のひみつ",
+   "title": "映画ちいかわ 人魚の島のひみつ",
+   "poster": "tjoy/media/posters/chiikawa-0377e3.jpg",
+   "first": "2026-08-28",
+   "last": "2026-08-31",
+   "totals": {
+    "tjoy": {
+     "sold": 236,
+     "shows": 14,
+     "seats": 1959
+    },
+    "toho": {
+     "sold": 2196,
+     "shows": 15,
+     "seats": 7100
+    }
+   },
+   "series": {
+    "tjoy": {
+     "2026-08-28": 2,
+     "2026-08-29": 140,
+     "2026-08-30": 91,
+     "2026-08-31": 3
+    },
+    "toho": {
+     "2026-08-29": 1410,
+     "2026-08-30": 683,
+     "2026-08-31": 103
+    }
+   }
+  },
+  {
+   "key": "michaelマイケル",
+   "title": "Ｍｉｃｈａｅｌ／マイケル",
+   "poster": "tjoy/media/posters/michael-michael-43664c.jpg",
+   "first": "2026-08-29",
+   "last": "2026-08-31",
+   "totals": {
+    "tjoy": {
+     "sold": 151,
+     "shows": 3,
+     "seats": 438
+    },
+    "toho": {
+     "sold": 674,
+     "shows": 3,
+     "seats": 2184
+    }
+   },
+   "series": {
+    "tjoy": {
+     "2026-08-29": 103,
+     "2026-08-30": 41,
+     "2026-08-31": 7
+    },
+    "toho": {
+     "2026-08-29": 395,
+     "2026-08-30": 256,
+     "2026-08-31": 23
+    }
+   }
+  },
+  {
+   "key": "ハリーポッターと賢者の石",
+   "title": "ハリー・ポッターと賢者の石",
+   "poster": null,
+   "first": "2026-08-29",
+   "last": "2026-08-31",
+   "totals": {
+    "toho": {
+     "sold": 676,
+     "shows": 6,
+     "seats": 1869
+    }
+   },
+   "series": {
+    "toho": {
+     "2026-08-29": 355,
+     "2026-08-30": 244,
+     "2026-08-31": 77
+    }
+   }
+  },
+  {
+   "key": "追加上映髑髏城の七人1997",
+   "title": "追加上映『髑髏城の七人 1997』",
+   "poster": null,
+   "first": "2026-08-28",
+   "last": "2026-08-31",
+   "totals": {
+    "tjoy": {
+     "sold": 523,
+     "shows": 4,
+     "seats": 1320
+    }
+   },
+   "series": {
+    "tjoy": {
+     "2026-08-28": 122,
+     "2026-08-29": 135,
+     "2026-08-30": 133,
+     "2026-08-31": 133
+    }
+   }
+  },
+  {
+   "key": "トイストーリー5",
+   "title": "トイ・ストーリー５",
+   "poster": null,
+   "first": "2026-08-29",
+   "last": "2026-08-31",
+   "totals": {
+    "toho": {
+     "sold": 444,
+     "shows": 6,
+     "seats": 1407
+    }
+   },
+   "series": {
+    "toho": {
+     "2026-08-29": 255,
+     "2026-08-30": 170,
+     "2026-08-31": 19
+    }
+   }
+  },
+  {
+   "key": "25周年記念ハリーポッターと賢者の石",
+   "title": "25周年記念 『ハリー・ポッターと賢者の石』 Harry Potter and the Sorcerer's Stone",
+   "poster": "tjoy/media/posters/25-harry-potter-and-the-sorcerer-s-stone-0c741e.jpg",
+   "first": "2026-08-28",
+   "last": "2026-08-31",
+   "totals": {
+    "tjoy": {
+     "sold": 437,
+     "shows": 9,
+     "seats": 2311
+    }
+   },
+   "series": {
+    "tjoy": {
+     "2026-08-28": 77,
+     "2026-08-29": 153,
+     "2026-08-30": 168,
+     "2026-08-31": 39
+    }
+   }
+  },
+  {
+   "key": "アンコール上映山下達郎シアターライブ",
+   "title": "[アンコール上映]山下達郎 シアター・ライブ PERFORMANCE1984-2012 Tatsuro Yamashita Theater Live PERFORMANCE 1984-2012",
+   "poster": "tjoy/media/posters/performance1984-2012-tatsuro-yamashita-t-6f5b8b.jpg",
+   "first": "2026-08-28",
+   "last": "2026-08-31",
+   "totals": {
+    "tjoy": {
+     "sold": 420,
+     "shows": 3,
+     "seats": 678
+    }
+   },
+   "series": {
+    "tjoy": {
+     "2026-08-28": 141,
+     "2026-08-29": 202,
+     "2026-08-31": 77
+    }
+   }
+  },
+  {
+   "key": "平行と垂直",
+   "title": "平行と垂直 Heikou to Suichoku",
+   "poster": "tjoy/media/posters/heikou-to-suichoku-b9aaec.jpg",
+   "first": "2026-08-28",
+   "last": "2026-08-31",
+   "totals": {
+    "tjoy": {
+     "sold": 410,
+     "shows": 15,
+     "seats": 2115
+    }
+   },
+   "series": {
+    "tjoy": {
+     "2026-08-28": 33,
+     "2026-08-29": 244,
+     "2026-08-30": 117,
+     "2026-08-31": 16
+    }
+   }
+  },
+  {
+   "key": "スパイダーマンブランドニューデイ",
+   "title": "スパイダーマン：ブランド・ニュー・デイ",
+   "poster": "tjoy/media/posters/spider-man-brand-new-day-0fdee1.jpg",
+   "first": "2026-08-28",
+   "last": "2026-08-31",
+   "totals": {
+    "tjoy": {
+     "sold": 173,
+     "shows": 8,
+     "seats": 1884
+    },
+    "toho": {
+     "sold": 236,
+     "shows": 6,
+     "seats": 711
+    }
+   },
+   "series": {
+    "tjoy": {
+     "2026-08-28": 17,
+     "2026-08-29": 64,
+     "2026-08-30": 86,
+     "2026-08-31": 6
+    },
+    "toho": {
+     "2026-08-29": 78,
+     "2026-08-30": 128,
+     "2026-08-31": 30
+    }
+   }
+  },
+  {
+   "key": "公開記念舞台挨拶",
+   "title": "[公開記念舞台挨拶]SEKIRO:NO DEFEAT(PG12)",
+   "poster": "tjoy/media/posters/sekiro-no-defeat-pg12-334c43.jpg",
+   "first": "2026-08-29",
+   "last": "2026-08-31",
+   "totals": {
+    "tjoy": {
+     "sold": 307,
+     "shows": 3,
+     "seats": 567
+    }
+   },
+   "series": {
+    "tjoy": {
+     "2026-08-29": 101,
+     "2026-08-30": 103,
+     "2026-08-31": 103
+    }
+   }
+  },
+  {
+   "key": "ミニオンズモンスターズ",
+   "title": "ミニオンズ＆モンスターズ",
+   "poster": "tjoy/media/posters/minions-monsters-a63f70.jpg",
+   "first": "2026-08-28",
+   "last": "2026-08-31",
+   "totals": {
+    "tjoy": {
+     "sold": 84,
+     "shows": 7,
+     "seats": 1063
+    },
+    "toho": {
+     "sold": 210,
+     "shows": 6,
+     "seats": 978
+    }
+   },
+   "series": {
+    "tjoy": {
+     "2026-08-28": 13,
+     "2026-08-29": 63,
+     "2026-08-30": 8,
+     "2026-08-31": 0
+    },
+    "toho": {
+     "2026-08-29": 115,
+     "2026-08-30": 80,
+     "2026-08-31": 15
+    }
+   }
+  },
+  {
+   "key": "ラストサバイバー",
+   "title": "ラスト・サバイバー",
+   "poster": null,
+   "first": "2026-08-29",
+   "last": "2026-08-31",
+   "totals": {
+    "toho": {
+     "sold": 288,
+     "shows": 12,
+     "seats": 2662
+    }
+   },
+   "series": {
+    "toho": {
+     "2026-08-29": 163,
+     "2026-08-30": 92,
+     "2026-08-31": 33
+    }
+   }
+  },
+  {
+   "key": "時には懺悔を",
+   "title": "時には懺悔を",
+   "poster": null,
+   "first": "2026-08-29",
+   "last": "2026-08-31",
+   "totals": {
+    "toho": {
+     "sold": 231,
+     "shows": 13,
+     "seats": 1309
+    }
+   },
+   "series": {
+    "toho": {
+     "2026-08-29": 94,
+     "2026-08-30": 100,
+     "2026-08-31": 37
+    }
+   }
+  },
+  {
+   "key": "キングダム魂の決戦",
+   "title": "キングダム 魂の決戦",
+   "poster": "tjoy/media/posters/kingdom-ae54ae.jpg",
+   "first": "2026-08-28",
+   "last": "2026-08-31",
+   "totals": {
+    "tjoy": {
+     "sold": 17,
+     "shows": 3,
+     "seats": 387
+    },
+    "toho": {
+     "sold": 212,
+     "shows": 5,
+     "seats": 1864
+    }
+   },
+   "series": {
+    "tjoy": {
+     "2026-08-28": 6,
+     "2026-08-30": 11,
+     "2026-08-31": 0
+    },
+    "toho": {
+     "2026-08-29": 125,
+     "2026-08-30": 72,
+     "2026-08-31": 15
+    }
+   }
+  },
+  {
+   "key": "ブルーロック",
+   "title": "ブルーロック",
+   "poster": "tjoy/media/posters/blue-lock-4f16c3.jpg",
+   "first": "2026-08-28",
+   "last": "2026-08-31",
+   "totals": {
+    "tjoy": {
+     "sold": 54,
+     "shows": 7,
+     "seats": 1508
+    },
+    "toho": {
+     "sold": 150,
+     "shows": 3,
+     "seats": 301
+    }
+   },
+   "series": {
+    "tjoy": {
+     "2026-08-28": 24,
+     "2026-08-29": 8,
+     "2026-08-30": 19,
+     "2026-08-31": 3
+    },
+    "toho": {
+     "2026-08-29": 97,
+     "2026-08-30": 45,
+     "2026-08-31": 8
+    }
+   }
+  },
+  {
+   "key": "ドラマなふたり",
+   "title": "ドラマなふたり",
+   "poster": null,
+   "first": "2026-08-29",
+   "last": "2026-08-31",
+   "totals": {
+    "toho": {
+     "sold": 200,
+     "shows": 5,
+     "seats": 637
+    }
+   },
+   "series": {
+    "toho": {
+     "2026-08-29": 116,
+     "2026-08-30": 69,
+     "2026-08-31": 15
+    }
+   }
+  },
+  {
+   "key": "シェルター",
+   "title": "シェルター",
+   "poster": null,
+   "first": "2026-08-29",
+   "last": "2026-08-31",
+   "totals": {
+    "toho": {
+     "sold": 162,
+     "shows": 9,
+     "seats": 1641
+    }
+   },
+   "series": {
+    "toho": {
+     "2026-08-29": 21,
+     "2026-08-30": 108,
+     "2026-08-31": 33
+    }
+   }
+  },
+  {
+   "key": "オークストリートの異変",
+   "title": "オークストリートの異変",
+   "poster": "tjoy/media/posters/the-end-of-oak-street-964311.jpg",
+   "first": "2026-08-28",
+   "last": "2026-08-31",
+   "totals": {
+    "tjoy": {
+     "sold": 41,
+     "shows": 7,
+     "seats": 665
+    },
+    "toho": {
+     "sold": 101,
+     "shows": 4,
+     "seats": 403
+    }
+   },
+   "series": {
+    "tjoy": {
+     "2026-08-28": 35,
+     "2026-08-29": 0,
+     "2026-08-30": 6,
+     "2026-08-31": 0
+    },
+    "toho": {
+     "2026-08-29": 64,
+     "2026-08-30": 31,
+     "2026-08-31": 6
+    }
+   }
+  },
+  {
+   "key": "映画クレヨンしんちゃん奇々怪々オラの妖怪バケション",
+   "title": "映画クレヨンしんちゃん 奇々怪々！オラの妖怪バケ～ション",
+   "poster": "tjoy/media/posters/crayon-shin-chan-2026-07920d.jpg",
+   "first": "2026-08-28",
+   "last": "2026-08-31",
+   "totals": {
+    "tjoy": {
+     "sold": 2,
+     "shows": 3,
+     "seats": 285
+    },
+    "toho": {
+     "sold": 116,
+     "shows": 3,
+     "seats": 355
+    }
+   },
+   "series": {
+    "tjoy": {
+     "2026-08-28": 1,
+     "2026-08-30": 1,
+     "2026-08-31": 0
+    },
+    "toho": {
+     "2026-08-29": 73,
+     "2026-08-30": 40,
+     "2026-08-31": 3
+    }
+   }
+  },
+  {
+   "key": "王様戦隊キングオージャーフィルムコンサートinシネマ",
+   "title": "王様戦隊キングオージャー フィルム・コンサート in シネマ Ohsama Sentai King-Ohger Film Concert in Cinema",
+   "poster": "tjoy/media/posters/in-ohsama-sentai-king-ohger-film-concert-9144c0.jpg",
+   "first": "2026-08-29",
+   "last": "2026-08-31",
+   "totals": {
+    "tjoy": {
+     "sold": 86,
+     "shows": 5,
+     "seats": 934
+    }
+   },
+   "series": {
+    "tjoy": {
+     "2026-08-29": 29,
+     "2026-08-30": 50,
+     "2026-08-31": 7
+    }
+   }
+  },
+  {
+   "key": "モアナと伝説の海",
+   "title": "モアナと伝説の海",
+   "poster": "tjoy/media/posters/moana-3624e0.jpg",
+   "first": "2026-08-28",
+   "last": "2026-08-31",
+   "totals": {
+    "tjoy": {
+     "sold": 17,
+     "shows": 3,
+     "seats": 377
+    },
+    "toho": {
+     "sold": 48,
+     "shows": 3,
+     "seats": 302
+    }
+   },
+   "series": {
+    "tjoy": {
+     "2026-08-28": 15,
+     "2026-08-30": 2,
+     "2026-08-31": 0
+    },
+    "toho": {
+     "2026-08-29": 17,
+     "2026-08-30": 26,
+     "2026-08-31": 5
+    }
+   }
+  },
+  {
+   "key": "映画仮面ライダーゼッツさよならのミッション映画超宇宙刑事ギャバンインフィニティ太陽が泣いた日",
+   "title": "映画『仮面ライダーゼッツ さよならのミッション』／映画『超宇宙刑事ギャバン インフィニティ 太陽が泣いた日』 Kamen Rider ZEZTZ and Super Space Sheriff GAVAN Infinity",
+   "poster": "tjoy/media/posters/kamen-rider-zeztz-and-super-space-sherif-e34ed8.jpg",
+   "first": "2026-08-28",
+   "last": "2026-08-31",
+   "totals": {
+    "tjoy": {
+     "sold": 61,
+     "shows": 4,
+     "seats": 380
+    }
+   },
+   "series": {
+    "tjoy": {
+     "2026-08-28": 0,
+     "2026-08-29": 43,
+     "2026-08-30": 17,
+     "2026-08-31": 1
+    }
+   }
+  },
+  {
+   "key": "トイストーリー",
+   "title": "トイ・ストーリー５ Toy Story 5",
+   "poster": "tjoy/media/posters/toy-story-5-7e34e5.jpg",
+   "first": "2026-08-28",
+   "last": "2026-08-31",
+   "totals": {
+    "tjoy": {
+     "sold": 46,
+     "shows": 4,
+     "seats": 380
+    }
+   },
+   "series": {
+    "tjoy": {
+     "2026-08-28": 7,
+     "2026-08-29": 32,
+     "2026-08-30": 7,
+     "2026-08-31": 0
+    }
+   }
+  },
+  {
+   "key": "しらぬひ",
+   "title": "しらぬひ Shiranuhi",
+   "poster": "tjoy/media/posters/shiranuhi-6c2ef4.jpg",
+   "first": "2026-08-28",
+   "last": "2026-08-31",
+   "totals": {
+    "tjoy": {
+     "sold": 26,
+     "shows": 6,
+     "seats": 682
+    }
+   },
+   "series": {
+    "tjoy": {
+     "2026-08-28": 9,
+     "2026-08-29": 10,
+     "2026-08-30": 5,
+     "2026-08-31": 2
+    }
+   }
+  },
+  {
+   "key": "パウっとファミリーシアター",
+   "title": "パウっと！ファミリーシアター",
+   "poster": null,
+   "first": "2026-08-30",
+   "last": "2026-08-31",
+   "totals": {
+    "toho": {
+     "sold": 14,
+     "shows": 2,
+     "seats": 234
+    }
+   },
+   "series": {
+    "toho": {
+     "2026-08-30": 11,
+     "2026-08-31": 3
+    }
+   }
+  },
+  {
+   "key": "八月の声を運ぶ男",
+   "title": "八月の声を運ぶ男",
+   "poster": null,
+   "first": "2026-08-30",
+   "last": "2026-08-31",
+   "totals": {
+    "toho": {
+     "sold": 8,
+     "shows": 2,
+     "seats": 255
+    }
+   },
+   "series": {
+    "toho": {
+     "2026-08-30": 5,
+     "2026-08-31": 3
+    }
+   }
+  },
+  {
+   "key": "大長編タローマン万博大爆発",
+   "title": "大長編 タローマン 万博大爆発",
+   "poster": null,
+   "first": "2026-08-31",
+   "last": "2026-08-31",
+   "totals": {
+    "toho": {
+     "sold": 3,
+     "shows": 1,
+     "seats": 101
+    }
+   },
+   "series": {
+    "toho": {
+     "2026-08-31": 3
+    }
+   }
+  },
+  {
+   "key": "straykidsworldtourrunitjapanliveviewing",
+   "title": "Ｓｔｒａｙ Ｋｉｄｓ Ｗｏｒｌｄ Ｔｏｕｒ ＜ＲＵＮ ＩＴ ＪＡＰＡＮ＞ Ｌｉｖｅ Ｖｉｅｗｉｎｇ",
+   "poster": null,
+   "first": "2026-08-30",
+   "last": "2026-08-30",
+   "totals": {
+    "toho": {
+     "sold": 455,
+     "shows": 1,
+     "seats": 469
+    }
+   },
+   "series": {
+    "toho": {
+     "2026-08-30": 455
+    }
+   }
+  }
+ ]
+}
