@@ -106,6 +106,9 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
 .shot-none{width:100%;aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;
   background:repeating-linear-gradient(45deg,#fff,#fff 6px,var(--sheet) 6px,var(--sheet) 12px);
   font-family:var(--mono);font-size:10px;color:var(--muted)}
+/* 満席は「撮れなかった」ではなく確定した状態なので、未取得と区別する */
+.shot-none.-full{background:var(--sheet);color:var(--accent);
+  border-bottom:2px solid var(--accent);font-size:13px;letter-spacing:.14em}
 .shot-foot{padding:7px 9px 4px;border-top:1px solid var(--line);
   display:flex;align-items:center;gap:7px}
 .shot-sub{padding:0 9px 8px;font-family:var(--mono);font-size:10px;
@@ -321,7 +324,9 @@ function shotEl(c){
            c.captured_at ? ' ／ 取得 ' + esc(c.captured_at.slice(11,16))
              + (typeof c.lead_minutes === 'number'
                 ? `（開映 ${Math.round(c.lead_minutes)} 分前）` : '') : ''}">`
-    : `<div class="shot-none">${c.source === 'schedule' ? '未取得' : '画像なし'}</div>`;
+    : `<div class="shot-none${c.full_house ? ' -full' : ''}">${
+        c.full_house ? '満席'
+        : c.source === 'schedule' ? '未取得' : '画像なし'}</div>`;
   let occ = '';
   if(typeof c.occupancy === 'number'){
     const p = Math.round(c.occupancy * 100);

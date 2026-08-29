@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-29T22:35:43.846691+09:00",
+ "generated_at": "2026-08-30T02:30:05.241300+09:00",
  "note": "開映直前の座席表から数えた販売席数。興行収入ではない。",
  "cinemas": [
   {
@@ -168,6 +168,54 @@
    }
   },
   {
+   "key": "特別イベント上映髑髏城の七人1997登壇付き",
+   "title": "特別イベント上映『髑髏城の七人 1997』登壇付き",
+   "poster": null,
+   "first": "2026-08-30",
+   "last": "2026-08-31",
+   "titles": {
+    "tjoy": "特別イベント上映『髑髏城の七人 1997』登壇付き"
+   },
+   "totals": {
+    "tjoy": {
+     "sold": 660,
+     "shows": 2,
+     "seats": 660
+    }
+   },
+   "series": {
+    "tjoy": {
+     "2026-08-30": 330,
+     "2026-08-31": 330
+    }
+   }
+  },
+  {
+   "key": "アンコール上映山下達郎シアターライブperformance19842012tatsuroyamashitatheaterliveperformance19842012",
+   "title": "[アンコール上映]山下達郎 シアター・ライブ PERFORMANCE1984-2012 Tatsuro Yamashita Theater Live PERFORMANCE 1984-2012",
+   "poster": "tjoy/media/posters/performance1984-2012-tatsuro-yamashita-t-6f5b8b.jpg",
+   "first": "2026-08-28",
+   "last": "2026-08-31",
+   "titles": {
+    "tjoy": "[アンコール上映]山下達郎 シアター・ライブ PERFORMANCE1984-2012 Tatsuro Yamashita Theater Live PERFORMANCE 1984-2012"
+   },
+   "totals": {
+    "tjoy": {
+     "sold": 627,
+     "shows": 4,
+     "seats": 885
+    }
+   },
+   "series": {
+    "tjoy": {
+     "2026-08-28": 141,
+     "2026-08-29": 202,
+     "2026-08-30": 207,
+     "2026-08-31": 77
+    }
+   }
+  },
+  {
    "key": "追加上映髑髏城の七人1997",
    "title": "追加上映『髑髏城の七人 1997』",
    "poster": null,
@@ -286,30 +334,6 @@
      "2026-08-29": 261,
      "2026-08-30": 117,
      "2026-08-31": 16
-    }
-   }
-  },
-  {
-   "key": "アンコール上映山下達郎シアターライブperformance19842012tatsuroyamashitatheaterliveperformance19842012",
-   "title": "[アンコール上映]山下達郎 シアター・ライブ PERFORMANCE1984-2012 Tatsuro Yamashita Theater Live PERFORMANCE 1984-2012",
-   "poster": "tjoy/media/posters/performance1984-2012-tatsuro-yamashita-t-6f5b8b.jpg",
-   "first": "2026-08-28",
-   "last": "2026-08-31",
-   "titles": {
-    "tjoy": "[アンコール上映]山下達郎 シアター・ライブ PERFORMANCE1984-2012 Tatsuro Yamashita Theater Live PERFORMANCE 1984-2012"
-   },
-   "totals": {
-    "tjoy": {
-     "sold": 420,
-     "shows": 3,
-     "seats": 678
-    }
-   },
-   "series": {
-    "tjoy": {
-     "2026-08-28": 141,
-     "2026-08-29": 202,
-     "2026-08-31": 77
     }
    }
   },

@@ -493,6 +493,18 @@ def _is_version_paren(inner: str) -> bool:
     return any(_canon(w) in c for w in VERSION_PAREN_WORDS)
 
 
+def trim_tags(tags: list[str]) -> list[str]:
+    """同じ版を指すタグの重なりを均す。
+
+    「ATMOS」は「Dolby Atmos」に丸ごと含まれる。「字幕」は「日本語字幕」に、
+    「IMAX」は「IMAX レーザー」に含まれる。片方がもう片方の中に入っている
+    なら、長いほうだけを残す。
+    """
+    return [tag for tag in tags
+            if not any(other is not tag and _canon(tag) != _canon(other)
+                       and _canon(tag) in _canon(other) for other in tags)]
+
+
 def parse_title(raw: str, extra_tags: Iterable[str] = ()) -> dict:
     """作品名から版タグを剥がす。
 
@@ -554,9 +566,7 @@ def parse_title(raw: str, extra_tags: Iterable[str] = ()) -> dict:
     for tag in extra_tags:
         add(tag)
 
-    trimmed = [tag for tag in tags
-               if not any(other is not tag and _canon(tag) != _canon(other)
-                          and _canon(tag) in _canon(other) for other in tags)]
+    trimmed = trim_tags(tags)
 
     base = re.sub(r"\s+", " ", text).strip(" \u3000-–—")
     return {"base_title": base or (raw or "").strip(), "tags": trimmed}
@@ -912,8 +922,10 @@ def rows_to_showings(cinema: dict, rows: list[dict], fallback_date: str | None) 
             continue
 
         # 版タグは作品名と回の付記（「字幕」「特別料金」等）の両方から拾う
-        extra = [t for t in VERSION_TAGS
-            if _canon(t) in _canon((r.get("note") or "") + (r.get("info_raw") or ""))]
+        # 素の in だと全角で書かれた付記（ＩＭＡＸ 等）を取り落とす。
+        # 題名側と同じ _canon を通して揃える。
+        note = _canon((r.get("note") or "") + (r.get("info_raw") or ""))
+        extra = [t for t in VERSION_TAGS if _canon(t) in note]
         info = parse_title(r.get("title_raw") or "", extra)
         if not info["base_title"]:
             continue
@@ -2330,6 +2342,48 @@ def cmd_sync(force: bool = False, full: bool = False) -> None:
         save_state(state)
 
 
+def full_house_image(cinema_id: str | None, screen_no: str | None) -> str | None:
+    """満席のときに使う既製の座席図。
+
+    満席の回は座席選択へ入れないので撮りようがない。ただし「全席が売れて
+    いる図」はスクリーンごとに 1 枚あれば足りるので、あらかじめ
+    media/seats/tohoumeda_theater_6_manseki.jpg のように置いておく。
+    無ければ None を返し、画像なしの満席として記録する。
+    """
+    try:
+        n = int(screen_no or "")
+    except (TypeError, ValueError):
+        return None
+    path = SEATS / f"{cinema_id or 'toho'}_theater_{n}_manseki.jpg"
+    return rel(path) if path.exists() else None
+
+
+def full_house_record(s: dict, slot: int, lead: float, final: bool) -> dict:
+    """満席の回を「撮り逃し」ではなく「満席」として残す。
+
+    座席表は撮れないが、状態としては座席表より確定的である（空席 0）。
+    席数は screen_seats の公称値を使う。公称値が分からないスクリーンでは
+    total が 0 になり、record_quality が 1 と判定するので、本物の読みを
+    押しのけることはない。満席という事実だけが残る。
+    """
+    seats = s.get("screen_seats") or 0
+    return {
+        **s,
+        "source": "seat",
+        "full_house": True,
+        "seat_counts": {"vacant": 0, "sold": seats, "total": seats,
+                        "expected": seats},
+        "occupancy": 1.0 if seats else None,
+        "seat_image": full_house_image(s.get("cinema"), s.get("screen_no")),
+        "poster": None,
+        "lead_minutes": lead,
+        "captured_at": now_jst().isoformat(),
+        "capture_round": s.get("captures", 0),
+        "capture_slot": slot,
+        "status": "captured" if final else "provisional",
+    }
+
+
 def cmd_capture(lead_min: int = CAPTURE_LEAD_MIN, limit: int | None = None,
                 dry_run: bool = False, sweep: bool = False) -> None:
     schedule = read_json(SCHEDULE_FILE, {"days": {}})
@@ -2375,6 +2429,27 @@ def cmd_capture(lead_min: int = CAPTURE_LEAD_MIN, limit: int | None = None,
             if cinema is None:
                 continue
             s["last_attempt_at"] = now_jst().isoformat()
+            lead = round(
+                (datetime.fromisoformat(s["start_at"]) - now_jst()).total_seconds() / 60, 1)
+
+            # 満席の回は座席選択へ入れない。開きにいくだけ無駄なので先に畳む。
+            if (s.get("availability") or {}).get("code") == "full":
+                s["captures"] = s.get("captures", 0) + 1
+                s["slots"] = sorted(set(s.get("slots") or [])
+                                    | set(slots_covered(slot, lead)))
+                final = slot >= len(CAPTURE_PLAN)
+                record = full_house_record(s, slot, lead, final)
+                if not dry_run:
+                    archive_many([record])
+                s["status"] = "captured" if final else "provisional"
+                if final:
+                    done.add(s["id"])
+                ok += 1
+                EV.add("CAP", "満席",
+                       f"{s['date'][5:]} {s['start']} {s['film_title'][:14]}"
+                       + ("" if record["seat_image"] else "  （既製図なし）"))
+                continue
+
             try:
                 seat_page, probe = open_seat_page(page, s, cinema)
                 if seat_page is None:
@@ -2398,8 +2473,6 @@ def cmd_capture(lead_min: int = CAPTURE_LEAD_MIN, limit: int | None = None,
                     shot = SEATS / s["date"][:7] / name
 
                 rec = read_seat_page(seat_page, probe, shot, s.get("screen_seats"))
-                lead = round(
-                    (datetime.fromisoformat(s["start_at"]) - now_jst()).total_seconds() / 60, 1)
 
                 poster = None
                 if not dry_run and rec.get("poster_url"):

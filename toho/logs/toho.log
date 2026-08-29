@@ -463,3 +463,21 @@
 08-29 22:44:12  RETAG schedule  16 件
 08-29 22:44:12  RETAG done      18 件 / 1 ファイル
 08-29 22:44:12  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-30 01:59:55  RUN   start     gap=4h41m   ← 前回から大きく空いた
+08-30 01:59:59  SYNC  probe     tohoumeda date=20260829 tabs=7 blocks=22 rows=44 href=0
+08-30 01:59:59  SYNC  status    {"販売期間外": 44}
+08-30 02:00:12  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-30 02:00:12  SYNC  light     2日 88件  予定記録 0 件
+08-30 02:00:12  CAP   idle      対象なし
+08-30 02:00:12  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-30 02:00:12  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-30 02:29:14  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-30 02:29:14  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-30 02:29:47  RUN   start     gap=30m
+08-30 02:29:50  SYNC  probe     tohoumeda date=20260829 tabs=7 blocks=22 rows=44 href=0
+08-30 02:29:50  SYNC  status    {"販売期間外": 44}
+08-30 02:30:04  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-30 02:30:04  SYNC  light     2日 88件  予定記録 0 件
+08-30 02:30:04  CAP   idle      対象なし
+08-30 02:30:05  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-30 02:30:05  INDEX poster    T・ジョイ側から 12 作品ぶん借用

@@ -8,10 +8,10 @@
     "seat_url_hint": "choice_seat",
     "robots_url": "https://tjoy.jp/robots.txt"
   },
-  "generated_at": "2026-08-29T22:35:43.534278+09:00",
+  "generated_at": "2026-08-30T02:30:04.922104+09:00",
   "total_records": 371,
-  "total_captures": 142,
-  "pending_showings": 4,
+  "total_captures": 145,
+  "pending_showings": 0,
   "warnings": [],
   "months": [
     {
@@ -151,7 +151,7 @@
     {
       "date": "2026-08-31",
       "count": 42,
-      "captured": 41,
+      "captured": 42,
       "films": [
         "blue-lock-4f16c3",
         "puella-magi-madoka-magica-walpurgisnacht-0fd537",
@@ -178,7 +178,7 @@
     {
       "date": "2026-08-30",
       "count": 45,
-      "captured": 43,
+      "captured": 45,
       "films": [
         "blue-lock-4f16c3",
         "minions-monsters-a63f70",
@@ -308,7 +308,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-09",
       "showing_count": 12,
-      "capture_count": 0
+      "capture_count": 2
     },
     {
       "key": "sekiro-no-defeat-pg12-334c43",
@@ -556,7 +556,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 12,
-      "capture_count": 3
+      "capture_count": 4
     },
     {
       "key": "tomorrow-x-together-vr-concert-endless-r-180136",

@@ -49,7 +49,7 @@
       "active": true
     }
   ],
-  "fetched_at": "2026-08-29T15:42:53.507090+09:00",
+  "fetched_at": "2026-08-30T02:30:04.713076+09:00",
   "days": {
     "2026-08-29": {
       "showings": [
@@ -1591,16 +1591,16 @@
           "screen_raw": "本館スクリーン６ (100席)",
           "note": null,
           "availability": {
-            "code": "plenty",
-            "mark": "◎",
-            "label": "空席に余裕あり",
+            "code": "few",
+            "mark": "△",
+            "label": "残りわずか",
             "text": "販売中",
-            "status_code": "01",
-            "icon": "circle-double",
+            "status_code": "03",
+            "icon": "triangle",
             "certainty": "確認",
             "by": "icon"
           },
-          "status_code": "01",
+          "status_code": "03",
           "reserve_url": null,
           "click_ref": {
             "date": "20260830",
@@ -1639,16 +1639,16 @@
           "screen_raw": "本館スクリーン８ (154席)",
           "note": null,
           "availability": {
-            "code": "few",
-            "mark": "△",
-            "label": "残りわずか",
-            "text": "販売中",
-            "status_code": "03",
-            "icon": "triangle",
+            "code": "outside",
+            "mark": "…",
+            "label": "販売期間外",
+            "text": "売り切れ",
+            "status_code": "04",
+            "icon": null,
             "certainty": "確認",
-            "by": "icon"
+            "by": "class"
           },
-          "status_code": "03",
+          "status_code": "04",
           "reserve_url": null,
           "click_ref": {
             "date": "20260830",
@@ -1685,16 +1685,16 @@
           "screen_raw": "本館スクリーン２ (474席)",
           "note": null,
           "availability": {
-            "code": "plenty",
-            "mark": "◎",
-            "label": "空席に余裕あり",
+            "code": "available",
+            "mark": "○",
+            "label": "空席あり",
             "text": "販売中",
-            "status_code": "01",
-            "icon": "circle-double",
+            "status_code": "02",
+            "icon": "circle",
             "certainty": "確認",
             "by": "icon"
           },
-          "status_code": "01",
+          "status_code": "02",
           "reserve_url": null,
           "click_ref": {
             "date": "20260830",
@@ -1779,16 +1779,16 @@
           "screen_raw": "本館スクリーン５ (98席)",
           "note": null,
           "availability": {
-            "code": "plenty",
-            "mark": "◎",
-            "label": "空席に余裕あり",
+            "code": "few",
+            "mark": "△",
+            "label": "残りわずか",
             "text": "販売中",
-            "status_code": "01",
-            "icon": "circle-double",
+            "status_code": "03",
+            "icon": "triangle",
             "certainty": "確認",
             "by": "icon"
           },
-          "status_code": "01",
+          "status_code": "03",
           "reserve_url": null,
           "click_ref": {
             "date": "20260830",
@@ -2110,16 +2110,16 @@
           "screen_raw": "本館スクリーン７ (134席)",
           "note": null,
           "availability": {
-            "code": "plenty",
-            "mark": "◎",
-            "label": "空席に余裕あり",
+            "code": "available",
+            "mark": "○",
+            "label": "空席あり",
             "text": "販売中",
-            "status_code": "01",
-            "icon": "circle-double",
+            "status_code": "02",
+            "icon": "circle",
             "certainty": "確認",
             "by": "icon"
           },
-          "status_code": "01",
+          "status_code": "02",
           "reserve_url": null,
           "click_ref": {
             "date": "20260830",
@@ -2396,16 +2396,16 @@
           "screen_raw": "本館スクリーン５ (98席)",
           "note": null,
           "availability": {
-            "code": "available",
-            "mark": "○",
-            "label": "空席あり",
+            "code": "few",
+            "mark": "△",
+            "label": "残りわずか",
             "text": "販売中",
-            "status_code": "02",
-            "icon": "circle",
+            "status_code": "03",
+            "icon": "triangle",
             "certainty": "確認",
             "by": "icon"
           },
-          "status_code": "02",
+          "status_code": "03",
           "reserve_url": null,
           "click_ref": {
             "date": "20260830",
@@ -2442,16 +2442,16 @@
           "screen_raw": "本館スクリーン２ (474席)",
           "note": null,
           "availability": {
-            "code": "plenty",
-            "mark": "◎",
-            "label": "空席に余裕あり",
+            "code": "available",
+            "mark": "○",
+            "label": "空席あり",
             "text": "販売中",
-            "status_code": "01",
-            "icon": "circle-double",
+            "status_code": "02",
+            "icon": "circle",
             "certainty": "確認",
             "by": "icon"
           },
-          "status_code": "01",
+          "status_code": "02",
           "reserve_url": null,
           "click_ref": {
             "date": "20260830",
@@ -2584,16 +2584,16 @@
           "screen_raw": "本館スクリーン８ (154席)",
           "note": null,
           "availability": {
-            "code": "available",
-            "mark": "○",
-            "label": "空席あり",
+            "code": "few",
+            "mark": "△",
+            "label": "残りわずか",
             "text": "販売中",
-            "status_code": "02",
-            "icon": "circle",
+            "status_code": "03",
+            "icon": "triangle",
             "certainty": "確認",
             "by": "icon"
           },
-          "status_code": "02",
+          "status_code": "03",
           "reserve_url": null,
           "click_ref": {
             "date": "20260830",
@@ -2724,16 +2724,16 @@
           "screen_raw": "本館スクリーン６ (100席)",
           "note": null,
           "availability": {
-            "code": "plenty",
-            "mark": "◎",
-            "label": "空席に余裕あり",
+            "code": "available",
+            "mark": "○",
+            "label": "空席あり",
             "text": "販売中",
-            "status_code": "01",
-            "icon": "circle-double",
+            "status_code": "02",
+            "icon": "circle",
             "certainty": "確認",
             "by": "icon"
           },
-          "status_code": "01",
+          "status_code": "02",
           "reserve_url": null,
           "click_ref": {
             "date": "20260830",

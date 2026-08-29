@@ -1326,7 +1326,7 @@
       "updated_at": "2026-08-28T00:10:12.911497+09:00",
       "theater": "tjoyumeda",
       "theater_name": "T・ジョイ梅田",
-      "seat_image": "media/seats/2026-08/puella-magi-madoka-magica-walpurgisnacht-temp0000madoka_tjoyumeda.jpg",
+      "seat_image": "media/seats/tjoyumeda_theater_6_manseki.jpg",
       "occupancy": 1.0,
       "seat_counts": {
         "vacant": 0,
@@ -6597,18 +6597,47 @@
         "mark": "×",
         "label": "満席"
       },
+      "full_house": true,
       "reserve_url": null,
       "schedule_id": null,
       "film_code": null,
-      "slots": [],
+      "status": "provisional",
+      "attempts": 0,
+      "captures": 1,
+      "slots": [
+        0
+      ],
+      "last_attempt_at": "2026-08-30T02:29:46.678216+09:00",
       "day_open": "8:00",
       "day_note": null,
-      "source": "schedule",
-      "updated_at": "2026-08-29T15:27:59.733241+09:00",
+      "source": "seat",
+      "seat_counts": {
+        "vacant": 0,
+        "sold": 330,
+        "total": 330,
+        "expected": 330
+      },
+      "occupancy": 1.0,
+      "seat_image": "media/seats/tjoyumeda_theater_6_manseki.jpg",
+      "screen_image": null,
+      "poster": null,
+      "lead_minutes": 630.2,
+      "captured_at": "2026-08-30T02:29:46.678345+09:00",
+      "capture_round": 1,
+      "capture_slot": 0,
       "theater": "tjoyumeda",
       "theater_name": "T・ジョイ梅田",
-      "seat_image": null,
-      "occupancy": null
+      "history": [
+        {
+          "at": "2026-08-30T02:29:46.678345+09:00",
+          "lead": 630.2,
+          "slot": 0,
+          "sold": 330,
+          "vacant": 0,
+          "total": 330,
+          "occupancy": 1.0
+        }
+      ]
     },
     {
       "id": "20260830-1305-s03-performance1984-2012-tatsuro-yamashita-t-6f5b8b",
@@ -6628,18 +6657,47 @@
         "mark": "×",
         "label": "満席"
       },
+      "full_house": true,
       "reserve_url": null,
       "schedule_id": null,
       "film_code": null,
-      "slots": [],
+      "status": "provisional",
+      "attempts": 0,
+      "captures": 1,
+      "slots": [
+        0
+      ],
+      "last_attempt_at": "2026-08-30T02:29:46.697693+09:00",
       "day_open": "8:00",
       "day_note": null,
-      "source": "schedule",
-      "updated_at": "2026-08-29T15:27:59.733241+09:00",
+      "source": "seat",
+      "seat_counts": {
+        "vacant": 0,
+        "sold": 207,
+        "total": 207,
+        "expected": 207
+      },
+      "occupancy": 1.0,
+      "seat_image": null,
+      "screen_image": null,
+      "poster": null,
+      "lead_minutes": 635.2,
+      "captured_at": "2026-08-30T02:29:46.697693+09:00",
+      "capture_round": 1,
+      "capture_slot": 0,
       "theater": "tjoyumeda",
       "theater_name": "T・ジョイ梅田",
-      "seat_image": null,
-      "occupancy": null
+      "history": [
+        {
+          "at": "2026-08-30T02:29:46.697693+09:00",
+          "lead": 635.2,
+          "slot": 0,
+          "sold": 207,
+          "vacant": 0,
+          "total": 207,
+          "occupancy": 1.0
+        }
+      ]
     },
     {
       "id": "20260830-1305-s03-sekiro-no-defeat-pg12-334c43",
@@ -9345,18 +9403,47 @@
         "mark": "×",
         "label": "満席"
       },
+      "full_house": true,
       "reserve_url": null,
       "schedule_id": null,
       "film_code": null,
-      "slots": [],
+      "status": "provisional",
+      "attempts": 0,
+      "captures": 1,
+      "slots": [
+        0
+      ],
+      "last_attempt_at": "2026-08-30T02:29:46.746926+09:00",
       "day_open": "8:00",
       "day_note": null,
-      "source": "schedule",
-      "updated_at": "2026-08-29T15:27:59.733241+09:00",
+      "source": "seat",
+      "seat_counts": {
+        "vacant": 0,
+        "sold": 330,
+        "total": 330,
+        "expected": 330
+      },
+      "occupancy": 1.0,
+      "seat_image": "media/seats/tjoyumeda_theater_6_manseki.jpg",
+      "screen_image": null,
+      "poster": null,
+      "lead_minutes": 2070.2,
+      "captured_at": "2026-08-30T02:29:46.746926+09:00",
+      "capture_round": 1,
+      "capture_slot": 0,
       "theater": "tjoyumeda",
       "theater_name": "T・ジョイ梅田",
-      "seat_image": null,
-      "occupancy": null
+      "history": [
+        {
+          "at": "2026-08-30T02:29:46.746926+09:00",
+          "lead": 2070.2,
+          "slot": 0,
+          "sold": 330,
+          "vacant": 0,
+          "total": 330,
+          "occupancy": 1.0
+        }
+      ]
     },
     {
       "id": "20260831-1305-s03-sekiro-no-defeat-pg12-334c43",
@@ -11085,5 +11172,5 @@
       ]
     }
   ],
-  "updated_at": "2026-08-29T21:08:54.873764+09:00"
+  "updated_at": "2026-08-30T02:29:46.759333+09:00"
 }

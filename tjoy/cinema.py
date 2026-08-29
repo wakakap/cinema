@@ -188,6 +188,12 @@ SCREEN_RE = re.compile(r'data-target\s*=\s*["\']#screen(\d+)["\']')
 # 作品名の取得に失敗したとき、ボタン文字を掴まないための番人
 BUTTON_TEXT_RE = re.compile(r"^(作品詳細|予約|購入|上映スケジュール|座席表|詳細)\s*$")
 
+# 満席の回は .schedule-status の中に「満席」と書かれ、予約リンクは
+# onclick="javascript:void(0);" のダミーになる。アイコン（icon_label5）は
+# alt が「窓口のみ」で、満席とは別の意味を持つことがあるので当てにしない。
+# 見えている文字だけを見る。
+FULL_HOUSE_RE = re.compile(r"満\s*席")
+
 AVAIL_MAP = {   # 凡例の並び：◎ ○ △ 満席
     "2": {"code": "plenty", "mark": "◎", "label": "空席に余裕があります"},
     "3": {"code": "available", "mark": "○", "label": "空席があります"},
@@ -638,6 +644,9 @@ def _scrape_blocks(page, date: str, block_selector: str) -> list[dict]:
                     screen = rm.group(3).zfill(2)
 
             am = AVAIL_RE.search(row_html)
+            # row_text は見えている文字だけ（alt 属性は入らない）。作品名は
+            # 別の要素なので、ここに「満席」が出るのは状態表示だけ。
+            full_house = bool(FULL_HOUSE_RE.search(row_text))
             fkey = film_key(info["base_title"])
 
             result.append({
@@ -652,6 +661,7 @@ def _scrape_blocks(page, date: str, block_selector: str) -> list[dict]:
                 "screen_no": screen,
                 "screen_seats": SCREEN_SEATS.get(screen),
                 "availability": AVAIL_MAP.get(am.group(1)) if am else None,
+                "full_house": full_house,
                 "reserve_url": reserve_url,
                 "schedule_id": schedule_id,
                 "film_code": film_code,
@@ -729,6 +739,10 @@ def merge_schedule(old: dict, days: dict) -> tuple[dict, list[str]]:
         for s in payload["showings"]:
             if s["id"] in prev:
                 keep = prev[s["id"]]
+                # full_house は毎回の sync で取り直す。売り切れは進む一方
+                # なので、古い False で新しい True を消さないよう or を取る。
+                s["full_house"] = bool(s.get("full_house")
+                                       or keep.get("full_house"))
                 for field in ("status", "attempts", "captures", "slots",
                               "last_attempt_at"):
                     s[field] = keep.get(field, s[field])
@@ -1584,6 +1598,50 @@ def cmd_sync(force: bool = False, full: bool = False) -> None:
         save_state(state)
 
 
+def full_house_image(screen_no: str | None) -> str | None:
+    """満席のときに使う既製の座席図。
+
+    満席の回は座席選択へ入れないので撮りようがない。ただし「全席が売れて
+    いる図」はシアターごとに 1 枚あれば足りるので、あらかじめ
+    media/seats/tjoyumeda_theater_6_manseki.jpg のように置いておく。
+    無ければ None を返し、画像なしの満席として記録する。
+    """
+    try:
+        n = int(screen_no or "")
+    except (TypeError, ValueError):
+        return None
+    path = SEATS / f"{THEATER['id']}_theater_{n}_manseki.jpg"
+    return rel(path) if path.exists() else None
+
+
+def full_house_record(s: dict, slot: int, lead: float, final: bool) -> dict:
+    """満席の回を「撮り逃し」ではなく「満席」として残す。
+
+    座席表は撮れないが、状態としては座席表より確定的である（空席 0）。
+    席数は SCREEN_SEATS の公称値を使う。公称値が分からないシアターでは
+    total が 0 になり、record_quality が 1 と判定するので、本物の読みを
+    押しのけることはない。満席という事実だけが残る。
+    """
+    seats = s.get("screen_seats") or 0
+    return {
+        **s,
+        "source": "seat",
+        "full_house": True,
+        "seat_counts": {"vacant": 0, "sold": seats, "total": seats,
+                        "expected": seats},
+        "occupancy": 1.0 if seats else None,
+        "seat_image": full_house_image(s.get("screen_no")),
+        "screen_image": None,
+        "poster": None,
+        "lead_minutes": lead,
+        "captured_at": now_jst().isoformat(),
+        "capture_round": s.get("captures", 0),
+        "capture_slot": slot,
+        "status": "captured" if final else "provisional",
+        "theater": THEATER["id"], "theater_name": THEATER["name"],
+    }
+
+
 def cmd_capture(lead_min: int = CAPTURE_LEAD_MIN, limit: int | None = None,
                 dry_run: bool = False, sweep: bool = False) -> None:
     schedule = read_json(SCHEDULE_FILE, {"days": {}})
@@ -1618,6 +1676,27 @@ def cmd_capture(lead_min: int = CAPTURE_LEAD_MIN, limit: int | None = None,
 
         for s, slot in due:
             s["last_attempt_at"] = now_jst().isoformat()
+            lead = round(
+                (datetime.fromisoformat(s["start_at"]) - now_jst()).total_seconds() / 60, 1)
+
+            # 満席の回は座席選択へ入れない。開きにいくだけ無駄なので先に畳む。
+            if s.get("full_house") or (s.get("availability") or {}).get("code") == "full":
+                s["captures"] = s.get("captures", 0) + 1
+                s["slots"] = sorted(set(s.get("slots") or [])
+                                    | set(slots_covered(slot, lead)))
+                final = slot >= len(CAPTURE_PLAN)
+                record = full_house_record(s, slot, lead, final)
+                if not dry_run:
+                    archive_many([record])
+                s["status"] = "captured" if final else "provisional"
+                if final:
+                    done.add(s["id"])
+                ok += 1
+                EV.add("CAP", "満席",
+                       f"{s['date'][5:]} {s['start']} {s['film_title'][:14]}"
+                       + ("" if record["seat_image"] else "  （既製図なし）"))
+                continue
+
             try:
                 seat_page = open_seat_page(page, s)
                 if seat_page is None:
@@ -1642,8 +1721,6 @@ def cmd_capture(lead_min: int = CAPTURE_LEAD_MIN, limit: int | None = None,
                     shot = SEATS / s["date"][:7] / name
 
                 rec = read_seat_page(seat_page, shot, s.get("screen_seats"))
-                lead = round(
-                    (datetime.fromisoformat(s["start_at"]) - now_jst()).total_seconds() / 60, 1)
 
                 poster = None
                 if not dry_run and rec.get("poster_url"):
