@@ -540,8 +540,7 @@ def parse_title(raw: str, extra_tags: Iterable[str] = ()) -> dict:
         inner = m.group(1).strip()
         if not _is_version_paren(inner):
             return m.group(0)
-        add(inner)                       # 「発声＆スタンディング応援上映」等は丸ごと
-        for tag in VERSION_TAGS:         # 正規のタグ名でも拾えるように
+        for tag in VERSION_TAGS:         # 正規のタグ名だけを拾う
             if _canon(tag) in _canon(inner):
                 add(tag)
         return " "
@@ -555,18 +554,9 @@ def parse_title(raw: str, extra_tags: Iterable[str] = ()) -> dict:
     for tag in extra_tags:
         add(tag)
 
-    # 「吹替版」と「吹替」のように、生の文言と正規のタグがほぼ重なることが
-    # ある。ほぼ同じなら正規のほうだけ残す。「発声＆スタンディング応援上映」
-    # のように情報が多い文言は、正規タグと並べて残す。
-    trimmed = []
-    for tag in tags:
-        dup = any(other is not tag and _canon(tag) in _canon(other)
-                  and len(other) >= len(tag) for other in tags)
-        near = any(other is not tag and _canon(other) in _canon(tag)
-                   and len(tag) - len(other) <= 2 for other in tags)
-        if near and not dup:
-            continue                     # 「吹替版」は「吹替」に任せる
-        trimmed.append(tag)
+    trimmed = [tag for tag in tags
+               if not any(other is not tag and _canon(tag) != _canon(other)
+                          and _canon(tag) in _canon(other) for other in tags)]
 
     base = re.sub(r"\s+", " ", text).strip(" \u3000-–—")
     return {"base_title": base or (raw or "").strip(), "tags": trimmed}
@@ -923,7 +913,7 @@ def rows_to_showings(cinema: dict, rows: list[dict], fallback_date: str | None) 
 
         # 版タグは作品名と回の付記（「字幕」「特別料金」等）の両方から拾う
         extra = [t for t in VERSION_TAGS
-                 if t in (r.get("note") or "") or t in (r.get("info_raw") or "")]
+            if _canon(t) in _canon((r.get("note") or "") + (r.get("info_raw") or ""))]
         info = parse_title(r.get("title_raw") or "", extra)
         if not info["base_title"]:
             continue

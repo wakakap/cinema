@@ -92,6 +92,10 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
 .film-title:hover{border-bottom-color:var(--accent)}
 .tag{font-family:var(--mono);font-size:10px;color:var(--muted);
   border:1px solid var(--line);border-radius:2px;padding:1px 5px}
+/* 回ごとの版タグ。取得時刻の下に置く。作品名の横のものは作品全体の
+   集合なので、どの回がどの版だったかはこちらでしか分からない。 */
+.shot-tags{padding:0 9px 8px;margin-top:-5px;display:flex;flex-wrap:wrap;gap:4px}
+.shot-tags .tag{font-size:9px;padding:0 4px;line-height:1.5}
 
 .shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(178px,1fr));gap:13px}
 .shot{background:var(--sheet);border:1px solid var(--line);border-radius:2px;
@@ -262,6 +266,15 @@ function stampEl(c){
   return `<div class="shot-sub">取得 ${t}${lead}${flag}</div>`;
 }
 
+// その回に付いていた版タグ（字幕・吹替・IMAX など）。取得時に上映一覧の
+// 見出しから剥がして記録へ入れてあるので、回ごとに正しく分かれている。
+function shotTags(c){
+  const tags = (c.tags || []).slice(0, 4);
+  if(!tags.length) return '';
+  return `<div class="shot-tags">${
+    tags.map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>`;
+}
+
 function shotEl(c){
   const img = c.seat_image
     ? `<img class="shot-img" src="${esc(c.seat_image)}" loading="lazy"
@@ -286,7 +299,7 @@ function shotEl(c){
   return `<article class="shot">${img}<div class="shot-foot">
     <span class="shot-time">${esc(c.start)}</span>
     <span class="shot-scr">${esc(c.screen || '')}</span>${occ}</div>
-    ${stampEl(c)}</article>`;
+    ${stampEl(c)}${shotTags(c)}</article>`;
 }
 
 function filmRow(fkey, list){
