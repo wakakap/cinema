@@ -88,7 +88,7 @@
     "first_seen": "2026-08-27",
     "last_seen": "2026-09-03",
     "showing_count": 38,
-    "capture_count": 2
+    "capture_count": 3
   },
   "minions-monsters-a63f70": {
     "key": "minions-monsters-a63f70",
@@ -243,7 +243,7 @@
     "first_seen": "2026-08-27",
     "last_seen": "2026-09-03",
     "showing_count": 8,
-    "capture_count": 1
+    "capture_count": 2
   },
   "film-29719f": {
     "key": "film-29719f",
@@ -336,7 +336,7 @@
     "first_seen": "2026-08-28",
     "last_seen": "2026-09-03",
     "showing_count": 32,
-    "capture_count": 1
+    "capture_count": 2
   },
   "puella-magi-madoka-magica-walpurgisnacht-e46fb0": {
     "key": "puella-magi-madoka-magica-walpurgisnacht-e46fb0",
@@ -344,9 +344,7 @@
     "poster": null,
     "tags": [],
     "runtime_min": 165,
-    "codes": [
-      "C4463001"
-    ],
+    "codes": [],
     "first_seen": "2026-08-29",
     "last_seen": "2026-08-29",
     "showing_count": 1,

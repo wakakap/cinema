@@ -8,10 +8,10 @@
     "seat_url_hint": "choice_seat",
     "robots_url": "https://tjoy.jp/robots.txt"
   },
-  "generated_at": "2026-08-29T11:55:14.640795+09:00",
+  "generated_at": "2026-08-29T12:21:41.419352+09:00",
   "total_records": 371,
-  "total_captures": 34,
-  "pending_showings": 262,
+  "total_captures": 37,
+  "pending_showings": 259,
   "warnings": [],
   "months": [
     {
@@ -205,7 +205,7 @@
     {
       "date": "2026-08-29",
       "count": 44,
-      "captured": 3,
+      "captured": 6,
       "films": [
         "blue-lock-4f16c3",
         "minions-monsters-a63f70",
@@ -366,7 +366,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 38,
-      "capture_count": 2
+      "capture_count": 3
     },
     {
       "key": "kamen-rider-zeztz-and-super-space-sherif-e34ed8",
@@ -394,7 +394,7 @@
       "first_seen": "2026-08-28",
       "last_seen": "2026-09-03",
       "showing_count": 32,
-      "capture_count": 1
+      "capture_count": 2
     },
     {
       "key": "puella-magi-madoka-magica-walpurgisnacht-0fd537",
@@ -477,7 +477,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 8,
-      "capture_count": 1
+      "capture_count": 2
     },
     {
       "key": "spider-man-brand-new-day-0fdee1",
@@ -613,9 +613,7 @@
       "poster": null,
       "tags": [],
       "runtime_min": 165,
-      "codes": [
-        "C4463001"
-      ],
+      "codes": [],
       "first_seen": "2026-08-29",
       "last_seen": "2026-08-29",
       "showing_count": 1,
