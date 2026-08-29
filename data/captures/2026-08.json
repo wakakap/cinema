@@ -3898,21 +3898,39 @@
       "screen_no": "03",
       "screen_seats": 207,
       "availability": {
-        "code": "plenty",
-        "mark": "◎",
-        "label": "空席に余裕があります"
+        "code": "available",
+        "mark": "○",
+        "label": "空席があります"
       },
       "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785671/C4805000/3/2026-08-29?type=film",
       "schedule_id": "785671",
       "film_code": "C4805000",
+      "status": "captured",
+      "attempts": 0,
+      "captures": 1,
+      "last_attempt_at": "2026-08-29T14:58:21.852125+09:00",
       "day_open": "8:00",
       "day_note": null,
-      "source": "schedule",
-      "updated_at": "2026-08-29T12:21:05.083381+09:00",
+      "poster_url": null,
+      "screen_image_url": null,
+      "seat_counts": {
+        "vacant": 0,
+        "sold": 0,
+        "total": 0,
+        "expected": 207
+      },
+      "occupancy": null,
+      "seat_warning": "座席が 0 件",
+      "seat_image": "media/seats/2026-08/chiikawa-0377e3_20260829_1510_tjoyumeda.jpg",
+      "seat_image_bytes": 54220,
+      "poster": null,
+      "screen_image": null,
+      "source": "seat",
+      "lead_minutes": 11.6,
+      "captured_at": "2026-08-29T14:58:25.678436+09:00",
+      "capture_round": 1,
       "theater": "tjoyumeda",
-      "theater_name": "T・ジョイ梅田",
-      "seat_image": null,
-      "occupancy": null
+      "theater_name": "T・ジョイ梅田"
     },
     {
       "id": "20260829-1520-s06-puella-magi-madoka-magica-walpurgisnacht-0fd537",
@@ -3928,21 +3946,39 @@
       "screen_no": "06",
       "screen_seats": 330,
       "availability": {
-        "code": "few",
-        "mark": "△",
-        "label": "空席がわずかです"
+        "code": "plenty",
+        "mark": "◎",
+        "label": "空席に余裕があります"
       },
       "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785689/C4463000/6/2026-08-29?type=film",
       "schedule_id": "785689",
       "film_code": "C4463000",
+      "status": "provisional",
+      "attempts": 0,
+      "captures": 1,
+      "last_attempt_at": "2026-08-29T14:58:28.780440+09:00",
       "day_open": "8:00",
       "day_note": null,
-      "source": "schedule",
-      "updated_at": "2026-08-29T12:21:05.083381+09:00",
+      "movie_date_text": "08/29（土）15:20 ～ 17:30",
+      "poster_url": "https://cdn.tjoy.jp/images/_up/cinema/178357230377be692651.jpg",
+      "screen_image_url": "https://cdn.tjoy.jp/images/_up/theater/320_06_20191008.png",
+      "seat_counts": {
+        "vacant": 106,
+        "sold": 224,
+        "total": 330,
+        "expected": 330
+      },
+      "occupancy": 0.6788,
+      "seat_image": "media/seats/2026-08/puella-magi-madoka-magica-walpurgisnacht-0fd537_20260829_1520_tjoyumeda.jpg",
+      "seat_image_bytes": 133725,
+      "poster": "media/posters/puella-magi-madoka-magica-walpurgisnacht-0fd537.jpg",
+      "screen_image": "media/screens/tjoyumeda_06_0fd98c99.png",
+      "source": "seat",
+      "lead_minutes": 21.4,
+      "captured_at": "2026-08-29T14:58:34.282163+09:00",
+      "capture_round": 1,
       "theater": "tjoyumeda",
-      "theater_name": "T・ジョイ梅田",
-      "seat_image": null,
-      "occupancy": null
+      "theater_name": "T・ジョイ梅田"
     },
     {
       "id": "20260829-1555-s07-heikou-to-suichoku-b9aaec",
@@ -3958,21 +3994,39 @@
       "screen_no": "07",
       "screen_seats": 141,
       "availability": {
-        "code": "plenty",
-        "mark": "◎",
-        "label": "空席に余裕があります"
+        "code": "available",
+        "mark": "○",
+        "label": "空席があります"
       },
       "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785695/C4908000/7/2026-08-29?type=film",
       "schedule_id": "785695",
       "film_code": "C4908000",
+      "status": "provisional",
+      "attempts": 0,
+      "captures": 1,
+      "last_attempt_at": "2026-08-29T14:58:39.135065+09:00",
       "day_open": "8:00",
       "day_note": null,
-      "source": "schedule",
-      "updated_at": "2026-08-29T12:21:05.083381+09:00",
+      "movie_date_text": "08/29（土）15:55 ～ 18:00",
+      "poster_url": "https://cdn.tjoy.jp/images/_up/cinema/1778719725lyweh0tna2.jpg",
+      "screen_image_url": "https://cdn.tjoy.jp/images/_up/theater/320_07_20191008.png",
+      "seat_counts": {
+        "vacant": 60,
+        "sold": 81,
+        "total": 141,
+        "expected": 141
+      },
+      "occupancy": 0.5745,
+      "seat_image": "media/seats/2026-08/heikou-to-suichoku-b9aaec_20260829_1555_tjoyumeda.jpg",
+      "seat_image_bytes": 114382,
+      "poster": "media/posters/heikou-to-suichoku-b9aaec.jpg",
+      "screen_image": "media/screens/tjoyumeda_07_b32aede6.png",
+      "source": "seat",
+      "lead_minutes": 56.3,
+      "captured_at": "2026-08-29T14:58:44.198296+09:00",
+      "capture_round": 1,
       "theater": "tjoyumeda",
-      "theater_name": "T・ジョイ梅田",
-      "seat_image": null,
-      "occupancy": null
+      "theater_name": "T・ジョイ梅田"
     },
     {
       "id": "20260829-1600-s02-michael-michael-43664c",
@@ -3997,14 +4051,32 @@
       "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785665/C4739100/2/2026-08-29?type=film",
       "schedule_id": "785665",
       "film_code": "C4739100",
+      "status": "provisional",
+      "attempts": 0,
+      "captures": 1,
+      "last_attempt_at": "2026-08-29T14:58:48.786346+09:00",
       "day_open": "8:00",
       "day_note": null,
-      "source": "schedule",
-      "updated_at": "2026-08-29T12:21:05.083381+09:00",
+      "movie_date_text": "08/29（土）16:00 ～ 18:25",
+      "poster_url": "https://cdn.tjoy.jp/images/_up/cinema/17804678156mljsd2tmt.jpg",
+      "screen_image_url": "https://cdn.tjoy.jp/images/_up/theater/320_02_20191008.png",
+      "seat_counts": {
+        "vacant": 49,
+        "sold": 97,
+        "total": 146,
+        "expected": 146
+      },
+      "occupancy": 0.6644,
+      "seat_image": "media/seats/2026-08/michael-michael-43664c_20260829_1600_tjoyumeda.jpg",
+      "seat_image_bytes": 115310,
+      "poster": "media/posters/michael-michael-43664c.jpg",
+      "screen_image": "media/screens/tjoyumeda_02_756949f3.png",
+      "source": "seat",
+      "lead_minutes": 61.1,
+      "captured_at": "2026-08-29T14:58:53.773199+09:00",
+      "capture_round": 1,
       "theater": "tjoyumeda",
-      "theater_name": "T・ジョイ梅田",
-      "seat_image": null,
-      "occupancy": null
+      "theater_name": "T・ジョイ梅田"
     },
     {
       "id": "20260829-1600-s05-minions-monsters-a63f70",
@@ -4023,21 +4095,39 @@
       "screen_no": "05",
       "screen_seats": 95,
       "availability": {
-        "code": "plenty",
-        "mark": "◎",
-        "label": "空席に余裕があります"
+        "code": "available",
+        "mark": "○",
+        "label": "空席があります"
       },
       "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785684/C4860200/5/2026-08-29?type=film",
       "schedule_id": "785684",
       "film_code": "C4860200",
+      "status": "provisional",
+      "attempts": 0,
+      "captures": 1,
+      "last_attempt_at": "2026-08-29T14:58:58.004236+09:00",
       "day_open": "8:00",
       "day_note": null,
-      "source": "schedule",
-      "updated_at": "2026-08-29T12:21:05.083381+09:00",
+      "movie_date_text": "08/29（土）16:00 ～ 17:40",
+      "poster_url": "https://cdn.tjoy.jp/images/_up/cinema/1783408789eemcrsjdla.jpg",
+      "screen_image_url": "https://cdn.tjoy.jp/images/_up/theater/320_05_20191008.png",
+      "seat_counts": {
+        "vacant": 35,
+        "sold": 60,
+        "total": 95,
+        "expected": 95
+      },
+      "occupancy": 0.6316,
+      "seat_image": "media/seats/2026-08/minions-monsters-a63f70_20260829_1600_tjoyumeda.jpg",
+      "seat_image_bytes": 85408,
+      "poster": "media/posters/minions-monsters-a63f70.jpg",
+      "screen_image": "media/screens/tjoyumeda_05_aed97d34.png",
+      "source": "seat",
+      "lead_minutes": 61.0,
+      "captured_at": "2026-08-29T14:59:02.878336+09:00",
+      "capture_round": 1,
       "theater": "tjoyumeda",
-      "theater_name": "T・ジョイ梅田",
-      "seat_image": null,
-      "occupancy": null
+      "theater_name": "T・ジョイ梅田"
     },
     {
       "id": "20260829-1710-s01-spider-man-brand-new-day-0fdee1",
@@ -7063,5 +7153,5 @@
       "occupancy": null
     }
   ],
-  "updated_at": "2026-08-29T12:56:41.111994+09:00"
+  "updated_at": "2026-08-29T14:59:02.881178+09:00"
 }
