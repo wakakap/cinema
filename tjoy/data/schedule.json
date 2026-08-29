@@ -142,37 +142,6 @@
           "day_note": null
         },
         {
-          "id": "20260829-2040-s06-puella-magi-madoka-magica-walpurgisnacht-0fd537",
-          "date": "2026-08-29",
-          "start": "20:40",
-          "end": "22:50",
-          "start_at": "2026-08-29T20:40:00+09:00",
-          "film_key": "puella-magi-madoka-magica-walpurgisnacht-0fd537",
-          "film_title": "劇場版 魔法少女まどか☆マギカ〈ワルプルギスの廻天〉 Puella Magi Madoka Magica Walpurgisnacht: Rising",
-          "tags": [],
-          "runtime_min": 120,
-          "screen": "シアター6",
-          "screen_no": "06",
-          "screen_seats": 330,
-          "availability": {
-            "code": "available",
-            "mark": "○",
-            "label": "空席があります"
-          },
-          "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785691/C4463000/6/2026-08-29?type=film",
-          "schedule_id": "785691",
-          "film_code": "C4463000",
-          "status": "provisional",
-          "attempts": 0,
-          "captures": 1,
-          "slots": [
-            0
-          ],
-          "last_attempt_at": "2026-08-29T15:30:01.701230+09:00",
-          "day_open": "8:00",
-          "day_note": null
-        },
-        {
           "id": "20260829-1105-s07-heikou-to-suichoku-b9aaec",
           "date": "2026-08-29",
           "start": "11:05",
@@ -223,37 +192,6 @@
           "day_note": null
         },
         {
-          "id": "20260829-2045-s07-heikou-to-suichoku-b9aaec",
-          "date": "2026-08-29",
-          "start": "20:45",
-          "end": "22:50",
-          "start_at": "2026-08-29T20:45:00+09:00",
-          "film_key": "heikou-to-suichoku-b9aaec",
-          "film_title": "平行と垂直 Heikou to Suichoku",
-          "tags": [],
-          "runtime_min": 118,
-          "screen": "シアター7",
-          "screen_no": "07",
-          "screen_seats": 141,
-          "availability": {
-            "code": "available",
-            "mark": "○",
-            "label": "空席があります"
-          },
-          "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785697/C4908000/7/2026-08-29?type=film",
-          "schedule_id": "785697",
-          "film_code": "C4908000",
-          "status": "provisional",
-          "attempts": 0,
-          "captures": 1,
-          "slots": [
-            0
-          ],
-          "last_attempt_at": "2026-08-29T15:30:10.019058+09:00",
-          "day_open": "8:00",
-          "day_note": null
-        },
-        {
           "id": "20260829-1140-s04-in-ohsama-sentai-king-ohger-film-concert-9144c0",
           "date": "2026-08-29",
           "start": "11:40",
@@ -275,37 +213,6 @@
           "captures": 0,
           "slots": [],
           "last_attempt_at": null,
-          "day_open": "8:00",
-          "day_note": null
-        },
-        {
-          "id": "20260829-1950-s03-in-ohsama-sentai-king-ohger-film-concert-9144c0",
-          "date": "2026-08-29",
-          "start": "19:50",
-          "end": "22:40",
-          "start_at": "2026-08-29T19:50:00+09:00",
-          "film_key": "in-ohsama-sentai-king-ohger-film-concert-9144c0",
-          "film_title": "王様戦隊キングオージャー フィルム・コンサート in シネマ Ohsama Sentai King-Ohger Film Concert in Cinema",
-          "tags": [],
-          "runtime_min": 162,
-          "screen": "シアター3",
-          "screen_no": "03",
-          "screen_seats": 207,
-          "availability": {
-            "code": "available",
-            "mark": "○",
-            "label": "空席があります"
-          },
-          "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785673/C5008000/3/2026-08-29?type=film",
-          "schedule_id": "785673",
-          "film_code": "C5008000",
-          "status": "provisional",
-          "attempts": 0,
-          "captures": 1,
-          "slots": [
-            0
-          ],
-          "last_attempt_at": "2026-08-29T15:29:36.214868+09:00",
           "day_open": "8:00",
           "day_note": null
         },
@@ -339,41 +246,6 @@
           "day_note": null
         },
         {
-          "id": "20260829-2015-s01-25-harry-potter-and-the-sorcerer-s-stone-0c741e",
-          "date": "2026-08-29",
-          "start": "20:15",
-          "end": "23:15",
-          "start_at": "2026-08-29T20:15:00+09:00",
-          "film_key": "25-harry-potter-and-the-sorcerer-s-stone-0c741e",
-          "film_title": "25周年記念 『ハリー・ポッターと賢者の石』 Harry Potter and the Sorcerer's Stone",
-          "tags": [
-            "DolbyCinema",
-            "字幕",
-            "3D"
-          ],
-          "runtime_min": 169,
-          "screen": "シアター1",
-          "screen_no": "01",
-          "screen_seats": 376,
-          "availability": {
-            "code": "available",
-            "mark": "○",
-            "label": "空席があります"
-          },
-          "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785661/C4991190/1/2026-08-29?type=film",
-          "schedule_id": "785661",
-          "film_code": "C4991190",
-          "status": "provisional",
-          "attempts": 0,
-          "captures": 1,
-          "slots": [
-            0
-          ],
-          "last_attempt_at": "2026-08-29T15:29:52.483104+09:00",
-          "day_open": "8:00",
-          "day_note": null
-        },
-        {
           "id": "20260829-1040-s05-shiranuhi-6c2ef4",
           "date": "2026-08-29",
           "start": "10:40",
@@ -395,37 +267,6 @@
           "captures": 0,
           "slots": [],
           "last_attempt_at": null,
-          "day_open": "8:00",
-          "day_note": null
-        },
-        {
-          "id": "20260829-1950-s04-shiranuhi-6c2ef4",
-          "date": "2026-08-29",
-          "start": "19:50",
-          "end": "20:35",
-          "start_at": "2026-08-29T19:50:00+09:00",
-          "film_key": "shiranuhi-6c2ef4",
-          "film_title": "しらぬひ Shiranuhi",
-          "tags": [],
-          "runtime_min": 36,
-          "screen": "シアター4",
-          "screen_no": "04",
-          "screen_seats": 95,
-          "availability": {
-            "code": "available",
-            "mark": "○",
-            "label": "空席があります"
-          },
-          "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785678/C4819000/4/2026-08-29?type=film",
-          "schedule_id": "785678",
-          "film_code": "C4819000",
-          "status": "provisional",
-          "attempts": 0,
-          "captures": 1,
-          "slots": [
-            0
-          ],
-          "last_attempt_at": "2026-08-29T15:29:44.561071+09:00",
           "day_open": "8:00",
           "day_note": null
         },
@@ -453,37 +294,6 @@
           "captures": 0,
           "slots": [],
           "last_attempt_at": null,
-          "day_open": "8:00",
-          "day_note": null
-        },
-        {
-          "id": "20260829-2055-s04-blue-lock-4f16c3",
-          "date": "2026-08-29",
-          "start": "20:55",
-          "end": "23:10",
-          "start_at": "2026-08-29T20:55:00+09:00",
-          "film_key": "blue-lock-4f16c3",
-          "film_title": "ブルーロック BLUE LOCK",
-          "tags": [],
-          "runtime_min": 127,
-          "screen": "シアター4",
-          "screen_no": "04",
-          "screen_seats": 95,
-          "availability": {
-            "code": "available",
-            "mark": "○",
-            "label": "空席があります"
-          },
-          "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785679/C4803000/4/2026-08-29?type=film",
-          "schedule_id": "785679",
-          "film_code": "C4803000",
-          "status": "provisional",
-          "attempts": 0,
-          "captures": 1,
-          "slots": [
-            0
-          ],
-          "last_attempt_at": "2026-08-29T15:30:17.629869+09:00",
           "day_open": "8:00",
           "day_note": null
         },
@@ -563,37 +373,6 @@
           "day_note": null
         },
         {
-          "id": "20260829-2105-s02-chiikawa-0377e3",
-          "date": "2026-08-29",
-          "start": "21:05",
-          "end": "22:55",
-          "start_at": "2026-08-29T21:05:00+09:00",
-          "film_key": "chiikawa-0377e3",
-          "film_title": "映画ちいかわ 人魚の島のひみつ Chiikawa",
-          "tags": [],
-          "runtime_min": 99,
-          "screen": "シアター2",
-          "screen_no": "02",
-          "screen_seats": 146,
-          "availability": {
-            "code": "available",
-            "mark": "○",
-            "label": "空席があります"
-          },
-          "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785667/C4805000/2/2026-08-29?type=film",
-          "schedule_id": "785667",
-          "film_code": "C4805000",
-          "status": "provisional",
-          "attempts": 0,
-          "captures": 1,
-          "slots": [
-            0
-          ],
-          "last_attempt_at": "2026-08-29T15:30:25.716035+09:00",
-          "day_open": "8:00",
-          "day_note": null
-        },
-        {
           "id": "20260829-1305-s03-performance1984-2012-tatsuro-yamashita-t-6f5b8b",
           "date": "2026-08-29",
           "start": "13:05",
@@ -642,39 +421,6 @@
           "captures": 0,
           "slots": [],
           "last_attempt_at": null,
-          "day_open": "8:00",
-          "day_note": null
-        },
-        {
-          "id": "20260829-2115-s05-the-end-of-oak-street-964311",
-          "date": "2026-08-29",
-          "start": "21:15",
-          "end": "23:05",
-          "start_at": "2026-08-29T21:15:00+09:00",
-          "film_key": "the-end-of-oak-street-964311",
-          "film_title": "オークストリートの異変 The End of Oak Street",
-          "tags": [
-            "字幕"
-          ],
-          "runtime_min": 100,
-          "screen": "シアター5",
-          "screen_no": "05",
-          "screen_seats": 95,
-          "availability": {
-            "code": "available",
-            "mark": "○",
-            "label": "空席があります"
-          },
-          "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785686/C4943100/5/2026-08-29?type=film",
-          "schedule_id": "785686",
-          "film_code": "C4943100",
-          "status": "provisional",
-          "attempts": 0,
-          "captures": 1,
-          "slots": [
-            0
-          ],
-          "last_attempt_at": "2026-08-29T15:30:33.620262+09:00",
           "day_open": "8:00",
           "day_note": null
         },

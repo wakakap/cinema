@@ -49,7 +49,7 @@
       "active": true
     }
   ],
-  "generated_at": "2026-08-29T18:53:42.160733+09:00",
+  "generated_at": "2026-08-29T22:44:12.830216+09:00",
   "total_records": 132,
   "total_captures": 118,
   "pending_showings": 0,
@@ -167,11 +167,8 @@
       "title": "Ｍｉｃｈａｅｌ／マイケル",
       "poster": "../tjoy/media/posters/michael-michael-43664c.jpg",
       "tags": [
-        "発声＆スタンディングＯＫ・Ｄｏｌｂｙ－ＡＴＭＯＳ・ＭＶ付・字幕版",
         "Dolby Atmos",
-        "ATMOS",
-        "字幕",
-        "Ｄｏｌｂｙ－ＡＴＭＯＳ・ＭＶ付・字幕版"
+        "字幕"
       ],
       "first_seen": "2026-08-29",
       "last_seen": "2026-08-31",
@@ -247,10 +244,7 @@
       "title": "劇場版 魔法少女まどか☆マギカ〈ワルプルギスの廻天〉",
       "poster": "../tjoy/media/posters/puella-magi-madoka-magica-walpurgisnacht-0fd537.jpg",
       "tags": [
-        "舞台挨拶中継・Ｄｏｌｂｙ－ＡＴＭＯＳ",
         "Dolby Atmos",
-        "ATMOS",
-        "Ｄｏｌｂｙ－ＡＴＭＯＳ",
         "レイトショー"
       ],
       "first_seen": "2026-08-29",
@@ -280,9 +274,7 @@
       "title": "ラスト・サバイバー",
       "poster": null,
       "tags": [
-        "Ｄｏｌｂｙ－ＡＴＭＯＳ・字幕版",
         "Dolby Atmos",
-        "ATMOS",
         "字幕",
         "レイトショー"
       ],
@@ -347,7 +339,6 @@
       "title": "パウっと！ファミリーシアター",
       "poster": null,
       "tags": [
-        "パウ・パトロール ザ・ダイノ・ムービー・吹替版",
         "吹替"
       ],
       "first_seen": "2026-08-29",
@@ -361,7 +352,7 @@
     {
       "key": "film-87658e",
       "title": "ハリー・ポッターと賢者の石",
-      "poster": null,
+      "poster": "../tjoy/media/posters/25-harry-potter-and-the-sorcerer-s-stone-0c741e.jpg",
       "tags": [
         "吹替",
         "レイトショー"
@@ -372,7 +363,8 @@
         "tohoumeda"
       ],
       "showing_count": 6,
-      "capture_count": 6
+      "capture_count": 6,
+      "poster_from": "tjoy"
     },
     {
       "key": "film-8d7903",
@@ -393,7 +385,7 @@
     {
       "key": "film-b1b479",
       "title": "トイ・ストーリー５",
-      "poster": null,
+      "poster": "../tjoy/media/posters/toy-story-5-7e34e5.jpg",
       "tags": [
         "吹替"
       ],
@@ -403,7 +395,8 @@
         "tohoumeda"
       ],
       "showing_count": 6,
-      "capture_count": 6
+      "capture_count": 6,
+      "poster_from": "tjoy"
     },
     {
       "key": "film-2fcda0",
@@ -444,8 +437,7 @@
       "title": "キングダム 魂の決戦",
       "poster": "../tjoy/media/posters/kingdom-ae54ae.jpg",
       "tags": [
-        "Ｄｏｌｂｙ－ＡＴＭＯＳ",
-        "ATMOS",
+        "Dolby Atmos",
         "レイトショー"
       ],
       "first_seen": "2026-08-29",

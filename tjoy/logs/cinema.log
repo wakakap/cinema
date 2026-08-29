@@ -379,3 +379,41 @@
 08-29 18:53:29  RUN   start     gap=10m
 08-29 18:53:37  CAP   final     08-29 19:00 s06 追加上映『髑髏城の七人 19 lead=6m occ=41%
 08-29 18:53:41  CAP   done      対象 1 / 成功 1 / 失敗 0 / 12s
+08-29 19:18:05  RUN   start     gap=25m
+08-29 19:18:15  CAP   slot1     08-29 19:50 s03 王様戦隊キングオージャー フ lead=32m occ=17%
+08-29 19:18:23  CAP   slot1     08-29 19:50 s04 しらぬひ Shiranuhi lead=32m occ=14%
+08-29 19:18:27  CAP   done      対象 2 / 成功 2 / 失敗 0 / 22s
+08-29 19:43:14  RUN   start     gap=25m
+08-29 19:43:22  CAP   final     08-29 19:50 s03 王様戦隊キングオージャー フ lead=7m occ=16%
+08-29 19:43:31  CAP   final     08-29 19:50 s04 しらぬひ Shiranuhi lead=6m occ=14%
+08-29 19:43:39  CAP   slot1     08-29 20:15 s01 25周年記念 『ハリー・ポッ lead=31m occ=26%
+08-29 19:43:44  CAP   done      対象 3 / 成功 3 / 失敗 0 / 30s
+08-29 20:08:22  RUN   start     gap=25m
+08-29 20:08:30  CAP   final     08-29 20:15 s01 25周年記念 『ハリー・ポッ lead=6m occ=26%
+08-29 20:08:38  CAP   slot1     08-29 20:40 s06 劇場版 魔法少女まどか☆マギ lead=31m occ=39%
+08-29 20:08:42  CAP   done      対象 2 / 成功 2 / 失敗 0 / 20s
+08-29 20:13:13  RUN   start     gap=5m
+08-29 20:13:21  CAP   slot1     08-29 20:45 s07 平行と垂直 Heikou t lead=32m occ=19%
+08-29 20:13:24  CAP   done      対象 1 / 成功 1 / 失敗 0 / 12s
+08-29 20:23:17  RUN   start     gap=10m
+08-29 20:23:25  CAP   slot1     08-29 20:55 s04 ブルーロック BLUE LO lead=32m occ=15%
+08-29 20:23:29  CAP   done      対象 1 / 成功 1 / 失敗 0 / 12s
+08-29 20:33:15  RUN   start     gap=10m
+08-29 20:33:23  CAP   final     08-29 20:40 s06 劇場版 魔法少女まどか☆マギ lead=7m occ=40%
+08-29 20:33:32  CAP   slot1     08-29 21:05 s02 映画ちいかわ 人魚の島のひみ lead=32m occ=11%
+08-29 20:33:36  CAP   done      対象 2 / 成功 2 / 失敗 0 / 21s
+08-29 20:38:29  RUN   start     gap=5m
+08-29 20:38:37  CAP   final     08-29 20:45 s07 平行と垂直 Heikou t lead=6m occ=21%
+08-29 20:38:41  CAP   done      対象 1 / 成功 1 / 失敗 0 / 12s
+08-29 20:43:12  RUN   start     gap=5m
+08-29 20:43:21  CAP   slot1     08-29 21:15 s05 オークストリートの異変 Th lead=32m occ=8%
+08-29 20:43:26  CAP   done      対象 1 / 成功 1 / 失敗 0 / 14s
+08-29 20:48:27  RUN   start     gap=5m
+08-29 20:48:35  CAP   final     08-29 20:55 s04 ブルーロック BLUE LO lead=6m occ=19%
+08-29 20:48:39  CAP   done      対象 1 / 成功 1 / 失敗 0 / 12s
+08-29 20:58:12  RUN   start     gap=10m
+08-29 20:58:20  CAP   final     08-29 21:05 s02 映画ちいかわ 人魚の島のひみ lead=7m occ=18%
+08-29 20:58:25  CAP   done      対象 1 / 成功 1 / 失敗 0 / 13s
+08-29 21:08:46  RUN   start     gap=11m
+08-29 21:08:54  CAP   final     08-29 21:15 s05 オークストリートの異変 Th lead=6m occ=8%
+08-29 21:08:58  CAP   done      対象 1 / 成功 1 / 失敗 0 / 12s

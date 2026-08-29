@@ -4970,34 +4970,36 @@
       "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785673/C5008000/3/2026-08-29?type=film",
       "schedule_id": "785673",
       "film_code": "C5008000",
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:29:36.214868+09:00",
+      "last_attempt_at": "2026-08-29T19:43:18.142201+09:00",
       "day_open": "8:00",
       "day_note": null,
       "movie_date_text": "08/29（土）19:50 ～ 22:40",
       "poster_url": "https://cdn.tjoy.jp/images/_up/cinema/1784010041bwbrm9l2ej.jpg",
       "screen_image_url": "https://cdn.tjoy.jp/images/_up/theater/320_03_20191008.png",
       "seat_counts": {
-        "vacant": 178,
-        "sold": 29,
+        "vacant": 173,
+        "sold": 34,
         "total": 207,
         "expected": 207
       },
-      "occupancy": 0.1401,
+      "occupancy": 0.1643,
       "seat_image": "media/seats/2026-08/in-ohsama-sentai-king-ohger-film-concert-9144c0_20260829_1950_tjoyumeda.jpg",
-      "seat_image_bytes": 81520,
+      "seat_image_bytes": 82139,
       "poster": "media/posters/in-ohsama-sentai-king-ohger-film-concert-9144c0.jpg",
       "screen_image": "media/screens/tjoyumeda_03_bad41a0e.png",
       "source": "seat",
-      "lead_minutes": 260.3,
-      "captured_at": "2026-08-29T15:29:40.508052+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.6,
+      "captured_at": "2026-08-29T19:43:22.651328+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "theater": "tjoyumeda",
       "theater_name": "T・ジョイ梅田",
       "history": [
@@ -5009,6 +5011,24 @@
           "vacant": 178,
           "total": 207,
           "occupancy": 0.1401
+        },
+        {
+          "at": "2026-08-29T19:18:15.363758+09:00",
+          "lead": 31.7,
+          "slot": 1,
+          "sold": 36,
+          "vacant": 171,
+          "total": 207,
+          "occupancy": 0.1739
+        },
+        {
+          "at": "2026-08-29T19:43:22.651328+09:00",
+          "lead": 6.6,
+          "slot": 2,
+          "sold": 34,
+          "vacant": 173,
+          "total": 207,
+          "occupancy": 0.1643
         }
       ]
     },
@@ -5033,34 +5053,36 @@
       "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785678/C4819000/4/2026-08-29?type=film",
       "schedule_id": "785678",
       "film_code": "C4819000",
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:29:44.561071+09:00",
+      "last_attempt_at": "2026-08-29T19:43:27.102597+09:00",
       "day_open": "8:00",
       "day_note": null,
       "movie_date_text": "08/29（土）19:50 ～ 20:35",
       "poster_url": "https://cdn.tjoy.jp/images/_up/cinema/1781141089y3cbivfg1c.jpg",
       "screen_image_url": "https://cdn.tjoy.jp/images/_up/theater/320_04_20191008.png",
       "seat_counts": {
-        "vacant": 85,
-        "sold": 10,
+        "vacant": 82,
+        "sold": 13,
         "total": 95,
         "expected": 95
       },
-      "occupancy": 0.1053,
+      "occupancy": 0.1368,
       "seat_image": "media/seats/2026-08/shiranuhi-6c2ef4_20260829_1950_tjoyumeda.jpg",
-      "seat_image_bytes": 76202,
+      "seat_image_bytes": 76863,
       "poster": "media/posters/shiranuhi-6c2ef4.jpg",
       "screen_image": "media/screens/tjoyumeda_04_063ab0cc.png",
       "source": "seat",
-      "lead_minutes": 260.2,
-      "captured_at": "2026-08-29T15:29:48.623640+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.5,
+      "captured_at": "2026-08-29T19:43:31.330373+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "theater": "tjoyumeda",
       "theater_name": "T・ジョイ梅田",
       "history": [
@@ -5072,6 +5094,24 @@
           "vacant": 85,
           "total": 95,
           "occupancy": 0.1053
+        },
+        {
+          "at": "2026-08-29T19:18:23.390154+09:00",
+          "lead": 31.6,
+          "slot": 1,
+          "sold": 13,
+          "vacant": 82,
+          "total": 95,
+          "occupancy": 0.1368
+        },
+        {
+          "at": "2026-08-29T19:43:31.330373+09:00",
+          "lead": 6.5,
+          "slot": 2,
+          "sold": 13,
+          "vacant": 82,
+          "total": 95,
+          "occupancy": 0.1368
         }
       ]
     },
@@ -5100,34 +5140,36 @@
       "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785661/C4991190/1/2026-08-29?type=film",
       "schedule_id": "785661",
       "film_code": "C4991190",
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:29:52.483104+09:00",
+      "last_attempt_at": "2026-08-29T20:08:25.691745+09:00",
       "day_open": "8:00",
       "day_note": null,
       "movie_date_text": "08/29（土）20:15 ～ 23:15",
       "poster_url": "https://cdn.tjoy.jp/images/_up/cinema/1783408814a68ut20b6d.jpg",
       "screen_image_url": "https://cdn.tjoy.jp/images/_up/theater/320_01_20191008.png",
       "seat_counts": {
-        "vacant": 296,
-        "sold": 80,
+        "vacant": 280,
+        "sold": 96,
         "total": 376,
         "expected": 376
       },
-      "occupancy": 0.2128,
+      "occupancy": 0.2553,
       "seat_image": "media/seats/2026-08/25-harry-potter-and-the-sorcerer-s-stone-0c741e_20260829_2015_tjoyumeda.jpg",
-      "seat_image_bytes": 108231,
+      "seat_image_bytes": 110625,
       "poster": "media/posters/25-harry-potter-and-the-sorcerer-s-stone-0c741e.jpg",
       "screen_image": "media/screens/tjoyumeda_01_f79a9fd3.png",
       "source": "seat",
-      "lead_minutes": 285.1,
-      "captured_at": "2026-08-29T15:29:56.716509+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.5,
+      "captured_at": "2026-08-29T20:08:30.303739+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "theater": "tjoyumeda",
       "theater_name": "T・ジョイ梅田",
       "history": [
@@ -5139,6 +5181,24 @@
           "vacant": 296,
           "total": 376,
           "occupancy": 0.2128
+        },
+        {
+          "at": "2026-08-29T19:43:39.549477+09:00",
+          "lead": 31.3,
+          "slot": 1,
+          "sold": 99,
+          "vacant": 277,
+          "total": 376,
+          "occupancy": 0.2633
+        },
+        {
+          "at": "2026-08-29T20:08:30.303739+09:00",
+          "lead": 6.5,
+          "slot": 2,
+          "sold": 96,
+          "vacant": 280,
+          "total": 376,
+          "occupancy": 0.2553
         }
       ]
     },
@@ -5163,34 +5223,36 @@
       "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785691/C4463000/6/2026-08-29?type=film",
       "schedule_id": "785691",
       "film_code": "C4463000",
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:30:01.701230+09:00",
+      "last_attempt_at": "2026-08-29T20:33:18.778223+09:00",
       "day_open": "8:00",
       "day_note": null,
       "movie_date_text": "08/29（土）20:40 ～ 22:50",
       "poster_url": "https://cdn.tjoy.jp/images/_up/cinema/178357230377be692651.jpg",
       "screen_image_url": "https://cdn.tjoy.jp/images/_up/theater/320_06_20191008.png",
       "seat_counts": {
-        "vacant": 235,
-        "sold": 95,
+        "vacant": 199,
+        "sold": 131,
         "total": 330,
         "expected": 330
       },
-      "occupancy": 0.2879,
+      "occupancy": 0.397,
       "seat_image": "media/seats/2026-08/puella-magi-madoka-magica-walpurgisnacht-0fd537_20260829_2040_tjoyumeda.jpg",
-      "seat_image_bytes": 114355,
+      "seat_image_bytes": 120434,
       "poster": "media/posters/puella-magi-madoka-magica-walpurgisnacht-0fd537.jpg",
       "screen_image": "media/screens/tjoyumeda_06_0fd98c99.png",
       "source": "seat",
-      "lead_minutes": 309.9,
-      "captured_at": "2026-08-29T15:30:06.249279+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.6,
+      "captured_at": "2026-08-29T20:33:23.479246+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "theater": "tjoyumeda",
       "theater_name": "T・ジョイ梅田",
       "history": [
@@ -5202,6 +5264,24 @@
           "vacant": 235,
           "total": 330,
           "occupancy": 0.2879
+        },
+        {
+          "at": "2026-08-29T20:08:38.600599+09:00",
+          "lead": 31.4,
+          "slot": 1,
+          "sold": 130,
+          "vacant": 200,
+          "total": 330,
+          "occupancy": 0.3939
+        },
+        {
+          "at": "2026-08-29T20:33:23.479246+09:00",
+          "lead": 6.6,
+          "slot": 2,
+          "sold": 131,
+          "vacant": 199,
+          "total": 330,
+          "occupancy": 0.397
         }
       ]
     },
@@ -5226,34 +5306,36 @@
       "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785697/C4908000/7/2026-08-29?type=film",
       "schedule_id": "785697",
       "film_code": "C4908000",
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:30:10.019058+09:00",
+      "last_attempt_at": "2026-08-29T20:38:33.013881+09:00",
       "day_open": "8:00",
       "day_note": null,
       "movie_date_text": "08/29（土）20:45 ～ 22:50",
       "poster_url": "https://cdn.tjoy.jp/images/_up/cinema/1778719725lyweh0tna2.jpg",
       "screen_image_url": "https://cdn.tjoy.jp/images/_up/theater/320_07_20191008.png",
       "seat_counts": {
-        "vacant": 129,
-        "sold": 12,
+        "vacant": 112,
+        "sold": 29,
         "total": 141,
         "expected": 141
       },
-      "occupancy": 0.0851,
+      "occupancy": 0.2057,
       "seat_image": "media/seats/2026-08/heikou-to-suichoku-b9aaec_20260829_2045_tjoyumeda.jpg",
-      "seat_image_bytes": 101098,
+      "seat_image_bytes": 104676,
       "poster": "media/posters/heikou-to-suichoku-b9aaec.jpg",
       "screen_image": "media/screens/tjoyumeda_07_b32aede6.png",
       "source": "seat",
-      "lead_minutes": 314.8,
-      "captured_at": "2026-08-29T15:30:14.039250+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.4,
+      "captured_at": "2026-08-29T20:38:37.818258+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "theater": "tjoyumeda",
       "theater_name": "T・ジョイ梅田",
       "history": [
@@ -5265,6 +5347,24 @@
           "vacant": 129,
           "total": 141,
           "occupancy": 0.0851
+        },
+        {
+          "at": "2026-08-29T20:13:21.578345+09:00",
+          "lead": 31.6,
+          "slot": 1,
+          "sold": 27,
+          "vacant": 114,
+          "total": 141,
+          "occupancy": 0.1915
+        },
+        {
+          "at": "2026-08-29T20:38:37.818258+09:00",
+          "lead": 6.4,
+          "slot": 2,
+          "sold": 29,
+          "vacant": 112,
+          "total": 141,
+          "occupancy": 0.2057
         }
       ]
     },
@@ -5289,34 +5389,36 @@
       "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785679/C4803000/4/2026-08-29?type=film",
       "schedule_id": "785679",
       "film_code": "C4803000",
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:30:17.629869+09:00",
+      "last_attempt_at": "2026-08-29T20:48:31.110413+09:00",
       "day_open": "8:00",
       "day_note": null,
       "movie_date_text": "08/29（土）20:55 ～ 23:10",
       "poster_url": "https://cdn.tjoy.jp/images/_up/cinema/1781750243cv767opauq.jpg",
       "screen_image_url": "https://cdn.tjoy.jp/images/_up/theater/320_04_20191008.png",
       "seat_counts": {
-        "vacant": 87,
-        "sold": 8,
+        "vacant": 77,
+        "sold": 18,
         "total": 95,
         "expected": 95
       },
-      "occupancy": 0.0842,
+      "occupancy": 0.1895,
       "seat_image": "media/seats/2026-08/blue-lock-4f16c3_20260829_2055_tjoyumeda.jpg",
-      "seat_image_bytes": 75333,
+      "seat_image_bytes": 77310,
       "poster": "media/posters/blue-lock-4f16c3.jpg",
       "screen_image": "media/screens/tjoyumeda_04_063ab0cc.png",
       "source": "seat",
-      "lead_minutes": 324.6,
-      "captured_at": "2026-08-29T15:30:21.845038+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.4,
+      "captured_at": "2026-08-29T20:48:35.774733+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "theater": "tjoyumeda",
       "theater_name": "T・ジョイ梅田",
       "history": [
@@ -5328,6 +5430,24 @@
           "vacant": 87,
           "total": 95,
           "occupancy": 0.0842
+        },
+        {
+          "at": "2026-08-29T20:23:25.885977+09:00",
+          "lead": 31.6,
+          "slot": 1,
+          "sold": 14,
+          "vacant": 81,
+          "total": 95,
+          "occupancy": 0.1474
+        },
+        {
+          "at": "2026-08-29T20:48:35.774733+09:00",
+          "lead": 6.4,
+          "slot": 2,
+          "sold": 18,
+          "vacant": 77,
+          "total": 95,
+          "occupancy": 0.1895
         }
       ]
     },
@@ -5352,34 +5472,36 @@
       "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785667/C4805000/2/2026-08-29?type=film",
       "schedule_id": "785667",
       "film_code": "C4805000",
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:30:25.716035+09:00",
+      "last_attempt_at": "2026-08-29T20:58:16.250174+09:00",
       "day_open": "8:00",
       "day_note": null,
       "movie_date_text": "08/29（土）21:05 ～ 22:55",
       "poster_url": "https://cdn.tjoy.jp/images/_up/cinema/1780465917n7d8p3tt14.jpg",
       "screen_image_url": "https://cdn.tjoy.jp/images/_up/theater/320_02_20191008.png",
       "seat_counts": {
-        "vacant": 136,
-        "sold": 10,
+        "vacant": 120,
+        "sold": 26,
         "total": 146,
         "expected": 146
       },
-      "occupancy": 0.0685,
+      "occupancy": 0.1781,
       "seat_image": "media/seats/2026-08/chiikawa-0377e3_20260829_2105_tjoyumeda.jpg",
-      "seat_image_bytes": 98605,
+      "seat_image_bytes": 101705,
       "poster": "media/posters/chiikawa-0377e3.jpg",
       "screen_image": "media/screens/tjoyumeda_02_756949f3.png",
       "source": "seat",
-      "lead_minutes": 334.5,
-      "captured_at": "2026-08-29T15:30:29.815848+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.7,
+      "captured_at": "2026-08-29T20:58:20.810519+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "theater": "tjoyumeda",
       "theater_name": "T・ジョイ梅田",
       "history": [
@@ -5391,6 +5513,24 @@
           "vacant": 136,
           "total": 146,
           "occupancy": 0.0685
+        },
+        {
+          "at": "2026-08-29T20:33:32.542655+09:00",
+          "lead": 31.5,
+          "slot": 1,
+          "sold": 16,
+          "vacant": 130,
+          "total": 146,
+          "occupancy": 0.1096
+        },
+        {
+          "at": "2026-08-29T20:58:20.810519+09:00",
+          "lead": 6.7,
+          "slot": 2,
+          "sold": 26,
+          "vacant": 120,
+          "total": 146,
+          "occupancy": 0.1781
         }
       ]
     },
@@ -5417,34 +5557,36 @@
       "reserve_url": "https://tjoy.jp/t-joy_umeda/reservation/index/785686/C4943100/5/2026-08-29?type=film",
       "schedule_id": "785686",
       "film_code": "C4943100",
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:30:33.620262+09:00",
+      "last_attempt_at": "2026-08-29T21:08:50.414623+09:00",
       "day_open": "8:00",
       "day_note": null,
       "movie_date_text": "08/29（土）21:15 ～ 23:05",
       "poster_url": "https://cdn.tjoy.jp/images/_up/cinema/1783649869uuz9dq8574.jpg",
       "screen_image_url": "https://cdn.tjoy.jp/images/_up/theater/320_05_20191008.png",
       "seat_counts": {
-        "vacant": 95,
-        "sold": 0,
+        "vacant": 87,
+        "sold": 8,
         "total": 95,
         "expected": 95
       },
-      "occupancy": 0.0,
+      "occupancy": 0.0842,
       "seat_image": "media/seats/2026-08/the-end-of-oak-street-964311_20260829_2115_tjoyumeda.jpg",
-      "seat_image_bytes": 73729,
+      "seat_image_bytes": 75148,
       "poster": "media/posters/the-end-of-oak-street-964311.jpg",
       "screen_image": "media/screens/tjoyumeda_05_aed97d34.png",
       "source": "seat",
-      "lead_minutes": 344.4,
-      "captured_at": "2026-08-29T15:30:37.870701+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.1,
+      "captured_at": "2026-08-29T21:08:54.867257+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "theater": "tjoyumeda",
       "theater_name": "T・ジョイ梅田",
       "history": [
@@ -5456,6 +5598,24 @@
           "vacant": 95,
           "total": 95,
           "occupancy": 0.0
+        },
+        {
+          "at": "2026-08-29T20:43:21.465404+09:00",
+          "lead": 31.6,
+          "slot": 1,
+          "sold": 8,
+          "vacant": 87,
+          "total": 95,
+          "occupancy": 0.0842
+        },
+        {
+          "at": "2026-08-29T21:08:54.867257+09:00",
+          "lead": 6.1,
+          "slot": 2,
+          "sold": 8,
+          "vacant": 87,
+          "total": 95,
+          "occupancy": 0.0842
         }
       ]
     },
@@ -10925,5 +11085,5 @@
       ]
     }
   ],
-  "updated_at": "2026-08-29T18:53:37.847117+09:00"
+  "updated_at": "2026-08-29T21:08:54.873764+09:00"
 }

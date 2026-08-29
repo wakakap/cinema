@@ -156,7 +156,6 @@
           "film_key": "film-2bf82d",
           "film_title": "パウっと！ファミリーシアター",
           "tags": [
-            "パウ・パトロール ザ・ダイノ・ムービー・吹替版",
             "吹替"
           ],
           "runtime_min": 89,
@@ -249,9 +248,7 @@
           "film_key": "film-71cf8f",
           "film_title": "ラスト・サバイバー",
           "tags": [
-            "Ｄｏｌｂｙ－ＡＴＭＯＳ・字幕版",
             "Dolby Atmos",
-            "ATMOS",
             "字幕"
           ],
           "runtime_min": 119,
@@ -612,9 +609,7 @@
           "film_key": "film-dfd467",
           "film_title": "劇場版 魔法少女まどか☆マギカ〈ワルプルギスの廻天〉",
           "tags": [
-            "舞台挨拶中継・Ｄｏｌｂｙ－ＡＴＭＯＳ",
-            "Dolby Atmos",
-            "ATMOS"
+            "Dolby Atmos"
           ],
           "runtime_min": 120,
           "sakuhin_cd": "029476",
@@ -1158,8 +1153,7 @@
           "film_key": "film-dfd467",
           "film_title": "劇場版 魔法少女まどか☆マギカ〈ワルプルギスの廻天〉",
           "tags": [
-            "Ｄｏｌｂｙ－ＡＴＭＯＳ",
-            "ATMOS"
+            "Dolby Atmos"
           ],
           "runtime_min": 120,
           "sakuhin_cd": "029420",
@@ -1191,396 +1185,6 @@
           "captures": 0,
           "slots": [],
           "last_attempt_at": null
-        },
-        {
-          "id": "tohoumeda-20260829-1945-s04-film-2fcda0",
-          "cinema": "tohoumeda",
-          "cinema_name": "TOHOシネマズ梅田",
-          "venue": "honkan",
-          "venue_name": "本館",
-          "date": "2026-08-29",
-          "start": "19:45",
-          "end": "22:30",
-          "start_at": "2026-08-29T19:45:00+09:00",
-          "film_key": "film-2fcda0",
-          "film_title": "スパイダーマン：ブランド・ニュー・デイ",
-          "tags": [
-            "字幕"
-          ],
-          "runtime_min": 145,
-          "sakuhin_cd": "028679",
-          "theater_cd": "0371",
-          "screen": "スクリーン4",
-          "screen_no": "04",
-          "screen_seats": 101,
-          "screen_raw": "本館スクリーン４ (101席)",
-          "note": null,
-          "availability": {
-            "code": "few",
-            "mark": "△",
-            "label": "残りわずか",
-            "text": "販売中",
-            "status_code": "03",
-            "icon": "triangle",
-            "certainty": "確認",
-            "by": "icon"
-          },
-          "status_code": "03",
-          "reserve_url": null,
-          "click_ref": {
-            "date": "20260829",
-            "section_id": "0371-028679",
-            "item_index": 1
-          },
-          "status": "provisional",
-          "attempts": 0,
-          "captures": 1,
-          "slots": [
-            0
-          ],
-          "last_attempt_at": "2026-08-29T15:46:11.550896+09:00"
-        },
-        {
-          "id": "tohoumeda-20260829-2000-s03-film-87658e",
-          "cinema": "tohoumeda",
-          "cinema_name": "TOHOシネマズ梅田",
-          "venue": "honkan",
-          "venue_name": "本館",
-          "date": "2026-08-29",
-          "start": "20:00",
-          "end": "23:00",
-          "start_at": "2026-08-29T20:00:00+09:00",
-          "film_key": "film-87658e",
-          "film_title": "ハリー・ポッターと賢者の石",
-          "tags": [
-            "吹替",
-            "レイトショー"
-          ],
-          "runtime_min": 152,
-          "sakuhin_cd": "029074",
-          "theater_cd": "0371",
-          "screen": "スクリーン3",
-          "screen_no": "03",
-          "screen_seats": 469,
-          "screen_raw": "本館スクリーン３ (469席)",
-          "note": "レイトショー",
-          "availability": {
-            "code": "plenty",
-            "mark": "◎",
-            "label": "空席に余裕あり",
-            "text": "販売中",
-            "status_code": "01",
-            "icon": "circle-double",
-            "certainty": "確認",
-            "by": "icon"
-          },
-          "status_code": "01",
-          "reserve_url": null,
-          "click_ref": {
-            "date": "20260829",
-            "section_id": "0371-029074",
-            "item_index": 1
-          },
-          "status": "provisional",
-          "attempts": 0,
-          "captures": 1,
-          "slots": [
-            0
-          ],
-          "last_attempt_at": "2026-08-29T15:46:29.559478+09:00"
-        },
-        {
-          "id": "tohoumeda-20260829-2020-s08-film-01dfa3",
-          "cinema": "tohoumeda",
-          "cinema_name": "TOHOシネマズ梅田",
-          "venue": "honkan",
-          "venue_name": "本館",
-          "date": "2026-08-29",
-          "start": "20:20",
-          "end": "22:20",
-          "start_at": "2026-08-29T20:20:00+09:00",
-          "film_key": "film-01dfa3",
-          "film_title": "シェルター",
-          "tags": [
-            "字幕",
-            "レイトショー"
-          ],
-          "runtime_min": 107,
-          "sakuhin_cd": "028929",
-          "theater_cd": "0371",
-          "screen": "スクリーン8",
-          "screen_no": "08",
-          "screen_seats": 154,
-          "screen_raw": "本館スクリーン８ (154席)",
-          "note": "レイトショー",
-          "availability": {
-            "code": "plenty",
-            "mark": "◎",
-            "label": "空席に余裕あり",
-            "text": "販売中",
-            "status_code": "01",
-            "icon": "circle-double",
-            "certainty": "確認",
-            "by": "icon"
-          },
-          "status_code": "01",
-          "reserve_url": null,
-          "click_ref": {
-            "date": "20260829",
-            "section_id": "0371-028929",
-            "item_index": 3
-          },
-          "status": "provisional",
-          "attempts": 0,
-          "captures": 1,
-          "slots": [
-            0
-          ],
-          "last_attempt_at": "2026-08-29T15:46:47.241515+09:00"
-        },
-        {
-          "id": "tohoumeda-20260829-2030-s05-film-e259f3",
-          "cinema": "tohoumeda",
-          "cinema_name": "TOHOシネマズ梅田",
-          "venue": "honkan",
-          "venue_name": "本館",
-          "date": "2026-08-29",
-          "start": "20:30",
-          "end": "22:50",
-          "start_at": "2026-08-29T20:30:00+09:00",
-          "film_key": "film-e259f3",
-          "film_title": "時には懺悔を",
-          "tags": [
-            "レイトショー"
-          ],
-          "runtime_min": 128,
-          "sakuhin_cd": "026177",
-          "theater_cd": "0371",
-          "screen": "スクリーン5",
-          "screen_no": "05",
-          "screen_seats": 98,
-          "screen_raw": "本館スクリーン５ (98席)",
-          "note": "レイトショー",
-          "availability": {
-            "code": "plenty",
-            "mark": "◎",
-            "label": "空席に余裕あり",
-            "text": "販売中",
-            "status_code": "01",
-            "icon": "circle-double",
-            "certainty": "確認",
-            "by": "icon"
-          },
-          "status_code": "01",
-          "reserve_url": null,
-          "click_ref": {
-            "date": "20260829",
-            "section_id": "0371-026177",
-            "item_index": 4
-          },
-          "status": "provisional",
-          "attempts": 0,
-          "captures": 1,
-          "slots": [
-            0
-          ],
-          "last_attempt_at": "2026-08-29T15:47:05.118224+09:00"
-        },
-        {
-          "id": "tohoumeda-20260829-2100-s01-film-dfd467",
-          "cinema": "tohoumeda",
-          "cinema_name": "TOHOシネマズ梅田",
-          "venue": "honkan",
-          "venue_name": "本館",
-          "date": "2026-08-29",
-          "start": "21:00",
-          "end": "23:15",
-          "start_at": "2026-08-29T21:00:00+09:00",
-          "film_key": "film-dfd467",
-          "film_title": "劇場版 魔法少女まどか☆マギカ〈ワルプルギスの廻天〉",
-          "tags": [
-            "Ｄｏｌｂｙ－ＡＴＭＯＳ",
-            "ATMOS",
-            "レイトショー"
-          ],
-          "runtime_min": 120,
-          "sakuhin_cd": "029420",
-          "theater_cd": "0371",
-          "screen": "スクリーン1",
-          "screen_no": "01",
-          "screen_seats": 728,
-          "screen_raw": "本館スクリーン１ (728席)",
-          "note": "レイトショー",
-          "availability": {
-            "code": "plenty",
-            "mark": "◎",
-            "label": "空席に余裕あり",
-            "text": "販売中",
-            "status_code": "01",
-            "icon": "circle-double",
-            "certainty": "確認",
-            "by": "icon"
-          },
-          "status_code": "01",
-          "reserve_url": null,
-          "click_ref": {
-            "date": "20260829",
-            "section_id": "0371-029420",
-            "item_index": 1
-          },
-          "status": "provisional",
-          "attempts": 0,
-          "captures": 1,
-          "slots": [
-            0
-          ],
-          "last_attempt_at": "2026-08-29T15:47:23.508545+09:00"
-        },
-        {
-          "id": "tohoumeda-20260829-2105-s07-film-8d7903",
-          "cinema": "tohoumeda",
-          "cinema_name": "TOHOシネマズ梅田",
-          "venue": "honkan",
-          "venue_name": "本館",
-          "date": "2026-08-29",
-          "start": "21:05",
-          "end": "23:05",
-          "start_at": "2026-08-29T21:05:00+09:00",
-          "film_key": "film-8d7903",
-          "film_title": "ドラマなふたり",
-          "tags": [
-            "字幕",
-            "レイトショー"
-          ],
-          "runtime_min": 105,
-          "sakuhin_cd": "028928",
-          "theater_cd": "0371",
-          "screen": "スクリーン7",
-          "screen_no": "07",
-          "screen_seats": 134,
-          "screen_raw": "本館スクリーン７ (134席)",
-          "note": "レイトショー",
-          "availability": {
-            "code": "plenty",
-            "mark": "◎",
-            "label": "空席に余裕あり",
-            "text": "販売中",
-            "status_code": "01",
-            "icon": "circle-double",
-            "certainty": "確認",
-            "by": "icon"
-          },
-          "status_code": "01",
-          "reserve_url": null,
-          "click_ref": {
-            "date": "20260829",
-            "section_id": "0371-028928",
-            "item_index": 1
-          },
-          "status": "provisional",
-          "attempts": 0,
-          "captures": 1,
-          "slots": [
-            0
-          ],
-          "last_attempt_at": "2026-08-29T15:47:41.700989+09:00"
-        },
-        {
-          "id": "tohoumeda-20260829-2120-s02-film-3838a2",
-          "cinema": "tohoumeda",
-          "cinema_name": "TOHOシネマズ梅田",
-          "venue": "honkan",
-          "venue_name": "本館",
-          "date": "2026-08-29",
-          "start": "21:20",
-          "end": "23:15",
-          "start_at": "2026-08-29T21:20:00+09:00",
-          "film_key": "film-3838a2",
-          "film_title": "映画ちいかわ 人魚の島のひみつ",
-          "tags": [
-            "レイトショー"
-          ],
-          "runtime_min": 99,
-          "sakuhin_cd": "028639",
-          "theater_cd": "0371",
-          "screen": "スクリーン2",
-          "screen_no": "02",
-          "screen_seats": 474,
-          "screen_raw": "本館スクリーン２ (474席)",
-          "note": "レイトショー",
-          "availability": {
-            "code": "plenty",
-            "mark": "◎",
-            "label": "空席に余裕あり",
-            "text": "販売中",
-            "status_code": "01",
-            "icon": "circle-double",
-            "certainty": "確認",
-            "by": "icon"
-          },
-          "status_code": "01",
-          "reserve_url": null,
-          "click_ref": {
-            "date": "20260829",
-            "section_id": "0371-028639",
-            "item_index": 4
-          },
-          "status": "provisional",
-          "attempts": 0,
-          "captures": 1,
-          "slots": [
-            0
-          ],
-          "last_attempt_at": "2026-08-29T15:47:59.543048+09:00"
-        },
-        {
-          "id": "tohoumeda-20260829-2125-s06-film-a90019",
-          "cinema": "tohoumeda",
-          "cinema_name": "TOHOシネマズ梅田",
-          "venue": "honkan",
-          "venue_name": "本館",
-          "date": "2026-08-29",
-          "start": "21:25",
-          "end": "23:35",
-          "start_at": "2026-08-29T21:25:00+09:00",
-          "film_key": "film-a90019",
-          "film_title": "モアナと伝説の海",
-          "tags": [
-            "吹替",
-            "レイトショー"
-          ],
-          "runtime_min": 115,
-          "sakuhin_cd": "028678",
-          "theater_cd": "0371",
-          "screen": "スクリーン6",
-          "screen_no": "06",
-          "screen_seats": 100,
-          "screen_raw": "本館スクリーン６ (100席)",
-          "note": "レイトショー",
-          "availability": {
-            "code": "plenty",
-            "mark": "◎",
-            "label": "空席に余裕あり",
-            "text": "販売中",
-            "status_code": "01",
-            "icon": "circle-double",
-            "certainty": "確認",
-            "by": "icon"
-          },
-          "status_code": "01",
-          "reserve_url": null,
-          "click_ref": {
-            "date": "20260829",
-            "section_id": "0371-028678",
-            "item_index": 0
-          },
-          "status": "provisional",
-          "attempts": 0,
-          "captures": 1,
-          "slots": [
-            0
-          ],
-          "last_attempt_at": "2026-08-29T15:48:16.495196+09:00"
         }
       ]
     },
@@ -1645,7 +1249,6 @@
           "film_key": "film-2bf82d",
           "film_title": "パウっと！ファミリーシアター",
           "tags": [
-            "パウ・パトロール ザ・ダイノ・ムービー・吹替版",
             "吹替"
           ],
           "runtime_min": 89,
@@ -1882,9 +1485,7 @@
           "film_key": "film-71cf8f",
           "film_title": "ラスト・サバイバー",
           "tags": [
-            "Ｄｏｌｂｙ－ＡＴＭＯＳ・字幕版",
             "Dolby Atmos",
-            "ATMOS",
             "字幕"
           ],
           "runtime_min": 119,
@@ -2261,9 +1862,7 @@
           "film_key": "michael-9b1cba",
           "film_title": "Ｍｉｃｈａｅｌ／マイケル",
           "tags": [
-            "Ｄｏｌｂｙ－ＡＴＭＯＳ・ＭＶ付・字幕版",
             "Dolby Atmos",
-            "ATMOS",
             "字幕"
           ],
           "runtime_min": 127,
@@ -2692,8 +2291,7 @@
           "film_key": "film-dfd467",
           "film_title": "劇場版 魔法少女まどか☆マギカ〈ワルプルギスの廻天〉",
           "tags": [
-            "Ｄｏｌｂｙ－ＡＴＭＯＳ",
-            "ATMOS"
+            "Dolby Atmos"
           ],
           "runtime_min": 120,
           "sakuhin_cd": "029420",
@@ -3069,8 +2667,7 @@
           "film_key": "film-5043c7",
           "film_title": "キングダム 魂の決戦",
           "tags": [
-            "Ｄｏｌｂｙ－ＡＴＭＯＳ",
-            "ATMOS"
+            "Dolby Atmos"
           ],
           "runtime_min": 134,
           "sakuhin_cd": "029017",
@@ -3451,8 +3048,7 @@
           "film_key": "film-dfd467",
           "film_title": "劇場版 魔法少女まどか☆マギカ〈ワルプルギスの廻天〉",
           "tags": [
-            "Ｄｏｌｂｙ－ＡＴＭＯＳ",
-            "ATMOS",
+            "Dolby Atmos",
             "レイトショー"
           ],
           "runtime_min": 120,
@@ -3700,7 +3296,6 @@
           "film_key": "film-2bf82d",
           "film_title": "パウっと！ファミリーシアター",
           "tags": [
-            "パウ・パトロール ザ・ダイノ・ムービー・吹替版",
             "吹替"
           ],
           "runtime_min": 89,
@@ -3749,8 +3344,7 @@
           "film_key": "film-5043c7",
           "film_title": "キングダム 魂の決戦",
           "tags": [
-            "Ｄｏｌｂｙ－ＡＴＭＯＳ",
-            "ATMOS"
+            "Dolby Atmos"
           ],
           "runtime_min": 134,
           "sakuhin_cd": "029017",
@@ -4268,9 +3862,7 @@
           "film_key": "film-71cf8f",
           "film_title": "ラスト・サバイバー",
           "tags": [
-            "Ｄｏｌｂｙ－ＡＴＭＯＳ・字幕版",
             "Dolby Atmos",
-            "ATMOS",
             "字幕"
           ],
           "runtime_min": 119,
@@ -4695,8 +4287,7 @@
           "film_key": "film-dfd467",
           "film_title": "劇場版 魔法少女まどか☆マギカ〈ワルプルギスの廻天〉",
           "tags": [
-            "Ｄｏｌｂｙ－ＡＴＭＯＳ",
-            "ATMOS"
+            "Dolby Atmos"
           ],
           "runtime_min": 120,
           "sakuhin_cd": "029420",
@@ -5074,9 +4665,7 @@
           "film_key": "michael-9b1cba",
           "film_title": "Ｍｉｃｈａｅｌ／マイケル",
           "tags": [
-            "Ｄｏｌｂｙ－ＡＴＭＯＳ・ＭＶ付・字幕版",
             "Dolby Atmos",
-            "ATMOS",
             "字幕"
           ],
           "runtime_min": 127,
@@ -5455,8 +5044,7 @@
           "film_key": "film-dfd467",
           "film_title": "劇場版 魔法少女まどか☆マギカ〈ワルプルギスの廻天〉",
           "tags": [
-            "Ｄｏｌｂｙ－ＡＴＭＯＳ",
-            "ATMOS",
+            "Dolby Atmos",
             "レイトショー"
           ],
           "runtime_min": 120,
