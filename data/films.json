@@ -88,7 +88,7 @@
     "first_seen": "2026-08-27",
     "last_seen": "2026-09-03",
     "showing_count": 38,
-    "capture_count": 2
+    "capture_count": 4
   },
   "minions-monsters-a63f70": {
     "key": "minions-monsters-a63f70",
@@ -105,7 +105,7 @@
     "first_seen": "2026-08-27",
     "last_seen": "2026-09-03",
     "showing_count": 16,
-    "capture_count": 2
+    "capture_count": 3
   },
   "shiranuhi-6c2ef4": {
     "key": "shiranuhi-6c2ef4",
@@ -151,12 +151,12 @@
     "first_seen": "2026-08-27",
     "last_seen": "2026-09-03",
     "showing_count": 12,
-    "capture_count": 1
+    "capture_count": 2
   },
   "michael-michael-43664c": {
     "key": "michael-michael-43664c",
     "title": "Michael／マイケル Michael",
-    "poster": null,
+    "poster": "media/posters/michael-michael-43664c.jpg",
     "tags": [
       "字幕",
       "DolbyCinema"
@@ -168,7 +168,7 @@
     "first_seen": "2026-08-27",
     "last_seen": "2026-09-03",
     "showing_count": 11,
-    "capture_count": 0
+    "capture_count": 1
   },
   "kingdom-ae54ae": {
     "key": "kingdom-ae54ae",
@@ -216,7 +216,7 @@
   "sekiro-no-defeat-pg12-334c43": {
     "key": "sekiro-no-defeat-pg12-334c43",
     "title": "[公開記念舞台挨拶]SEKIRO:NO DEFEAT(PG12)",
-    "poster": null,
+    "poster": "media/posters/sekiro-no-defeat-pg12-334c43.jpg",
     "tags": [
       "PG12"
     ],
@@ -227,7 +227,7 @@
     "first_seen": "2026-08-27",
     "last_seen": "2026-09-09",
     "showing_count": 12,
-    "capture_count": 0
+    "capture_count": 1
   },
   "toy-story-5-7e34e5": {
     "key": "toy-story-5-7e34e5",
@@ -243,7 +243,7 @@
     "first_seen": "2026-08-27",
     "last_seen": "2026-09-03",
     "showing_count": 8,
-    "capture_count": 1
+    "capture_count": 2
   },
   "film-29719f": {
     "key": "film-29719f",
@@ -288,7 +288,7 @@
     "first_seen": "2026-08-28",
     "last_seen": "2026-09-03",
     "showing_count": 59,
-    "capture_count": 9
+    "capture_count": 10
   },
   "25-harry-potter-and-the-sorcerer-s-stone-0c741e": {
     "key": "25-harry-potter-and-the-sorcerer-s-stone-0c741e",
@@ -336,7 +336,7 @@
     "first_seen": "2026-08-28",
     "last_seen": "2026-09-03",
     "showing_count": 32,
-    "capture_count": 1
+    "capture_count": 3
   },
   "puella-magi-madoka-magica-walpurgisnacht-e46fb0": {
     "key": "puella-magi-madoka-magica-walpurgisnacht-e46fb0",
@@ -344,9 +344,7 @@
     "poster": null,
     "tags": [],
     "runtime_min": 165,
-    "codes": [
-      "C4463001"
-    ],
+    "codes": [],
     "first_seen": "2026-08-29",
     "last_seen": "2026-08-29",
     "showing_count": 1,

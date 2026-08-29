@@ -8,10 +8,10 @@
     "seat_url_hint": "choice_seat",
     "robots_url": "https://tjoy.jp/robots.txt"
   },
-  "generated_at": "2026-08-29T08:50:58.219949+09:00",
+  "generated_at": "2026-08-29T14:59:10.134801+09:00",
   "total_records": 371,
-  "total_captures": 32,
-  "pending_showings": 273,
+  "total_captures": 42,
+  "pending_showings": 252,
   "warnings": [],
   "months": [
     {
@@ -205,7 +205,7 @@
     {
       "date": "2026-08-29",
       "count": 44,
-      "captured": 1,
+      "captured": 11,
       "films": [
         "blue-lock-4f16c3",
         "minions-monsters-a63f70",
@@ -313,7 +313,7 @@
     {
       "key": "sekiro-no-defeat-pg12-334c43",
       "title": "[公開記念舞台挨拶]SEKIRO:NO DEFEAT(PG12)",
-      "poster": null,
+      "poster": "media/posters/sekiro-no-defeat-pg12-334c43.jpg",
       "tags": [
         "PG12"
       ],
@@ -324,7 +324,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-09",
       "showing_count": 12,
-      "capture_count": 0
+      "capture_count": 1
     },
     {
       "key": "in-ohsama-sentai-king-ohger-film-concert-9144c0",
@@ -366,7 +366,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 38,
-      "capture_count": 2
+      "capture_count": 4
     },
     {
       "key": "kamen-rider-zeztz-and-super-space-sherif-e34ed8",
@@ -394,7 +394,7 @@
       "first_seen": "2026-08-28",
       "last_seen": "2026-09-03",
       "showing_count": 32,
-      "capture_count": 1
+      "capture_count": 3
     },
     {
       "key": "puella-magi-madoka-magica-walpurgisnacht-0fd537",
@@ -411,7 +411,7 @@
       "first_seen": "2026-08-28",
       "last_seen": "2026-09-03",
       "showing_count": 59,
-      "capture_count": 9
+      "capture_count": 10
     },
     {
       "key": "moana-3624e0",
@@ -444,7 +444,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 16,
-      "capture_count": 2
+      "capture_count": 3
     },
     {
       "key": "blue-lock-4f16c3",
@@ -477,7 +477,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 8,
-      "capture_count": 1
+      "capture_count": 2
     },
     {
       "key": "spider-man-brand-new-day-0fdee1",
@@ -556,7 +556,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 12,
-      "capture_count": 1
+      "capture_count": 2
     },
     {
       "key": "tomorrow-x-together-vr-concert-endless-r-180136",
@@ -573,7 +573,7 @@
     {
       "key": "michael-michael-43664c",
       "title": "Michael／マイケル Michael",
-      "poster": null,
+      "poster": "media/posters/michael-michael-43664c.jpg",
       "tags": [
         "字幕",
         "DolbyCinema"
@@ -585,7 +585,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 11,
-      "capture_count": 0
+      "capture_count": 1
     },
     {
       "key": "25-harry-potter-and-the-sorcerer-s-stone-0c741e",
@@ -613,9 +613,7 @@
       "poster": null,
       "tags": [],
       "runtime_min": 165,
-      "codes": [
-        "C4463001"
-      ],
+      "codes": [],
       "first_seen": "2026-08-29",
       "last_seen": "2026-08-29",
       "showing_count": 1,
