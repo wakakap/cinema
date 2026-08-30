@@ -65,7 +65,7 @@ STATS_FILE = DATA / "stats.json"
 
 # 大範囲走査を始める時刻（JST）。TOHO の販売開始が朝なので、それより後に
 # 置く。ここを早くしすぎると「まだ売っていない」で空振りする。
-SWEEP_AT = "01:00"
+SWEEP_AT = "23:00"
 
 # tick の刻み。daemon はこの間隔で自分を叩く。
 TICK_SEC = 30

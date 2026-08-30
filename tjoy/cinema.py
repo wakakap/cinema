@@ -89,6 +89,7 @@ PLAN_TOLERANCE_MIN = 2      # 起こされるのが多少早くても撮って�
 LATE_GRACE_MIN = 5          # 開映後の猶予
 SWEEP_DAYS = 2              # 大範囲走査で何日先まで見るか（今日 + N 日）
 SWEEP_DAYS_NIGHT = 1        # 深夜〜早朝はここまで（先の日付はまだ売っていない）
+DAY_SKIP_HITS = 2           # この数だけ「販売していない」回があれば、その日は丸ごと飛ばす
 NIGHT_HOURS = (1, 7)        # 「深夜〜早朝」の範囲（JST の時、終端は含まない）
 
 
@@ -193,6 +194,8 @@ BUTTON_TEXT_RE = re.compile(r"^(作品詳細|予約|購入|上映スケジュー
 # alt が「窓口のみ」で、満席とは別の意味を持つことがあるので当てにしない。
 # 見えている文字だけを見る。
 FULL_HOUSE_RE = re.compile(r"満\s*席")
+# その日がまだ売り出されていないと、各回に「販売対象外」と出る。
+NOT_ON_SALE_RE = re.compile(r"販売(?:対象外|期間外|開始前)")
 
 AVAIL_MAP = {   # 凡例の並び：◎ ○ △ 満席
     "2": {"code": "plenty", "mark": "◎", "label": "空席に余裕があります"},
@@ -647,6 +650,7 @@ def _scrape_blocks(page, date: str, block_selector: str) -> list[dict]:
             # row_text は見えている文字だけ（alt 属性は入らない）。作品名は
             # 別の要素なので、ここに「満席」が出るのは状態表示だけ。
             full_house = bool(FULL_HOUSE_RE.search(row_text))
+            on_sale = not NOT_ON_SALE_RE.search(row_text)
             fkey = film_key(info["base_title"])
 
             result.append({
@@ -662,6 +666,7 @@ def _scrape_blocks(page, date: str, block_selector: str) -> list[dict]:
                 "screen_seats": SCREEN_SEATS.get(screen),
                 "availability": AVAIL_MAP.get(am.group(1)) if am else None,
                 "full_house": full_house,
+                "on_sale": on_sale,
                 "reserve_url": reserve_url,
                 "schedule_id": schedule_id,
                 "film_code": film_code,
@@ -795,12 +800,30 @@ def slots_covered(slot: int, lead: float) -> list[int]:
                   if lead <= p + PLAN_TOLERANCE_MIN and i + 1 <= slot]
 
 
+def not_on_sale(showings: list[dict]) -> int:
+    """まだ（もう）売っていない回の数。行に「販売対象外」と出ているもの。"""
+    return sum(1 for s in showings if s.get("on_sale") is False)
+
+
 def due_showings(schedule: dict, now: datetime, lead_min: int,
                  sweep: bool = False) -> list[tuple[dict, int]]:
     """今撮るべき回と、その計画点の番号を並べて返す。"""
     out: list[tuple[dict, int]] = []
-    for payload in schedule.get("days", {}).values():
-        for s in payload.get("showings", []):
+    today = now.date().isoformat()
+    for date, payload in sorted(schedule.get("days", {}).items()):
+        showings = payload.get("showings", [])
+        # まだ売り出していない日は丸ごと飛ばす。1 件ずつ座席ページを
+        # 開きにいっても全部空振りで、1 回の走査が数十分伸びるだけ。
+        #
+        # 判定は今日より先の日付に限る。今日の分は開映を過ぎた回も
+        # 販売対象外になるので、これを数えると今日の残りまで飛ばす。
+        #
+        # まれにある先行販売はこれで取り逃すが、翌日の走査で拾える。
+        hits = not_on_sale(showings)
+        if date > today and hits >= DAY_SKIP_HITS:
+            EV.add("CAP", "day-skip", f"{date[5:]} 販売対象外 {hits}/{len(showings)} 件")
+            continue
+        for s in showings:
             if s.get("status") not in ("pending", "retry", "provisional"):
                 continue
             if s.get("attempts", 0) >= MAX_ATTEMPTS:
@@ -922,17 +945,23 @@ def read_seat_page(page, shot_path: Path | None, expected_seats: int | None) -> 
         shot_path.parent.mkdir(parents=True, exist_ok=True)
         opts = {"path": str(shot_path), "timeout": 15_000,
                 "type": "jpeg", "quality": SEAT_SHOT_QUALITY}
-        try:
-            if container is not None:
+        if container is None:
+            # 全画面へは逃げない。器が掴めないのは「座席表ではないページに
+            # 居る」ときで、そこで full_page を撮ると一覧や案内ページの
+            # 長大な写真が座席図として残る。撮れないなら撮らない。画像が
+            # 無いのは次の計画点で撮り直せるが、間違った画像は見分けが
+            # 付かないまま残る。
+            record["shot_warning"] = f"座席表の器を掴めなかった（{page.url[-60:]}）"
+            LOG.warning("座席図を撮らずに進む: %s", record["shot_warning"])
+        else:
+            try:
                 container.first.scroll_into_view_if_needed(timeout=5000)
                 page.wait_for_timeout(400)
                 container.first.screenshot(**opts)
-            else:
-                page.screenshot(full_page=True, **opts)
-            record["seat_image"] = rel(shot_path)
-            record["seat_image_bytes"] = shot_path.stat().st_size
-        except Exception as exc:
-            LOG.warning("座席図の撮影に失敗: %s", exc)
+                record["seat_image"] = rel(shot_path)
+                record["seat_image_bytes"] = shot_path.stat().st_size
+            except Exception as exc:
+                LOG.warning("座席図の撮影に失敗: %s", exc)
     return record
 
 

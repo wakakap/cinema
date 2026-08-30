@@ -7,12 +7,12 @@
       "レイトショー"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 15,
-    "capture_count": 13
+    "showing_count": 20,
+    "capture_count": 18
   },
   "film-01dfa3": {
     "key": "film-01dfa3",
@@ -23,12 +23,12 @@
       "レイトショー"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 12,
-    "capture_count": 9
+    "showing_count": 16,
+    "capture_count": 13
   },
   "film-2bf82d": {
     "key": "film-2bf82d",
@@ -38,12 +38,12 @@
       "吹替"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 3,
-    "capture_count": 2
+    "showing_count": 4,
+    "capture_count": 3
   },
   "film-2fcda0": {
     "key": "film-2fcda0",
@@ -55,12 +55,12 @@
       "レイトショー"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 8,
-    "capture_count": 6,
+    "showing_count": 11,
+    "capture_count": 9,
     "poster_from": "tjoy"
   },
   "film-71cf8f": {
@@ -73,12 +73,12 @@
       "レイトショー"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 13,
-    "capture_count": 12
+    "showing_count": 18,
+    "capture_count": 17
   },
   "film-f63727": {
     "key": "film-f63727",
@@ -88,12 +88,12 @@
       "字幕"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 5,
-    "capture_count": 4,
+    "showing_count": 6,
+    "capture_count": 5,
     "poster_from": "tjoy"
   },
   "film-dfd467": {
@@ -105,12 +105,12 @@
       "レイトショー"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 15,
-    "capture_count": 13,
+    "showing_count": 20,
+    "capture_count": 18,
     "poster_from": "tjoy"
   },
   "film-8ff868": {
@@ -119,12 +119,12 @@
     "poster": null,
     "tags": [],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 3,
-    "capture_count": 2
+    "showing_count": 4,
+    "capture_count": 3
   },
   "film-e97bc9": {
     "key": "film-e97bc9",
@@ -135,12 +135,12 @@
       "レイトショー"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 6,
-    "capture_count": 6,
+    "showing_count": 8,
+    "capture_count": 8,
     "poster_from": "tjoy"
   },
   "film-5a6ba2": {
@@ -149,12 +149,12 @@
     "poster": "../tjoy/media/posters/crayon-shin-chan-2026-07920d.jpg",
     "tags": [],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 3,
-    "capture_count": 3,
+    "showing_count": 4,
+    "capture_count": 4,
     "poster_from": "tjoy"
   },
   "film-3838a2": {
@@ -165,12 +165,12 @@
       "レイトショー"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 15,
-    "capture_count": 15,
+    "showing_count": 20,
+    "capture_count": 20,
     "poster_from": "tjoy"
   },
   "film-8d7903": {
@@ -182,12 +182,12 @@
       "レイトショー"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 5,
-    "capture_count": 5
+    "showing_count": 6,
+    "capture_count": 6
   },
   "film-87658e": {
     "key": "film-87658e",
@@ -198,12 +198,12 @@
       "レイトショー"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 6,
-    "capture_count": 6,
+    "showing_count": 8,
+    "capture_count": 8,
     "poster_from": "tjoy"
   },
   "film-b1b479": {
@@ -214,12 +214,12 @@
       "吹替"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 6,
-    "capture_count": 6,
+    "showing_count": 8,
+    "capture_count": 8,
     "poster_from": "tjoy"
   },
   "film-5043c7": {
@@ -231,12 +231,12 @@
       "レイトショー"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 6,
-    "capture_count": 5,
+    "showing_count": 8,
+    "capture_count": 7,
     "poster_from": "tjoy"
   },
   "film-d3b025": {
@@ -245,12 +245,12 @@
     "poster": "../tjoy/media/posters/blue-lock-4f16c3.jpg",
     "tags": [],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 3,
-    "capture_count": 3,
+    "showing_count": 4,
+    "capture_count": 4,
     "poster_from": "tjoy"
   },
   "michael-9b1cba": {
@@ -262,12 +262,12 @@
       "字幕"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 3,
-    "capture_count": 3,
+    "showing_count": 4,
+    "capture_count": 4,
     "poster_from": "tjoy"
   },
   "film-a90019": {
@@ -279,12 +279,12 @@
       "レイトショー"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 3,
-    "capture_count": 3,
+    "showing_count": 4,
+    "capture_count": 4,
     "poster_from": "tjoy"
   },
   "stray-kids-world-tour-run-it-japan-live-1c02c1": {
@@ -308,11 +308,11 @@
       "レイトショー"
     ],
     "first_seen": "2026-08-31",
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-01",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 1,
-    "capture_count": 1
+    "showing_count": 2,
+    "capture_count": 2
   }
 }

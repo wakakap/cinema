@@ -249,8 +249,14 @@ SELECTORS = {
     "showing": [".schedule-item"],
     "schedule_body": [".schedule-body", "#theater-schedule"],
     # 座席選択画面（未確定。inspect --live で確かめる）
-    "seat_container": ["#seat-map", "[class*='seat-map']", "[class*='seatMap']",
-                       "[class*='seatArea']", "[id*='seat']", "[class*='seat']"],
+    # SEAT_JS が印を付けられなかったときの受け皿。狭いものから順に試す。
+    # [class*='seat'] のような広い指定は入れない——TOHO の座席ページは
+    # 全体が <div class="seat"> に包まれているので、それを掴むと凡例と
+    # 利用規約まで写る。掴めないなら撮らないほうがよい。
+    "seat_container": ["#screen_box_inner", "#screen-list-frame-inner",
+                       "#screen-defimg", ".screen-map", "table.screen-table",
+                       "#seat-map", "[class*='seat-map']", "[class*='seatMap']",
+                       "[class*='seatArea']"],
 }
 
 # 空席状況は p.status の **class** で決まる。文字は「販売中」「販売期間外」の
@@ -319,6 +325,8 @@ ADVANCE_BUTTON_TEXTS = [
     "ログインせずに進む",
 ]
 MAX_ADVANCE_STEPS = 2       # 中間ページを何枚まで通るか
+MIN_SEATS_READY = 20        # これだけ席が読めて初めて「座席表」とみなす
+DAY_SKIP_HITS = 2           # この数だけ「販売していない」回があれば、その日は丸ごと飛ばす
 
 # 押してはいけない文言（保険）。上の許可リストに無いものは押さないので
 # 本来不要だが、許可リストを増やすときの歯止めとして明示しておく。
@@ -1159,8 +1167,24 @@ SEAT_JS = r"""
   const outer = cand.filter(el => !cand.some(o => o !== el && o.contains(el)));
 
   // ── 2. 座席表の器を決める ────────────────────────────────────
-  // 座席を最も多く含む「いちばん深い」祖先＝座席表。凡例や説明モーダルの
-  // 座席見本は器の外にあるので、これで自然に落ちる。
+  // まず既知の器を当たる。TOHO の座席表は #screen_box_inner の中だけに
+  // あり、外側の div.seat には凡例（座席と同じ seat_1.gif などを使う）と
+  // 利用規約が入る。器を広く取ると凡例まで座席として数えてしまい、
+  // 写真にも規約とボタンが写る。
+  const PREFERRED = ['#screen_box_inner', '#screen-list-frame-inner',
+                     '#screen-defimg', '.screen-map', 'table.screen-table'];
+  let box = null;
+  for (const sel of PREFERRED) {
+    let el = null;
+    try { el = document.querySelector(sel); } catch (e) { continue; }
+    if (el && outer.filter(s => el.contains(s)).length >= 4) { box = el; break; }
+  }
+
+  // 既知の器が無いとき（構造が変わった等）だけ、座席を最も多く含む
+  // いちばん深い祖先を探す。この方法には弱点がある：器の外に居る候補
+  // （凡例・操作ボタン・設備表）はスクリーンの大小によらず十数個で一定
+  // なので、小さいスクリーンだと座席表が全体の 7 割に届かず、器が
+  // div.seat まで浮き上がってしまう。実測では 24 席以下で起きた。
   const counts = new Map(), depth = new Map();
   for (const el of outer) {
     let n = el.parentElement, d = 0;
@@ -1169,11 +1193,12 @@ SEAT_JS = r"""
                                      depth.set(n, k); }
                 n = n.parentElement; d++; }
   }
-  let box = null;
-  const need = Math.max(20, outer.length * 0.7);
-  for (const [el, n] of counts) {
-    if (n < need) continue;
-    if (!box || depth.get(el) > depth.get(box)) box = el;
+  if (!box) {
+    const need = Math.max(20, outer.length * 0.7);
+    for (const [el, n] of counts) {
+      if (n < need) continue;
+      if (!box || depth.get(el) > depth.get(box)) box = el;
+    }
   }
   const seats = box ? outer.filter(el => box.contains(el)) : outer;
   // 撮影対象を「実際に数えた器」と同じにする。別のセレクタで探し直すと、
@@ -1264,13 +1289,34 @@ def slots_covered(slot: int, lead: float) -> list[int]:
                   if lead <= p + PLAN_TOLERANCE_MIN and i + 1 <= slot]
 
 
+def not_on_sale(showings: list[dict]) -> int:
+    """まだ（もう）売っていない回の数。TOHO は「販売期間外」を outside と分類する。"""
+    return sum(1 for s in showings
+               if (s.get("availability") or {}).get("code") == "outside")
+
+
 def due_showings(schedule: dict, now: datetime, lead_min: int,
                  sweep: bool = False) -> list[tuple[dict, int]]:
     """今撮るべき回と、その計画点の番号を並べて返す。"""
     active_ids = {c["id"] for c in active_cinemas()}
     out: list[tuple[dict, int]] = []
-    for payload in schedule.get("days", {}).values():
-        for s in payload.get("showings", []):
+    today = now.date().isoformat()
+    for date, payload in sorted(schedule.get("days", {}).items()):
+        showings = payload.get("showings", [])
+        # まだ売り出していない日は丸ごと飛ばす。TOHO は 3 日先までしか
+        # 売らないので、走査の射程には必ず「まだ販売していない日」が入る。
+        # 1 件ずつ座席ページを開きにいっても全部空振りで、1 回の走査が
+        # 数十分伸びるだけになる。
+        #
+        # 判定は今日より先の日付に限る。今日の分は開映を過ぎた回も
+        # 販売期間外になるので、これを数えると今日の残りまで飛ばす。
+        #
+        # まれにある先行販売はこれで取り逃すが、翌日の走査で拾える。
+        hits = not_on_sale(showings)
+        if date > today and hits >= DAY_SKIP_HITS:
+            EV.add("CAP", "day-skip", f"{date[5:]} 販売期間外 {hits}/{len(showings)} 件")
+            continue
+        for s in showings:
             if s.get("cinema") not in active_ids:
                 continue
             # 休館中の館は撮りにいかない。館は記録側に入っているので
@@ -1290,7 +1336,9 @@ def due_showings(schedule: dict, now: datetime, lead_min: int,
             code = (s.get("availability") or {}).get("code")
             if code in ("outside", "closed", "counter"):
                 continue
-            if not s.get("reserve_url") and not (s.get("click_ref") or {}).get("section_id"):
+            # 満席の回は購入リンクが出ないが、状態は分かっているので拾う。
+            if (code != "full" and not s.get("reserve_url")
+                    and not (s.get("click_ref") or {}).get("section_id")):
                 continue
             try:
                 start = datetime.fromisoformat(s["start_at"])
@@ -1353,13 +1401,25 @@ def finalize_expired(schedule: dict, now: datetime) -> tuple[set[str], list[str]
 
 
 def seat_ready(page) -> dict | None:
-    """座席表が描画されているか調べ、できていれば計測結果を返す。"""
+    """座席表が描画されているか調べ、できていれば計測結果を返す。
+
+    数えるのは **席と判定できた要素だけ**。以前は counts の総和で見ていたが、
+    そこには spacer（通路や空きマス）と other（判定できなかった要素）も
+    入っている。座席表探索は `<td>` と `<area>` を無条件で候補に取るので、
+    表組みのあるページなら何でも 20 を超えてしまう。実際、一覧ページに
+    留まったまま「座席表が出た」と誤認し、一覧の全画面写真を座席図として
+    保存していた。
+
+    空席も購入済みも 0 のページは、座席表ではない。
+    """
     try:
         rec = page.evaluate(SEAT_JS, seat_js_config())
     except Exception:
         return None
-    total = sum(rec["counts"].values())
-    return rec if total >= 20 else None
+    c = rec.get("counts") or {}
+    seats = (c.get("vacant", 0) + c.get("sold", 0) + c.get("wheelchair", 0)
+             + c.get("blocked", 0))
+    return rec if seats >= MIN_SEATS_READY else None
 
 
 def open_seat_page(page, showing: dict, cinema: dict):
@@ -1611,8 +1671,16 @@ def read_seat_page(page, probe: dict, shot_path: Path | None,
         pass
 
     if shot_path is not None:
-        # 数えた器に印が付いているので、それを撮る。
+        # 数えた器に印が付いているので、それを撮る。ただし計測から撮影まで
+        # の間に TOHO 側の JS（ズーム初期化など）が座席表を描き直すと印が
+        # 消える。消えていたら測り直して付け直す。読むだけなので安い。
         container = page.locator('[data-toho-seatbox="1"]')
+        if container.count() == 0:
+            try:
+                page.evaluate(SEAT_JS, seat_js_config())
+            except Exception:
+                pass
+            container = page.locator('[data-toho-seatbox="1"]')
         if container.count() == 0:
             container, _ = first_match(page, SELECTORS["seat_container"])
         shot_path.parent.mkdir(parents=True, exist_ok=True)
@@ -1629,11 +1697,13 @@ def read_seat_page(page, probe: dict, shot_path: Path | None,
                 LOG.warning("座席図の要素撮影に失敗（全画面に切り替える）: %s",
                             str(exc).splitlines()[0][:90])
         if not shot_ok:
-            try:
-                page.screenshot(full_page=True, **opts)
-                shot_ok = True
-            except Exception as exc:
-                LOG.warning("座席図の撮影に失敗: %s", str(exc).splitlines()[0][:90])
+            # 全画面へは逃げない。器が掴めないのは「座席表ではないページに
+            # 居る」ときで、そこで full_page を撮ると一覧や規約ページの
+            # 長大な写真が座席図として残ってしまう。撮れないなら撮らない。
+            # 画像が無いのは次の計画点で撮り直せるが、間違った画像は
+            # 見分けが付かないまま残る。
+            record["shot_warning"] = f"座席表の器を掴めなかった（{page.url[-60:]}）"
+            LOG.warning("座席図を撮らずに進む: %s", record["shot_warning"])
         if shot_ok and shot_path.exists():
             record["seat_image"] = rel(shot_path)
             record["seat_image_bytes"] = shot_path.stat().st_size

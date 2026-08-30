@@ -4507,39 +4507,41 @@
       "screen_raw": "本館スクリーン２ (474席)",
       "note": null,
       "availability": {
-        "code": "plenty",
-        "mark": "◎",
-        "label": "空席に余裕あり",
+        "code": "available",
+        "mark": "○",
+        "label": "空席あり",
         "text": "販売中",
-        "status_code": "01",
-        "icon": "circle-double",
+        "status_code": "02",
+        "icon": "circle",
         "certainty": "確認",
         "by": "icon"
       },
-      "status_code": "01",
+      "status_code": "02",
       "reserve_url": null,
       "click_ref": {
         "date": "20260830",
         "section_id": "0371-028639",
         "item_index": 1
       },
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:51:31.324547+09:00",
+      "last_attempt_at": "2026-08-30T10:53:27.863061+09:00",
       "seat_counts": {
-        "vacant": 290,
-        "sold": 184,
+        "vacant": 117,
+        "sold": 357,
         "total": 474,
         "wheelchair": 0,
         "spacer": 129,
         "unclassified": 0,
         "expected": 474
       },
-      "occupancy": 0.3882,
+      "occupancy": 0.7532,
       "seat_signature": "TBODY. #",
       "form_params": {
         "site_cd": "037",
@@ -4555,13 +4557,13 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-3838a2_20260830_1100_tohoumeda_s02.jpg",
-      "seat_image_bytes": 48189,
+      "seat_image_bytes": 42899,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1148.2,
-      "captured_at": "2026-08-29T15:51:46.581791+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.5,
+      "captured_at": "2026-08-30T10:53:41.350523+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "history": [
         {
           "at": "2026-08-29T15:51:46.581791+09:00",
@@ -4571,6 +4573,24 @@
           "vacant": 290,
           "total": 474,
           "occupancy": 0.3882
+        },
+        {
+          "at": "2026-08-30T10:43:54.942099+09:00",
+          "lead": 16.3,
+          "slot": 1,
+          "sold": 354,
+          "vacant": 120,
+          "total": 474,
+          "occupancy": 0.7468
+        },
+        {
+          "at": "2026-08-30T10:53:41.350523+09:00",
+          "lead": 6.5,
+          "slot": 2,
+          "sold": 357,
+          "vacant": 117,
+          "total": 474,
+          "occupancy": 0.7532
         }
       ]
     },
@@ -4614,23 +4634,25 @@
         "section_id": "0371-028811",
         "item_index": 0
       },
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:51:50.704962+09:00",
+      "last_attempt_at": "2026-08-30T10:53:46.393322+09:00",
       "seat_counts": {
-        "vacant": 112,
-        "sold": 22,
+        "vacant": 81,
+        "sold": 53,
         "total": 134,
         "wheelchair": 0,
         "spacer": 50,
         "unclassified": 0,
         "expected": 134
       },
-      "occupancy": 0.1642,
+      "occupancy": 0.3955,
       "seat_signature": "TBODY. #",
       "form_params": {
         "site_cd": "037",
@@ -4646,13 +4668,13 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-71cf8f_20260830_1100_tohoumeda_s07.jpg",
-      "seat_image_bytes": 19650,
+      "seat_image_bytes": 18796,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1147.9,
-      "captured_at": "2026-08-29T15:52:04.313837+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.2,
+      "captured_at": "2026-08-30T10:54:00.113157+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "history": [
         {
           "at": "2026-08-29T15:52:04.313837+09:00",
@@ -4662,6 +4684,24 @@
           "vacant": 112,
           "total": 134,
           "occupancy": 0.1642
+        },
+        {
+          "at": "2026-08-30T10:44:13.031682+09:00",
+          "lead": 16.0,
+          "slot": 1,
+          "sold": 47,
+          "vacant": 87,
+          "total": 134,
+          "occupancy": 0.3507
+        },
+        {
+          "at": "2026-08-30T10:54:00.113157+09:00",
+          "lead": 6.2,
+          "slot": 2,
+          "sold": 53,
+          "vacant": 81,
+          "total": 134,
+          "occupancy": 0.3955
         }
       ]
     },
@@ -4687,39 +4727,41 @@
       "screen_raw": "本館スクリーン５ (98席)",
       "note": null,
       "availability": {
-        "code": "plenty",
-        "mark": "◎",
-        "label": "空席に余裕あり",
+        "code": "few",
+        "mark": "△",
+        "label": "残りわずか",
         "text": "販売中",
-        "status_code": "01",
-        "icon": "circle-double",
+        "status_code": "03",
+        "icon": "triangle",
         "certainty": "確認",
         "by": "icon"
       },
-      "status_code": "01",
+      "status_code": "03",
       "reserve_url": null,
       "click_ref": {
         "date": "20260830",
         "section_id": "0371-028357",
         "item_index": 0
       },
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:52:08.642303+09:00",
+      "last_attempt_at": "2026-08-30T11:08:33.596522+09:00",
       "seat_counts": {
-        "vacant": 61,
-        "sold": 40,
+        "vacant": 9,
+        "sold": 92,
         "total": 101,
         "wheelchair": 1,
         "spacer": 17,
         "unclassified": 9,
         "expected": 98
       },
-      "occupancy": 0.396,
+      "occupancy": 0.9109,
       "seat_signature": "DIV.seat #",
       "form_params": {
         "site_cd": "037",
@@ -4736,13 +4778,13 @@
       "seat_warning": "座席数 101 ≠ 公称 98（判定不能 9 件）",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-5a6ba2_20260830_1115_tohoumeda_s05.jpg",
-      "seat_image_bytes": 62895,
+      "seat_image_bytes": 60846,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1162.6,
-      "captured_at": "2026-08-29T15:52:22.371263+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.4,
+      "captured_at": "2026-08-30T11:08:47.222026+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "history": [
         {
           "at": "2026-08-29T15:52:22.371263+09:00",
@@ -4793,23 +4835,25 @@
         "section_id": "0371-026951",
         "item_index": 1
       },
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:52:25.588814+09:00",
+      "last_attempt_at": "2026-08-30T11:28:10.072835+09:00",
       "seat_counts": {
-        "vacant": 301,
-        "sold": 168,
+        "vacant": 218,
+        "sold": 251,
         "total": 469,
         "wheelchair": 0,
         "spacer": 206,
         "unclassified": 0,
         "expected": 469
       },
-      "occupancy": 0.3582,
+      "occupancy": 0.5352,
       "seat_signature": "TBODY. #",
       "form_params": {
         "site_cd": "037",
@@ -4825,13 +4869,13 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-dfd467_20260830_1135_tohoumeda_s03.jpg",
-      "seat_image_bytes": 51541,
+      "seat_image_bytes": 49186,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1182.3,
-      "captured_at": "2026-08-29T15:52:39.462496+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.8,
+      "captured_at": "2026-08-30T11:28:24.620402+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "history": [
         {
           "at": "2026-08-29T15:52:39.462496+09:00",
@@ -4841,6 +4885,24 @@
           "vacant": 301,
           "total": 469,
           "occupancy": 0.3582
+        },
+        {
+          "at": "2026-08-30T11:04:03.251301+09:00",
+          "lead": 31.2,
+          "slot": 1,
+          "sold": 242,
+          "vacant": 227,
+          "total": 469,
+          "occupancy": 0.516
+        },
+        {
+          "at": "2026-08-30T11:28:24.620402+09:00",
+          "lead": 6.8,
+          "slot": 2,
+          "sold": 251,
+          "vacant": 218,
+          "total": 469,
+          "occupancy": 0.5352
         }
       ]
     },
@@ -4885,23 +4947,25 @@
         "section_id": "0371-029466",
         "item_index": 0
       },
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:52:43.645004+09:00",
+      "last_attempt_at": "2026-08-30T11:53:31.329202+09:00",
       "seat_counts": {
-        "vacant": 472,
-        "sold": 256,
+        "vacant": 239,
+        "sold": 489,
         "total": 728,
         "wheelchair": 0,
         "spacer": 363,
         "unclassified": 0,
         "expected": 728
       },
-      "occupancy": 0.3516,
+      "occupancy": 0.6717,
       "seat_signature": "TBODY. #",
       "form_params": {
         "site_cd": "037",
@@ -4917,13 +4981,13 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/michael-9b1cba_20260830_1200_tohoumeda_s01.jpg",
-      "seat_image_bytes": 76566,
+      "seat_image_bytes": 70936,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1207.0,
-      "captured_at": "2026-08-29T15:52:57.397662+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.5,
+      "captured_at": "2026-08-30T11:53:44.791966+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "history": [
         {
           "at": "2026-08-29T15:52:57.397662+09:00",
@@ -4933,6 +4997,24 @@
           "vacant": 472,
           "total": 728,
           "occupancy": 0.3516
+        },
+        {
+          "at": "2026-08-30T11:28:42.035538+09:00",
+          "lead": 31.5,
+          "slot": 1,
+          "sold": 453,
+          "vacant": 275,
+          "total": 728,
+          "occupancy": 0.6223
+        },
+        {
+          "at": "2026-08-30T11:53:44.791966+09:00",
+          "lead": 6.5,
+          "slot": 2,
+          "sold": 489,
+          "vacant": 239,
+          "total": 728,
+          "occupancy": 0.6717
         }
       ]
     },
@@ -4974,23 +5056,25 @@
         "section_id": "0371-026177",
         "item_index": 1
       },
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:53:00.670732+09:00",
+      "last_attempt_at": "2026-08-30T11:53:48.316732+09:00",
       "seat_counts": {
-        "vacant": 69,
-        "sold": 32,
+        "vacant": 20,
+        "sold": 81,
         "total": 101,
         "wheelchair": 0,
         "spacer": 28,
         "unclassified": 4,
         "expected": 101
       },
-      "occupancy": 0.3168,
+      "occupancy": 0.802,
       "seat_signature": "DIV.js-seat-main.seat-main #",
       "form_params": {
         "site_cd": "037",
@@ -5006,13 +5090,13 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-e259f3_20260830_1200_tohoumeda_s04.jpg",
-      "seat_image_bytes": 23146,
+      "seat_image_bytes": 21372,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1206.8,
-      "captured_at": "2026-08-29T15:53:14.495063+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.2,
+      "captured_at": "2026-08-30T11:54:01.618177+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "history": [
         {
           "at": "2026-08-29T15:53:14.495063+09:00",
@@ -5022,6 +5106,24 @@
           "vacant": 69,
           "total": 101,
           "occupancy": 0.3168
+        },
+        {
+          "at": "2026-08-30T11:29:00.689262+09:00",
+          "lead": 31.2,
+          "slot": 1,
+          "sold": 75,
+          "vacant": 26,
+          "total": 101,
+          "occupancy": 0.7426
+        },
+        {
+          "at": "2026-08-30T11:54:01.618177+09:00",
+          "lead": 6.2,
+          "slot": 2,
+          "sold": 81,
+          "vacant": 20,
+          "total": 101,
+          "occupancy": 0.802
         }
       ]
     },
@@ -5067,21 +5169,22 @@
       },
       "status": "provisional",
       "attempts": 0,
-      "captures": 1,
+      "captures": 2,
       "slots": [
-        0
+        0,
+        1
       ],
-      "last_attempt_at": "2026-08-29T15:53:18.111090+09:00",
+      "last_attempt_at": "2026-08-30T12:28:15.023737+09:00",
       "seat_counts": {
-        "vacant": 30,
-        "sold": 70,
+        "vacant": 0,
+        "sold": 100,
         "total": 100,
         "wheelchair": 0,
         "spacer": 36,
         "unclassified": 4,
         "expected": 100
       },
-      "occupancy": 0.7,
+      "occupancy": 1.0,
       "seat_signature": "DIV.js-seat-main.seat-main #",
       "form_params": {
         "site_cd": "037",
@@ -5097,13 +5200,13 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-e97bc9_20260830_1300_tohoumeda_s06.jpg",
-      "seat_image_bytes": 19376,
+      "seat_image_bytes": 18011,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1266.5,
-      "captured_at": "2026-08-29T15:53:31.593642+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 31.7,
+      "captured_at": "2026-08-30T12:28:28.806563+09:00",
+      "capture_round": 2,
+      "capture_slot": 1,
       "history": [
         {
           "at": "2026-08-29T15:53:31.593642+09:00",
@@ -5113,6 +5216,15 @@
           "vacant": 30,
           "total": 100,
           "occupancy": 0.7
+        },
+        {
+          "at": "2026-08-30T12:28:28.806563+09:00",
+          "lead": 31.7,
+          "slot": 1,
+          "sold": 100,
+          "vacant": 0,
+          "total": 100,
+          "occupancy": 1.0
         }
       ]
     },
@@ -5154,23 +5266,25 @@
         "section_id": "0371-028639",
         "item_index": 2
       },
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:53:35.078163+09:00",
+      "last_attempt_at": "2026-08-30T13:23:19.687195+09:00",
       "seat_counts": {
-        "vacant": 240,
-        "sold": 234,
+        "vacant": 34,
+        "sold": 440,
         "total": 474,
         "wheelchair": 0,
         "spacer": 129,
         "unclassified": 0,
         "expected": 474
       },
-      "occupancy": 0.4937,
+      "occupancy": 0.9283,
       "seat_signature": "TBODY. #",
       "form_params": {
         "site_cd": "037",
@@ -5186,13 +5300,13 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-3838a2_20260830_1330_tohoumeda_s02.jpg",
-      "seat_image_bytes": 46811,
+      "seat_image_bytes": 39141,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1296.2,
-      "captured_at": "2026-08-29T15:53:49.091674+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.7,
+      "captured_at": "2026-08-30T13:23:33.317181+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "history": [
         {
           "at": "2026-08-29T15:53:49.091674+09:00",
@@ -5202,6 +5316,24 @@
           "vacant": 240,
           "total": 474,
           "occupancy": 0.4937
+        },
+        {
+          "at": "2026-08-30T12:59:04.605185+09:00",
+          "lead": 31.2,
+          "slot": 1,
+          "sold": 424,
+          "vacant": 50,
+          "total": 474,
+          "occupancy": 0.8945
+        },
+        {
+          "at": "2026-08-30T13:23:33.317181+09:00",
+          "lead": 6.7,
+          "slot": 2,
+          "sold": 440,
+          "vacant": 34,
+          "total": 474,
+          "occupancy": 0.9283
         }
       ]
     },
@@ -5245,23 +5377,25 @@
         "section_id": "0371-028858",
         "item_index": 1
       },
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:53:54.072160+09:00",
+      "last_attempt_at": "2026-08-30T13:28:27.316774+09:00",
       "seat_counts": {
-        "vacant": 82,
-        "sold": 19,
+        "vacant": 28,
+        "sold": 73,
         "total": 101,
         "wheelchair": 1,
         "spacer": 17,
         "unclassified": 9,
         "expected": 98
       },
-      "occupancy": 0.1881,
+      "occupancy": 0.7228,
       "seat_signature": "DIV.seat #",
       "form_params": {
         "site_cd": "037",
@@ -5278,13 +5412,13 @@
       "seat_warning": "座席数 101 ≠ 公称 98（判定不能 9 件）",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-f63727_20260830_1335_tohoumeda_s05.jpg",
-      "seat_image_bytes": 63627,
+      "seat_image_bytes": 61740,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1300.9,
-      "captured_at": "2026-08-29T15:54:07.835546+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.5,
+      "captured_at": "2026-08-30T13:28:40.580097+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "history": [
         {
           "at": "2026-08-29T15:54:07.835546+09:00",
@@ -5321,39 +5455,41 @@
       "screen_raw": "本館スクリーン７ (134席)",
       "note": null,
       "availability": {
-        "code": "plenty",
-        "mark": "◎",
-        "label": "空席に余裕あり",
+        "code": "available",
+        "mark": "○",
+        "label": "空席あり",
         "text": "販売中",
-        "status_code": "01",
-        "icon": "circle-double",
+        "status_code": "02",
+        "icon": "circle",
         "certainty": "確認",
         "by": "icon"
       },
-      "status_code": "01",
+      "status_code": "02",
       "reserve_url": null,
       "click_ref": {
         "date": "20260830",
         "section_id": "0371-028929",
         "item_index": 1
       },
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:54:11.528335+09:00",
+      "last_attempt_at": "2026-08-30T13:33:11.141091+09:00",
       "seat_counts": {
-        "vacant": 76,
-        "sold": 58,
+        "vacant": 22,
+        "sold": 112,
         "total": 134,
         "wheelchair": 0,
         "spacer": 50,
         "unclassified": 0,
         "expected": 134
       },
-      "occupancy": 0.4328,
+      "occupancy": 0.8358,
       "seat_signature": "TBODY. #",
       "form_params": {
         "site_cd": "037",
@@ -5369,13 +5505,13 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-01dfa3_20260830_1340_tohoumeda_s07.jpg",
-      "seat_image_bytes": 18681,
+      "seat_image_bytes": 16434,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1305.6,
-      "captured_at": "2026-08-29T15:54:24.907850+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.8,
+      "captured_at": "2026-08-30T13:33:24.690663+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "history": [
         {
           "at": "2026-08-29T15:54:24.907850+09:00",
@@ -5385,6 +5521,24 @@
           "vacant": 76,
           "total": 134,
           "occupancy": 0.4328
+        },
+        {
+          "at": "2026-08-30T13:08:32.149145+09:00",
+          "lead": 31.7,
+          "slot": 1,
+          "sold": 106,
+          "vacant": 28,
+          "total": 134,
+          "occupancy": 0.791
+        },
+        {
+          "at": "2026-08-30T13:33:24.690663+09:00",
+          "lead": 6.8,
+          "slot": 2,
+          "sold": 112,
+          "vacant": 22,
+          "total": 134,
+          "occupancy": 0.8358
         }
       ]
     },
@@ -5519,23 +5673,25 @@
         "section_id": "0371-028669",
         "item_index": 1
       },
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:54:45.937678+09:00",
+      "last_attempt_at": "2026-08-30T14:13:04.889618+09:00",
       "seat_counts": {
-        "vacant": 343,
-        "sold": 126,
+        "vacant": 85,
+        "sold": 384,
         "total": 469,
         "wheelchair": 0,
         "spacer": 206,
         "unclassified": 0,
         "expected": 469
       },
-      "occupancy": 0.2687,
+      "occupancy": 0.8188,
       "seat_signature": "TBODY. #",
       "form_params": {
         "site_cd": "037",
@@ -5551,13 +5707,13 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-b1b479_20260830_1420_tohoumeda_s03.jpg",
-      "seat_image_bytes": 53323,
+      "seat_image_bytes": 45008,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1345.0,
-      "captured_at": "2026-08-29T15:54:59.842039+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.9,
+      "captured_at": "2026-08-30T14:13:18.681876+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "history": [
         {
           "at": "2026-08-29T15:54:59.842039+09:00",
@@ -5567,6 +5723,24 @@
           "vacant": 343,
           "total": 469,
           "occupancy": 0.2687
+        },
+        {
+          "at": "2026-08-30T13:48:45.958343+09:00",
+          "lead": 31.5,
+          "slot": 1,
+          "sold": 361,
+          "vacant": 108,
+          "total": 469,
+          "occupancy": 0.7697
+        },
+        {
+          "at": "2026-08-30T14:13:18.681876+09:00",
+          "lead": 6.9,
+          "slot": 2,
+          "sold": 384,
+          "vacant": 85,
+          "total": 469,
+          "occupancy": 0.8188
         }
       ]
     },
@@ -5610,23 +5784,25 @@
         "section_id": "0371-028811",
         "item_index": 1
       },
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:55:04.150488+09:00",
+      "last_attempt_at": "2026-08-30T14:38:18.751250+09:00",
       "seat_counts": {
-        "vacant": 68,
-        "sold": 33,
+        "vacant": 20,
+        "sold": 81,
         "total": 101,
         "wheelchair": 0,
         "spacer": 28,
         "unclassified": 4,
         "expected": 101
       },
-      "occupancy": 0.3267,
+      "occupancy": 0.802,
       "seat_signature": "DIV.js-seat-main.seat-main #",
       "form_params": {
         "site_cd": "037",
@@ -5642,13 +5818,13 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-71cf8f_20260830_1445_tohoumeda_s04.jpg",
-      "seat_image_bytes": 23008,
+      "seat_image_bytes": 21294,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1369.7,
-      "captured_at": "2026-08-29T15:55:18.055967+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.7,
+      "captured_at": "2026-08-30T14:38:32.267515+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "history": [
         {
           "at": "2026-08-29T15:55:18.055967+09:00",
@@ -5658,6 +5834,24 @@
           "vacant": 68,
           "total": 101,
           "occupancy": 0.3267
+        },
+        {
+          "at": "2026-08-30T14:13:35.774846+09:00",
+          "lead": 31.6,
+          "slot": 1,
+          "sold": 72,
+          "vacant": 29,
+          "total": 101,
+          "occupancy": 0.7129
+        },
+        {
+          "at": "2026-08-30T14:38:32.267515+09:00",
+          "lead": 6.7,
+          "slot": 2,
+          "sold": 81,
+          "vacant": 20,
+          "total": 101,
+          "occupancy": 0.802
         }
       ]
     },
@@ -5701,23 +5895,25 @@
         "section_id": "0371-029420",
         "item_index": 0
       },
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:55:22.536453+09:00",
+      "last_attempt_at": "2026-08-30T14:53:12.294219+09:00",
       "seat_counts": {
-        "vacant": 428,
-        "sold": 300,
+        "vacant": 277,
+        "sold": 451,
         "total": 728,
         "wheelchair": 0,
         "spacer": 363,
         "unclassified": 0,
         "expected": 728
       },
-      "occupancy": 0.4121,
+      "occupancy": 0.6195,
       "seat_signature": "TBODY. #",
       "form_params": {
         "site_cd": "037",
@@ -5733,13 +5929,13 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-dfd467_20260830_1500_tohoumeda_s01.jpg",
-      "seat_image_bytes": 75164,
+      "seat_image_bytes": 71283,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1384.4,
-      "captured_at": "2026-08-29T15:55:36.657633+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.8,
+      "captured_at": "2026-08-30T14:53:26.338821+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "history": [
         {
           "at": "2026-08-29T15:55:36.657633+09:00",
@@ -5749,6 +5945,24 @@
           "vacant": 428,
           "total": 728,
           "occupancy": 0.4121
+        },
+        {
+          "at": "2026-08-30T14:28:56.248524+09:00",
+          "lead": 31.3,
+          "slot": 1,
+          "sold": 430,
+          "vacant": 298,
+          "total": 728,
+          "occupancy": 0.5907
+        },
+        {
+          "at": "2026-08-30T14:53:26.338821+09:00",
+          "lead": 6.8,
+          "slot": 2,
+          "sold": 451,
+          "vacant": 277,
+          "total": 728,
+          "occupancy": 0.6195
         }
       ]
     },
@@ -5792,21 +6006,22 @@
       },
       "status": "provisional",
       "attempts": 0,
-      "captures": 1,
+      "captures": 2,
       "slots": [
-        0
+        0,
+        1
       ],
-      "last_attempt_at": "2026-08-29T15:55:41.684528+09:00",
+      "last_attempt_at": "2026-08-30T14:38:35.620390+09:00",
       "seat_counts": {
-        "vacant": 64,
-        "sold": 36,
+        "vacant": 1,
+        "sold": 99,
         "total": 100,
         "wheelchair": 0,
         "spacer": 36,
         "unclassified": 4,
         "expected": 100
       },
-      "occupancy": 0.36,
+      "occupancy": 0.99,
       "seat_signature": "DIV.js-seat-main.seat-main #",
       "form_params": {
         "site_cd": "037",
@@ -5822,13 +6037,13 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-e259f3_20260830_1510_tohoumeda_s06.jpg",
-      "seat_image_bytes": 20842,
+      "seat_image_bytes": 18106,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1394.1,
-      "captured_at": "2026-08-29T15:55:55.272263+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 31.4,
+      "captured_at": "2026-08-30T14:38:48.948790+09:00",
+      "capture_round": 2,
+      "capture_slot": 1,
       "history": [
         {
           "at": "2026-08-29T15:55:55.272263+09:00",
@@ -5838,6 +6053,15 @@
           "vacant": 64,
           "total": 100,
           "occupancy": 0.36
+        },
+        {
+          "at": "2026-08-30T14:38:48.948790+09:00",
+          "lead": 31.4,
+          "slot": 1,
+          "sold": 99,
+          "vacant": 1,
+          "total": 100,
+          "occupancy": 0.99
         }
       ]
     },
@@ -5955,39 +6179,41 @@
       "screen_raw": "本館スクリーン２ (474席)",
       "note": null,
       "availability": {
-        "code": "plenty",
-        "mark": "◎",
-        "label": "空席に余裕あり",
+        "code": "available",
+        "mark": "○",
+        "label": "空席あり",
         "text": "販売中",
-        "status_code": "01",
-        "icon": "circle-double",
+        "status_code": "02",
+        "icon": "circle",
         "certainty": "確認",
         "by": "icon"
       },
-      "status_code": "01",
+      "status_code": "02",
       "reserve_url": null,
       "click_ref": {
         "date": "20260830",
         "section_id": "0371-028639",
         "item_index": 3
       },
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:56:18.194263+09:00",
+      "last_attempt_at": "2026-08-30T15:53:43.370376+09:00",
       "seat_counts": {
-        "vacant": 289,
-        "sold": 185,
+        "vacant": 20,
+        "sold": 454,
         "total": 474,
         "wheelchair": 0,
         "spacer": 129,
         "unclassified": 0,
         "expected": 474
       },
-      "occupancy": 0.3903,
+      "occupancy": 0.9578,
       "seat_signature": "TBODY. #",
       "form_params": {
         "site_cd": "037",
@@ -6003,13 +6229,13 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-3838a2_20260830_1600_tohoumeda_s02.jpg",
-      "seat_image_bytes": 47967,
+      "seat_image_bytes": 38429,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1443.5,
-      "captured_at": "2026-08-29T15:56:32.189005+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.3,
+      "captured_at": "2026-08-30T15:53:57.135319+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "history": [
         {
           "at": "2026-08-29T15:56:32.189005+09:00",
@@ -6019,6 +6245,24 @@
           "vacant": 289,
           "total": 474,
           "occupancy": 0.3903
+        },
+        {
+          "at": "2026-08-30T15:28:57.882636+09:00",
+          "lead": 31.3,
+          "slot": 1,
+          "sold": 435,
+          "vacant": 39,
+          "total": 474,
+          "occupancy": 0.9177
+        },
+        {
+          "at": "2026-08-30T15:53:57.135319+09:00",
+          "lead": 6.3,
+          "slot": 2,
+          "sold": 454,
+          "vacant": 20,
+          "total": 474,
+          "occupancy": 0.9578
         }
       ]
     },
@@ -6062,23 +6306,25 @@
         "section_id": "0371-028929",
         "item_index": 2
       },
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:56:35.579847+09:00",
+      "last_attempt_at": "2026-08-30T15:58:05.613625+09:00",
       "seat_counts": {
-        "vacant": 111,
-        "sold": 23,
+        "vacant": 35,
+        "sold": 99,
         "total": 134,
         "wheelchair": 0,
         "spacer": 50,
         "unclassified": 0,
         "expected": 134
       },
-      "occupancy": 0.1716,
+      "occupancy": 0.7388,
       "seat_signature": "TBODY. #",
       "form_params": {
         "site_cd": "037",
@@ -6094,13 +6340,13 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-01dfa3_20260830_1605_tohoumeda_s07.jpg",
-      "seat_image_bytes": 19522,
+      "seat_image_bytes": 17081,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1448.2,
-      "captured_at": "2026-08-29T15:56:49.350868+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.9,
+      "captured_at": "2026-08-30T15:58:19.657197+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "history": [
         {
           "at": "2026-08-29T15:56:49.350868+09:00",
@@ -6110,6 +6356,24 @@
           "vacant": 111,
           "total": 134,
           "occupancy": 0.1716
+        },
+        {
+          "at": "2026-08-30T15:33:19.851635+09:00",
+          "lead": 31.9,
+          "slot": 1,
+          "sold": 78,
+          "vacant": 56,
+          "total": 134,
+          "occupancy": 0.5821
+        },
+        {
+          "at": "2026-08-30T15:58:19.657197+09:00",
+          "lead": 6.9,
+          "slot": 2,
+          "sold": 99,
+          "vacant": 35,
+          "total": 134,
+          "occupancy": 0.7388
         }
       ]
     },
@@ -6226,16 +6490,16 @@
       "screen_raw": "本館スクリーン８ (154席)",
       "note": null,
       "availability": {
-        "code": "available",
-        "mark": "○",
-        "label": "空席あり",
+        "code": "few",
+        "mark": "△",
+        "label": "残りわずか",
         "text": "販売中",
-        "status_code": "02",
-        "icon": "circle",
+        "status_code": "03",
+        "icon": "triangle",
         "certainty": "確認",
         "by": "icon"
       },
-      "status_code": "02",
+      "status_code": "03",
       "reserve_url": null,
       "click_ref": {
         "date": "20260830",
@@ -6244,21 +6508,22 @@
       },
       "status": "provisional",
       "attempts": 0,
-      "captures": 1,
+      "captures": 2,
       "slots": [
-        0
+        0,
+        1
       ],
-      "last_attempt_at": "2026-08-29T15:57:12.584041+09:00",
+      "last_attempt_at": "2026-08-30T16:38:23.633593+09:00",
       "seat_counts": {
-        "vacant": 55,
-        "sold": 99,
+        "vacant": 4,
+        "sold": 150,
         "total": 154,
         "wheelchair": 0,
         "spacer": 39,
         "unclassified": 0,
         "expected": 154
       },
-      "occupancy": 0.6429,
+      "occupancy": 0.974,
       "seat_signature": "TBODY. #",
       "form_params": {
         "site_cd": "037",
@@ -6274,13 +6539,13 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-87658e_20260830_1710_tohoumeda_s08.jpg",
-      "seat_image_bytes": 18039,
+      "seat_image_bytes": 15687,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1512.6,
-      "captured_at": "2026-08-29T15:57:26.342216+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 31.6,
+      "captured_at": "2026-08-30T16:38:36.958675+09:00",
+      "capture_round": 2,
+      "capture_slot": 1,
       "history": [
         {
           "at": "2026-08-29T15:57:26.342216+09:00",
@@ -6290,6 +6555,15 @@
           "vacant": 55,
           "total": 154,
           "occupancy": 0.6429
+        },
+        {
+          "at": "2026-08-30T16:38:36.958675+09:00",
+          "lead": 31.6,
+          "slot": 1,
+          "sold": 150,
+          "vacant": 4,
+          "total": 154,
+          "occupancy": 0.974
         }
       ]
     },
@@ -6331,23 +6605,25 @@
         "section_id": "0371-026177",
         "item_index": 3
       },
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:57:30.286299+09:00",
+      "last_attempt_at": "2026-08-30T17:18:17.276445+09:00",
       "seat_counts": {
-        "vacant": 96,
-        "sold": 5,
+        "vacant": 67,
+        "sold": 34,
         "total": 101,
         "wheelchair": 0,
         "spacer": 28,
         "unclassified": 4,
         "expected": 101
       },
-      "occupancy": 0.0495,
+      "occupancy": 0.3366,
       "seat_signature": "DIV.js-seat-main.seat-main #",
       "form_params": {
         "site_cd": "037",
@@ -6363,13 +6639,13 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-e259f3_20260830_1725_tohoumeda_s04.jpg",
-      "seat_image_bytes": 23912,
+      "seat_image_bytes": 23130,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1527.3,
-      "captured_at": "2026-08-29T15:57:44.065466+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.7,
+      "captured_at": "2026-08-30T17:18:30.862452+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "history": [
         {
           "at": "2026-08-29T15:57:44.065466+09:00",
@@ -6379,6 +6655,24 @@
           "vacant": 96,
           "total": 101,
           "occupancy": 0.0495
+        },
+        {
+          "at": "2026-08-30T16:54:05.054459+09:00",
+          "lead": 31.1,
+          "slot": 1,
+          "sold": 24,
+          "vacant": 77,
+          "total": 101,
+          "occupancy": 0.2376
+        },
+        {
+          "at": "2026-08-30T17:18:30.862452+09:00",
+          "lead": 6.7,
+          "slot": 2,
+          "sold": 34,
+          "vacant": 67,
+          "total": 101,
+          "occupancy": 0.3366
         }
       ]
     },
@@ -6422,23 +6716,25 @@
         "section_id": "0371-029017",
         "item_index": 0
       },
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:57:48.244299+09:00",
+      "last_attempt_at": "2026-08-30T17:43:16.126865+09:00",
       "seat_counts": {
-        "vacant": 663,
-        "sold": 65,
+        "vacant": 536,
+        "sold": 192,
         "total": 728,
         "wheelchair": 0,
         "spacer": 363,
         "unclassified": 0,
         "expected": 728
       },
-      "occupancy": 0.0893,
+      "occupancy": 0.2637,
       "seat_signature": "TBODY. #",
       "form_params": {
         "site_cd": "037",
@@ -6454,13 +6750,13 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-5043c7_20260830_1750_tohoumeda_s01.jpg",
-      "seat_image_bytes": 82445,
+      "seat_image_bytes": 79447,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1552.0,
-      "captured_at": "2026-08-29T15:58:02.023623+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.7,
+      "captured_at": "2026-08-30T17:43:30.540948+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "history": [
         {
           "at": "2026-08-29T15:58:02.023623+09:00",
@@ -6470,6 +6766,24 @@
           "vacant": 663,
           "total": 728,
           "occupancy": 0.0893
+        },
+        {
+          "at": "2026-08-30T17:18:48.330247+09:00",
+          "lead": 31.4,
+          "slot": 1,
+          "sold": 183,
+          "vacant": 545,
+          "total": 728,
+          "occupancy": 0.2514
+        },
+        {
+          "at": "2026-08-30T17:43:30.540948+09:00",
+          "lead": 6.7,
+          "slot": 2,
+          "sold": 192,
+          "vacant": 536,
+          "total": 728,
+          "occupancy": 0.2637
         }
       ]
     },
@@ -6602,23 +6916,25 @@
         "section_id": "0371-028678",
         "item_index": 0
       },
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:58:22.807110+09:00",
+      "last_attempt_at": "2026-08-30T18:13:27.814409+09:00",
       "seat_counts": {
-        "vacant": 75,
-        "sold": 26,
+        "vacant": 16,
+        "sold": 85,
         "total": 101,
         "wheelchair": 1,
         "spacer": 17,
         "unclassified": 9,
         "expected": 98
       },
-      "occupancy": 0.2574,
+      "occupancy": 0.8416,
       "seat_signature": "DIV.seat #",
       "form_params": {
         "site_cd": "037",
@@ -6635,13 +6951,13 @@
       "seat_warning": "座席数 101 ≠ 公称 98（判定不能 9 件）",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-a90019_20260830_1820_tohoumeda_s05.jpg",
-      "seat_image_bytes": 63410,
+      "seat_image_bytes": 61211,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1581.4,
-      "captured_at": "2026-08-29T15:58:36.220126+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.5,
+      "captured_at": "2026-08-30T18:13:41.576418+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "history": [
         {
           "at": "2026-08-29T15:58:36.220126+09:00",
@@ -6692,23 +7008,25 @@
         "section_id": "0371-026951",
         "item_index": 2
       },
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:58:40.387197+09:00",
+      "last_attempt_at": "2026-08-30T18:23:05.845203+09:00",
       "seat_counts": {
-        "vacant": 415,
-        "sold": 59,
+        "vacant": 306,
+        "sold": 168,
         "total": 474,
         "wheelchair": 0,
         "spacer": 129,
         "unclassified": 0,
         "expected": 474
       },
-      "occupancy": 0.1245,
+      "occupancy": 0.3544,
       "seat_signature": "TBODY. #",
       "form_params": {
         "site_cd": "037",
@@ -6724,13 +7042,13 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-dfd467_20260830_1830_tohoumeda_s02.jpg",
-      "seat_image_bytes": 51445,
+      "seat_image_bytes": 48586,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1591.1,
-      "captured_at": "2026-08-29T15:58:54.131347+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.9,
+      "captured_at": "2026-08-30T18:23:19.544653+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "history": [
         {
           "at": "2026-08-29T15:58:54.131347+09:00",
@@ -6740,6 +7058,24 @@
           "vacant": 415,
           "total": 474,
           "occupancy": 0.1245
+        },
+        {
+          "at": "2026-08-30T17:58:37.619229+09:00",
+          "lead": 31.6,
+          "slot": 1,
+          "sold": 151,
+          "vacant": 323,
+          "total": 474,
+          "occupancy": 0.3186
+        },
+        {
+          "at": "2026-08-30T18:23:19.544653+09:00",
+          "lead": 6.9,
+          "slot": 2,
+          "sold": 168,
+          "vacant": 306,
+          "total": 474,
+          "occupancy": 0.3544
         }
       ]
     },
@@ -6783,23 +7119,25 @@
         "section_id": "0371-028811",
         "item_index": 2
       },
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:58:58.893397+09:00",
+      "last_attempt_at": "2026-08-30T18:23:23.863837+09:00",
       "seat_counts": {
-        "vacant": 127,
-        "sold": 7,
+        "vacant": 102,
+        "sold": 32,
         "total": 134,
         "wheelchair": 0,
         "spacer": 50,
         "unclassified": 0,
         "expected": 134
       },
-      "occupancy": 0.0522,
+      "occupancy": 0.2388,
       "seat_signature": "TBODY. #",
       "form_params": {
         "site_cd": "037",
@@ -6815,13 +7153,13 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-71cf8f_20260830_1830_tohoumeda_s07.jpg",
-      "seat_image_bytes": 19974,
+      "seat_image_bytes": 19429,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1590.8,
-      "captured_at": "2026-08-29T15:59:12.635505+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.6,
+      "captured_at": "2026-08-30T18:23:37.687579+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "history": [
         {
           "at": "2026-08-29T15:59:12.635505+09:00",
@@ -6831,6 +7169,24 @@
           "vacant": 127,
           "total": 134,
           "occupancy": 0.0522
+        },
+        {
+          "at": "2026-08-30T17:58:57.564607+09:00",
+          "lead": 31.3,
+          "slot": 1,
+          "sold": 31,
+          "vacant": 103,
+          "total": 134,
+          "occupancy": 0.2313
+        },
+        {
+          "at": "2026-08-30T18:23:37.687579+09:00",
+          "lead": 6.6,
+          "slot": 2,
+          "sold": 32,
+          "vacant": 102,
+          "total": 134,
+          "occupancy": 0.2388
         }
       ]
     },
@@ -6875,23 +7231,25 @@
         "section_id": "0371-028679",
         "item_index": 0
       },
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:59:15.963705+09:00",
+      "last_attempt_at": "2026-08-30T20:03:27.014366+09:00",
       "seat_counts": {
-        "vacant": 86,
-        "sold": 15,
+        "vacant": 16,
+        "sold": 85,
         "total": 101,
         "wheelchair": 0,
         "spacer": 28,
         "unclassified": 4,
         "expected": 101
       },
-      "occupancy": 0.1485,
+      "occupancy": 0.8416,
       "seat_signature": "DIV.js-seat-main.seat-main #",
       "form_params": {
         "site_cd": "037",
@@ -6907,13 +7265,13 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-2fcda0_20260830_2010_tohoumeda_s04.jpg",
-      "seat_image_bytes": 23562,
+      "seat_image_bytes": 21149,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1690.5,
-      "captured_at": "2026-08-29T15:59:29.349161+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.5,
+      "captured_at": "2026-08-30T20:03:43.421478+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "history": [
         {
           "at": "2026-08-29T15:59:29.349161+09:00",
@@ -6923,6 +7281,24 @@
           "vacant": 86,
           "total": 101,
           "occupancy": 0.1485
+        },
+        {
+          "at": "2026-08-30T19:38:18.796171+09:00",
+          "lead": 31.9,
+          "slot": 1,
+          "sold": 78,
+          "vacant": 23,
+          "total": 101,
+          "occupancy": 0.7723
+        },
+        {
+          "at": "2026-08-30T20:03:43.421478+09:00",
+          "lead": 6.5,
+          "slot": 2,
+          "sold": 85,
+          "vacant": 16,
+          "total": 101,
+          "occupancy": 0.8416
         }
       ]
     },
@@ -6966,23 +7342,25 @@
         "section_id": "0371-028637",
         "item_index": 0
       },
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:59:33.525429+09:00",
+      "last_attempt_at": "2026-08-30T20:28:19.657490+09:00",
       "seat_counts": {
-        "vacant": 147,
-        "sold": 7,
+        "vacant": 114,
+        "sold": 40,
         "total": 154,
         "wheelchair": 0,
         "spacer": 39,
         "unclassified": 0,
         "expected": 154
       },
-      "occupancy": 0.0455,
+      "occupancy": 0.2597,
       "seat_signature": "TBODY. #",
       "form_params": {
         "site_cd": "037",
@@ -6998,13 +7376,13 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-5043c7_20260830_2035_tohoumeda_s08.jpg",
-      "seat_image_bytes": 21081,
+      "seat_image_bytes": 20185,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1715.2,
-      "captured_at": "2026-08-29T15:59:47.078479+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.7,
+      "captured_at": "2026-08-30T20:28:33.322867+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "history": [
         {
           "at": "2026-08-29T15:59:47.078479+09:00",
@@ -7014,6 +7392,24 @@
           "vacant": 147,
           "total": 154,
           "occupancy": 0.0455
+        },
+        {
+          "at": "2026-08-30T20:04:16.997998+09:00",
+          "lead": 31.2,
+          "slot": 1,
+          "sold": 25,
+          "vacant": 129,
+          "total": 154,
+          "occupancy": 0.1623
+        },
+        {
+          "at": "2026-08-30T20:28:33.322867+09:00",
+          "lead": 6.7,
+          "slot": 2,
+          "sold": 40,
+          "vacant": 114,
+          "total": 154,
+          "occupancy": 0.2597
         }
       ]
     },
@@ -7057,23 +7453,25 @@
         "section_id": "0371-026177",
         "item_index": 4
       },
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T15:59:50.540763+09:00",
+      "last_attempt_at": "2026-08-30T20:33:41.724160+09:00",
       "seat_counts": {
-        "vacant": 97,
-        "sold": 3,
+        "vacant": 89,
+        "sold": 11,
         "total": 100,
         "wheelchair": 0,
         "spacer": 36,
         "unclassified": 4,
         "expected": 100
       },
-      "occupancy": 0.03,
+      "occupancy": 0.11,
       "seat_signature": "DIV.js-seat-main.seat-main #",
       "form_params": {
         "site_cd": "037",
@@ -7089,13 +7487,13 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-e259f3_20260830_2040_tohoumeda_s06.jpg",
-      "seat_image_bytes": 21959,
+      "seat_image_bytes": 21744,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1719.9,
-      "captured_at": "2026-08-29T16:00:03.900203+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.3,
+      "captured_at": "2026-08-30T20:33:55.238343+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "history": [
         {
           "at": "2026-08-29T16:00:03.900203+09:00",
@@ -7105,6 +7503,24 @@
           "vacant": 97,
           "total": 100,
           "occupancy": 0.03
+        },
+        {
+          "at": "2026-08-30T20:08:51.690572+09:00",
+          "lead": 31.4,
+          "slot": 1,
+          "sold": 9,
+          "vacant": 91,
+          "total": 100,
+          "occupancy": 0.09
+        },
+        {
+          "at": "2026-08-30T20:33:55.238343+09:00",
+          "lead": 6.3,
+          "slot": 2,
+          "sold": 11,
+          "vacant": 89,
+          "total": 100,
+          "occupancy": 0.11
         }
       ]
     },
@@ -7149,23 +7565,25 @@
         "section_id": "0371-029420",
         "item_index": 1
       },
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T16:00:08.760947+09:00",
+      "last_attempt_at": "2026-08-30T20:43:22.959492+09:00",
       "seat_counts": {
-        "vacant": 668,
-        "sold": 60,
+        "vacant": 567,
+        "sold": 161,
         "total": 728,
         "wheelchair": 0,
         "spacer": 363,
         "unclassified": 0,
         "expected": 728
       },
-      "occupancy": 0.0824,
+      "occupancy": 0.2212,
       "seat_signature": "TBODY. #",
       "form_params": {
         "site_cd": "037",
@@ -7181,13 +7599,13 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-dfd467_20260830_2050_tohoumeda_s01.jpg",
-      "seat_image_bytes": 82202,
+      "seat_image_bytes": 79264,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1729.6,
-      "captured_at": "2026-08-29T16:00:22.530535+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.6,
+      "captured_at": "2026-08-30T20:43:36.643158+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "history": [
         {
           "at": "2026-08-29T16:00:22.530535+09:00",
@@ -7197,6 +7615,24 @@
           "vacant": 668,
           "total": 728,
           "occupancy": 0.0824
+        },
+        {
+          "at": "2026-08-30T20:18:28.520288+09:00",
+          "lead": 31.8,
+          "slot": 1,
+          "sold": 145,
+          "vacant": 583,
+          "total": 728,
+          "occupancy": 0.1992
+        },
+        {
+          "at": "2026-08-30T20:43:36.643158+09:00",
+          "lead": 6.6,
+          "slot": 2,
+          "sold": 161,
+          "vacant": 567,
+          "total": 728,
+          "occupancy": 0.2212
         }
       ]
     },
@@ -7241,23 +7677,25 @@
         "section_id": "0371-029105",
         "item_index": 1
       },
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T16:00:27.531085+09:00",
+      "last_attempt_at": "2026-08-30T20:53:24.100114+09:00",
       "seat_counts": {
-        "vacant": 91,
-        "sold": 10,
+        "vacant": 50,
+        "sold": 51,
         "total": 101,
         "wheelchair": 1,
         "spacer": 17,
         "unclassified": 9,
         "expected": 98
       },
-      "occupancy": 0.099,
+      "occupancy": 0.505,
       "seat_signature": "DIV.seat #",
       "form_params": {
         "site_cd": "037",
@@ -7274,13 +7712,13 @@
       "seat_warning": "座席数 101 ≠ 公称 98（判定不能 9 件）",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-e97bc9_20260830_2100_tohoumeda_s05.jpg",
-      "seat_image_bytes": 63889,
+      "seat_image_bytes": 62621,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1739.3,
-      "captured_at": "2026-08-29T16:00:41.950707+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.6,
+      "captured_at": "2026-08-30T20:53:37.507141+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "history": [
         {
           "at": "2026-08-29T16:00:41.950707+09:00",
@@ -7334,23 +7772,25 @@
         "section_id": "0371-028928",
         "item_index": 1
       },
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T16:00:46.819905+09:00",
+      "last_attempt_at": "2026-08-30T21:03:06.185933+09:00",
       "seat_counts": {
-        "vacant": 129,
-        "sold": 5,
+        "vacant": 100,
+        "sold": 34,
         "total": 134,
         "wheelchair": 0,
         "spacer": 50,
         "unclassified": 0,
         "expected": 134
       },
-      "occupancy": 0.0373,
+      "occupancy": 0.2537,
       "seat_signature": "TBODY. #",
       "form_params": {
         "site_cd": "037",
@@ -7366,13 +7806,13 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-8d7903_20260830_2110_tohoumeda_s07.jpg",
-      "seat_image_bytes": 20065,
+      "seat_image_bytes": 19495,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1749.0,
-      "captured_at": "2026-08-29T16:01:01.674076+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.9,
+      "captured_at": "2026-08-30T21:03:19.561823+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "history": [
         {
           "at": "2026-08-29T16:01:01.674076+09:00",
@@ -7382,6 +7822,24 @@
           "vacant": 129,
           "total": 134,
           "occupancy": 0.0373
+        },
+        {
+          "at": "2026-08-30T20:39:00.547519+09:00",
+          "lead": 31.2,
+          "slot": 1,
+          "sold": 28,
+          "vacant": 106,
+          "total": 134,
+          "occupancy": 0.209
+        },
+        {
+          "at": "2026-08-30T21:03:19.561823+09:00",
+          "lead": 6.9,
+          "slot": 2,
+          "sold": 34,
+          "vacant": 100,
+          "total": 134,
+          "occupancy": 0.2537
         }
       ]
     },
@@ -7425,23 +7883,25 @@
         "section_id": "0371-028639",
         "item_index": 4
       },
-      "status": "provisional",
+      "status": "captured",
       "attempts": 0,
-      "captures": 1,
+      "captures": 3,
       "slots": [
-        0
+        0,
+        1,
+        2
       ],
-      "last_attempt_at": "2026-08-29T16:01:06.255540+09:00",
+      "last_attempt_at": "2026-08-30T21:08:33.826725+09:00",
       "seat_counts": {
-        "vacant": 460,
-        "sold": 14,
+        "vacant": 386,
+        "sold": 88,
         "total": 474,
         "wheelchair": 0,
         "spacer": 129,
         "unclassified": 0,
         "expected": 474
       },
-      "occupancy": 0.0295,
+      "occupancy": 0.1857,
       "seat_signature": "TBODY. #",
       "form_params": {
         "site_cd": "037",
@@ -7457,13 +7917,13 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-3838a2_20260830_2115_tohoumeda_s02.jpg",
-      "seat_image_bytes": 52795,
+      "seat_image_bytes": 51100,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1753.7,
-      "captured_at": "2026-08-29T16:01:20.161528+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 6.4,
+      "captured_at": "2026-08-30T21:08:47.314539+09:00",
+      "capture_round": 3,
+      "capture_slot": 2,
       "history": [
         {
           "at": "2026-08-29T16:01:20.161528+09:00",
@@ -7473,6 +7933,24 @@
           "vacant": 460,
           "total": 474,
           "occupancy": 0.0295
+        },
+        {
+          "at": "2026-08-30T20:43:54.487675+09:00",
+          "lead": 31.3,
+          "slot": 1,
+          "sold": 79,
+          "vacant": 395,
+          "total": 474,
+          "occupancy": 0.1667
+        },
+        {
+          "at": "2026-08-30T21:08:47.314539+09:00",
+          "lead": 6.4,
+          "slot": 2,
+          "sold": 88,
+          "vacant": 386,
+          "total": 474,
+          "occupancy": 0.1857
         }
       ]
     },
@@ -7519,21 +7997,22 @@
       },
       "status": "provisional",
       "attempts": 0,
-      "captures": 1,
+      "captures": 2,
       "slots": [
-        0
+        0,
+        1
       ],
-      "last_attempt_at": "2026-08-29T16:01:23.356835+09:00",
+      "last_attempt_at": "2026-08-30T20:58:24.077778+09:00",
       "seat_counts": {
-        "vacant": 464,
-        "sold": 5,
+        "vacant": 453,
+        "sold": 16,
         "total": 469,
         "wheelchair": 0,
         "spacer": 206,
         "unclassified": 0,
         "expected": 469
       },
-      "occupancy": 0.0107,
+      "occupancy": 0.0341,
       "seat_signature": "TBODY. #",
       "form_params": {
         "site_cd": "037",
@@ -7549,13 +8028,13 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-01dfa3_20260830_2130_tohoumeda_s03.jpg",
-      "seat_image_bytes": 56282,
+      "seat_image_bytes": 55996,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 1768.4,
-      "captured_at": "2026-08-29T16:01:37.242217+09:00",
-      "capture_round": 1,
-      "capture_slot": 0,
+      "lead_minutes": 31.6,
+      "captured_at": "2026-08-30T20:58:37.703563+09:00",
+      "capture_round": 2,
+      "capture_slot": 1,
       "history": [
         {
           "at": "2026-08-29T16:01:37.242217+09:00",
@@ -7565,6 +8044,15 @@
           "vacant": 464,
           "total": 469,
           "occupancy": 0.0107
+        },
+        {
+          "at": "2026-08-30T20:58:37.703563+09:00",
+          "lead": 31.6,
+          "slot": 1,
+          "sold": 16,
+          "vacant": 453,
+          "total": 469,
+          "occupancy": 0.0341
         }
       ]
     },
@@ -7614,7 +8102,7 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:01:42.013726+09:00",
+      "last_attempt_at": "2026-08-31T02:23:52.489356+09:00",
       "seat_counts": {
         "vacant": 131,
         "sold": 3,
@@ -7625,7 +8113,7 @@
         "expected": 134
       },
       "occupancy": 0.0224,
-      "seat_signature": "TBODY. #",
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -7640,17 +8128,17 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-2bf82d_20260831_0815_tohoumeda_s07.jpg",
-      "seat_image_bytes": 20069,
+      "seat_image_bytes": 29245,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2413.1,
-      "captured_at": "2026-08-29T16:01:55.922358+09:00",
+      "lead_minutes": 351.1,
+      "captured_at": "2026-08-31T02:24:05.939509+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:01:55.922358+09:00",
-          "lead": 2413.1,
+          "at": "2026-08-31T02:24:05.939509+09:00",
+          "lead": 351.1,
           "slot": 0,
           "sold": 3,
           "vacant": 131,
@@ -7705,18 +8193,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:01:59.927272+09:00",
+      "last_attempt_at": "2026-08-31T02:24:10.401869+09:00",
       "seat_counts": {
-        "vacant": 721,
-        "sold": 7,
+        "vacant": 713,
+        "sold": 15,
         "total": 728,
         "wheelchair": 0,
         "spacer": 363,
         "unclassified": 0,
         "expected": 728
       },
-      "occupancy": 0.0096,
-      "seat_signature": "TBODY. #",
+      "occupancy": 0.0206,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -7731,22 +8219,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-5043c7_20260831_0830_tohoumeda_s01.jpg",
-      "seat_image_bytes": 83708,
+      "seat_image_bytes": 95697,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2427.8,
-      "captured_at": "2026-08-29T16:02:14.262118+09:00",
+      "lead_minutes": 365.8,
+      "captured_at": "2026-08-31T02:24:23.873930+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:02:14.262118+09:00",
-          "lead": 2427.8,
+          "at": "2026-08-31T02:24:23.873930+09:00",
+          "lead": 365.8,
           "slot": 0,
-          "sold": 7,
-          "vacant": 721,
+          "sold": 15,
+          "vacant": 713,
           "total": 728,
-          "occupancy": 0.0096
+          "occupancy": 0.0206
         }
       ]
     },
@@ -7794,18 +8282,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:02:18.542979+09:00",
+      "last_attempt_at": "2026-08-31T02:24:27.310185+09:00",
       "seat_counts": {
-        "vacant": 95,
-        "sold": 6,
+        "vacant": 90,
+        "sold": 11,
         "total": 101,
         "wheelchair": 0,
         "spacer": 28,
-        "unclassified": 4,
+        "unclassified": 0,
         "expected": 101
       },
-      "occupancy": 0.0594,
-      "seat_signature": "DIV.js-seat-main.seat-main #",
+      "occupancy": 0.1089,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -7820,22 +8308,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-e259f3_20260831_0835_tohoumeda_s04.jpg",
-      "seat_image_bytes": 23889,
+      "seat_image_bytes": 23506,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2432.5,
-      "captured_at": "2026-08-29T16:02:32.389064+09:00",
+      "lead_minutes": 370.5,
+      "captured_at": "2026-08-31T02:24:40.718141+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:02:32.389064+09:00",
-          "lead": 2432.5,
+          "at": "2026-08-31T02:24:40.718141+09:00",
+          "lead": 370.5,
           "slot": 0,
-          "sold": 6,
-          "vacant": 95,
+          "sold": 11,
+          "vacant": 90,
           "total": 101,
-          "occupancy": 0.0594
+          "occupancy": 0.1089
         }
       ]
     },
@@ -7883,18 +8371,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:02:35.756198+09:00",
+      "last_attempt_at": "2026-08-31T02:24:44.655170+09:00",
       "seat_counts": {
-        "vacant": 151,
-        "sold": 3,
+        "vacant": 149,
+        "sold": 5,
         "total": 154,
         "wheelchair": 0,
         "spacer": 39,
         "unclassified": 0,
         "expected": 154
       },
-      "occupancy": 0.0195,
-      "seat_signature": "TBODY. #",
+      "occupancy": 0.0325,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -7909,22 +8397,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-5a6ba2_20260831_0835_tohoumeda_s08.jpg",
-      "seat_image_bytes": 21114,
+      "seat_image_bytes": 34493,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2432.2,
-      "captured_at": "2026-08-29T16:02:50.652991+09:00",
+      "lead_minutes": 370.3,
+      "captured_at": "2026-08-31T02:24:58.489306+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:02:50.652991+09:00",
-          "lead": 2432.2,
+          "at": "2026-08-31T02:24:58.489306+09:00",
+          "lead": 370.3,
           "slot": 0,
-          "sold": 3,
-          "vacant": 151,
+          "sold": 5,
+          "vacant": 149,
           "total": 154,
-          "occupancy": 0.0195
+          "occupancy": 0.0325
         }
       ]
     },
@@ -7974,18 +8462,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:02:53.908968+09:00",
+      "last_attempt_at": "2026-08-31T02:25:03.301656+09:00",
       "seat_counts": {
-        "vacant": 468,
-        "sold": 6,
+        "vacant": 467,
+        "sold": 7,
         "total": 474,
         "wheelchair": 0,
         "spacer": 129,
         "unclassified": 0,
         "expected": 474
       },
-      "occupancy": 0.0127,
-      "seat_signature": "TBODY. #",
+      "occupancy": 0.0148,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -8000,22 +8488,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-e97bc9_20260831_0845_tohoumeda_s02.jpg",
-      "seat_image_bytes": 52974,
+      "seat_image_bytes": 67551,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2441.9,
-      "captured_at": "2026-08-29T16:03:07.939283+09:00",
+      "lead_minutes": 379.9,
+      "captured_at": "2026-08-31T02:25:17.804579+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:03:07.939283+09:00",
-          "lead": 2441.9,
+          "at": "2026-08-31T02:25:17.804579+09:00",
+          "lead": 379.9,
           "slot": 0,
-          "sold": 6,
-          "vacant": 468,
+          "sold": 7,
+          "vacant": 467,
           "total": 474,
-          "occupancy": 0.0127
+          "occupancy": 0.0148
         }
       ]
     },
@@ -8065,18 +8553,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:03:12.641226+09:00",
+      "last_attempt_at": "2026-08-31T02:25:21.937889+09:00",
       "seat_counts": {
-        "vacant": 95,
-        "sold": 5,
+        "vacant": 92,
+        "sold": 8,
         "total": 100,
         "wheelchair": 0,
         "spacer": 36,
-        "unclassified": 4,
+        "unclassified": 0,
         "expected": 100
       },
-      "occupancy": 0.05,
-      "seat_signature": "DIV.js-seat-main.seat-main #",
+      "occupancy": 0.08,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -8091,22 +8579,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-71cf8f_20260831_0900_tohoumeda_s06.jpg",
-      "seat_image_bytes": 21924,
+      "seat_image_bytes": 21700,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2456.5,
-      "captured_at": "2026-08-29T16:03:27.854636+09:00",
+      "lead_minutes": 394.6,
+      "captured_at": "2026-08-31T02:25:36.701979+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:03:27.854636+09:00",
-          "lead": 2456.5,
+          "at": "2026-08-31T02:25:36.701979+09:00",
+          "lead": 394.6,
           "slot": 0,
-          "sold": 5,
-          "vacant": 95,
+          "sold": 8,
+          "vacant": 92,
           "total": 100,
-          "occupancy": 0.05
+          "occupancy": 0.08
         }
       ]
     },
@@ -8154,18 +8642,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:03:31.247805+09:00",
+      "last_attempt_at": "2026-08-31T02:25:41.106951+09:00",
       "seat_counts": {
-        "vacant": 447,
-        "sold": 22,
+        "vacant": 428,
+        "sold": 41,
         "total": 469,
         "wheelchair": 0,
         "spacer": 206,
         "unclassified": 0,
         "expected": 469
       },
-      "occupancy": 0.0469,
-      "seat_signature": "TBODY. #",
+      "occupancy": 0.0874,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -8180,22 +8668,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-dfd467_20260831_0910_tohoumeda_s03.jpg",
-      "seat_image_bytes": 55774,
+      "seat_image_bytes": 68494,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2466.2,
-      "captured_at": "2026-08-29T16:03:45.256560+09:00",
+      "lead_minutes": 404.3,
+      "captured_at": "2026-08-31T02:25:56.787054+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:03:45.256560+09:00",
-          "lead": 2466.2,
+          "at": "2026-08-31T02:25:56.787054+09:00",
+          "lead": 404.3,
           "slot": 0,
-          "sold": 22,
-          "vacant": 447,
+          "sold": 41,
+          "vacant": 428,
           "total": 469,
-          "occupancy": 0.0469
+          "occupancy": 0.0874
         }
       ]
     },
@@ -8245,18 +8733,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:03:49.848199+09:00",
+      "last_attempt_at": "2026-08-31T02:26:01.402922+09:00",
       "seat_counts": {
-        "vacant": 89,
-        "sold": 12,
-        "total": 101,
-        "wheelchair": 1,
-        "spacer": 17,
-        "unclassified": 9,
+        "vacant": 78,
+        "sold": 20,
+        "total": 98,
+        "wheelchair": 0,
+        "spacer": 16,
+        "unclassified": 0,
         "expected": 98
       },
-      "occupancy": 0.1188,
-      "seat_signature": "DIV.seat #",
+      "occupancy": 0.2041,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -8269,25 +8757,24 @@
         "seq_no": "0"
       },
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
-      "seat_warning": "座席数 101 ≠ 公称 98（判定不能 9 件）",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-2fcda0_20260831_0920_tohoumeda_s05.jpg",
-      "seat_image_bytes": 63850,
+      "seat_image_bytes": 22202,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2475.9,
-      "captured_at": "2026-08-29T16:04:03.826334+09:00",
+      "lead_minutes": 414.0,
+      "captured_at": "2026-08-31T02:26:18.283038+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:04:03.826334+09:00",
-          "lead": 2475.9,
+          "at": "2026-08-31T02:26:18.283038+09:00",
+          "lead": 414.0,
           "slot": 0,
-          "sold": 12,
-          "vacant": 89,
-          "total": 101,
-          "occupancy": 0.1188
+          "sold": 20,
+          "vacant": 78,
+          "total": 98,
+          "occupancy": 0.2041
         }
       ]
     },
@@ -8337,18 +8824,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:04:08.773387+09:00",
+      "last_attempt_at": "2026-08-31T02:26:22.324145+09:00",
       "seat_counts": {
-        "vacant": 127,
-        "sold": 7,
+        "vacant": 102,
+        "sold": 32,
         "total": 134,
         "wheelchair": 0,
         "spacer": 50,
         "unclassified": 0,
         "expected": 134
       },
-      "occupancy": 0.0522,
-      "seat_signature": "TBODY. #",
+      "occupancy": 0.2388,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -8363,22 +8850,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-b1b479_20260831_1025_tohoumeda_s07.jpg",
-      "seat_image_bytes": 19980,
+      "seat_image_bytes": 28544,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2540.6,
-      "captured_at": "2026-08-29T16:04:24.732199+09:00",
+      "lead_minutes": 478.6,
+      "captured_at": "2026-08-31T02:26:38.115461+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:04:24.732199+09:00",
-          "lead": 2540.6,
+          "at": "2026-08-31T02:26:38.115461+09:00",
+          "lead": 478.6,
           "slot": 0,
-          "sold": 7,
-          "vacant": 127,
+          "sold": 32,
+          "vacant": 102,
           "total": 134,
-          "occupancy": 0.0522
+          "occupancy": 0.2388
         }
       ]
     },
@@ -8428,18 +8915,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:04:29.546236+09:00",
+      "last_attempt_at": "2026-08-31T02:26:41.866693+09:00",
       "seat_counts": {
-        "vacant": 141,
-        "sold": 13,
+        "vacant": 134,
+        "sold": 20,
         "total": 154,
         "wheelchair": 0,
         "spacer": 39,
         "unclassified": 0,
         "expected": 154
       },
-      "occupancy": 0.0844,
-      "seat_signature": "TBODY. #",
+      "occupancy": 0.1299,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -8454,22 +8941,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-01dfa3_20260831_1050_tohoumeda_s08.jpg",
-      "seat_image_bytes": 20893,
+      "seat_image_bytes": 34044,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2565.3,
-      "captured_at": "2026-08-29T16:04:43.864822+09:00",
+      "lead_minutes": 503.3,
+      "captured_at": "2026-08-31T02:26:57.115874+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:04:43.864822+09:00",
-          "lead": 2565.3,
+          "at": "2026-08-31T02:26:57.115874+09:00",
+          "lead": 503.3,
           "slot": 0,
-          "sold": 13,
-          "vacant": 141,
+          "sold": 20,
+          "vacant": 134,
           "total": 154,
-          "occupancy": 0.0844
+          "occupancy": 0.1299
         }
       ]
     },
@@ -8517,18 +9004,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:04:48.077247+09:00",
+      "last_attempt_at": "2026-08-31T02:27:01.603651+09:00",
       "seat_counts": {
-        "vacant": 448,
-        "sold": 26,
+        "vacant": 399,
+        "sold": 75,
         "total": 474,
         "wheelchair": 0,
         "spacer": 129,
         "unclassified": 0,
         "expected": 474
       },
-      "occupancy": 0.0549,
-      "seat_signature": "TBODY. #",
+      "occupancy": 0.1582,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -8543,22 +9030,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-3838a2_20260831_1100_tohoumeda_s02.jpg",
-      "seat_image_bytes": 52415,
+      "seat_image_bytes": 65967,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2575.0,
-      "captured_at": "2026-08-29T16:05:02.098719+09:00",
+      "lead_minutes": 513.0,
+      "captured_at": "2026-08-31T02:27:15.215424+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:05:02.098719+09:00",
-          "lead": 2575.0,
+          "at": "2026-08-31T02:27:15.215424+09:00",
+          "lead": 513.0,
           "slot": 0,
-          "sold": 26,
-          "vacant": 448,
+          "sold": 75,
+          "vacant": 399,
           "total": 474,
-          "occupancy": 0.0549
+          "occupancy": 0.1582
         }
       ]
     },
@@ -8606,18 +9093,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:05:05.449753+09:00",
+      "last_attempt_at": "2026-08-31T02:27:19.574895+09:00",
       "seat_counts": {
         "vacant": 98,
         "sold": 3,
         "total": 101,
         "wheelchair": 0,
         "spacer": 28,
-        "unclassified": 4,
+        "unclassified": 0,
         "expected": 101
       },
       "occupancy": 0.0297,
-      "seat_signature": "DIV.js-seat-main.seat-main #",
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -8632,17 +9119,17 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-8ff868_20260831_1120_tohoumeda_s04.jpg",
-      "seat_image_bytes": 23964,
+      "seat_image_bytes": 23637,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2594.7,
-      "captured_at": "2026-08-29T16:05:19.766325+09:00",
+      "lead_minutes": 532.7,
+      "captured_at": "2026-08-31T02:27:33.344319+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:05:19.766325+09:00",
-          "lead": 2594.7,
+          "at": "2026-08-31T02:27:33.344319+09:00",
+          "lead": 532.7,
           "slot": 0,
           "sold": 3,
           "vacant": 98,
@@ -8698,18 +9185,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:05:24.452775+09:00",
+      "last_attempt_at": "2026-08-31T02:27:38.350921+09:00",
       "seat_counts": {
-        "vacant": 711,
-        "sold": 17,
+        "vacant": 701,
+        "sold": 27,
         "total": 728,
         "wheelchair": 0,
         "spacer": 363,
         "unclassified": 0,
         "expected": 728
       },
-      "occupancy": 0.0234,
-      "seat_signature": "TBODY. #",
+      "occupancy": 0.0371,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -8724,22 +9211,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-71cf8f_20260831_1130_tohoumeda_s01.jpg",
-      "seat_image_bytes": 83488,
+      "seat_image_bytes": 95484,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2604.3,
-      "captured_at": "2026-08-29T16:05:39.034938+09:00",
+      "lead_minutes": 542.4,
+      "captured_at": "2026-08-31T02:27:52.066758+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:05:39.034938+09:00",
-          "lead": 2604.3,
+          "at": "2026-08-31T02:27:52.066758+09:00",
+          "lead": 542.4,
           "slot": 0,
-          "sold": 17,
-          "vacant": 711,
+          "sold": 27,
+          "vacant": 701,
           "total": 728,
-          "occupancy": 0.0234
+          "occupancy": 0.0371
         }
       ]
     },
@@ -8789,18 +9276,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:05:42.655237+09:00",
+      "last_attempt_at": "2026-08-31T02:27:56.231885+09:00",
       "seat_counts": {
-        "vacant": 94,
-        "sold": 6,
+        "vacant": 84,
+        "sold": 16,
         "total": 100,
         "wheelchair": 0,
         "spacer": 36,
-        "unclassified": 4,
+        "unclassified": 0,
         "expected": 100
       },
-      "occupancy": 0.06,
-      "seat_signature": "DIV.js-seat-main.seat-main #",
+      "occupancy": 0.16,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -8815,22 +9302,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-f63727_20260831_1140_tohoumeda_s06.jpg",
-      "seat_image_bytes": 21824,
+      "seat_image_bytes": 21377,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2614.0,
-      "captured_at": "2026-08-29T16:05:57.013104+09:00",
+      "lead_minutes": 552.1,
+      "captured_at": "2026-08-31T02:28:09.792797+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:05:57.013104+09:00",
-          "lead": 2614.0,
+          "at": "2026-08-31T02:28:09.792797+09:00",
+          "lead": 552.1,
           "slot": 0,
-          "sold": 6,
-          "vacant": 94,
+          "sold": 16,
+          "vacant": 84,
           "total": 100,
-          "occupancy": 0.06
+          "occupancy": 0.16
         }
       ]
     },
@@ -8878,18 +9365,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:06:00.448531+09:00",
+      "last_attempt_at": "2026-08-31T02:28:13.265343+09:00",
       "seat_counts": {
-        "vacant": 442,
-        "sold": 27,
+        "vacant": 405,
+        "sold": 64,
         "total": 469,
         "wheelchair": 0,
         "spacer": 206,
         "unclassified": 0,
         "expected": 469
       },
-      "occupancy": 0.0576,
-      "seat_signature": "TBODY. #",
+      "occupancy": 0.1365,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -8904,22 +9391,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-dfd467_20260831_1200_tohoumeda_s03.jpg",
-      "seat_image_bytes": 55756,
+      "seat_image_bytes": 68170,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2633.8,
-      "captured_at": "2026-08-29T16:06:14.346078+09:00",
+      "lead_minutes": 571.8,
+      "captured_at": "2026-08-31T02:28:27.114385+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:06:14.346078+09:00",
-          "lead": 2633.8,
+          "at": "2026-08-31T02:28:27.114385+09:00",
+          "lead": 571.8,
           "slot": 0,
-          "sold": 27,
-          "vacant": 442,
+          "sold": 64,
+          "vacant": 405,
           "total": 469,
-          "occupancy": 0.0576
+          "occupancy": 0.1365
         }
       ]
     },
@@ -8967,18 +9454,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:06:18.169027+09:00",
+      "last_attempt_at": "2026-08-31T02:28:31.584027+09:00",
       "seat_counts": {
-        "vacant": 87,
-        "sold": 14,
-        "total": 101,
-        "wheelchair": 1,
-        "spacer": 17,
-        "unclassified": 9,
+        "vacant": 70,
+        "sold": 28,
+        "total": 98,
+        "wheelchair": 0,
+        "spacer": 16,
+        "unclassified": 0,
         "expected": 98
       },
-      "occupancy": 0.1386,
-      "seat_signature": "DIV.seat #",
+      "occupancy": 0.2857,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -8991,25 +9478,24 @@
         "seq_no": "0"
       },
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
-      "seat_warning": "座席数 101 ≠ 公称 98（判定不能 9 件）",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-e259f3_20260831_1230_tohoumeda_s05.jpg",
-      "seat_image_bytes": 63748,
+      "seat_image_bytes": 21964,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2663.5,
-      "captured_at": "2026-08-29T16:06:32.486983+09:00",
+      "lead_minutes": 601.5,
+      "captured_at": "2026-08-31T02:28:45.096447+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:06:32.486983+09:00",
-          "lead": 2663.5,
+          "at": "2026-08-31T02:28:45.096447+09:00",
+          "lead": 601.5,
           "slot": 0,
-          "sold": 14,
-          "vacant": 87,
-          "total": 101,
-          "occupancy": 0.1386
+          "sold": 28,
+          "vacant": 70,
+          "total": 98,
+          "occupancy": 0.2857
         }
       ]
     },
@@ -9059,18 +9545,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:06:36.984617+09:00",
+      "last_attempt_at": "2026-08-31T02:28:48.451459+09:00",
       "seat_counts": {
-        "vacant": 119,
-        "sold": 15,
+        "vacant": 103,
+        "sold": 31,
         "total": 134,
         "wheelchair": 0,
         "spacer": 50,
         "unclassified": 0,
         "expected": 134
       },
-      "occupancy": 0.1119,
-      "seat_signature": "TBODY. #",
+      "occupancy": 0.2313,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -9085,22 +9571,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-8d7903_20260831_1250_tohoumeda_s07.jpg",
-      "seat_image_bytes": 19959,
+      "seat_image_bytes": 28675,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2683.1,
-      "captured_at": "2026-08-29T16:06:51.210332+09:00",
+      "lead_minutes": 621.2,
+      "captured_at": "2026-08-31T02:29:02.092443+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:06:51.210332+09:00",
-          "lead": 2683.1,
+          "at": "2026-08-31T02:29:02.092443+09:00",
+          "lead": 621.2,
           "slot": 0,
-          "sold": 15,
-          "vacant": 119,
+          "sold": 31,
+          "vacant": 103,
           "total": 134,
-          "occupancy": 0.1119
+          "occupancy": 0.2313
         }
       ]
     },
@@ -9150,18 +9636,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:06:55.828936+09:00",
+      "last_attempt_at": "2026-08-31T02:29:06.691385+09:00",
       "seat_counts": {
-        "vacant": 141,
-        "sold": 13,
+        "vacant": 133,
+        "sold": 21,
         "total": 154,
         "wheelchair": 0,
         "spacer": 39,
         "unclassified": 0,
         "expected": 154
       },
-      "occupancy": 0.0844,
-      "seat_signature": "TBODY. #",
+      "occupancy": 0.1364,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -9176,22 +9662,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-01dfa3_20260831_1315_tohoumeda_s08.jpg",
-      "seat_image_bytes": 20825,
+      "seat_image_bytes": 34096,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2707.8,
-      "captured_at": "2026-08-29T16:07:10.308928+09:00",
+      "lead_minutes": 645.9,
+      "captured_at": "2026-08-31T02:29:20.175767+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:07:10.308928+09:00",
-          "lead": 2707.8,
+          "at": "2026-08-31T02:29:20.175767+09:00",
+          "lead": 645.9,
           "slot": 0,
-          "sold": 13,
-          "vacant": 141,
+          "sold": 21,
+          "vacant": 133,
           "total": 154,
-          "occupancy": 0.0844
+          "occupancy": 0.1364
         }
       ]
     },
@@ -9239,18 +9725,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:07:14.463105+09:00",
+      "last_attempt_at": "2026-08-31T02:29:25.055911+09:00",
       "seat_counts": {
-        "vacant": 440,
-        "sold": 34,
+        "vacant": 394,
+        "sold": 80,
         "total": 474,
         "wheelchair": 0,
         "spacer": 129,
         "unclassified": 0,
         "expected": 474
       },
-      "occupancy": 0.0717,
-      "seat_signature": "TBODY. #",
+      "occupancy": 0.1688,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -9265,22 +9751,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-3838a2_20260831_1330_tohoumeda_s02.jpg",
-      "seat_image_bytes": 52234,
+      "seat_image_bytes": 65465,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2722.5,
-      "captured_at": "2026-08-29T16:07:28.996217+09:00",
+      "lead_minutes": 660.6,
+      "captured_at": "2026-08-31T02:29:38.744104+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:07:28.996217+09:00",
-          "lead": 2722.5,
+          "at": "2026-08-31T02:29:38.744104+09:00",
+          "lead": 660.6,
           "slot": 0,
-          "sold": 34,
-          "vacant": 440,
+          "sold": 80,
+          "vacant": 394,
           "total": 474,
-          "occupancy": 0.0717
+          "occupancy": 0.1688
         }
       ]
     },
@@ -9330,18 +9816,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:07:32.178685+09:00",
+      "last_attempt_at": "2026-08-31T02:29:42.588804+09:00",
       "seat_counts": {
-        "vacant": 92,
-        "sold": 9,
+        "vacant": 73,
+        "sold": 28,
         "total": 101,
         "wheelchair": 0,
         "spacer": 28,
-        "unclassified": 4,
+        "unclassified": 0,
         "expected": 101
       },
-      "occupancy": 0.0891,
-      "seat_signature": "DIV.js-seat-main.seat-main #",
+      "occupancy": 0.2772,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -9356,22 +9842,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-e97bc9_20260831_1340_tohoumeda_s04.jpg",
-      "seat_image_bytes": 23746,
+      "seat_image_bytes": 22950,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2732.2,
-      "captured_at": "2026-08-29T16:07:46.625415+09:00",
+      "lead_minutes": 670.3,
+      "captured_at": "2026-08-31T02:29:56.137939+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:07:46.625415+09:00",
-          "lead": 2732.2,
+          "at": "2026-08-31T02:29:56.137939+09:00",
+          "lead": 670.3,
           "slot": 0,
-          "sold": 9,
-          "vacant": 92,
+          "sold": 28,
+          "vacant": 73,
           "total": 101,
-          "occupancy": 0.0891
+          "occupancy": 0.2772
         }
       ]
     },
@@ -9419,18 +9905,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:07:51.548773+09:00",
+      "last_attempt_at": "2026-08-31T02:30:00.312587+09:00",
       "seat_counts": {
-        "vacant": 92,
-        "sold": 8,
+        "vacant": 58,
+        "sold": 42,
         "total": 100,
         "wheelchair": 0,
         "spacer": 36,
-        "unclassified": 4,
+        "unclassified": 0,
         "expected": 100
       },
-      "occupancy": 0.08,
-      "seat_signature": "DIV.js-seat-main.seat-main #",
+      "occupancy": 0.42,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -9445,22 +9931,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-d3b025_20260831_1400_tohoumeda_s06.jpg",
-      "seat_image_bytes": 21746,
+      "seat_image_bytes": 20426,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2751.9,
-      "captured_at": "2026-08-29T16:08:05.214460+09:00",
+      "lead_minutes": 690.0,
+      "captured_at": "2026-08-31T02:30:14.155253+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:08:05.214460+09:00",
-          "lead": 2751.9,
+          "at": "2026-08-31T02:30:14.155253+09:00",
+          "lead": 690.0,
           "slot": 0,
-          "sold": 8,
-          "vacant": 92,
+          "sold": 42,
+          "vacant": 58,
           "total": 100,
-          "occupancy": 0.08
+          "occupancy": 0.42
         }
       ]
     },
@@ -9510,18 +9996,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:08:09.599063+09:00",
+      "last_attempt_at": "2026-08-31T02:30:18.728560+09:00",
       "seat_counts": {
-        "vacant": 662,
-        "sold": 66,
+        "vacant": 596,
+        "sold": 132,
         "total": 728,
         "wheelchair": 0,
         "spacer": 363,
         "unclassified": 0,
         "expected": 728
       },
-      "occupancy": 0.0907,
-      "seat_signature": "TBODY. #",
+      "occupancy": 0.1813,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -9536,22 +10022,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-dfd467_20260831_1420_tohoumeda_s01.jpg",
-      "seat_image_bytes": 82079,
+      "seat_image_bytes": 92183,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2771.6,
-      "captured_at": "2026-08-29T16:08:23.860340+09:00",
+      "lead_minutes": 709.7,
+      "captured_at": "2026-08-31T02:30:32.492599+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:08:23.860340+09:00",
-          "lead": 2771.6,
+          "at": "2026-08-31T02:30:32.492599+09:00",
+          "lead": 709.7,
           "slot": 0,
-          "sold": 66,
-          "vacant": 662,
+          "sold": 132,
+          "vacant": 596,
           "total": 728,
-          "occupancy": 0.0907
+          "occupancy": 0.1813
         }
       ]
     },
@@ -9601,18 +10087,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:08:28.408320+09:00",
+      "last_attempt_at": "2026-08-31T02:30:36.241929+09:00",
       "seat_counts": {
-        "vacant": 403,
-        "sold": 66,
+        "vacant": 336,
+        "sold": 133,
         "total": 469,
         "wheelchair": 0,
         "spacer": 206,
         "unclassified": 0,
         "expected": 469
       },
-      "occupancy": 0.1407,
-      "seat_signature": "TBODY. #",
+      "occupancy": 0.2836,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -9627,22 +10113,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-87658e_20260831_1445_tohoumeda_s03.jpg",
-      "seat_image_bytes": 54573,
+      "seat_image_bytes": 66221,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2796.3,
-      "captured_at": "2026-08-29T16:08:42.374056+09:00",
+      "lead_minutes": 734.4,
+      "captured_at": "2026-08-31T02:30:49.958006+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:08:42.374056+09:00",
-          "lead": 2796.3,
+          "at": "2026-08-31T02:30:49.958006+09:00",
+          "lead": 734.4,
           "slot": 0,
-          "sold": 66,
-          "vacant": 403,
+          "sold": 133,
+          "vacant": 336,
           "total": 469,
-          "occupancy": 0.1407
+          "occupancy": 0.2836
         }
       ]
     },
@@ -9692,18 +10178,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:08:46.023432+09:00",
+      "last_attempt_at": "2026-08-31T02:30:53.902769+09:00",
       "seat_counts": {
-        "vacant": 89,
-        "sold": 12,
-        "total": 101,
-        "wheelchair": 1,
-        "spacer": 17,
-        "unclassified": 9,
+        "vacant": 68,
+        "sold": 30,
+        "total": 98,
+        "wheelchair": 0,
+        "spacer": 16,
+        "unclassified": 0,
         "expected": 98
       },
-      "occupancy": 0.1188,
-      "seat_signature": "DIV.seat #",
+      "occupancy": 0.3061,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -9716,25 +10202,24 @@
         "seq_no": "0"
       },
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
-      "seat_warning": "座席数 101 ≠ 公称 98（判定不能 9 件）",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-b1b479_20260831_1515_tohoumeda_s05.jpg",
-      "seat_image_bytes": 63864,
+      "seat_image_bytes": 21843,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2826.0,
-      "captured_at": "2026-08-29T16:09:00.070431+09:00",
+      "lead_minutes": 764.1,
+      "captured_at": "2026-08-31T02:31:07.837495+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:09:00.070431+09:00",
-          "lead": 2826.0,
+          "at": "2026-08-31T02:31:07.837495+09:00",
+          "lead": 764.1,
           "slot": 0,
-          "sold": 12,
-          "vacant": 89,
-          "total": 101,
-          "occupancy": 0.1188
+          "sold": 30,
+          "vacant": 68,
+          "total": 98,
+          "occupancy": 0.3061
         }
       ]
     },
@@ -9784,18 +10269,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:09:04.146066+09:00",
+      "last_attempt_at": "2026-08-31T02:31:12.580720+09:00",
       "seat_counts": {
-        "vacant": 129,
-        "sold": 5,
+        "vacant": 122,
+        "sold": 12,
         "total": 134,
         "wheelchair": 0,
         "spacer": 50,
         "unclassified": 0,
         "expected": 134
       },
-      "occupancy": 0.0373,
-      "seat_signature": "TBODY. #",
+      "occupancy": 0.0896,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -9810,22 +10295,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-71cf8f_20260831_1515_tohoumeda_s07.jpg",
-      "seat_image_bytes": 19987,
+      "seat_image_bytes": 29034,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2825.7,
-      "captured_at": "2026-08-29T16:09:19.220712+09:00",
+      "lead_minutes": 763.8,
+      "captured_at": "2026-08-31T02:31:26.103224+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:09:19.220712+09:00",
-          "lead": 2825.7,
+          "at": "2026-08-31T02:31:26.103224+09:00",
+          "lead": 763.8,
           "slot": 0,
-          "sold": 5,
-          "vacant": 129,
+          "sold": 12,
+          "vacant": 122,
           "total": 134,
-          "occupancy": 0.0373
+          "occupancy": 0.0896
         }
       ]
     },
@@ -9853,16 +10338,16 @@
       "screen_raw": "本館スクリーン８ (154席)",
       "note": null,
       "availability": {
-        "code": "plenty",
-        "mark": "◎",
-        "label": "空席に余裕あり",
+        "code": "available",
+        "mark": "○",
+        "label": "空席あり",
         "text": "販売中",
-        "status_code": "01",
-        "icon": "circle-double",
+        "status_code": "02",
+        "icon": "circle",
         "certainty": "確認",
         "by": "icon"
       },
-      "status_code": "01",
+      "status_code": "02",
       "reserve_url": null,
       "click_ref": {
         "date": "20260831",
@@ -9875,18 +10360,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:09:23.238277+09:00",
+      "last_attempt_at": "2026-08-31T02:31:30.693854+09:00",
       "seat_counts": {
-        "vacant": 142,
-        "sold": 12,
+        "vacant": 59,
+        "sold": 95,
         "total": 154,
         "wheelchair": 0,
         "spacer": 39,
         "unclassified": 0,
         "expected": 154
       },
-      "occupancy": 0.0779,
-      "seat_signature": "TBODY. #",
+      "occupancy": 0.6169,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -9901,22 +10386,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-2fcda0_20260831_1540_tohoumeda_s08.jpg",
-      "seat_image_bytes": 20869,
+      "seat_image_bytes": 31551,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2850.4,
-      "captured_at": "2026-08-29T16:09:37.353165+09:00",
+      "lead_minutes": 788.5,
+      "captured_at": "2026-08-31T02:31:44.335438+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:09:37.353165+09:00",
-          "lead": 2850.4,
+          "at": "2026-08-31T02:31:44.335438+09:00",
+          "lead": 788.5,
           "slot": 0,
-          "sold": 12,
-          "vacant": 142,
+          "sold": 95,
+          "vacant": 59,
           "total": 154,
-          "occupancy": 0.0779
+          "occupancy": 0.6169
         }
       ]
     },
@@ -9964,18 +10449,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:09:41.017326+09:00",
+      "last_attempt_at": "2026-08-31T02:31:48.644565+09:00",
       "seat_counts": {
-        "vacant": 94,
-        "sold": 7,
+        "vacant": 88,
+        "sold": 13,
         "total": 101,
         "wheelchair": 0,
         "spacer": 28,
-        "unclassified": 4,
+        "unclassified": 0,
         "expected": 101
       },
-      "occupancy": 0.0693,
-      "seat_signature": "DIV.js-seat-main.seat-main #",
+      "occupancy": 0.1287,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -9990,22 +10475,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-e259f3_20260831_1550_tohoumeda_s04.jpg",
-      "seat_image_bytes": 23842,
+      "seat_image_bytes": 23313,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2860.1,
-      "captured_at": "2026-08-29T16:09:54.619949+09:00",
+      "lead_minutes": 798.2,
+      "captured_at": "2026-08-31T02:32:01.950895+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:09:54.619949+09:00",
-          "lead": 2860.1,
+          "at": "2026-08-31T02:32:01.950895+09:00",
+          "lead": 798.2,
           "slot": 0,
-          "sold": 7,
-          "vacant": 94,
+          "sold": 13,
+          "vacant": 88,
           "total": 101,
-          "occupancy": 0.0693
+          "occupancy": 0.1287
         }
       ]
     },
@@ -10053,18 +10538,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:09:59.161072+09:00",
+      "last_attempt_at": "2026-08-31T02:32:06.697653+09:00",
       "seat_counts": {
-        "vacant": 456,
-        "sold": 18,
+        "vacant": 409,
+        "sold": 65,
         "total": 474,
         "wheelchair": 0,
         "spacer": 129,
         "unclassified": 0,
         "expected": 474
       },
-      "occupancy": 0.038,
-      "seat_signature": "TBODY. #",
+      "occupancy": 0.1371,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -10079,22 +10564,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-3838a2_20260831_1610_tohoumeda_s02.jpg",
-      "seat_image_bytes": 52691,
+      "seat_image_bytes": 66179,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2879.8,
-      "captured_at": "2026-08-29T16:10:13.519525+09:00",
+      "lead_minutes": 817.9,
+      "captured_at": "2026-08-31T02:32:20.342267+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:10:13.519525+09:00",
-          "lead": 2879.8,
+          "at": "2026-08-31T02:32:20.342267+09:00",
+          "lead": 817.9,
           "slot": 0,
-          "sold": 18,
-          "vacant": 456,
+          "sold": 65,
+          "vacant": 409,
           "total": 474,
-          "occupancy": 0.038
+          "occupancy": 0.1371
         }
       ]
     },
@@ -10142,18 +10627,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:10:17.140349+09:00",
+      "last_attempt_at": "2026-08-31T02:32:24.148177+09:00",
       "seat_counts": {
-        "vacant": 92,
-        "sold": 8,
+        "vacant": 84,
+        "sold": 16,
         "total": 100,
         "wheelchair": 0,
         "spacer": 36,
-        "unclassified": 4,
+        "unclassified": 0,
         "expected": 100
       },
-      "occupancy": 0.08,
-      "seat_signature": "DIV.js-seat-main.seat-main #",
+      "occupancy": 0.16,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -10168,22 +10653,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-5043c7_20260831_1650_tohoumeda_s06.jpg",
-      "seat_image_bytes": 21746,
+      "seat_image_bytes": 21361,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2919.5,
-      "captured_at": "2026-08-29T16:10:30.585585+09:00",
+      "lead_minutes": 857.6,
+      "captured_at": "2026-08-31T02:32:37.582859+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:10:30.585585+09:00",
-          "lead": 2919.5,
+          "at": "2026-08-31T02:32:37.582859+09:00",
+          "lead": 857.6,
           "slot": 0,
-          "sold": 8,
-          "vacant": 92,
+          "sold": 16,
+          "vacant": 84,
           "total": 100,
-          "occupancy": 0.08
+          "occupancy": 0.16
         }
       ]
     },
@@ -10234,18 +10719,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:10:34.504952+09:00",
+      "last_attempt_at": "2026-08-31T02:32:41.175044+09:00",
       "seat_counts": {
-        "vacant": 705,
-        "sold": 23,
+        "vacant": 669,
+        "sold": 59,
         "total": 728,
         "wheelchair": 0,
         "spacer": 363,
         "unclassified": 0,
         "expected": 728
       },
-      "occupancy": 0.0316,
-      "seat_signature": "TBODY. #",
+      "occupancy": 0.081,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -10260,22 +10745,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/michael-9b1cba_20260831_1710_tohoumeda_s01.jpg",
-      "seat_image_bytes": 83176,
+      "seat_image_bytes": 94627,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2939.2,
-      "captured_at": "2026-08-29T16:10:48.204939+09:00",
+      "lead_minutes": 877.3,
+      "captured_at": "2026-08-31T02:33:01.370742+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:10:48.204939+09:00",
-          "lead": 2939.2,
+          "at": "2026-08-31T02:33:01.370742+09:00",
+          "lead": 877.3,
           "slot": 0,
-          "sold": 23,
-          "vacant": 705,
+          "sold": 59,
+          "vacant": 669,
           "total": 728,
-          "occupancy": 0.0316
+          "occupancy": 0.081
         }
       ]
     },
@@ -10323,18 +10808,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:10:51.908947+09:00",
+      "last_attempt_at": "2026-08-31T02:33:04.768999+09:00",
       "seat_counts": {
-        "vacant": 96,
-        "sold": 5,
-        "total": 101,
-        "wheelchair": 1,
-        "spacer": 17,
-        "unclassified": 9,
+        "vacant": 92,
+        "sold": 6,
+        "total": 98,
+        "wheelchair": 0,
+        "spacer": 16,
+        "unclassified": 0,
         "expected": 98
       },
-      "occupancy": 0.0495,
-      "seat_signature": "DIV.seat #",
+      "occupancy": 0.0612,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -10347,25 +10832,24 @@
         "seq_no": "0"
       },
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
-      "seat_warning": "座席数 101 ≠ 公称 98（判定不能 9 件）",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-e259f3_20260831_1740_tohoumeda_s05.jpg",
-      "seat_image_bytes": 63984,
+      "seat_image_bytes": 22523,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2968.9,
-      "captured_at": "2026-08-29T16:11:06.175915+09:00",
+      "lead_minutes": 906.9,
+      "captured_at": "2026-08-31T02:33:18.115148+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:11:06.175915+09:00",
-          "lead": 2968.9,
+          "at": "2026-08-31T02:33:18.115148+09:00",
+          "lead": 906.9,
           "slot": 0,
-          "sold": 5,
-          "vacant": 96,
-          "total": 101,
-          "occupancy": 0.0495
+          "sold": 6,
+          "vacant": 92,
+          "total": 98,
+          "occupancy": 0.0612
         }
       ]
     },
@@ -10415,18 +10899,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:11:09.571459+09:00",
+      "last_attempt_at": "2026-08-31T02:33:21.406315+09:00",
       "seat_counts": {
-        "vacant": 131,
-        "sold": 3,
+        "vacant": 130,
+        "sold": 4,
         "total": 134,
         "wheelchair": 0,
         "spacer": 50,
         "unclassified": 0,
         "expected": 134
       },
-      "occupancy": 0.0224,
-      "seat_signature": "TBODY. #",
+      "occupancy": 0.0299,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -10441,22 +10925,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-71cf8f_20260831_1800_tohoumeda_s07.jpg",
-      "seat_image_bytes": 20069,
+      "seat_image_bytes": 29194,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 2988.6,
-      "captured_at": "2026-08-29T16:11:23.517920+09:00",
+      "lead_minutes": 926.6,
+      "captured_at": "2026-08-31T02:33:35.001125+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:11:23.517920+09:00",
-          "lead": 2988.6,
+          "at": "2026-08-31T02:33:35.001125+09:00",
+          "lead": 926.6,
           "slot": 0,
-          "sold": 3,
-          "vacant": 131,
+          "sold": 4,
+          "vacant": 130,
           "total": 134,
-          "occupancy": 0.0224
+          "occupancy": 0.0299
         }
       ]
     },
@@ -10504,18 +10988,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:11:27.652747+09:00",
+      "last_attempt_at": "2026-08-31T02:33:38.369321+09:00",
       "seat_counts": {
-        "vacant": 456,
-        "sold": 13,
+        "vacant": 437,
+        "sold": 32,
         "total": 469,
         "wheelchair": 0,
         "spacer": 206,
         "unclassified": 0,
         "expected": 469
       },
-      "occupancy": 0.0277,
-      "seat_signature": "TBODY. #",
+      "occupancy": 0.0682,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -10530,22 +11014,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-3838a2_20260831_1815_tohoumeda_s03.jpg",
-      "seat_image_bytes": 56187,
+      "seat_image_bytes": 68770,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 3003.3,
-      "captured_at": "2026-08-29T16:11:41.333869+09:00",
+      "lead_minutes": 941.4,
+      "captured_at": "2026-08-31T02:33:52.235469+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:11:41.333869+09:00",
-          "lead": 3003.3,
+          "at": "2026-08-31T02:33:52.235469+09:00",
+          "lead": 941.4,
           "slot": 0,
-          "sold": 13,
-          "vacant": 456,
+          "sold": 32,
+          "vacant": 437,
           "total": 469,
-          "occupancy": 0.0277
+          "occupancy": 0.0682
         }
       ]
     },
@@ -10593,18 +11077,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:11:46.280822+09:00",
+      "last_attempt_at": "2026-08-31T02:33:57.199121+09:00",
       "seat_counts": {
-        "vacant": 449,
-        "sold": 25,
+        "vacant": 417,
+        "sold": 57,
         "total": 474,
         "wheelchair": 0,
         "spacer": 129,
         "unclassified": 0,
         "expected": 474
       },
-      "occupancy": 0.0527,
-      "seat_signature": "TBODY. #",
+      "occupancy": 0.1203,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -10619,22 +11103,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-dfd467_20260831_1835_tohoumeda_s02.jpg",
-      "seat_image_bytes": 52688,
+      "seat_image_bytes": 66636,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 3023.0,
-      "captured_at": "2026-08-29T16:12:00.920789+09:00",
+      "lead_minutes": 961.0,
+      "captured_at": "2026-08-31T02:34:10.602732+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:12:00.920789+09:00",
-          "lead": 3023.0,
+          "at": "2026-08-31T02:34:10.602732+09:00",
+          "lead": 961.0,
           "slot": 0,
-          "sold": 25,
-          "vacant": 449,
+          "sold": 57,
+          "vacant": 417,
           "total": 474,
-          "occupancy": 0.0527
+          "occupancy": 0.1203
         }
       ]
     },
@@ -10684,18 +11168,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:12:04.532654+09:00",
+      "last_attempt_at": "2026-08-31T02:34:15.609759+09:00",
       "seat_counts": {
-        "vacant": 96,
-        "sold": 5,
+        "vacant": 81,
+        "sold": 20,
         "total": 101,
         "wheelchair": 0,
         "spacer": 28,
-        "unclassified": 4,
+        "unclassified": 0,
         "expected": 101
       },
-      "occupancy": 0.0495,
-      "seat_signature": "DIV.js-seat-main.seat-main #",
+      "occupancy": 0.198,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -10710,22 +11194,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-a90019_20260831_1835_tohoumeda_s04.jpg",
-      "seat_image_bytes": 23888,
+      "seat_image_bytes": 23221,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 3022.7,
-      "captured_at": "2026-08-29T16:12:18.396229+09:00",
+      "lead_minutes": 960.7,
+      "captured_at": "2026-08-31T02:34:29.111591+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:12:18.396229+09:00",
-          "lead": 3022.7,
+          "at": "2026-08-31T02:34:29.111591+09:00",
+          "lead": 960.7,
           "slot": 0,
-          "sold": 5,
-          "vacant": 96,
+          "sold": 20,
+          "vacant": 81,
           "total": 101,
-          "occupancy": 0.0495
+          "occupancy": 0.198
         }
       ]
     },
@@ -10775,18 +11259,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:12:23.100311+09:00",
+      "last_attempt_at": "2026-08-31T02:34:34.086742+09:00",
       "seat_counts": {
-        "vacant": 150,
-        "sold": 4,
+        "vacant": 147,
+        "sold": 7,
         "total": 154,
         "wheelchair": 0,
         "spacer": 39,
         "unclassified": 0,
         "expected": 154
       },
-      "occupancy": 0.026,
-      "seat_signature": "TBODY. #",
+      "occupancy": 0.0455,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -10801,22 +11285,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-01dfa3_20260831_1850_tohoumeda_s08.jpg",
-      "seat_image_bytes": 21072,
+      "seat_image_bytes": 34367,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 3037.4,
-      "captured_at": "2026-08-29T16:12:36.783339+09:00",
+      "lead_minutes": 975.4,
+      "captured_at": "2026-08-31T02:34:47.560582+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:12:36.783339+09:00",
-          "lead": 3037.4,
+          "at": "2026-08-31T02:34:47.560582+09:00",
+          "lead": 975.4,
           "slot": 0,
-          "sold": 4,
-          "vacant": 150,
+          "sold": 7,
+          "vacant": 147,
           "total": 154,
-          "occupancy": 0.026
+          "occupancy": 0.0455
         }
       ]
     },
@@ -10866,18 +11350,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:12:40.403533+09:00",
+      "last_attempt_at": "2026-08-31T02:34:51.466915+09:00",
       "seat_counts": {
-        "vacant": 94,
-        "sold": 6,
+        "vacant": 79,
+        "sold": 21,
         "total": 100,
         "wheelchair": 0,
         "spacer": 36,
-        "unclassified": 4,
+        "unclassified": 0,
         "expected": 100
       },
-      "occupancy": 0.06,
-      "seat_signature": "DIV.js-seat-main.seat-main #",
+      "occupancy": 0.21,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -10892,22 +11376,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-2fcda0_20260831_1950_tohoumeda_s06.jpg",
-      "seat_image_bytes": 21828,
+      "seat_image_bytes": 21170,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 3097.1,
-      "captured_at": "2026-08-29T16:12:54.148496+09:00",
+      "lead_minutes": 1035.1,
+      "captured_at": "2026-08-31T02:35:04.961003+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:12:54.148496+09:00",
-          "lead": 3097.1,
+          "at": "2026-08-31T02:35:04.961003+09:00",
+          "lead": 1035.1,
           "slot": 0,
-          "sold": 6,
-          "vacant": 94,
+          "sold": 21,
+          "vacant": 79,
           "total": 100,
-          "occupancy": 0.06
+          "occupancy": 0.21
         }
       ]
     },
@@ -10958,18 +11442,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:12:58.203051+09:00",
+      "last_attempt_at": "2026-08-31T02:35:08.522338+09:00",
       "seat_counts": {
-        "vacant": 687,
-        "sold": 41,
+        "vacant": 652,
+        "sold": 76,
         "total": 728,
         "wheelchair": 0,
         "spacer": 363,
         "unclassified": 0,
         "expected": 728
       },
-      "occupancy": 0.0563,
-      "seat_signature": "TBODY. #",
+      "occupancy": 0.1044,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -10984,22 +11468,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-dfd467_20260831_2010_tohoumeda_s01.jpg",
-      "seat_image_bytes": 82977,
+      "seat_image_bytes": 93830,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 3116.8,
-      "captured_at": "2026-08-29T16:13:12.051972+09:00",
+      "lead_minutes": 1054.9,
+      "captured_at": "2026-08-31T02:35:22.168252+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:13:12.051972+09:00",
-          "lead": 3116.8,
+          "at": "2026-08-31T02:35:22.168252+09:00",
+          "lead": 1054.9,
           "slot": 0,
-          "sold": 41,
-          "vacant": 687,
+          "sold": 76,
+          "vacant": 652,
           "total": 728,
-          "occupancy": 0.0563
+          "occupancy": 0.1044
         }
       ]
     },
@@ -11049,18 +11533,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:13:15.765687+09:00",
+      "last_attempt_at": "2026-08-31T02:35:26.812118+09:00",
       "seat_counts": {
-        "vacant": 96,
+        "vacant": 93,
         "sold": 5,
-        "total": 101,
-        "wheelchair": 1,
-        "spacer": 17,
-        "unclassified": 9,
+        "total": 98,
+        "wheelchair": 0,
+        "spacer": 16,
+        "unclassified": 0,
         "expected": 98
       },
-      "occupancy": 0.0495,
-      "seat_signature": "DIV.seat #",
+      "occupancy": 0.051,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -11073,25 +11557,24 @@
         "seq_no": "0"
       },
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
-      "seat_warning": "座席数 101 ≠ 公称 98（判定不能 9 件）",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-e259f3_20260831_2025_tohoumeda_s05.jpg",
-      "seat_image_bytes": 63984,
+      "seat_image_bytes": 22568,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 3131.5,
-      "captured_at": "2026-08-29T16:13:29.570622+09:00",
+      "lead_minutes": 1069.6,
+      "captured_at": "2026-08-31T02:35:40.540899+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:13:29.570622+09:00",
-          "lead": 3131.5,
+          "at": "2026-08-31T02:35:40.540899+09:00",
+          "lead": 1069.6,
           "slot": 0,
           "sold": 5,
-          "vacant": 96,
-          "total": 101,
-          "occupancy": 0.0495
+          "vacant": 93,
+          "total": 98,
+          "occupancy": 0.051
         }
       ]
     },
@@ -11142,18 +11625,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:13:33.112361+09:00",
+      "last_attempt_at": "2026-08-31T02:35:45.355360+09:00",
       "seat_counts": {
-        "vacant": 458,
-        "sold": 11,
+        "vacant": 438,
+        "sold": 31,
         "total": 469,
         "wheelchair": 0,
         "spacer": 206,
         "unclassified": 0,
         "expected": 469
       },
-      "occupancy": 0.0235,
-      "seat_signature": "TBODY. #",
+      "occupancy": 0.0661,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -11168,22 +11651,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-87658e_20260831_2040_tohoumeda_s03.jpg",
-      "seat_image_bytes": 56096,
+      "seat_image_bytes": 68726,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 3146.2,
-      "captured_at": "2026-08-29T16:13:46.962597+09:00",
+      "lead_minutes": 1084.2,
+      "captured_at": "2026-08-31T02:35:58.878503+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:13:46.962597+09:00",
-          "lead": 3146.2,
+          "at": "2026-08-31T02:35:58.878503+09:00",
+          "lead": 1084.2,
           "slot": 0,
-          "sold": 11,
-          "vacant": 458,
+          "sold": 31,
+          "vacant": 438,
           "total": 469,
-          "occupancy": 0.0235
+          "occupancy": 0.0661
         }
       ]
     },
@@ -11234,7 +11717,7 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:13:51.660761+09:00",
+      "last_attempt_at": "2026-08-31T02:36:02.156810+09:00",
       "seat_counts": {
         "vacant": 131,
         "sold": 3,
@@ -11245,7 +11728,7 @@
         "expected": 134
       },
       "occupancy": 0.0224,
-      "seat_signature": "TBODY. #",
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -11260,17 +11743,17 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-71cf8f_20260831_2040_tohoumeda_s07.jpg",
-      "seat_image_bytes": 20069,
+      "seat_image_bytes": 29245,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 3145.9,
-      "captured_at": "2026-08-29T16:14:05.396337+09:00",
+      "lead_minutes": 1084.0,
+      "captured_at": "2026-08-31T02:36:15.457901+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:14:05.396337+09:00",
-          "lead": 3145.9,
+          "at": "2026-08-31T02:36:15.457901+09:00",
+          "lead": 1084.0,
           "slot": 0,
           "sold": 3,
           "vacant": 131,
@@ -11325,18 +11808,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:14:09.676422+09:00",
+      "last_attempt_at": "2026-08-31T02:36:19.009462+09:00",
       "seat_counts": {
-        "vacant": 98,
-        "sold": 3,
+        "vacant": 96,
+        "sold": 5,
         "total": 101,
         "wheelchair": 0,
         "spacer": 28,
-        "unclassified": 4,
+        "unclassified": 0,
         "expected": 101
       },
-      "occupancy": 0.0297,
-      "seat_signature": "DIV.js-seat-main.seat-main #",
+      "occupancy": 0.0495,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -11351,22 +11834,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-d0ad07_20260831_2110_tohoumeda_s04.jpg",
-      "seat_image_bytes": 23964,
+      "seat_image_bytes": 23583,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 3175.6,
-      "captured_at": "2026-08-29T16:14:23.393063+09:00",
+      "lead_minutes": 1113.7,
+      "captured_at": "2026-08-31T02:36:32.804703+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:14:23.393063+09:00",
-          "lead": 3175.6,
+          "at": "2026-08-31T02:36:32.804703+09:00",
+          "lead": 1113.7,
           "slot": 0,
-          "sold": 3,
-          "vacant": 98,
+          "sold": 5,
+          "vacant": 96,
           "total": 101,
-          "occupancy": 0.0297
+          "occupancy": 0.0495
         }
       ]
     },
@@ -11417,18 +11900,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:14:26.619492+09:00",
+      "last_attempt_at": "2026-08-31T02:36:36.664602+09:00",
       "seat_counts": {
-        "vacant": 151,
-        "sold": 3,
+        "vacant": 149,
+        "sold": 5,
         "total": 154,
         "wheelchair": 0,
         "spacer": 39,
         "unclassified": 0,
         "expected": 154
       },
-      "occupancy": 0.0195,
-      "seat_signature": "TBODY. #",
+      "occupancy": 0.0325,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -11443,22 +11926,22 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-01dfa3_20260831_2115_tohoumeda_s08.jpg",
-      "seat_image_bytes": 21114,
+      "seat_image_bytes": 34463,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 3180.3,
-      "captured_at": "2026-08-29T16:14:40.175512+09:00",
+      "lead_minutes": 1118.4,
+      "captured_at": "2026-08-31T02:36:50.340722+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:14:40.175512+09:00",
-          "lead": 3180.3,
+          "at": "2026-08-31T02:36:50.340722+09:00",
+          "lead": 1118.4,
           "slot": 0,
-          "sold": 3,
-          "vacant": 151,
+          "sold": 5,
+          "vacant": 149,
           "total": 154,
-          "occupancy": 0.0195
+          "occupancy": 0.0325
         }
       ]
     },
@@ -11508,18 +11991,18 @@
       "slots": [
         0
       ],
-      "last_attempt_at": "2026-08-29T16:14:44.180350+09:00",
+      "last_attempt_at": "2026-08-31T02:36:55.055166+09:00",
       "seat_counts": {
-        "vacant": 462,
-        "sold": 12,
+        "vacant": 452,
+        "sold": 22,
         "total": 474,
         "wheelchair": 0,
         "spacer": 129,
         "unclassified": 0,
         "expected": 474
       },
-      "occupancy": 0.0253,
-      "seat_signature": "TBODY. #",
+      "occupancy": 0.0464,
+      "seat_signature": "DIV. #screen_box_inner",
       "form_params": {
         "site_cd": "037",
         "jyoei_date": "20260831",
@@ -11534,25 +12017,25 @@
       "seat_url": "https://hlo.tohotheater.jp/net/ticket/037/TNPI2010J01.do",
       "poster_url": null,
       "seat_image": "media/seats/2026-08/film-3838a2_20260831_2120_tohoumeda_s02.jpg",
-      "seat_image_bytes": 52766,
+      "seat_image_bytes": 67049,
       "poster": null,
       "source": "seat",
-      "lead_minutes": 3185.0,
-      "captured_at": "2026-08-29T16:14:58.204560+09:00",
+      "lead_minutes": 1123.1,
+      "captured_at": "2026-08-31T02:37:08.945549+09:00",
       "capture_round": 1,
       "capture_slot": 0,
       "history": [
         {
-          "at": "2026-08-29T16:14:58.204560+09:00",
-          "lead": 3185.0,
+          "at": "2026-08-31T02:37:08.945549+09:00",
+          "lead": 1123.1,
           "slot": 0,
-          "sold": 12,
-          "vacant": 462,
+          "sold": 22,
+          "vacant": 452,
           "total": 474,
-          "occupancy": 0.0253
+          "occupancy": 0.0464
         }
       ]
     }
   ],
-  "updated_at": "2026-08-29T21:18:39.759275+09:00"
+  "updated_at": "2026-08-31T02:37:08.959077+09:00"
 }

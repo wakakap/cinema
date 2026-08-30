@@ -8,10 +8,10 @@
     "seat_url_hint": "choice_seat",
     "robots_url": "https://tjoy.jp/robots.txt"
   },
-  "generated_at": "2026-08-30T02:30:04.922104+09:00",
+  "generated_at": "2026-08-31T02:50:19.227654+09:00",
   "total_records": 371,
-  "total_captures": 145,
-  "pending_showings": 0,
+  "total_captures": 193,
+  "pending_showings": 41,
   "warnings": [],
   "months": [
     {
@@ -97,7 +97,7 @@
     {
       "date": "2026-09-02",
       "count": 44,
-      "captured": 0,
+      "captured": 3,
       "films": [
         "blue-lock-4f16c3",
         "minions-monsters-a63f70",
@@ -124,7 +124,7 @@
     {
       "date": "2026-09-01",
       "count": 45,
-      "captured": 0,
+      "captured": 45,
       "films": [
         "blue-lock-4f16c3",
         "minions-monsters-a63f70",
@@ -296,7 +296,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-09",
       "showing_count": 12,
-      "capture_count": 4
+      "capture_count": 6
     },
     {
       "key": "film-39f4f9",
@@ -308,7 +308,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-09",
       "showing_count": 12,
-      "capture_count": 2
+      "capture_count": 4
     },
     {
       "key": "sekiro-no-defeat-pg12-334c43",
@@ -324,7 +324,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-09",
       "showing_count": 12,
-      "capture_count": 3
+      "capture_count": 5
     },
     {
       "key": "in-ohsama-sentai-king-ohger-film-concert-9144c0",
@@ -338,7 +338,7 @@
       "first_seen": "2026-08-28",
       "last_seen": "2026-09-03",
       "showing_count": 14,
-      "capture_count": 5
+      "capture_count": 7
     },
     {
       "key": "crayon-shin-chan-2026-07920d",
@@ -352,7 +352,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 9,
-      "capture_count": 3
+      "capture_count": 4
     },
     {
       "key": "chiikawa-0377e3",
@@ -366,7 +366,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 38,
-      "capture_count": 15
+      "capture_count": 20
     },
     {
       "key": "kamen-rider-zeztz-and-super-space-sherif-e34ed8",
@@ -380,7 +380,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 8,
-      "capture_count": 4
+      "capture_count": 5
     },
     {
       "key": "heikou-to-suichoku-b9aaec",
@@ -394,7 +394,7 @@
       "first_seen": "2026-08-28",
       "last_seen": "2026-09-03",
       "showing_count": 32,
-      "capture_count": 15
+      "capture_count": 20
     },
     {
       "key": "puella-magi-madoka-magica-walpurgisnacht-0fd537",
@@ -411,7 +411,7 @@
       "first_seen": "2026-08-28",
       "last_seen": "2026-09-03",
       "showing_count": 59,
-      "capture_count": 29
+      "capture_count": 38
     },
     {
       "key": "moana-3624e0",
@@ -427,7 +427,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 8,
-      "capture_count": 3
+      "capture_count": 4
     },
     {
       "key": "minions-monsters-a63f70",
@@ -444,7 +444,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 16,
-      "capture_count": 7
+      "capture_count": 9
     },
     {
       "key": "blue-lock-4f16c3",
@@ -461,7 +461,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 18,
-      "capture_count": 8
+      "capture_count": 10
     },
     {
       "key": "toy-story-5-7e34e5",
@@ -477,7 +477,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 8,
-      "capture_count": 4
+      "capture_count": 5
     },
     {
       "key": "spider-man-brand-new-day-0fdee1",
@@ -496,7 +496,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 24,
-      "capture_count": 8
+      "capture_count": 11
     },
     {
       "key": "kingdom-ae54ae",
@@ -510,7 +510,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 9,
-      "capture_count": 3
+      "capture_count": 4
     },
     {
       "key": "the-end-of-oak-street-964311",
@@ -528,7 +528,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 18,
-      "capture_count": 8
+      "capture_count": 10
     },
     {
       "key": "shiranuhi-6c2ef4",
@@ -542,7 +542,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 18,
-      "capture_count": 7
+      "capture_count": 9
     },
     {
       "key": "performance1984-2012-tatsuro-yamashita-t-6f5b8b",
@@ -556,7 +556,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 12,
-      "capture_count": 4
+      "capture_count": 5
     },
     {
       "key": "tomorrow-x-together-vr-concert-endless-r-180136",
@@ -585,7 +585,7 @@
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-03",
       "showing_count": 11,
-      "capture_count": 3
+      "capture_count": 4
     },
     {
       "key": "25-harry-potter-and-the-sorcerer-s-stone-0c741e",
@@ -605,7 +605,7 @@
       "first_seen": "2026-08-28",
       "last_seen": "2026-09-03",
       "showing_count": 21,
-      "capture_count": 9
+      "capture_count": 12
     },
     {
       "key": "puella-magi-madoka-magica-walpurgisnacht-e46fb0",

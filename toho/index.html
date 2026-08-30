@@ -317,8 +317,12 @@ function shotTags(c){
 }
 
 function shotEl(c){
+  // ファイルが消えていても壊れた画像アイコンを出さない。記録側の
+  // seat_image は残るが、見た目は「画像なし」に落ちる。
+  const fallback = "this.replaceWith(Object.assign(document.createElement('div'),"
+    + "{className:'shot-none',textContent:'画像なし'}))";
   const img = c.seat_image
-    ? `<img class="shot-img" src="${esc(c.seat_image)}" loading="lazy"
+    ? `<img class="shot-img" src="${esc(c.seat_image)}" loading="lazy" onerror="${fallback}"
          alt="${esc(c.film_title)} ${esc(c.start)} の座席表"
          data-cap="${esc(c.film_title)} ／ ${esc(c.date)} ${esc(c.start)} ／ ${esc(c.screen)}${
            c.captured_at ? ' ／ 取得 ' + esc(c.captured_at.slice(11,16))

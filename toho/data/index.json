@@ -49,9 +49,9 @@
       "active": true
     }
   ],
-  "generated_at": "2026-08-30T02:30:05.223842+09:00",
-  "total_records": 132,
-  "total_captures": 118,
+  "generated_at": "2026-08-31T02:50:19.566160+09:00",
+  "total_records": 176,
+  "total_captures": 162,
   "pending_showings": 0,
   "warnings": [],
   "venues": [
@@ -61,8 +61,8 @@
       "cinema_name": "TOHOシネマズ梅田",
       "venue": "honkan",
       "venue_name": "本館",
-      "count": 132,
-      "captured": 118,
+      "count": 176,
+      "captured": 162,
       "screens": [
         "06",
         "02",
@@ -80,9 +80,40 @@
       "month": "2026-08",
       "file": "data/captures/2026-08.json",
       "count": 132
+    },
+    {
+      "month": "2026-09",
+      "file": "data/captures/2026-09.json",
+      "count": 44
     }
   ],
   "dates": [
+    {
+      "date": "2026-09-01",
+      "count": 44,
+      "captured": 44,
+      "films": [
+        "film-2bf82d",
+        "film-5043c7",
+        "film-e259f3",
+        "film-5a6ba2",
+        "film-e97bc9",
+        "film-71cf8f",
+        "film-dfd467",
+        "film-2fcda0",
+        "film-b1b479",
+        "film-01dfa3",
+        "film-3838a2",
+        "film-8ff868",
+        "film-f63727",
+        "film-8d7903",
+        "film-d3b025",
+        "film-87658e",
+        "michael-9b1cba",
+        "film-a90019",
+        "film-d0ad07"
+      ]
+    },
     {
       "date": "2026-08-31",
       "count": 44,
@@ -171,12 +202,12 @@
         "字幕"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 3,
-      "capture_count": 3,
+      "showing_count": 4,
+      "capture_count": 4,
       "poster_from": "tjoy"
     },
     {
@@ -187,12 +218,12 @@
         "レイトショー"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 15,
-      "capture_count": 13
+      "showing_count": 20,
+      "capture_count": 18
     },
     {
       "key": "film-5a6ba2",
@@ -200,12 +231,12 @@
       "poster": "../tjoy/media/posters/crayon-shin-chan-2026-07920d.jpg",
       "tags": [],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 3,
-      "capture_count": 3,
+      "showing_count": 4,
+      "capture_count": 4,
       "poster_from": "tjoy"
     },
     {
@@ -216,12 +247,12 @@
         "レイトショー"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 15,
-      "capture_count": 15,
+      "showing_count": 20,
+      "capture_count": 20,
       "poster_from": "tjoy"
     },
     {
@@ -232,12 +263,12 @@
         "レイトショー"
       ],
       "first_seen": "2026-08-31",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 1,
-      "capture_count": 1
+      "showing_count": 2,
+      "capture_count": 2
     },
     {
       "key": "film-dfd467",
@@ -248,12 +279,12 @@
         "レイトショー"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 15,
-      "capture_count": 13,
+      "showing_count": 20,
+      "capture_count": 18,
       "poster_from": "tjoy"
     },
     {
@@ -262,12 +293,12 @@
       "poster": null,
       "tags": [],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 3,
-      "capture_count": 2
+      "showing_count": 4,
+      "capture_count": 3
     },
     {
       "key": "film-71cf8f",
@@ -279,12 +310,12 @@
         "レイトショー"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 13,
-      "capture_count": 12
+      "showing_count": 18,
+      "capture_count": 17
     },
     {
       "key": "film-a90019",
@@ -295,12 +326,12 @@
         "レイトショー"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 3,
-      "capture_count": 3,
+      "showing_count": 4,
+      "capture_count": 4,
       "poster_from": "tjoy"
     },
     {
@@ -312,12 +343,12 @@
         "レイトショー"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 6,
-      "capture_count": 6,
+      "showing_count": 8,
+      "capture_count": 8,
       "poster_from": "tjoy"
     },
     {
@@ -326,12 +357,12 @@
       "poster": "../tjoy/media/posters/blue-lock-4f16c3.jpg",
       "tags": [],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 3,
-      "capture_count": 3,
+      "showing_count": 4,
+      "capture_count": 4,
       "poster_from": "tjoy"
     },
     {
@@ -342,12 +373,12 @@
         "吹替"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 3,
-      "capture_count": 2
+      "showing_count": 4,
+      "capture_count": 3
     },
     {
       "key": "film-87658e",
@@ -358,12 +389,12 @@
         "レイトショー"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 6,
-      "capture_count": 6,
+      "showing_count": 8,
+      "capture_count": 8,
       "poster_from": "tjoy"
     },
     {
@@ -375,12 +406,12 @@
         "レイトショー"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 5,
-      "capture_count": 5
+      "showing_count": 6,
+      "capture_count": 6
     },
     {
       "key": "film-b1b479",
@@ -390,12 +421,12 @@
         "吹替"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 6,
-      "capture_count": 6,
+      "showing_count": 8,
+      "capture_count": 8,
       "poster_from": "tjoy"
     },
     {
@@ -408,12 +439,12 @@
         "レイトショー"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 8,
-      "capture_count": 6,
+      "showing_count": 11,
+      "capture_count": 9,
       "poster_from": "tjoy"
     },
     {
@@ -425,12 +456,12 @@
         "レイトショー"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 12,
-      "capture_count": 9
+      "showing_count": 16,
+      "capture_count": 13
     },
     {
       "key": "film-5043c7",
@@ -441,12 +472,12 @@
         "レイトショー"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 6,
-      "capture_count": 5,
+      "showing_count": 8,
+      "capture_count": 7,
       "poster_from": "tjoy"
     },
     {
@@ -457,12 +488,12 @@
         "字幕"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 5,
-      "capture_count": 4,
+      "showing_count": 6,
+      "capture_count": 5,
       "poster_from": "tjoy"
     },
     {
