@@ -8,10 +8,10 @@
     "seat_url_hint": "choice_seat",
     "robots_url": "https://tjoy.jp/robots.txt"
   },
-  "generated_at": "2026-08-31T02:50:19.227654+09:00",
-  "total_records": 371,
-  "total_captures": 193,
-  "pending_showings": 41,
+  "generated_at": "2026-09-05T21:28:32.135966+09:00",
+  "total_records": 557,
+  "total_captures": 296,
+  "pending_showings": 97,
   "warnings": [],
   "months": [
     {
@@ -22,18 +22,73 @@
     {
       "month": "2026-09",
       "file": "data/captures/2026-09.json",
-      "count": 148
+      "count": 334
     }
   ],
   "dates": [
     {
-      "date": "2026-09-09",
-      "count": 3,
+      "date": "2026-09-10",
+      "count": 49,
       "captured": 0,
       "films": [
+        "sekiro-no-defeat-pg12-319644",
+        "minions-monsters-a63f70",
+        "toy-story-5-7e34e5",
+        "crayon-shin-chan-2026-07920d",
+        "moana-3624e0",
+        "kamen-rider-zeztz-and-super-space-sherif-e34ed8",
+        "chiikawa-0377e3",
+        "tomorrow-x-together-vr-concert-endless-r-180136",
+        "puella-magi-madoka-magica-walpurgisnacht-0fd537",
+        "kingdom-ae54ae",
+        "heikou-to-suichoku-b9aaec",
+        "the-alfee-3000premium-3000-29f8c2",
+        "6days-6days-480eb6",
+        "backrooms-a1c35e",
+        "spider-man-brand-new-day-0fdee1",
+        "sekiro-no-defeat-pg12-334c43",
+        "the-ribbon-hero-60470e",
+        "the-end-of-oak-street-964311",
+        "shiranuhi-6c2ef4",
+        "in-ohsama-sentai-king-ohger-film-concert-9144c0",
+        "revue-starlight-the-movie-4579a4",
+        "film-29719f",
+        "dazn-j1-9-vs-7cde29",
+        "blue-lock-4f16c3",
+        "michael-michael-43664c"
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "count": 48,
+      "captured": 0,
+      "films": [
+        "sekiro-no-defeat-pg12-319644",
+        "minions-monsters-a63f70",
+        "toy-story-5-7e34e5",
+        "crayon-shin-chan-2026-07920d",
+        "moana-3624e0",
+        "kamen-rider-zeztz-and-super-space-sherif-e34ed8",
+        "chiikawa-0377e3",
+        "tomorrow-x-together-vr-concert-endless-r-180136",
+        "puella-magi-madoka-magica-walpurgisnacht-0fd537",
+        "kingdom-ae54ae",
+        "heikou-to-suichoku-b9aaec",
+        "the-alfee-3000premium-3000-29f8c2",
+        "6days-6days-480eb6",
+        "backrooms-a1c35e",
+        "spider-man-brand-new-day-0fdee1",
         "film-39f4f9",
         "sekiro-no-defeat-pg12-334c43",
-        "film-29719f"
+        "the-ribbon-hero-60470e",
+        "the-end-of-oak-street-964311",
+        "shiranuhi-6c2ef4",
+        "in-ohsama-sentai-king-ohger-film-concert-9144c0",
+        "revue-starlight-the-movie-4579a4",
+        "film-29719f",
+        "dazn-j1-9-vs-7cde29",
+        "blue-lock-4f16c3",
+        "michael-michael-43664c"
       ]
     },
     {
@@ -48,22 +103,65 @@
     },
     {
       "date": "2026-09-05",
-      "count": 3,
-      "captured": 0,
+      "count": 49,
+      "captured": 22,
       "films": [
+        "kamen-rider-zeztz-and-super-space-sherif-e34ed8",
+        "minions-monsters-a63f70",
+        "toy-story-5-7e34e5",
+        "sekiro-no-defeat-pg12-319644",
+        "crayon-shin-chan-2026-07920d",
+        "moana-3624e0",
+        "chiikawa-0377e3",
+        "tomorrow-x-together-vr-concert-endless-r-180136",
+        "the-alfee-3000premium-3000-29f8c2",
+        "the-ribbon-hero-60470e",
+        "heikou-to-suichoku-b9aaec",
+        "puella-magi-madoka-magica-walpurgisnacht-0fd537",
+        "6days-6days-480eb6",
+        "kingdom-ae54ae",
+        "spider-man-brand-new-day-0fdee1",
         "film-39f4f9",
+        "backrooms-a1c35e",
         "sekiro-no-defeat-pg12-334c43",
-        "film-29719f"
+        "the-end-of-oak-street-964311",
+        "shiranuhi-6c2ef4",
+        "in-ohsama-sentai-king-ohger-film-concert-9144c0",
+        "film-29719f",
+        "dazn-j1-9-vs-7cde29",
+        "michael-michael-43664c",
+        "blue-lock-4f16c3"
       ]
     },
     {
       "date": "2026-09-04",
-      "count": 3,
-      "captured": 0,
+      "count": 49,
+      "captured": 40,
       "films": [
+        "minions-monsters-a63f70",
+        "toy-story-5-7e34e5",
+        "sekiro-no-defeat-pg12-319644",
+        "crayon-shin-chan-2026-07920d",
+        "moana-3624e0",
+        "kamen-rider-zeztz-and-super-space-sherif-e34ed8",
+        "chiikawa-0377e3",
+        "tomorrow-x-together-vr-concert-endless-r-180136",
+        "kingdom-ae54ae",
+        "heikou-to-suichoku-b9aaec",
+        "puella-magi-madoka-magica-walpurgisnacht-0fd537",
+        "the-alfee-3000premium-3000-29f8c2",
+        "6days-6days-480eb6",
+        "spider-man-brand-new-day-0fdee1",
         "film-39f4f9",
+        "backrooms-a1c35e",
         "sekiro-no-defeat-pg12-334c43",
-        "film-29719f"
+        "the-ribbon-hero-60470e",
+        "the-end-of-oak-street-964311",
+        "shiranuhi-6c2ef4",
+        "in-ohsama-sentai-king-ohger-film-concert-9144c0",
+        "film-29719f",
+        "blue-lock-4f16c3",
+        "michael-michael-43664c"
       ]
     },
     {
@@ -97,7 +195,7 @@
     {
       "date": "2026-09-02",
       "count": 44,
-      "captured": 3,
+      "captured": 44,
       "films": [
         "blue-lock-4f16c3",
         "minions-monsters-a63f70",
@@ -287,44 +385,16 @@
     {
       "key": "film-29719f",
       "title": "追加上映『髑髏城の七人 1997』",
-      "poster": null,
+      "poster": "media/posters/film-29719f.jpg",
       "tags": [],
       "runtime_min": 175,
       "codes": [
         "E2805000"
       ],
       "first_seen": "2026-08-27",
-      "last_seen": "2026-09-09",
-      "showing_count": 12,
-      "capture_count": 6
-    },
-    {
-      "key": "film-39f4f9",
-      "title": "特別イベント上映『髑髏城の七人 1997』登壇付き",
-      "poster": null,
-      "tags": [],
-      "runtime_min": 210,
-      "codes": [],
-      "first_seen": "2026-08-27",
-      "last_seen": "2026-09-09",
-      "showing_count": 12,
-      "capture_count": 4
-    },
-    {
-      "key": "sekiro-no-defeat-pg12-334c43",
-      "title": "[公開記念舞台挨拶]SEKIRO:NO DEFEAT(PG12)",
-      "poster": "media/posters/sekiro-no-defeat-pg12-334c43.jpg",
-      "tags": [
-        "PG12"
-      ],
-      "runtime_min": 137,
-      "codes": [
-        "C4986300"
-      ],
-      "first_seen": "2026-08-27",
-      "last_seen": "2026-09-09",
-      "showing_count": 12,
-      "capture_count": 5
+      "last_seen": "2026-09-10",
+      "showing_count": 13,
+      "capture_count": 8
     },
     {
       "key": "in-ohsama-sentai-king-ohger-film-concert-9144c0",
@@ -336,9 +406,9 @@
         "C5008000"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-03",
-      "showing_count": 14,
-      "capture_count": 7
+      "last_seen": "2026-09-10",
+      "showing_count": 18,
+      "capture_count": 11
     },
     {
       "key": "crayon-shin-chan-2026-07920d",
@@ -350,9 +420,9 @@
         "C4806000"
       ],
       "first_seen": "2026-08-27",
-      "last_seen": "2026-09-03",
-      "showing_count": 9,
-      "capture_count": 4
+      "last_seen": "2026-09-10",
+      "showing_count": 13,
+      "capture_count": 6
     },
     {
       "key": "chiikawa-0377e3",
@@ -364,9 +434,9 @@
         "C4805000"
       ],
       "first_seen": "2026-08-27",
-      "last_seen": "2026-09-03",
-      "showing_count": 38,
-      "capture_count": 20
+      "last_seen": "2026-09-10",
+      "showing_count": 57,
+      "capture_count": 33
     },
     {
       "key": "kamen-rider-zeztz-and-super-space-sherif-e34ed8",
@@ -378,9 +448,9 @@
         "C4864000"
       ],
       "first_seen": "2026-08-27",
-      "last_seen": "2026-09-03",
-      "showing_count": 8,
-      "capture_count": 5
+      "last_seen": "2026-09-10",
+      "showing_count": 12,
+      "capture_count": 7
     },
     {
       "key": "heikou-to-suichoku-b9aaec",
@@ -392,9 +462,9 @@
         "C4908000"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-03",
-      "showing_count": 32,
-      "capture_count": 20
+      "last_seen": "2026-09-10",
+      "showing_count": 40,
+      "capture_count": 28
     },
     {
       "key": "puella-magi-madoka-magica-walpurgisnacht-0fd537",
@@ -409,9 +479,9 @@
         "C4463060"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-03",
-      "showing_count": 59,
-      "capture_count": 38
+      "last_seen": "2026-09-10",
+      "showing_count": 78,
+      "capture_count": 53
     },
     {
       "key": "moana-3624e0",
@@ -425,9 +495,9 @@
         "C4902200"
       ],
       "first_seen": "2026-08-27",
-      "last_seen": "2026-09-03",
-      "showing_count": 8,
-      "capture_count": 4
+      "last_seen": "2026-09-10",
+      "showing_count": 12,
+      "capture_count": 6
     },
     {
       "key": "minions-monsters-a63f70",
@@ -442,9 +512,9 @@
         "C4860200"
       ],
       "first_seen": "2026-08-27",
-      "last_seen": "2026-09-03",
-      "showing_count": 16,
-      "capture_count": 9
+      "last_seen": "2026-09-10",
+      "showing_count": 20,
+      "capture_count": 12
     },
     {
       "key": "blue-lock-4f16c3",
@@ -459,9 +529,26 @@
         "C4803000"
       ],
       "first_seen": "2026-08-27",
-      "last_seen": "2026-09-03",
-      "showing_count": 18,
-      "capture_count": 10
+      "last_seen": "2026-09-10",
+      "showing_count": 22,
+      "capture_count": 14
+    },
+    {
+      "key": "backrooms-a1c35e",
+      "title": "バックルームズ Backrooms",
+      "poster": "media/posters/backrooms-a1c35e.jpg",
+      "tags": [
+        "DolbyCinema",
+        "字幕"
+      ],
+      "runtime_min": 130,
+      "codes": [
+        "C5032180"
+      ],
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-10",
+      "showing_count": 8,
+      "capture_count": 3
     },
     {
       "key": "toy-story-5-7e34e5",
@@ -475,9 +562,9 @@
         "C4901201"
       ],
       "first_seen": "2026-08-27",
-      "last_seen": "2026-09-03",
-      "showing_count": 8,
-      "capture_count": 5
+      "last_seen": "2026-09-10",
+      "showing_count": 12,
+      "capture_count": 7
     },
     {
       "key": "spider-man-brand-new-day-0fdee1",
@@ -494,9 +581,9 @@
         "C4918200"
       ],
       "first_seen": "2026-08-27",
-      "last_seen": "2026-09-03",
-      "showing_count": 24,
-      "capture_count": 11
+      "last_seen": "2026-09-10",
+      "showing_count": 32,
+      "capture_count": 17
     },
     {
       "key": "kingdom-ae54ae",
@@ -508,9 +595,9 @@
         "C4804000"
       ],
       "first_seen": "2026-08-27",
-      "last_seen": "2026-09-03",
-      "showing_count": 9,
-      "capture_count": 4
+      "last_seen": "2026-09-10",
+      "showing_count": 13,
+      "capture_count": 6
     },
     {
       "key": "the-end-of-oak-street-964311",
@@ -526,9 +613,9 @@
         "C4943100"
       ],
       "first_seen": "2026-08-27",
-      "last_seen": "2026-09-03",
-      "showing_count": 18,
-      "capture_count": 10
+      "last_seen": "2026-09-10",
+      "showing_count": 22,
+      "capture_count": 14
     },
     {
       "key": "shiranuhi-6c2ef4",
@@ -540,23 +627,39 @@
         "C4819000"
       ],
       "first_seen": "2026-08-27",
-      "last_seen": "2026-09-03",
-      "showing_count": 18,
-      "capture_count": 9
+      "last_seen": "2026-09-10",
+      "showing_count": 22,
+      "capture_count": 13
     },
     {
-      "key": "performance1984-2012-tatsuro-yamashita-t-6f5b8b",
-      "title": "[アンコール上映]山下達郎 シアター・ライブ PERFORMANCE1984-2012 Tatsuro Yamashita Theater Live PERFORMANCE 1984-2012",
-      "poster": "media/posters/performance1984-2012-tatsuro-yamashita-t-6f5b8b.jpg",
-      "tags": [],
-      "runtime_min": 92,
+      "key": "revue-starlight-the-movie-4579a4",
+      "title": "『劇場版 少女☆歌劇 レヴュースタァライト』リバイバル上映 Revue Starlight The Movie",
+      "poster": null,
+      "tags": [
+        "Dolby Atmos"
+      ],
+      "runtime_min": 138,
+      "codes": [],
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-10",
+      "showing_count": 2,
+      "capture_count": 0
+    },
+    {
+      "key": "sekiro-no-defeat-pg12-334c43",
+      "title": "[公開記念舞台挨拶]SEKIRO:NO DEFEAT(PG12)",
+      "poster": "media/posters/sekiro-no-defeat-pg12-334c43.jpg",
+      "tags": [
+        "PG12"
+      ],
+      "runtime_min": 137,
       "codes": [
-        "C4993000"
+        "C4986300"
       ],
       "first_seen": "2026-08-27",
-      "last_seen": "2026-09-03",
-      "showing_count": 12,
-      "capture_count": 5
+      "last_seen": "2026-09-10",
+      "showing_count": 13,
+      "capture_count": 6
     },
     {
       "key": "tomorrow-x-together-vr-concert-endless-r-180136",
@@ -566,9 +669,56 @@
       "runtime_min": 80,
       "codes": [],
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-03",
-      "showing_count": 8,
+      "last_seen": "2026-09-10",
+      "showing_count": 40,
       "capture_count": 0
+    },
+    {
+      "key": "the-ribbon-hero-60470e",
+      "title": "THE RIBBON HERO リボンヒーロー",
+      "poster": "media/posters/the-ribbon-hero-60470e.jpg",
+      "tags": [],
+      "runtime_min": 109,
+      "codes": [
+        "C5095000"
+      ],
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-10",
+      "showing_count": 8,
+      "capture_count": 3
+    },
+    {
+      "key": "the-alfee-3000premium-3000-29f8c2",
+      "title": "THE ALFEE 3000PREMIUM～トラベリングバンドが刻んだ3000本の奇跡と軌跡～",
+      "poster": "media/posters/the-alfee-3000premium-3000-29f8c2.jpg",
+      "tags": [],
+      "runtime_min": 123,
+      "codes": [
+        "C2589000"
+      ],
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-10",
+      "showing_count": 8,
+      "capture_count": 3
+    },
+    {
+      "key": "sekiro-no-defeat-pg12-319644",
+      "title": "SEKIRO:NO DEFEAT(PG12)",
+      "poster": "media/posters/sekiro-no-defeat-pg12-319644.jpg",
+      "tags": [
+        "Dolby Atmos",
+        "PG12",
+        "字幕"
+      ],
+      "runtime_min": 108,
+      "codes": [
+        "C4986060",
+        "C4986000"
+      ],
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-10",
+      "showing_count": 17,
+      "capture_count": 8
     },
     {
       "key": "michael-michael-43664c",
@@ -583,9 +733,63 @@
         "C4739100"
       ],
       "first_seen": "2026-08-27",
-      "last_seen": "2026-09-03",
-      "showing_count": 11,
+      "last_seen": "2026-09-10",
+      "showing_count": 15,
+      "capture_count": 7
+    },
+    {
+      "key": "dazn-j1-9-vs-7cde29",
+      "title": "DAZN主催 明治安田J1リーグ 第9節 鹿島アントラーズ VS ガンバ大阪",
+      "poster": null,
+      "tags": [],
+      "runtime_min": 160,
+      "codes": [
+        "O2474000"
+      ],
+      "first_seen": "2026-09-05",
+      "last_seen": "2026-09-10",
+      "showing_count": 3,
+      "capture_count": 1
+    },
+    {
+      "key": "6days-6days-480eb6",
+      "title": "6DAYS 6Days",
+      "poster": "media/posters/6days-6days-480eb6.jpg",
+      "tags": [],
+      "runtime_min": 81,
+      "codes": [
+        "C5043000"
+      ],
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-10",
+      "showing_count": 8,
+      "capture_count": 3
+    },
+    {
+      "key": "film-39f4f9",
+      "title": "特別イベント上映『髑髏城の七人 1997』登壇付き",
+      "poster": null,
+      "tags": [],
+      "runtime_min": 210,
+      "codes": [],
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-09-09",
+      "showing_count": 12,
       "capture_count": 4
+    },
+    {
+      "key": "performance1984-2012-tatsuro-yamashita-t-6f5b8b",
+      "title": "[アンコール上映]山下達郎 シアター・ライブ PERFORMANCE1984-2012 Tatsuro Yamashita Theater Live PERFORMANCE 1984-2012",
+      "poster": "media/posters/performance1984-2012-tatsuro-yamashita-t-6f5b8b.jpg",
+      "tags": [],
+      "runtime_min": 92,
+      "codes": [
+        "C4993000"
+      ],
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-09-03",
+      "showing_count": 12,
+      "capture_count": 7
     },
     {
       "key": "25-harry-potter-and-the-sorcerer-s-stone-0c741e",
@@ -605,7 +809,7 @@
       "first_seen": "2026-08-28",
       "last_seen": "2026-09-03",
       "showing_count": 21,
-      "capture_count": 12
+      "capture_count": 15
     },
     {
       "key": "puella-magi-madoka-magica-walpurgisnacht-e46fb0",

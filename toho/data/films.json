@@ -7,12 +7,12 @@
       "レイトショー"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-07",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 20,
-    "capture_count": 18
+    "showing_count": 38,
+    "capture_count": 33
   },
   "film-01dfa3": {
     "key": "film-01dfa3",
@@ -23,12 +23,12 @@
       "レイトショー"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-07",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 16,
-    "capture_count": 13
+    "showing_count": 36,
+    "capture_count": 32
   },
   "film-2bf82d": {
     "key": "film-2bf82d",
@@ -38,12 +38,12 @@
       "吹替"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-06",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 4,
-    "capture_count": 3
+    "showing_count": 8,
+    "capture_count": 6
   },
   "film-2fcda0": {
     "key": "film-2fcda0",
@@ -55,12 +55,12 @@
       "レイトショー"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-07",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 11,
-    "capture_count": 9,
+    "showing_count": 27,
+    "capture_count": 23,
     "poster_from": "tjoy"
   },
   "film-71cf8f": {
@@ -73,27 +73,28 @@
       "レイトショー"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-07",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 18,
-    "capture_count": 17
+    "showing_count": 37,
+    "capture_count": 35
   },
   "film-f63727": {
     "key": "film-f63727",
     "title": "オークストリートの異変",
     "poster": "../tjoy/media/posters/the-end-of-oak-street-964311.jpg",
     "tags": [
-      "字幕"
+      "字幕",
+      "レイトショー"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-07",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 6,
-    "capture_count": 5,
+    "showing_count": 12,
+    "capture_count": 11,
     "poster_from": "tjoy"
   },
   "film-dfd467": {
@@ -105,12 +106,12 @@
       "レイトショー"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-07",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 20,
-    "capture_count": 18,
+    "showing_count": 52,
+    "capture_count": 48,
     "poster_from": "tjoy"
   },
   "film-8ff868": {
@@ -119,12 +120,12 @@
     "poster": null,
     "tags": [],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-07",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 4,
-    "capture_count": 3
+    "showing_count": 8,
+    "capture_count": 7
   },
   "film-e97bc9": {
     "key": "film-e97bc9",
@@ -135,12 +136,12 @@
       "レイトショー"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-07",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 8,
-    "capture_count": 8,
+    "showing_count": 16,
+    "capture_count": 15,
     "poster_from": "tjoy"
   },
   "film-5a6ba2": {
@@ -149,12 +150,12 @@
     "poster": "../tjoy/media/posters/crayon-shin-chan-2026-07920d.jpg",
     "tags": [],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-07",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 4,
-    "capture_count": 4,
+    "showing_count": 10,
+    "capture_count": 9,
     "poster_from": "tjoy"
   },
   "film-3838a2": {
@@ -165,12 +166,12 @@
       "レイトショー"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-07",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 20,
-    "capture_count": 20,
+    "showing_count": 56,
+    "capture_count": 49,
     "poster_from": "tjoy"
   },
   "film-8d7903": {
@@ -182,12 +183,12 @@
       "レイトショー"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-07",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 6,
-    "capture_count": 6
+    "showing_count": 12,
+    "capture_count": 11
   },
   "film-87658e": {
     "key": "film-87658e",
@@ -198,12 +199,12 @@
       "レイトショー"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-03",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 8,
-    "capture_count": 8,
+    "showing_count": 12,
+    "capture_count": 12,
     "poster_from": "tjoy"
   },
   "film-b1b479": {
@@ -214,12 +215,12 @@
       "吹替"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-07",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 8,
-    "capture_count": 8,
+    "showing_count": 16,
+    "capture_count": 15,
     "poster_from": "tjoy"
   },
   "film-5043c7": {
@@ -231,12 +232,12 @@
       "レイトショー"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-07",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 8,
-    "capture_count": 7,
+    "showing_count": 20,
+    "capture_count": 18,
     "poster_from": "tjoy"
   },
   "film-d3b025": {
@@ -245,12 +246,12 @@
     "poster": "../tjoy/media/posters/blue-lock-4f16c3.jpg",
     "tags": [],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-07",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 4,
-    "capture_count": 4,
+    "showing_count": 10,
+    "capture_count": 10,
     "poster_from": "tjoy"
   },
   "michael-9b1cba": {
@@ -262,12 +263,12 @@
       "字幕"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-07",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 4,
-    "capture_count": 4,
+    "showing_count": 10,
+    "capture_count": 9,
     "poster_from": "tjoy"
   },
   "film-a90019": {
@@ -279,12 +280,12 @@
       "レイトショー"
     ],
     "first_seen": "2026-08-29",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-07",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 4,
-    "capture_count": 4,
+    "showing_count": 10,
+    "capture_count": 10,
     "poster_from": "tjoy"
   },
   "stray-kids-world-tour-run-it-japan-live-1c02c1": {
@@ -308,11 +309,83 @@
       "レイトショー"
     ],
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-03",
     "cinemas": [
       "tohoumeda"
     ],
-    "showing_count": 2,
-    "capture_count": 2
+    "showing_count": 4,
+    "capture_count": 4
+  },
+  "the-lifetimes-tour-live-from-paris-e561e0": {
+    "key": "the-lifetimes-tour-live-from-paris-e561e0",
+    "title": "映画「ケイティ・ペリー：Ｔｈｅ Ｌｉｆｅｔｉｍｅｓ Ｔｏｕｒ － Ｌｉｖｅ ｆｒｏｍ Ｐａｒｉｓ」",
+    "poster": null,
+    "tags": [],
+    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-07",
+    "cinemas": [
+      "tohoumeda"
+    ],
+    "showing_count": 6,
+    "capture_count": 6
+  },
+  "division-rap-battle-efe430": {
+    "key": "division-rap-battle-efe430",
+    "title": "映画「ヒプノシスマイク －Ｄｉｖｉｓｉｏｎ Ｒａｐ Ｂａｔｔｌｅ－」",
+    "poster": null,
+    "tags": [],
+    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-07",
+    "cinemas": [
+      "tohoumeda"
+    ],
+    "showing_count": 7,
+    "capture_count": 6
+  },
+  "film-d03854": {
+    "key": "film-d03854",
+    "title": "スワロウテイル",
+    "poster": null,
+    "tags": [
+      "Dolby Atmos"
+    ],
+    "first_seen": "2026-09-04",
+    "last_seen": "2026-09-07",
+    "cinemas": [
+      "tohoumeda"
+    ],
+    "showing_count": 8,
+    "capture_count": 6
+  },
+  "film-a42e71": {
+    "key": "film-a42e71",
+    "title": "バックルームズ",
+    "poster": "../tjoy/media/posters/backrooms-a1c35e.jpg",
+    "tags": [
+      "字幕",
+      "Dolby Atmos",
+      "レイトショー"
+    ],
+    "first_seen": "2026-09-04",
+    "last_seen": "2026-09-07",
+    "cinemas": [
+      "tohoumeda"
+    ],
+    "showing_count": 19,
+    "capture_count": 17,
+    "poster_from": "tjoy"
+  },
+  "diamond-impulse-2e2cd5": {
+    "key": "diamond-impulse-2e2cd5",
+    "title": "宝塚歌劇 宙組東京宝塚劇場公演『黒蜥蜴』『Ｄｉａｍｏｎｄ ＩＭＰＵＬＳＥ（ダイヤモンド インパルス）",
+    "poster": null,
+    "tags": [],
+    "first_seen": "2026-09-06",
+    "last_seen": "2026-09-06",
+    "cinemas": [
+      "tohoumeda"
+    ],
+    "showing_count": 1,
+    "capture_count": 1
   }
 }

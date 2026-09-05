@@ -65,7 +65,7 @@ STATS_FILE = DATA / "stats.json"
 
 # 大範囲走査を始める時刻（JST）。TOHO の販売開始が朝なので、それより後に
 # 置く。ここを早くしすぎると「まだ売っていない」で空振りする。
-SWEEP_AT = "23:00"
+SWEEP_AT = "09:30"
 
 # tick の刻み。daemon はこの間隔で自分を叩く。
 TICK_SEC = 30
@@ -74,7 +74,7 @@ TICK_SEC = 30
 RUN_TIMEOUT_SEC = 3600
 
 CINEMAS = [
-    {"id": "tjoy", "dir": "tjoy", "script": "cinema.py",
+    {"id": "tjoy", "dir": "tjoy", "script": "tjoy.py",
      "name": "T・ジョイ梅田", "short": "T・ジョイ", "color": "#D4000F"},
     {"id": "toho", "dir": "toho", "script": "toho.py",
      "name": "TOHOシネマズ梅田", "short": "TOHO", "color": "#1B62C8"},

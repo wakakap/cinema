@@ -1,604 +1,3 @@
-08-29 10:25:01  RUN   start     gap=0m
-08-29 10:25:04  SYNC  probe     tohoumeda date=20260829 tabs=7 blocks=22 rows=44 href=0
-08-29 10:25:04  SYNC  status    {"販売中": 36, "販売期間外": 8}
-08-29 10:25:17  SYNC  light     3日 132件  予定記録 132 件
-08-29 10:26:07  RUN   start     gap=1m
-08-29 10:26:24  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 10:26:25  CAP   final     08-29 10:35 tohoumeda/s05 ミニオンズ＆モンスターズ lead=9m occ=43%   ⚠ 座席数 101 ≠ 公称 98（判定不能 9 件）
-08-29 10:26:30  MISS  8         08-29 08:15 08-29 08:20 08-29 08:25 08-29 08:25 08-29 08:40 08-29 08:50 08-29 09:00 08-29 09:30
-08-29 10:26:30  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
-08-29 10:26:47  RUN   start     gap=1m
-08-29 10:27:03  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 10:27:03  CAP   1/3       08-29 10:55 tohoumeda/s06 映画クレヨンしんちゃん 奇々 lead=28m occ=73%
-08-29 10:27:20  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 10:27:20  CAP   1/3       08-29 11:00 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=33m occ=55%
-08-29 10:27:38  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 10:27:38  CAP   1/3       08-29 11:10 tohoumeda/s07 ドラマなふたり lead=42m occ=54%
-08-29 10:27:56  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 10:27:57  CAP   1/3       08-29 11:30 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=62m occ=45%
-08-29 10:28:14  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 10:28:14  CAP   1/3       08-29 11:35 tohoumeda/s08 ハリー・ポッターと賢者の石 lead=67m occ=97%
-08-29 10:28:32  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 10:28:33  CAP   1/3       08-29 11:45 tohoumeda/s03 トイ・ストーリー５ lead=76m occ=28%
-08-29 10:28:49  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 10:28:50  CAP   1/3       08-29 11:50 tohoumeda/s04 ラスト・サバイバー lead=81m occ=36%
-08-29 10:29:06  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 10:29:06  CAP   1/3       08-29 12:45 tohoumeda/s05 ミニオンズ＆モンスターズ lead=136m occ=71%   ⚠ 座席数 101 ≠ 公称 98（判定不能 9 件）
-08-29 10:29:23  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 10:29:24  CAP   1/3       08-29 13:15 tohoumeda/s06 時には懺悔を lead=166m occ=52%
-08-29 10:29:41  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 10:29:41  CAP   1/3       08-29 13:30 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=180m occ=65%
-08-29 10:29:45  CAP   done      対象 10 / 成功 10 / 失敗 0 / 178s
-08-29 15:42:36  RUN   start     gap=5h15m   ← 前回から大きく空いた
-08-29 15:42:41  SYNC  probe     tohoumeda date=20260829 tabs=7 blocks=22 rows=44 href=0
-08-29 15:42:41  SYNC  status    {"販売期間外": 25, "販売中": 19}
-08-29 15:42:53  SYNC  light     3日 132件  予定記録 132 件
-08-29 15:43:09  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:43:10  CAP   slot1     08-29 16:00 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=17m occ=87%
-08-29 15:43:27  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:43:28  CAP   slot1     08-29 16:00 tohoumeda/s06 ラスト・サバイバー lead=16m occ=76%
-08-29 15:43:45  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:43:45  CAP   slot1     08-29 16:00 tohoumeda/s07 トイ・ストーリー５ lead=16m occ=93%
-08-29 15:44:03  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:44:03  CAP   slot0     08-29 17:25 tohoumeda/s04 オークストリートの異変 lead=101m occ=41%
-08-29 15:44:20  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:44:21  CAP   slot0     08-29 17:25 tohoumeda/s08 キングダム 魂の決戦 lead=101m occ=68%
-08-29 15:44:37  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:44:38  CAP   slot0     08-29 17:35 tohoumeda/s03 映画ちいかわ 人魚の島のひみ lead=110m occ=57%
-08-29 15:44:55  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:44:56  CAP   slot0     08-29 17:40 tohoumeda/s05 ブルーロック lead=115m occ=87%   ⚠ 座席数 101 ≠ 公称 98（判定不能 9 件）
-08-29 15:45:13  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:45:13  CAP   slot0     08-29 18:00 tohoumeda/s01 Ｍｉｃｈａｅｌ／マイケル lead=135m occ=45%
-08-29 15:45:31  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:45:31  CAP   slot0     08-29 18:25 tohoumeda/s07 ラスト・サバイバー lead=160m occ=16%
-08-29 15:45:49  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:45:49  CAP   slot0     08-29 18:30 tohoumeda/s02 劇場版 魔法少女まどか☆マギ lead=164m occ=57%
-08-29 15:46:07  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:46:07  CAP   slot0     08-29 18:40 tohoumeda/s06 時には懺悔を lead=174m occ=15%
-08-29 15:46:24  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:46:25  CAP   slot0     08-29 19:45 tohoumeda/s04 スパイダーマン：ブランド・ニ lead=239m occ=77%
-08-29 15:46:42  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:46:43  CAP   slot0     08-29 20:00 tohoumeda/s03 ハリー・ポッターと賢者の石 lead=253m occ=44%
-08-29 15:47:00  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:47:00  CAP   slot0     08-29 20:20 tohoumeda/s08 シェルター lead=273m occ=14%
-08-29 15:47:18  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:47:18  CAP   slot0     08-29 20:30 tohoumeda/s05 時には懺悔を lead=283m occ=10%   ⚠ 座席数 101 ≠ 公称 98（判定不能 9 件）
-08-29 15:47:36  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:47:37  CAP   slot0     08-29 21:00 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=312m occ=43%
-08-29 15:47:54  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:47:55  CAP   slot0     08-29 21:05 tohoumeda/s07 ドラマなふたり lead=317m occ=33%
-08-29 15:48:12  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:48:13  CAP   slot0     08-29 21:20 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=332m occ=15%
-08-29 15:48:29  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:48:30  CAP   slot0     08-29 21:25 tohoumeda/s06 モアナと伝説の海 lead=336m occ=17%
-08-29 15:48:46  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:48:47  CAP   slot0     08-30 08:15 tohoumeda/s08 八月の声を運ぶ男 lead=986m occ=3%
-08-29 15:49:03  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:49:04  CAP   slot0     08-30 08:25 tohoumeda/s06 パウっと！ファミリーシアター lead=996m occ=11%
-08-29 15:49:21  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:49:22  CAP   slot0     08-30 08:30 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=1001m occ=14%
-08-29 15:49:40  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:49:40  CAP   slot0     08-30 08:35 tohoumeda/s07 シェルター lead=1005m occ=16%
-08-29 15:49:58  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:49:59  CAP   slot0     08-30 08:50 tohoumeda/s03 劇場版 魔法少女まどか☆マギ lead=1020m occ=19%
-08-29 15:50:14  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:50:15  CAP   slot0     08-30 08:50 tohoumeda/s05 オークストリートの異変 lead=1020m occ=12%   ⚠ 座席数 101 ≠ 公称 98（判定不能 9 件）
-08-29 15:50:32  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:50:33  CAP   slot0     08-30 09:10 tohoumeda/s01 ラスト・サバイバー lead=1039m occ=4%
-08-29 15:50:50  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:50:51  CAP   slot0     08-30 09:10 tohoumeda/s04 時には懺悔を lead=1039m occ=24%
-08-29 15:51:08  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:51:08  CAP   slot0     08-30 10:35 tohoumeda/s06 トイ・ストーリー５ lead=1124m occ=44%
-08-29 15:51:25  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:51:26  CAP   slot0     08-30 10:35 tohoumeda/s08 ハリー・ポッターと賢者の石 lead=1124m occ=94%
-08-29 15:51:45  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:51:46  CAP   slot0     08-30 11:00 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=1148m occ=39%
-08-29 15:52:03  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:52:04  CAP   slot0     08-30 11:00 tohoumeda/s07 ラスト・サバイバー lead=1148m occ=16%
-08-29 15:52:21  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:52:22  CAP   slot0     08-30 11:15 tohoumeda/s05 映画クレヨンしんちゃん 奇々 lead=1163m occ=40%   ⚠ 座席数 101 ≠ 公称 98（判定不能 9 件）
-08-29 15:52:38  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:52:39  CAP   slot0     08-30 11:35 tohoumeda/s03 劇場版 魔法少女まどか☆マギ lead=1182m occ=36%
-08-29 15:52:56  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:52:57  CAP   slot0     08-30 12:00 tohoumeda/s01 Ｍｉｃｈａｅｌ／マイケル lead=1207m occ=35%
-08-29 15:53:13  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:53:14  CAP   slot0     08-30 12:00 tohoumeda/s04 時には懺悔を lead=1207m occ=32%
-08-29 15:53:31  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:53:31  CAP   slot0     08-30 13:00 tohoumeda/s06 ミニオンズ＆モンスターズ lead=1266m occ=70%
-08-29 15:53:48  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:53:49  CAP   slot0     08-30 13:30 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=1296m occ=49%
-08-29 15:54:07  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:54:07  CAP   slot0     08-30 13:35 tohoumeda/s05 オークストリートの異変 lead=1301m occ=19%   ⚠ 座席数 101 ≠ 公称 98（判定不能 9 件）
-08-29 15:54:24  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:54:24  CAP   slot0     08-30 13:40 tohoumeda/s07 シェルター lead=1306m occ=43%
-08-29 15:54:41  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:54:42  CAP   slot0     08-30 14:00 tohoumeda/s08 スパイダーマン：ブランド・ニ lead=1325m occ=73%
-08-29 15:54:59  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:54:59  CAP   slot0     08-30 14:20 tohoumeda/s03 トイ・ストーリー５ lead=1345m occ=27%
-08-29 15:55:17  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:55:18  CAP   slot0     08-30 14:45 tohoumeda/s04 ラスト・サバイバー lead=1370m occ=33%
-08-29 15:55:35  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:55:36  CAP   slot0     08-30 15:00 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=1384m occ=41%
-08-29 15:55:54  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:55:55  CAP   slot0     08-30 15:10 tohoumeda/s06 時には懺悔を lead=1394m occ=36%
-08-29 15:56:12  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:56:13  CAP   slot0     08-30 15:55 tohoumeda/s05 ドラマなふたり lead=1439m occ=63%   ⚠ 座席数 101 ≠ 公称 98（判定不能 9 件）
-08-29 15:56:31  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:56:32  CAP   slot0     08-30 16:00 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=1444m occ=39%
-08-29 15:56:48  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:56:49  CAP   slot0     08-30 16:05 tohoumeda/s07 シェルター lead=1448m occ=17%
-08-29 15:57:07  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:57:07  CAP   slot0     08-30 17:00 tohoumeda/s03 Ｓｔｒａｙ Ｋｉｄｓ Ｗｏｒ lead=1503m occ=97%
-08-29 15:57:25  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:57:26  CAP   slot0     08-30 17:10 tohoumeda/s08 ハリー・ポッターと賢者の石 lead=1513m occ=64%
-08-29 15:57:43  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:57:44  CAP   slot0     08-30 17:25 tohoumeda/s04 時には懺悔を lead=1527m occ=5%
-08-29 15:58:01  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:58:02  CAP   slot0     08-30 17:50 tohoumeda/s01 キングダム 魂の決戦 lead=1552m occ=9%
-08-29 15:58:19  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:58:19  CAP   slot0     08-30 17:50 tohoumeda/s06 ブルーロック lead=1552m occ=45%
-08-29 15:58:35  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:58:36  CAP   slot0     08-30 18:20 tohoumeda/s05 モアナと伝説の海 lead=1581m occ=26%   ⚠ 座席数 101 ≠ 公称 98（判定不能 9 件）
-08-29 15:58:53  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:58:54  CAP   slot0     08-30 18:30 tohoumeda/s02 劇場版 魔法少女まどか☆マギ lead=1591m occ=12%
-08-29 15:59:12  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:59:12  CAP   slot0     08-30 18:30 tohoumeda/s07 ラスト・サバイバー lead=1591m occ=5%
-08-29 15:59:28  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:59:29  CAP   slot0     08-30 20:10 tohoumeda/s04 スパイダーマン：ブランド・ニ lead=1690m occ=15%
-08-29 15:59:46  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 15:59:47  CAP   slot0     08-30 20:35 tohoumeda/s08 キングダム 魂の決戦 lead=1715m occ=5%
-08-29 16:00:03  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:00:03  CAP   slot0     08-30 20:40 tohoumeda/s06 時には懺悔を lead=1720m occ=3%
-08-29 16:00:21  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:00:22  CAP   slot0     08-30 20:50 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=1730m occ=8%
-08-29 16:00:41  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:00:41  CAP   slot0     08-30 21:00 tohoumeda/s05 ミニオンズ＆モンスターズ lead=1739m occ=10%   ⚠ 座席数 101 ≠ 公称 98（判定不能 9 件）
-08-29 16:01:01  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:01:01  CAP   slot0     08-30 21:10 tohoumeda/s07 ドラマなふたり lead=1749m occ=4%
-08-29 16:01:19  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:01:20  CAP   slot0     08-30 21:15 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=1754m occ=3%
-08-29 16:01:36  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:01:37  CAP   slot0     08-30 21:30 tohoumeda/s03 シェルター lead=1768m occ=1%
-08-29 16:01:55  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:01:55  CAP   slot0     08-31 08:15 tohoumeda/s07 パウっと！ファミリーシアター lead=2413m occ=2%
-08-29 16:02:13  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:02:14  CAP   slot0     08-31 08:30 tohoumeda/s01 キングダム 魂の決戦 lead=2428m occ=1%
-08-29 16:02:31  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:02:32  CAP   slot0     08-31 08:35 tohoumeda/s04 時には懺悔を lead=2432m occ=6%
-08-29 16:02:50  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:02:50  CAP   slot0     08-31 08:35 tohoumeda/s08 映画クレヨンしんちゃん 奇々 lead=2432m occ=2%
-08-29 16:03:07  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:03:07  CAP   slot0     08-31 08:45 tohoumeda/s02 ミニオンズ＆モンスターズ lead=2442m occ=1%
-08-29 16:03:27  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:03:27  CAP   slot0     08-31 09:00 tohoumeda/s06 ラスト・サバイバー lead=2456m occ=5%
-08-29 16:03:44  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:03:45  CAP   slot0     08-31 09:10 tohoumeda/s03 劇場版 魔法少女まどか☆マギ lead=2466m occ=5%
-08-29 16:04:03  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:04:03  CAP   slot0     08-31 09:20 tohoumeda/s05 スパイダーマン：ブランド・ニ lead=2476m occ=12%   ⚠ 座席数 101 ≠ 公称 98（判定不能 9 件）
-08-29 16:04:24  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:04:24  CAP   slot0     08-31 10:25 tohoumeda/s07 トイ・ストーリー５ lead=2541m occ=5%
-08-29 16:04:43  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:04:43  CAP   slot0     08-31 10:50 tohoumeda/s08 シェルター lead=2565m occ=8%
-08-29 16:05:01  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:05:02  CAP   slot0     08-31 11:00 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=2575m occ=5%
-08-29 16:05:19  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:05:19  CAP   slot0     08-31 11:20 tohoumeda/s04 八月の声を運ぶ男 lead=2595m occ=3%
-08-29 16:05:38  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:05:39  CAP   slot0     08-31 11:30 tohoumeda/s01 ラスト・サバイバー lead=2604m occ=2%
-08-29 16:05:56  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:05:57  CAP   slot0     08-31 11:40 tohoumeda/s06 オークストリートの異変 lead=2614m occ=6%
-08-29 16:06:13  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:06:14  CAP   slot0     08-31 12:00 tohoumeda/s03 劇場版 魔法少女まどか☆マギ lead=2634m occ=6%
-08-29 16:06:31  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:06:32  CAP   slot0     08-31 12:30 tohoumeda/s05 時には懺悔を lead=2664m occ=14%   ⚠ 座席数 101 ≠ 公称 98（判定不能 9 件）
-08-29 16:06:50  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:06:51  CAP   slot0     08-31 12:50 tohoumeda/s07 ドラマなふたり lead=2683m occ=11%
-08-29 16:07:09  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:07:10  CAP   slot0     08-31 13:15 tohoumeda/s08 シェルター lead=2708m occ=8%
-08-29 16:07:28  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:07:29  CAP   slot0     08-31 13:30 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=2722m occ=7%
-08-29 16:07:46  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:07:46  CAP   slot0     08-31 13:40 tohoumeda/s04 ミニオンズ＆モンスターズ lead=2732m occ=9%
-08-29 16:08:04  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:08:05  CAP   slot0     08-31 14:00 tohoumeda/s06 ブルーロック lead=2752m occ=8%
-08-29 16:08:23  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:08:23  CAP   slot0     08-31 14:20 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=2772m occ=9%
-08-29 16:08:41  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:08:42  CAP   slot0     08-31 14:45 tohoumeda/s03 ハリー・ポッターと賢者の石 lead=2796m occ=14%
-08-29 16:08:59  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:09:00  CAP   slot0     08-31 15:15 tohoumeda/s05 トイ・ストーリー５ lead=2826m occ=12%   ⚠ 座席数 101 ≠ 公称 98（判定不能 9 件）
-08-29 16:09:18  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:09:19  CAP   slot0     08-31 15:15 tohoumeda/s07 ラスト・サバイバー lead=2826m occ=4%
-08-29 16:09:36  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:09:37  CAP   slot0     08-31 15:40 tohoumeda/s08 スパイダーマン：ブランド・ニ lead=2850m occ=8%
-08-29 16:09:54  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:09:54  CAP   slot0     08-31 15:50 tohoumeda/s04 時には懺悔を lead=2860m occ=7%
-08-29 16:10:12  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:10:13  CAP   slot0     08-31 16:10 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=2880m occ=4%
-08-29 16:10:30  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:10:30  CAP   slot0     08-31 16:50 tohoumeda/s06 キングダム 魂の決戦 lead=2920m occ=8%
-08-29 16:10:47  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:10:48  CAP   slot0     08-31 17:10 tohoumeda/s01 Ｍｉｃｈａｅｌ／マイケル lead=2939m occ=3%
-08-29 16:11:05  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:11:06  CAP   slot0     08-31 17:40 tohoumeda/s05 時には懺悔を lead=2969m occ=5%   ⚠ 座席数 101 ≠ 公称 98（判定不能 9 件）
-08-29 16:11:22  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:11:23  CAP   slot0     08-31 18:00 tohoumeda/s07 ラスト・サバイバー lead=2989m occ=2%
-08-29 16:11:40  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:11:41  CAP   slot0     08-31 18:15 tohoumeda/s03 映画ちいかわ 人魚の島のひみ lead=3003m occ=3%
-08-29 16:12:00  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:12:00  CAP   slot0     08-31 18:35 tohoumeda/s02 劇場版 魔法少女まどか☆マギ lead=3023m occ=5%
-08-29 16:12:17  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:12:18  CAP   slot0     08-31 18:35 tohoumeda/s04 モアナと伝説の海 lead=3023m occ=5%
-08-29 16:12:36  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:12:36  CAP   slot0     08-31 18:50 tohoumeda/s08 シェルター lead=3037m occ=3%
-08-29 16:12:53  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:12:54  CAP   slot0     08-31 19:50 tohoumeda/s06 スパイダーマン：ブランド・ニ lead=3097m occ=6%
-08-29 16:13:11  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:13:12  CAP   slot0     08-31 20:10 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=3117m occ=6%
-08-29 16:13:28  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:13:29  CAP   slot0     08-31 20:25 tohoumeda/s05 時には懺悔を lead=3132m occ=5%   ⚠ 座席数 101 ≠ 公称 98（判定不能 9 件）
-08-29 16:13:46  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:13:46  CAP   slot0     08-31 20:40 tohoumeda/s03 ハリー・ポッターと賢者の石 lead=3146m occ=2%
-08-29 16:14:04  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:14:05  CAP   slot0     08-31 20:40 tohoumeda/s07 ラスト・サバイバー lead=3146m occ=2%
-08-29 16:14:22  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:14:23  CAP   slot0     08-31 21:10 tohoumeda/s04 大長編 タローマン 万博大爆 lead=3176m occ=3%
-08-29 16:14:39  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:14:40  CAP   slot0     08-31 21:15 tohoumeda/s08 シェルター lead=3180m occ=2%
-08-29 16:14:57  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 16:14:58  CAP   slot0     08-31 21:20 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=3185m occ=3%
-08-29 16:15:02  MISS  25        08-29 08:15 08-29 08:20 08-29 08:25 08-29 08:25 08-29 08:40 08-29 08:50 08-29 09:00 08-29 09:30
-08-29 16:15:02  CAP   sweep     対象 107 / 成功 107 / 失敗 0 / 1929s
-08-29 17:24:20  RUN   start     gap=1h41m   ← 前回から大きく空いた
-08-29 17:24:37  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 17:24:38  CAP   final     08-29 17:25 tohoumeda/s04 オークストリートの異変 lead=0m occ=63%
-08-29 17:24:54  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 17:24:55  CAP   final     08-29 17:25 tohoumeda/s08 キングダム 魂の決戦 lead=0m occ=81%
-08-29 17:25:13  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 17:25:13  CAP   slot1     08-29 17:35 tohoumeda/s03 映画ちいかわ 人魚の島のひみ lead=10m occ=76%
-08-29 17:25:30  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 17:25:31  CAP   slot1     08-29 17:40 tohoumeda/s05 ブルーロック lead=14m occ=96%   ⚠ 座席数 101 ≠ 公称 98（判定不能 9 件）
-08-29 17:25:36  CAP   done      対象 4 / 成功 4 / 失敗 0 / 75s
-08-29 17:25:36  INDEX poster    T・ジョイ側から 8 作品ぶん借用
-08-29 17:28:30  RUN   start     gap=4m
-08-29 17:28:47  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 17:28:48  CAP   final     08-29 17:35 tohoumeda/s03 映画ちいかわ 人魚の島のひみ lead=6m occ=76%
-08-29 17:29:05  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 17:29:06  CAP   slot1     08-29 18:00 tohoumeda/s01 Ｍｉｃｈａｅｌ／マイケル lead=31m occ=52%
-08-29 17:29:10  INDEX poster    T・ジョイ側から 8 作品ぶん借用
-08-29 17:29:10  CAP   done      対象 2 / 成功 2 / 失敗 0 / 40s
-08-29 17:29:10  INDEX poster    T・ジョイ側から 8 作品ぶん借用
-08-29 17:29:10  INDEX poster    T・ジョイ側から 8 作品ぶん借用
-08-29 17:33:11  RUN   start     gap=5m
-08-29 17:33:30  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 17:33:31  CAP   final     08-29 17:40 tohoumeda/s05 ブルーロック lead=6m occ=96%   ⚠ 座席数 101 ≠ 公称 98（判定不能 9 件）
-08-29 17:33:34  INDEX poster    T・ジョイ側から 8 作品ぶん借用
-08-29 17:33:34  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
-08-29 17:33:35  INDEX poster    T・ジョイ側から 8 作品ぶん借用
-08-29 17:33:35  INDEX poster    T・ジョイ側から 8 作品ぶん借用
-08-29 17:38:19  INDEX poster    T・ジョイ側から 8 作品ぶん借用
-08-29 17:38:19  INDEX poster    T・ジョイ側から 8 作品ぶん借用
-08-29 17:48:45  INDEX poster    T・ジョイ側から 8 作品ぶん借用
-08-29 17:48:45  INDEX poster    T・ジョイ側から 8 作品ぶん借用
-08-29 17:53:40  RUN   start     gap=20m
-08-29 17:53:57  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 17:53:58  CAP   final     08-29 18:00 tohoumeda/s01 Ｍｉｃｈａｅｌ／マイケル lead=6m occ=54%
-08-29 17:54:14  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 17:54:14  CAP   slot1     08-29 18:25 tohoumeda/s07 ラスト・サバイバー lead=31m occ=31%
-08-29 17:54:19  INDEX poster    T・ジョイ側から 8 作品ぶん借用
-08-29 17:54:19  CAP   done      対象 2 / 成功 2 / 失敗 0 / 39s
-08-29 17:54:19  INDEX poster    T・ジョイ側から 8 作品ぶん借用
-08-29 17:54:20  INDEX poster    T・ジョイ側から 8 作品ぶん借用
-08-29 17:58:20  RUN   start     gap=5m
-08-29 17:58:36  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 17:58:37  CAP   slot1     08-29 18:30 tohoumeda/s02 劇場版 魔法少女まどか☆マギ lead=31m occ=64%
-08-29 17:58:42  INDEX poster    T・ジョイ側から 8 作品ぶん借用
-08-29 17:58:42  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
-08-29 17:58:42  INDEX poster    T・ジョイ側から 8 作品ぶん借用
-08-29 17:58:43  INDEX poster    T・ジョイ側から 8 作品ぶん借用
-08-29 18:08:17  RUN   start     gap=10m
-08-29 18:08:35  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 18:08:35  CAP   slot1     08-29 18:40 tohoumeda/s06 時には懺悔を lead=31m occ=28%
-08-29 18:08:40  INDEX poster    T・ジョイ側から 8 作品ぶん借用
-08-29 18:08:40  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
-08-29 18:08:41  INDEX poster    T・ジョイ側から 8 作品ぶん借用
-08-29 18:08:41  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 18:09:19  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 18:09:19  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 18:13:43  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 18:13:43  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 18:18:27  RUN   start     gap=10m
-08-29 18:18:43  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 18:18:44  CAP   final     08-29 18:25 tohoumeda/s07 ラスト・サバイバー lead=6m occ=38%
-08-29 18:18:47  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 18:18:47  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
-08-29 18:18:47  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 18:18:48  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 18:23:18  RUN   start     gap=5m
-08-29 18:23:35  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 18:23:35  CAP   final     08-29 18:30 tohoumeda/s02 劇場版 魔法少女まどか☆マギ lead=6m occ=68%
-08-29 18:23:38  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 18:23:38  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
-08-29 18:23:39  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 18:23:39  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 18:28:22  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 18:28:22  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 18:33:22  RUN   start     gap=10m
-08-29 18:33:39  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 18:33:39  CAP   final     08-29 18:40 tohoumeda/s06 時には懺悔を lead=6m occ=32%
-08-29 18:33:44  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 18:33:44  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
-08-29 18:33:44  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 18:33:45  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 18:43:28  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 18:43:28  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 18:53:41  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 18:53:42  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 19:13:12  RUN   start     gap=40m
-08-29 19:13:29  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 19:13:30  CAP   slot1     08-29 19:45 tohoumeda/s04 スパイダーマン：ブランド・ニ lead=32m occ=93%
-08-29 19:13:34  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 19:13:34  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
-08-29 19:13:34  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 19:13:35  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 19:18:28  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 19:18:28  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 19:28:28  RUN   start     gap=15m
-08-29 19:28:45  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 19:28:46  CAP   slot1     08-29 20:00 tohoumeda/s03 ハリー・ポッターと賢者の石 lead=31m occ=50%
-08-29 19:28:49  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 19:28:49  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
-08-29 19:28:49  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 19:28:50  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 19:38:20  RUN   start     gap=10m
-08-29 19:38:37  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 19:38:38  CAP   final     08-29 19:45 tohoumeda/s04 スパイダーマン：ブランド・ニ lead=6m occ=95%
-08-29 19:38:42  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 19:38:42  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
-08-29 19:38:43  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 19:38:43  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 19:43:44  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 19:43:45  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 19:48:15  RUN   start     gap=10m
-08-29 19:48:31  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 19:48:32  CAP   slot1     08-29 20:20 tohoumeda/s08 シェルター lead=32m occ=22%
-08-29 19:48:36  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 19:48:36  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
-08-29 19:48:37  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 19:48:37  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 19:53:07  RUN   start     gap=5m
-08-29 19:53:24  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 19:53:25  CAP   final     08-29 20:00 tohoumeda/s03 ハリー・ポッターと賢者の石 lead=7m occ=51%
-08-29 19:53:28  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 19:53:28  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
-08-29 19:53:28  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 19:53:28  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 19:58:29  RUN   start     gap=5m
-08-29 19:58:45  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 19:58:46  CAP   slot1     08-29 20:30 tohoumeda/s05 時には懺悔を lead=31m occ=18%   ⚠ 座席数 101 ≠ 公称 98（判定不能 9 件）
-08-29 19:58:51  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 19:58:51  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
-08-29 19:58:51  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 19:58:51  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:08:42  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:08:42  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:13:25  RUN   start     gap=15m
-08-29 20:13:41  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 20:13:42  CAP   final     08-29 20:20 tohoumeda/s08 シェルター lead=6m occ=25%
-08-29 20:13:45  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:13:46  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
-08-29 20:13:46  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:13:46  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:23:29  RUN   start     gap=10m
-08-29 20:23:46  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 20:23:47  CAP   final     08-29 20:30 tohoumeda/s05 時には懺悔を lead=6m occ=22%   ⚠ 座席数 101 ≠ 公称 98（判定不能 9 件）
-08-29 20:23:50  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:23:50  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
-08-29 20:23:50  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:23:51  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:28:21  RUN   start     gap=5m
-08-29 20:28:38  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 20:28:39  CAP   slot1     08-29 21:00 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=31m occ=52%
-08-29 20:28:44  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:28:44  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
-08-29 20:28:44  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:28:44  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:33:36  RUN   start     gap=5m
-08-29 20:33:53  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 20:33:54  CAP   slot1     08-29 21:05 tohoumeda/s07 ドラマなふたり lead=31m occ=57%
-08-29 20:33:58  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:33:58  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
-08-29 20:33:58  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:33:58  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:38:41  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:38:41  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:43:26  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:43:26  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:48:40  RUN   start     gap=15m
-08-29 20:48:56  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 20:48:57  CAP   slot1     08-29 21:20 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=31m occ=25%
-08-29 20:49:01  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:49:01  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
-08-29 20:49:01  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:49:01  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:53:02  RUN   start     gap=4m
-08-29 20:53:18  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 20:53:19  CAP   final     08-29 21:00 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=7m occ=54%
-08-29 20:53:36  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 20:53:36  CAP   slot1     08-29 21:25 tohoumeda/s06 モアナと伝説の海 lead=31m occ=33%
-08-29 20:53:41  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:53:41  CAP   done      対象 2 / 成功 2 / 失敗 0 / 39s
-08-29 20:53:41  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:53:41  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:58:25  RUN   start     gap=5m
-08-29 20:58:42  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 20:58:42  CAP   final     08-29 21:05 tohoumeda/s07 ドラマなふたり lead=6m occ=61%
-08-29 20:58:46  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:58:46  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
-08-29 20:58:46  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 20:58:46  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 21:08:58  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 21:08:58  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 21:13:28  RUN   start     gap=15m
-08-29 21:13:46  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 21:13:46  CAP   final     08-29 21:20 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=6m occ=30%
-08-29 21:13:51  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 21:13:51  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
-08-29 21:13:51  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 21:13:51  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 21:18:22  RUN   start     gap=5m
-08-29 21:18:39  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-29 21:18:39  CAP   final     08-29 21:25 tohoumeda/s06 モアナと伝説の海 lead=6m occ=35%
-08-29 21:18:43  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 21:18:43  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
-08-29 21:18:43  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 21:18:44  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 21:24:50  INDEX poster    T・ジョイ側から 10 作品ぶん借用
-08-29 21:24:50  INDEX poster    T・ジョイ側から 11 作品ぶん借用
-08-29 21:57:13  INDEX poster    T・ジョイ側から 11 作品ぶん借用
-08-29 21:57:14  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-29 22:35:43  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-29 22:35:43  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-29 22:44:12  RETAG 2026-08   18 件
-08-29 22:44:12  RETAG schedule  16 件
-08-29 22:44:12  RETAG done      18 件 / 1 ファイル
-08-29 22:44:12  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 01:59:55  RUN   start     gap=4h41m   ← 前回から大きく空いた
-08-30 01:59:59  SYNC  probe     tohoumeda date=20260829 tabs=7 blocks=22 rows=44 href=0
-08-30 01:59:59  SYNC  status    {"販売期間外": 44}
-08-30 02:00:12  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 02:00:12  SYNC  light     2日 88件  予定記録 0 件
-08-30 02:00:12  CAP   idle      対象なし
-08-30 02:00:12  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 02:00:12  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 02:29:14  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 02:29:14  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 02:29:47  RUN   start     gap=30m
-08-30 02:29:50  SYNC  probe     tohoumeda date=20260829 tabs=7 blocks=22 rows=44 href=0
-08-30 02:29:50  SYNC  status    {"販売期間外": 44}
-08-30 02:30:04  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 02:30:04  SYNC  light     2日 88件  予定記録 0 件
-08-30 02:30:04  CAP   idle      対象なし
-08-30 02:30:05  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 02:30:05  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 10:43:37  RUN   start     gap=8h13m   ← 前回から大きく空いた
-08-30 10:43:54  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-30 10:43:54  CAP   slot1     08-30 11:00 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=16m occ=75%
-08-30 10:44:12  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-30 10:44:13  CAP   slot1     08-30 11:00 tohoumeda/s07 ラスト・サバイバー lead=16m occ=35%
-08-30 10:44:29  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-30 10:44:29  CAP   slot1     08-30 11:15 tohoumeda/s05 映画クレヨンしんちゃん 奇々 lead=31m occ=87%   ⚠ 座席数 101 ≠ 公称 98（判定不能 9 件）
-08-30 10:44:34  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 10:44:34  CAP   done      対象 3 / 成功 3 / 失敗 0 / 57s
-08-30 10:44:34  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 10:44:35  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 10:53:24  RUN   start     gap=10m
-08-30 10:53:40  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-30 10:53:41  CAP   final     08-30 11:00 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=6m occ=75%
-08-30 10:53:59  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-30 10:54:00  CAP   final     08-30 11:00 tohoumeda/s07 ラスト・サバイバー lead=6m occ=40%
-08-30 10:54:04  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 10:54:04  CAP   done      対象 2 / 成功 2 / 失敗 0 / 40s
-08-30 10:54:04  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 10:54:05  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 10:58:27  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 10:58:27  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 11:03:41  RUN   start     gap=10m
-08-30 11:04:02  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-30 11:04:03  CAP   slot1     08-30 11:35 tohoumeda/s03 劇場版 魔法少女まどか☆マギ lead=31m occ=52%
-08-30 11:04:06  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 11:04:06  CAP   done      対象 1 / 成功 1 / 失敗 0 / 25s
-08-30 11:04:07  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 11:04:07  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 11:08:30  RUN   start     gap=5m
-08-30 11:08:46  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-30 11:08:47  CAP   final     08-30 11:15 tohoumeda/s05 映画クレヨンしんちゃん 奇々 lead=6m occ=91%   ⚠ 座席数 101 ≠ 公称 98（判定不能 9 件）
-08-30 11:08:51  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 11:08:51  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
-08-30 11:08:51  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 11:08:51  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 11:23:35  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 11:23:35  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 11:28:06  RUN   start     gap=20m
-08-30 11:28:23  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-30 11:28:24  CAP   final     08-30 11:35 tohoumeda/s03 劇場版 魔法少女まどか☆マギ lead=7m occ=54%
-08-30 11:28:41  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-30 11:28:42  CAP   slot1     08-30 12:00 tohoumeda/s01 Ｍｉｃｈａｅｌ／マイケル lead=32m occ=62%
-08-30 11:29:00  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-30 11:29:00  CAP   slot1     08-30 12:00 tohoumeda/s04 時には懺悔を lead=31m occ=74%
-08-30 11:29:05  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 11:29:05  CAP   done      対象 3 / 成功 3 / 失敗 0 / 59s
-08-30 11:29:05  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 11:29:06  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 11:33:27  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 11:33:27  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 11:53:27  RUN   start     gap=25m
-08-30 11:53:44  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-30 11:53:44  CAP   final     08-30 12:00 tohoumeda/s01 Ｍｉｃｈａｅｌ／マイケル lead=6m occ=67%
-08-30 11:54:01  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-30 11:54:01  CAP   final     08-30 12:00 tohoumeda/s04 時には懺悔を lead=6m occ=80%
-08-30 11:54:06  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 11:54:06  CAP   done      対象 2 / 成功 2 / 失敗 0 / 38s
-08-30 11:54:06  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 11:54:06  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 12:28:11  RUN   start     gap=35m
-08-30 12:28:28  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-30 12:28:28  CAP   slot1     08-30 13:00 tohoumeda/s06 ミニオンズ＆モンスターズ lead=32m occ=100%
-08-30 12:28:32  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 12:28:32  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
-08-30 12:28:32  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 12:28:32  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 12:33:16  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 12:33:16  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 12:53:25  RUN   start     gap=25m
-08-30 12:53:46  CAP   final     08-30 13:00 tohoumeda/s06 ミニオンズ＆モンスターズ lead=6m occ=?   ⚠ 座席が 0 件
-08-30 12:53:51  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 12:53:51  CAP   done      対象 1 / 成功 1 / 失敗 0 / 26s
-08-30 12:53:51  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 12:53:52  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 12:58:46  RUN   start     gap=5m
-08-30 12:59:03  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-30 12:59:04  CAP   slot1     08-30 13:30 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=31m occ=89%
-08-30 12:59:09  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 12:59:09  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
-08-30 12:59:09  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 12:59:10  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 13:03:24  RUN   start     gap=5m
-08-30 13:03:40  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-30 13:03:41  CAP   slot1     08-30 13:35 tohoumeda/s05 オークストリートの異変 lead=32m occ=65%   ⚠ 座席数 101 ≠ 公称 98（判定不能 9 件）
-08-30 13:03:44  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 13:03:44  CAP   done      対象 1 / 成功 1 / 失敗 0 / 20s
-08-30 13:03:44  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 13:03:45  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 13:08:15  RUN   start     gap=5m
-08-30 13:08:31  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-30 13:08:32  CAP   slot1     08-30 13:40 tohoumeda/s07 シェルター lead=32m occ=79%
-08-30 13:08:35  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 13:08:35  CAP   done      対象 1 / 成功 1 / 失敗 0 / 20s
-08-30 13:08:35  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 13:08:36  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 13:13:20  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 13:13:20  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 13:18:33  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 13:18:33  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 13:23:16  RUN   start     gap=15m
-08-30 13:23:32  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-30 13:23:33  CAP   final     08-30 13:30 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=7m occ=93%
-08-30 13:23:38  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 13:23:38  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
-08-30 13:23:38  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 13:23:38  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 13:28:23  RUN   start     gap=5m
-08-30 13:28:39  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-30 13:28:40  CAP   final     08-30 13:35 tohoumeda/s05 オークストリートの異変 lead=6m occ=72%   ⚠ 座席数 101 ≠ 公称 98（判定不能 9 件）
-08-30 13:29:02  CAP   slot1     08-30 14:00 tohoumeda/s08 スパイダーマン：ブランド・ニ lead=31m occ=?   ⚠ 座席が 0 件
-08-30 13:29:06  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 13:29:06  CAP   done      対象 2 / 成功 2 / 失敗 0 / 43s
-08-30 13:29:06  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 13:29:07  INDEX poster    T・ジョイ側から 12 作品ぶん借用
-08-30 13:33:07  RUN   start     gap=5m
-08-30 13:33:24  CAP   advance   ログインせずに進む → TNPI2010J01.do
-08-30 13:33:24  CAP   final     08-30 13:40 tohoumeda/s07 シェルター lead=7m occ=84%
 08-30 13:33:28  INDEX poster    T・ジョイ側から 12 作品ぶん借用
 08-30 13:33:28  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
 08-30 13:33:29  INDEX poster    T・ジョイ側から 12 作品ぶん借用
@@ -1228,3 +627,2519 @@
 08-31 02:50:18  CAP   sweep     対象 88 / 成功 88 / 失敗 0 / 1589s
 08-31 02:50:19  INDEX poster    T・ジョイ側から 12 作品ぶん借用
 08-31 02:50:19  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 12:37:14  RUN   start     gap=10h13m   ← 前回から大きく空いた
+08-31 12:37:31  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 12:37:32  CAP   slot1     08-31 12:50 tohoumeda/s07 ドラマなふたり lead=13m occ=54%
+08-31 12:37:37  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 12:37:37  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+08-31 12:37:37  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 12:37:37  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 12:43:08  RUN   start     gap=6m
+08-31 12:43:31  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 12:43:31  CAP   final     08-31 12:50 tohoumeda/s07 ドラマなふたり lead=7m occ=57%
+08-31 12:43:48  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 12:43:49  CAP   slot1     08-31 13:15 tohoumeda/s08 シェルター lead=31m occ=30%
+08-31 12:43:52  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 12:43:52  CAP   done      対象 2 / 成功 2 / 失敗 0 / 44s
+08-31 12:43:53  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 12:43:53  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 12:53:28  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 12:53:29  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 12:58:23  RUN   start     gap=15m
+08-31 12:58:40  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 12:58:41  CAP   slot1     08-31 13:30 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=32m occ=31%
+08-31 12:58:45  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 12:58:45  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+08-31 12:58:45  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 12:58:46  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:03:30  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:03:30  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:08:00  RUN   start     gap=10m
+08-31 13:08:17  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 13:08:17  CAP   final     08-31 13:15 tohoumeda/s08 シェルター lead=7m occ=37%
+08-31 13:08:34  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 13:08:35  CAP   slot1     08-31 13:40 tohoumeda/s04 ミニオンズ＆モンスターズ lead=32m occ=51%
+08-31 13:08:38  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:08:38  CAP   done      対象 2 / 成功 2 / 失敗 0 / 38s
+08-31 13:08:38  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:08:38  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:13:23  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:13:23  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:18:37  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:18:37  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:23:21  RUN   start     gap=15m
+08-31 13:23:37  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 13:23:38  CAP   final     08-31 13:30 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=7m occ=35%
+08-31 13:23:43  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:23:43  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+08-31 13:23:43  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:23:43  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:28:26  RUN   start     gap=5m
+08-31 13:28:43  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 13:28:44  CAP   slot1     08-31 14:00 tohoumeda/s06 ブルーロック lead=32m occ=71%
+08-31 13:28:48  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:28:48  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+08-31 13:28:49  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:28:49  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:33:19  RUN   start     gap=5m
+08-31 13:33:36  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 13:33:37  CAP   final     08-31 13:40 tohoumeda/s04 ミニオンズ＆モンスターズ lead=7m occ=57%
+08-31 13:33:41  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:33:41  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+08-31 13:33:42  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:33:42  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:38:26  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:38:26  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:43:39  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:43:39  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:48:10  RUN   start     gap=15m
+08-31 13:48:27  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 13:48:28  CAP   slot1     08-31 14:20 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=32m occ=26%
+08-31 13:48:33  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:48:33  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+08-31 13:48:33  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:48:33  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:53:03  RUN   start     gap=5m
+08-31 13:53:20  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 13:53:21  CAP   final     08-31 14:00 tohoumeda/s06 ブルーロック lead=7m occ=90%
+08-31 13:53:26  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:53:26  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+08-31 13:53:26  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 13:53:26  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 14:03:41  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 14:03:41  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 14:13:12  RUN   start     gap=20m
+08-31 14:13:30  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 14:13:31  CAP   final     08-31 14:20 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=7m occ=27%
+08-31 14:13:49  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 14:13:49  CAP   slot1     08-31 14:45 tohoumeda/s03 ハリー・ポッターと賢者の石 lead=31m occ=40%
+08-31 14:13:54  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 14:13:54  CAP   done      対象 2 / 成功 2 / 失敗 0 / 43s
+08-31 14:13:55  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 14:13:55  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 14:18:39  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 14:18:39  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 14:28:24  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 14:28:24  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 14:38:24  RUN   start     gap=25m
+08-31 14:38:41  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 14:38:42  CAP   final     08-31 14:45 tohoumeda/s03 ハリー・ポッターと賢者の石 lead=6m occ=42%
+08-31 14:38:46  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 14:38:46  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+08-31 14:38:46  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 14:38:46  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 14:43:30  RUN   start     gap=5m
+08-31 14:43:47  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 14:43:48  CAP   slot1     08-31 15:15 tohoumeda/s05 トイ・ストーリー５ lead=31m occ=70%
+08-31 14:44:06  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 14:44:06  CAP   slot1     08-31 15:15 tohoumeda/s07 ラスト・サバイバー lead=31m occ=28%
+08-31 14:44:10  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 14:44:10  CAP   done      対象 2 / 成功 2 / 失敗 0 / 40s
+08-31 14:44:11  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 14:44:11  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 15:08:12  RUN   start     gap=25m
+08-31 15:08:32  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 15:08:33  CAP   final     08-31 15:15 tohoumeda/s05 トイ・ストーリー５ lead=7m occ=88%
+08-31 15:08:51  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 15:08:52  CAP   final     08-31 15:15 tohoumeda/s07 ラスト・サバイバー lead=6m occ=38%
+08-31 15:09:09  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 15:09:09  CAP   slot1     08-31 15:40 tohoumeda/s08 スパイダーマン：ブランド・ニ lead=31m occ=90%
+08-31 15:09:14  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 15:09:14  CAP   done      対象 3 / 成功 3 / 失敗 0 / 62s
+08-31 15:09:14  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 15:09:14  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 15:18:15  RUN   start     gap=10m
+08-31 15:18:33  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 15:18:34  CAP   slot1     08-31 15:50 tohoumeda/s04 時には懺悔を lead=32m occ=28%
+08-31 15:18:37  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 15:18:37  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+08-31 15:18:38  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 15:18:38  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 15:23:23  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 15:23:23  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 15:28:45  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 15:28:45  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 15:33:16  RUN   start     gap=15m
+08-31 15:33:33  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 15:33:33  CAP   final     08-31 15:40 tohoumeda/s08 スパイダーマン：ブランド・ニ lead=7m occ=94%
+08-31 15:33:37  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 15:33:37  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
+08-31 15:33:37  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 15:33:38  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 15:38:21  RUN   start     gap=5m
+08-31 15:38:38  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 15:38:39  CAP   slot1     08-31 16:10 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=32m occ=37%
+08-31 15:38:44  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 15:38:44  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+08-31 15:38:44  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 15:38:44  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 15:43:14  RUN   start     gap=5m
+08-31 15:43:31  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 15:43:32  CAP   final     08-31 15:50 tohoumeda/s04 時には懺悔を lead=7m occ=35%
+08-31 15:43:36  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 15:43:36  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+08-31 15:43:36  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 15:43:37  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 15:48:21  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 15:48:21  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 15:53:42  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 15:53:42  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 16:03:25  RUN   start     gap=20m
+08-31 16:03:42  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 16:03:43  CAP   final     08-31 16:10 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=6m occ=46%
+08-31 16:03:46  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 16:03:46  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
+08-31 16:03:47  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 16:03:47  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 16:18:17  RUN   start     gap=15m
+08-31 16:18:34  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 16:18:35  CAP   slot1     08-31 16:50 tohoumeda/s06 キングダム 魂の決戦 lead=32m occ=30%
+08-31 16:18:38  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 16:18:38  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
+08-31 16:18:38  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 16:18:39  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 16:38:22  RUN   start     gap=20m
+08-31 16:38:40  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 16:38:41  CAP   slot1     08-31 17:10 tohoumeda/s01 Ｍｉｃｈａｅｌ／マイケル lead=32m occ=12%
+08-31 16:38:46  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 16:38:46  CAP   done      対象 1 / 成功 1 / 失敗 0 / 24s
+08-31 16:38:46  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 16:38:47  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 16:43:30  RUN   start     gap=5m
+08-31 16:43:47  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 16:43:48  CAP   final     08-31 16:50 tohoumeda/s06 キングダム 魂の決戦 lead=6m occ=50%
+08-31 16:43:52  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 16:43:52  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+08-31 16:43:52  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 16:43:52  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 17:03:37  RUN   start     gap=20m
+08-31 17:03:54  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 17:03:55  CAP   final     08-31 17:10 tohoumeda/s01 Ｍｉｃｈａｅｌ／マイケル lead=6m occ=16%
+08-31 17:03:59  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 17:03:59  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+08-31 17:04:00  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 17:04:00  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 17:08:14  RUN   start     gap=5m
+08-31 17:08:31  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 17:08:32  CAP   slot1     08-31 17:40 tohoumeda/s05 時には懺悔を lead=32m occ=14%
+08-31 17:08:37  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 17:08:37  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+08-31 17:08:38  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 17:08:38  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 17:13:21  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 17:13:21  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 17:28:34  RUN   start     gap=20m
+08-31 17:28:51  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 17:28:52  CAP   slot1     08-31 18:00 tohoumeda/s07 ラスト・サバイバー lead=31m occ=6%
+08-31 17:28:56  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 17:28:56  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+08-31 17:28:56  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 17:28:57  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 17:33:27  RUN   start     gap=5m
+08-31 17:33:44  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 17:33:44  CAP   final     08-31 17:40 tohoumeda/s05 時には懺悔を lead=6m occ=22%
+08-31 17:33:49  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 17:33:49  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+08-31 17:33:50  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 17:33:50  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 17:38:34  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 17:38:35  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 17:43:05  RUN   start     gap=10m
+08-31 17:43:22  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 17:43:22  CAP   slot1     08-31 18:15 tohoumeda/s03 映画ちいかわ 人魚の島のひみ lead=32m occ=23%
+08-31 17:43:26  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 17:43:26  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
+08-31 17:43:26  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 17:43:26  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 17:48:40  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 17:48:40  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 17:53:23  RUN   start     gap=10m
+08-31 17:53:39  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 17:53:40  CAP   final     08-31 18:00 tohoumeda/s07 ラスト・サバイバー lead=7m occ=16%
+08-31 17:53:45  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 17:53:45  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+08-31 17:53:45  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 17:53:46  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 18:03:16  RUN   start     gap=10m
+08-31 18:03:34  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 18:03:35  CAP   slot1     08-31 18:35 tohoumeda/s02 劇場版 魔法少女まどか☆マギ lead=32m occ=22%
+08-31 18:03:51  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 18:03:52  CAP   slot1     08-31 18:35 tohoumeda/s04 モアナと伝説の海 lead=31m occ=53%
+08-31 18:03:56  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 18:03:56  CAP   done      対象 2 / 成功 2 / 失敗 0 / 40s
+08-31 18:03:57  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 18:03:57  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 18:08:27  RUN   start     gap=5m
+08-31 18:08:45  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 18:08:46  CAP   final     08-31 18:15 tohoumeda/s03 映画ちいかわ 人魚の島のひみ lead=6m occ=30%
+08-31 18:08:49  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 18:08:49  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+08-31 18:08:50  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 18:08:50  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 18:13:43  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 18:13:43  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 18:18:27  RUN   start     gap=10m
+08-31 18:18:45  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 18:18:46  CAP   slot1     08-31 18:50 tohoumeda/s08 シェルター lead=32m occ=15%
+08-31 18:18:50  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 18:18:50  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+08-31 18:18:50  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 18:18:51  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 18:28:34  RUN   start     gap=10m
+08-31 18:28:52  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 18:28:52  CAP   final     08-31 18:35 tohoumeda/s02 劇場版 魔法少女まどか☆マギ lead=6m occ=27%
+08-31 18:29:11  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 18:29:12  CAP   final     08-31 18:35 tohoumeda/s04 モアナと伝説の海 lead=6m occ=60%
+08-31 18:29:15  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 18:29:15  CAP   done      対象 2 / 成功 2 / 失敗 0 / 41s
+08-31 18:29:15  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 18:29:15  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 18:38:29  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 18:38:29  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 18:43:16  RUN   start     gap=15m
+08-31 18:43:34  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 18:43:35  CAP   final     08-31 18:50 tohoumeda/s08 シェルター lead=7m occ=23%
+08-31 18:43:40  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 18:43:40  CAP   done      対象 1 / 成功 1 / 失敗 0 / 24s
+08-31 18:43:41  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 18:43:41  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 18:53:38  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 18:53:38  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 19:18:31  RUN   start     gap=35m
+08-31 19:18:48  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 19:18:48  CAP   slot1     08-31 19:50 tohoumeda/s06 スパイダーマン：ブランド・ニ lead=31m occ=60%
+08-31 19:18:53  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 19:18:53  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+08-31 19:18:53  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 19:18:54  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 19:38:24  RUN   start     gap=20m
+08-31 19:38:42  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 19:38:42  CAP   slot1     08-31 20:10 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=32m occ=21%
+08-31 19:38:47  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 19:38:47  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+08-31 19:38:47  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 19:38:47  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 19:43:39  RUN   start     gap=5m
+08-31 19:43:57  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 19:43:57  CAP   final     08-31 19:50 tohoumeda/s06 スパイダーマン：ブランド・ニ lead=6m occ=77%
+08-31 19:44:02  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 19:44:02  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+08-31 19:44:02  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 19:44:02  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 19:53:03  RUN   start     gap=9m
+08-31 19:53:20  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 19:53:21  CAP   slot1     08-31 20:25 tohoumeda/s05 時には懺悔を lead=32m occ=22%
+08-31 19:53:24  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 19:53:24  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
+08-31 19:53:24  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 19:53:25  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 20:03:25  RUN   start     gap=10m
+08-31 20:03:42  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 20:03:43  CAP   final     08-31 20:10 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=6m occ=23%
+08-31 20:03:47  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 20:03:47  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
+08-31 20:03:47  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 20:03:47  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 20:08:36  RUN   start     gap=5m
+08-31 20:08:53  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 20:08:54  CAP   slot1     08-31 20:40 tohoumeda/s03 ハリー・ポッターと賢者の石 lead=31m occ=13%
+08-31 20:09:10  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 20:09:11  CAP   slot1     08-31 20:40 tohoumeda/s07 ラスト・サバイバー lead=31m occ=7%
+08-31 20:09:15  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 20:09:15  CAP   done      対象 2 / 成功 2 / 失敗 0 / 39s
+08-31 20:09:15  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 20:09:15  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 20:13:28  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 20:13:28  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 20:18:28  RUN   start     gap=10m
+08-31 20:18:46  CAP   advance   ログインせずに進む → TNPI2010J01.do
+08-31 20:18:46  CAP   final     08-31 20:25 tohoumeda/s05 時には懺悔を lead=6m occ=23%
+08-31 20:18:51  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 20:18:51  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+08-31 20:18:51  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+08-31 20:18:51  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 14:53:11  RUN   start     gap=18h34m   ← 前回から大きく空いた
+09-01 14:53:28  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 14:53:29  CAP   slot1     09-01 15:15 tohoumeda/s05 トイ・ストーリー５ lead=22m occ=70%
+09-01 14:53:45  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 14:53:46  CAP   slot1     09-01 15:15 tohoumeda/s07 ラスト・サバイバー lead=22m occ=37%
+09-01 14:53:50  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 14:53:50  CAP   done      対象 2 / 成功 2 / 失敗 0 / 39s
+09-01 14:53:50  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 14:53:51  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 15:01:49  RUN   start     gap=9m
+09-01 15:01:52  SYNC  probe     tohoumeda date=20260901 tabs=11 blocks=23 rows=44 href=0
+09-01 15:01:52  SYNC  status    {"販売期間外": 23, "販売中": 21}
+09-01 15:02:05  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 15:02:05  SYNC  light     3日 132件  予定記録 88 件   変更 23 件
+09-01 15:02:05  SYNC  change    2026-09-01 +tohoumeda-20260901-0815-s07-film-2bf82d
+09-01 15:02:05  SYNC  change    2026-09-01 +tohoumeda-20260901-0830-s01-film-5043c7
+09-01 15:02:05  SYNC  change    2026-09-01 +tohoumeda-20260901-0835-s04-film-e259f3
+09-01 15:02:05  SYNC  change    2026-09-01 +tohoumeda-20260901-0835-s08-film-5a6ba2
+09-01 15:02:05  SYNC  change    2026-09-01 +tohoumeda-20260901-0845-s02-film-e97bc9
+09-01 15:02:05  SYNC  change    2026-09-01 +tohoumeda-20260901-0900-s06-film-71cf8f
+09-01 15:02:05  SYNC  change    2026-09-01 +tohoumeda-20260901-0910-s03-film-dfd467
+09-01 15:02:05  SYNC  change    2026-09-01 +tohoumeda-20260901-0920-s05-film-2fcda0
+09-01 15:02:21  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:02:22  CAP   slot0     09-02 08:15 tohoumeda/s07 パウっと！ファミリーシアター lead=1033m occ=2%
+09-01 15:02:39  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:02:40  CAP   slot0     09-02 08:30 tohoumeda/s01 キングダム 魂の決戦 lead=1048m occ=2%
+09-01 15:02:58  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:02:59  CAP   slot0     09-02 08:35 tohoumeda/s04 時には懺悔を lead=1052m occ=6%
+09-01 15:03:15  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:03:16  CAP   slot0     09-02 08:35 tohoumeda/s08 映画クレヨンしんちゃん 奇々 lead=1052m occ=5%
+09-01 15:03:33  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:03:34  CAP   slot0     09-02 08:45 tohoumeda/s02 ミニオンズ＆モンスターズ lead=1062m occ=1%
+09-01 15:03:52  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:03:53  CAP   slot0     09-02 09:00 tohoumeda/s06 ラスト・サバイバー lead=1076m occ=6%
+09-01 15:04:10  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:04:11  CAP   slot0     09-02 09:10 tohoumeda/s03 劇場版 魔法少女まどか☆マギ lead=1086m occ=2%
+09-01 15:04:28  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:04:29  CAP   slot0     09-02 09:30 tohoumeda/s05 スパイダーマン：ブランド・ニ lead=1106m occ=16%
+09-01 15:04:46  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:04:47  CAP   slot0     09-02 10:25 tohoumeda/s07 トイ・ストーリー５ lead=1160m occ=4%
+09-01 15:05:04  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:05:05  CAP   slot0     09-02 10:50 tohoumeda/s08 シェルター lead=1185m occ=12%
+09-01 15:05:22  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:05:23  CAP   slot0     09-02 11:00 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=1195m occ=8%
+09-01 15:05:40  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:05:40  CAP   slot0     09-02 11:20 tohoumeda/s04 八月の声を運ぶ男 lead=1214m occ=4%
+09-01 15:05:57  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:05:58  CAP   slot0     09-02 11:30 tohoumeda/s01 ラスト・サバイバー lead=1224m occ=2%
+09-01 15:06:15  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:06:15  CAP   slot0     09-02 11:40 tohoumeda/s06 オークストリートの異変 lead=1234m occ=12%
+09-01 15:06:32  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:06:33  CAP   slot0     09-02 12:00 tohoumeda/s03 劇場版 魔法少女まどか☆マギ lead=1254m occ=5%
+09-01 15:06:50  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:06:50  CAP   slot0     09-02 12:40 tohoumeda/s05 時には懺悔を lead=1293m occ=21%
+09-01 15:07:07  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:07:08  CAP   slot0     09-02 12:50 tohoumeda/s07 ドラマなふたり lead=1303m occ=7%
+09-01 15:07:26  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:07:27  CAP   slot0     09-02 13:15 tohoumeda/s08 シェルター lead=1328m occ=14%
+09-01 15:07:44  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:07:45  CAP   slot0     09-02 13:30 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=1342m occ=8%
+09-01 15:08:01  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:08:02  CAP   slot0     09-02 13:40 tohoumeda/s04 ミニオンズ＆モンスターズ lead=1352m occ=31%
+09-01 15:08:20  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:08:20  CAP   slot0     09-02 14:00 tohoumeda/s06 ブルーロック lead=1372m occ=26%
+09-01 15:08:37  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:08:38  CAP   slot0     09-02 14:20 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=1392m occ=7%
+09-01 15:08:55  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:08:55  CAP   slot0     09-02 14:45 tohoumeda/s03 ハリー・ポッターと賢者の石 lead=1416m occ=15%
+09-01 15:09:13  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:09:14  CAP   slot0     09-02 15:15 tohoumeda/s07 ラスト・サバイバー lead=1446m occ=5%
+09-01 15:09:30  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:09:31  CAP   slot0     09-02 15:25 tohoumeda/s05 トイ・ストーリー５ lead=1456m occ=16%
+09-01 15:09:49  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:09:49  CAP   slot0     09-02 15:40 tohoumeda/s08 スパイダーマン：ブランド・ニ lead=1470m occ=13%
+09-01 15:10:06  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:10:07  CAP   slot0     09-02 15:50 tohoumeda/s04 時には懺悔を lead=1480m occ=14%
+09-01 15:10:25  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:10:25  CAP   slot0     09-02 16:10 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=1500m occ=8%
+09-01 15:10:43  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:10:43  CAP   slot0     09-02 16:50 tohoumeda/s06 キングダム 魂の決戦 lead=1540m occ=14%
+09-01 15:10:59  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:11:00  CAP   slot0     09-02 17:10 tohoumeda/s01 Ｍｉｃｈａｅｌ／マイケル lead=1559m occ=5%
+09-01 15:11:16  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:11:17  CAP   slot0     09-02 17:50 tohoumeda/s05 シェルター lead=1599m occ=5%
+09-01 15:11:33  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:11:34  CAP   slot0     09-02 18:00 tohoumeda/s07 映画「ケイティ・ペリー：Ｔｈ lead=1609m occ=12%
+09-01 15:11:51  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:11:51  CAP   slot0     09-02 18:15 tohoumeda/s03 映画ちいかわ 人魚の島のひみ lead=1623m occ=9%
+09-01 15:12:09  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:12:10  CAP   slot0     09-02 18:35 tohoumeda/s02 劇場版 魔法少女まどか☆マギ lead=1643m occ=11%
+09-01 15:12:27  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:12:28  CAP   slot0     09-02 18:35 tohoumeda/s04 モアナと伝説の海 lead=1643m occ=10%
+09-01 15:12:46  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:12:46  CAP   slot0     09-02 19:50 tohoumeda/s06 シェルター lead=1717m occ=10%
+09-01 15:13:04  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:13:05  CAP   slot0     09-02 20:10 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=1737m occ=7%
+09-01 15:13:21  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:13:22  CAP   slot0     09-02 20:20 tohoumeda/s05 時には懺悔を lead=1747m occ=7%
+09-01 15:13:39  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:13:39  CAP   slot0     09-02 20:40 tohoumeda/s03 ハリー・ポッターと賢者の石 lead=1767m occ=11%
+09-01 15:13:56  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:13:57  CAP   slot0     09-02 20:50 tohoumeda/s07 ラスト・サバイバー lead=1776m occ=2%
+09-01 15:14:14  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:14:14  CAP   slot0     09-02 21:10 tohoumeda/s04 大長編 タローマン 万博大爆 lead=1796m occ=3%
+09-01 15:14:33  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:14:33  CAP   slot0     09-02 21:15 tohoumeda/s08 映画「ヒプノシスマイク －Ｄ lead=1801m occ=44%
+09-01 15:14:50  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:14:51  CAP   slot0     09-02 21:20 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=1805m occ=5%
+09-01 15:15:07  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:15:08  CAP   slot0     09-03 08:15 tohoumeda/s07 パウっと！ファミリーシアター lead=2460m occ=2%
+09-01 15:15:24  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:15:25  CAP   slot0     09-03 08:30 tohoumeda/s01 キングダム 魂の決戦 lead=2475m occ=1%
+09-01 15:15:42  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:15:42  CAP   slot0     09-03 08:35 tohoumeda/s04 時には懺悔を lead=2480m occ=4%
+09-01 15:15:59  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:16:00  CAP   slot0     09-03 08:35 tohoumeda/s08 映画クレヨンしんちゃん 奇々 lead=2479m occ=2%
+09-01 15:16:18  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:16:18  CAP   slot0     09-03 08:45 tohoumeda/s02 ミニオンズ＆モンスターズ lead=2489m occ=1%
+09-01 15:16:36  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:16:37  CAP   slot0     09-03 09:00 tohoumeda/s06 ラスト・サバイバー lead=2504m occ=5%
+09-01 15:16:54  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:16:55  CAP   slot0     09-03 09:10 tohoumeda/s03 劇場版 魔法少女まどか☆マギ lead=2513m occ=1%
+09-01 15:17:12  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:17:13  CAP   slot0     09-03 09:30 tohoumeda/s05 スパイダーマン：ブランド・ニ lead=2533m occ=8%
+09-01 15:17:31  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:17:31  CAP   slot0     09-03 10:25 tohoumeda/s07 トイ・ストーリー５ lead=2588m occ=5%
+09-01 15:17:49  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:17:49  CAP   slot0     09-03 10:50 tohoumeda/s08 シェルター lead=2612m occ=6%
+09-01 15:18:07  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:18:07  CAP   slot0     09-03 11:00 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=2622m occ=2%
+09-01 15:18:24  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:18:24  CAP   slot0     09-03 11:20 tohoumeda/s04 八月の声を運ぶ男 lead=2642m occ=3%
+09-01 15:18:41  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:18:42  CAP   slot0     09-03 11:30 tohoumeda/s01 ラスト・サバイバー lead=2652m occ=2%
+09-01 15:19:00  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:19:00  CAP   slot0     09-03 11:40 tohoumeda/s06 オークストリートの異変 lead=2661m occ=8%
+09-01 15:19:18  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:19:19  CAP   slot0     09-03 12:00 tohoumeda/s03 劇場版 魔法少女まどか☆マギ lead=2681m occ=3%
+09-01 15:19:37  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:19:38  CAP   slot0     09-03 12:40 tohoumeda/s05 時には懺悔を lead=2721m occ=6%
+09-01 15:19:56  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:19:56  CAP   slot0     09-03 12:50 tohoumeda/s07 ドラマなふたり lead=2730m occ=7%
+09-01 15:20:14  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:20:15  CAP   slot0     09-03 13:15 tohoumeda/s08 シェルター lead=2755m occ=6%
+09-01 15:20:32  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:20:33  CAP   slot0     09-03 13:30 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=2770m occ=4%
+09-01 15:20:49  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:20:50  CAP   slot0     09-03 13:40 tohoumeda/s04 ミニオンズ＆モンスターズ lead=2779m occ=5%
+09-01 15:21:06  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:21:07  CAP   slot0     09-03 14:00 tohoumeda/s06 ブルーロック lead=2799m occ=8%
+09-01 15:21:24  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:21:25  CAP   slot0     09-03 14:20 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=2819m occ=3%
+09-01 15:21:43  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:21:44  CAP   slot0     09-03 14:45 tohoumeda/s03 ハリー・ポッターと賢者の石 lead=2844m occ=7%
+09-01 15:22:02  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:22:02  CAP   slot0     09-03 15:15 tohoumeda/s07 ラスト・サバイバー lead=2873m occ=3%
+09-01 15:22:20  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:22:20  CAP   slot0     09-03 15:25 tohoumeda/s05 トイ・ストーリー５ lead=2883m occ=5%
+09-01 15:22:37  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:22:38  CAP   slot0     09-03 15:40 tohoumeda/s08 スパイダーマン：ブランド・ニ lead=2898m occ=6%
+09-01 15:22:55  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:22:55  CAP   slot0     09-03 15:50 tohoumeda/s04 時には懺悔を lead=2907m occ=5%
+09-01 15:23:12  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:23:13  CAP   slot0     09-03 16:10 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=2927m occ=3%
+09-01 15:23:30  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:23:30  CAP   slot0     09-03 16:50 tohoumeda/s06 キングダム 魂の決戦 lead=2967m occ=9%
+09-01 15:23:48  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:23:48  CAP   slot0     09-03 17:10 tohoumeda/s01 Ｍｉｃｈａｅｌ／マイケル lead=2986m occ=4%
+09-01 15:24:06  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:24:07  CAP   slot0     09-03 17:50 tohoumeda/s05 シェルター lead=3026m occ=9%
+09-01 15:24:24  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:24:25  CAP   slot0     09-03 18:00 tohoumeda/s07 映画「ケイティ・ペリー：Ｔｈ lead=3036m occ=4%
+09-01 15:24:41  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:24:42  CAP   slot0     09-03 18:15 tohoumeda/s03 映画ちいかわ 人魚の島のひみ lead=3050m occ=3%
+09-01 15:24:59  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:25:00  CAP   slot0     09-03 18:35 tohoumeda/s02 劇場版 魔法少女まどか☆マギ lead=3070m occ=3%
+09-01 15:25:18  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:25:18  CAP   slot0     09-03 18:35 tohoumeda/s04 モアナと伝説の海 lead=3070m occ=7%
+09-01 15:25:35  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:25:36  CAP   slot0     09-03 18:50 tohoumeda/s08 映画「ヒプノシスマイク －Ｄ lead=3085m occ=47%
+09-01 15:25:52  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:25:53  CAP   slot0     09-03 19:50 tohoumeda/s06 スパイダーマン：ブランド・ニ lead=3144m occ=12%
+09-01 15:26:09  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:26:10  CAP   slot0     09-03 20:10 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=3164m occ=2%
+09-01 15:26:27  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:26:28  CAP   slot0     09-03 20:20 tohoumeda/s05 時には懺悔を lead=3174m occ=3%
+09-01 15:26:46  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:26:47  CAP   slot0     09-03 20:40 tohoumeda/s03 ハリー・ポッターと賢者の石 lead=3193m occ=4%
+09-01 15:27:04  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:27:05  CAP   slot0     09-03 20:50 tohoumeda/s07 ラスト・サバイバー lead=3203m occ=2%
+09-01 15:27:22  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:27:23  CAP   slot0     09-03 21:10 tohoumeda/s04 大長編 タローマン 万博大爆 lead=3223m occ=5%
+09-01 15:27:40  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:27:41  CAP   slot0     09-03 21:15 tohoumeda/s08 シェルター lead=3228m occ=3%
+09-01 15:27:57  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:27:57  CAP   slot0     09-03 21:20 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=3232m occ=1%
+09-01 15:28:02  MISS  23        09-01 08:15 09-01 08:30 09-01 08:35 09-01 08:35 09-01 08:45 09-01 09:00 09-01 09:10 09-01 09:20
+09-01 15:28:02  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 15:28:02  CAP   sweep     対象 87 / 成功 87 / 失敗 0 / 1557s
+09-01 15:28:03  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 15:28:04  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 15:28:44  RUN   start     gap=27m
+09-01 15:29:00  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:29:01  CAP   slot1     09-01 15:40 tohoumeda/s08 スパイダーマン：ブランド・ニ lead=11m occ=84%
+09-01 15:29:18  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:29:19  CAP   slot1     09-01 15:50 tohoumeda/s04 時には懺悔を lead=21m occ=56%
+09-01 15:29:23  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 15:29:23  CAP   done      対象 2 / 成功 2 / 失敗 0 / 39s
+09-01 15:29:23  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 15:29:23  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 15:33:24  RUN   start     gap=5m
+09-01 15:33:41  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:33:41  CAP   final     09-01 15:40 tohoumeda/s08 スパイダーマン：ブランド・ニ lead=6m occ=84%
+09-01 15:33:46  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 15:33:46  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-01 15:33:47  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 15:33:47  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 15:38:32  RUN   start     gap=5m
+09-01 15:38:49  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:38:49  CAP   slot1     09-01 16:10 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=31m occ=26%
+09-01 15:38:54  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 15:38:54  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-01 15:38:54  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 15:38:54  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 15:43:25  RUN   start     gap=5m
+09-01 15:43:42  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 15:43:42  CAP   final     09-01 15:50 tohoumeda/s04 時には懺悔を lead=6m occ=66%
+09-01 15:43:46  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 15:43:46  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-01 15:43:47  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 15:43:47  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 15:48:30  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 15:48:31  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 15:53:24  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 15:53:24  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 16:03:37  RUN   start     gap=20m
+09-01 16:03:54  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 16:03:55  CAP   final     09-01 16:10 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=6m occ=36%
+09-01 16:03:59  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 16:03:59  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-01 16:04:00  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 16:04:00  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 16:18:01  RUN   start     gap=14m
+09-01 16:18:18  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 16:18:18  CAP   slot1     09-01 16:50 tohoumeda/s06 キングダム 魂の決戦 lead=32m occ=37%
+09-01 16:18:21  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 16:18:21  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
+09-01 16:18:22  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 16:18:22  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 16:38:38  RUN   start     gap=21m
+09-01 16:38:54  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 16:38:55  CAP   slot1     09-01 17:10 tohoumeda/s01 Ｍｉｃｈａｅｌ／マイケル lead=31m occ=13%
+09-01 16:39:00  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 16:39:00  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-01 16:39:00  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 16:39:01  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 16:43:01  RUN   start     gap=4m
+09-01 16:43:18  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 16:43:19  CAP   final     09-01 16:50 tohoumeda/s06 キングダム 魂の決戦 lead=7m occ=51%
+09-01 16:43:22  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 16:43:22  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
+09-01 16:43:23  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 16:43:23  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 16:48:37  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 16:48:38  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 17:03:21  RUN   start     gap=20m
+09-01 17:03:38  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 17:03:39  CAP   final     09-01 17:10 tohoumeda/s01 Ｍｉｃｈａｅｌ／マイケル lead=7m occ=18%
+09-01 17:03:43  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 17:03:43  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
+09-01 17:03:43  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 17:03:44  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 17:08:14  RUN   start     gap=5m
+09-01 17:08:31  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 17:08:32  CAP   slot1     09-01 17:40 tohoumeda/s05 時には懺悔を lead=32m occ=19%
+09-01 17:08:36  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 17:08:36  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-01 17:08:37  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 17:08:37  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 17:13:29  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 17:13:29  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 17:28:13  RUN   start     gap=20m
+09-01 17:28:30  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 17:28:31  CAP   slot1     09-01 18:00 tohoumeda/s07 ラスト・サバイバー lead=32m occ=16%
+09-01 17:28:35  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 17:28:35  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-01 17:28:35  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 17:28:36  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 17:33:06  RUN   start     gap=5m
+09-01 17:33:23  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 17:33:24  CAP   final     09-01 17:40 tohoumeda/s05 時には懺悔を lead=7m occ=28%
+09-01 17:33:28  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 17:33:28  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-01 17:33:29  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 17:33:29  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 17:38:43  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 17:38:43  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 17:43:14  RUN   start     gap=10m
+09-01 17:43:31  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 17:43:31  CAP   slot1     09-01 18:15 tohoumeda/s03 映画ちいかわ 人魚の島のひみ lead=32m occ=26%
+09-01 17:43:36  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 17:43:36  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-01 17:43:37  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 17:43:37  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 17:48:21  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 17:48:21  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 17:53:34  RUN   start     gap=10m
+09-01 17:53:51  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 17:53:52  CAP   final     09-01 18:00 tohoumeda/s07 ラスト・サバイバー lead=6m occ=19%
+09-01 17:53:55  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 17:53:55  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
+09-01 17:53:56  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 17:53:56  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 18:03:27  RUN   start     gap=10m
+09-01 18:03:44  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 18:03:44  CAP   slot1     09-01 18:35 tohoumeda/s02 劇場版 魔法少女まどか☆マギ lead=32m occ=20%
+09-01 18:04:01  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 18:04:02  CAP   slot1     09-01 18:35 tohoumeda/s04 モアナと伝説の海 lead=31m occ=42%
+09-01 18:04:06  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 18:04:06  CAP   done      対象 2 / 成功 2 / 失敗 0 / 39s
+09-01 18:04:06  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 18:04:07  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 18:08:07  RUN   start     gap=5m
+09-01 18:08:24  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 18:08:24  CAP   final     09-01 18:15 tohoumeda/s03 映画ちいかわ 人魚の島のひみ lead=7m occ=32%
+09-01 18:08:28  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 18:08:28  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
+09-01 18:08:29  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 18:08:29  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 18:13:52  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 18:13:53  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 18:18:35  RUN   start     gap=10m
+09-01 18:18:52  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 18:18:53  CAP   slot1     09-01 18:50 tohoumeda/s08 シェルター lead=31m occ=23%
+09-01 18:18:57  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 18:18:57  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
+09-01 18:18:57  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 18:18:58  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 18:28:41  RUN   start     gap=10m
+09-01 18:28:58  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 18:28:59  CAP   final     09-01 18:35 tohoumeda/s02 劇場版 魔法少女まどか☆マギ lead=6m occ=23%
+09-01 18:29:17  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 18:29:17  CAP   final     09-01 18:35 tohoumeda/s04 モアナと伝説の海 lead=6m occ=49%
+09-01 18:29:22  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 18:29:22  CAP   done      対象 2 / 成功 2 / 失敗 0 / 40s
+09-01 18:29:22  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 18:29:23  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 18:38:37  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 18:38:37  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 18:43:22  RUN   start     gap=15m
+09-01 18:43:39  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 18:43:40  CAP   final     09-01 18:50 tohoumeda/s08 シェルター lead=7m occ=31%
+09-01 18:43:44  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 18:43:44  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-01 18:43:44  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 18:43:45  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 18:53:29  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 18:53:30  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 19:18:24  RUN   start     gap=35m
+09-01 19:18:41  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 19:18:42  CAP   slot1     09-01 19:50 tohoumeda/s06 スパイダーマン：ブランド・ニ lead=32m occ=85%
+09-01 19:18:46  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 19:18:46  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-01 19:18:46  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 19:18:47  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 19:38:18  RUN   start     gap=20m
+09-01 19:38:34  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 19:38:35  CAP   slot1     09-01 20:10 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=32m occ=21%
+09-01 19:38:38  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 19:38:38  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
+09-01 19:38:39  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 19:38:39  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 19:43:39  RUN   start     gap=5m
+09-01 19:43:55  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 19:43:56  CAP   final     09-01 19:50 tohoumeda/s06 スパイダーマン：ブランド・ニ lead=6m occ=86%
+09-01 19:44:01  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 19:44:01  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-01 19:44:01  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 19:44:01  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 19:53:01  RUN   start     gap=9m
+09-01 19:53:19  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 19:53:19  CAP   slot1     09-01 20:25 tohoumeda/s05 時には懺悔を lead=32m occ=19%
+09-01 19:53:24  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 19:53:24  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+09-01 19:53:24  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 19:53:25  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:03:25  RUN   start     gap=10m
+09-01 20:03:43  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 20:03:44  CAP   final     09-01 20:10 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=6m occ=22%
+09-01 20:03:48  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:03:48  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+09-01 20:03:49  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:03:49  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:08:31  RUN   start     gap=5m
+09-01 20:08:48  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 20:08:49  CAP   slot1     09-01 20:40 tohoumeda/s03 ハリー・ポッターと賢者の石 lead=31m occ=19%
+09-01 20:09:07  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 20:09:07  CAP   slot1     09-01 20:40 tohoumeda/s07 ラスト・サバイバー lead=31m occ=13%
+09-01 20:09:12  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:09:12  CAP   done      対象 2 / 成功 2 / 失敗 0 / 40s
+09-01 20:09:12  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:09:12  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:13:26  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:13:26  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:18:01  RUN   start     gap=10m
+09-01 20:18:18  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 20:18:19  CAP   final     09-01 20:25 tohoumeda/s05 時には懺悔を lead=7m occ=27%
+09-01 20:18:23  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:18:23  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-01 20:18:24  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:18:24  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:23:39  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:23:40  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:33:23  RUN   start     gap=15m
+09-01 20:33:43  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 20:33:44  CAP   final     09-01 20:40 tohoumeda/s03 ハリー・ポッターと賢者の石 lead=6m occ=20%
+09-01 20:34:00  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 20:34:01  CAP   final     09-01 20:40 tohoumeda/s07 ラスト・サバイバー lead=6m occ=19%
+09-01 20:34:05  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:34:05  CAP   done      対象 2 / 成功 2 / 失敗 0 / 42s
+09-01 20:34:05  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:34:06  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:38:18  RUN   start     gap=5m
+09-01 20:38:35  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 20:38:35  CAP   slot1     09-01 21:10 tohoumeda/s04 大長編 タローマン 万博大爆 lead=32m occ=13%
+09-01 20:38:40  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:38:40  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-01 20:38:40  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:38:41  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:43:23  RUN   start     gap=5m
+09-01 20:43:40  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 20:43:41  CAP   slot1     09-01 21:15 tohoumeda/s08 シェルター lead=32m occ=14%
+09-01 20:43:44  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:43:44  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
+09-01 20:43:44  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:43:44  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:48:35  RUN   start     gap=5m
+09-01 20:48:52  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 20:48:53  CAP   slot1     09-01 21:20 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=31m occ=11%
+09-01 20:48:57  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:48:57  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
+09-01 20:48:57  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:48:57  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:58:41  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 20:58:41  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 21:03:12  RUN   start     gap=15m
+09-01 21:03:29  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 21:03:29  CAP   final     09-01 21:10 tohoumeda/s04 大長編 タローマン 万博大爆 lead=7m occ=14%
+09-01 21:03:33  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 21:03:33  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
+09-01 21:03:33  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 21:03:34  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 21:08:16  RUN   start     gap=5m
+09-01 21:08:33  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 21:08:34  CAP   final     09-01 21:15 tohoumeda/s08 シェルター lead=7m occ=18%
+09-01 21:08:38  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 21:08:38  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-01 21:08:38  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 21:08:39  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 21:13:21  RUN   start     gap=5m
+09-01 21:13:39  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-01 21:13:39  CAP   final     09-01 21:20 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=7m occ=16%
+09-01 21:13:44  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 21:13:44  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+09-01 21:13:45  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-01 21:13:45  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-04 01:04:34  RUN   start     gap=51h51m   ← 前回から大きく空いた
+09-04 01:04:39  SYNC  probe     tohoumeda date=20260903 tabs=10 blocks=25 rows=44 href=0
+09-04 01:04:39  SYNC  status    {"販売期間外": 44}
+09-04 01:04:53  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-04 01:04:53  SYNC  light     2日 87件  予定記録 87 件
+09-04 01:04:53  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 01:05:10  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:05:10  CAP   slot0     09-04 08:20 tohoumeda/s05 ミニオンズ＆モンスターズ lead=435m occ=3%
+09-04 01:05:28  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:05:28  CAP   slot0     09-04 08:20 tohoumeda/s08 映画ちいかわ 人魚の島のひみ lead=435m occ=9%
+09-04 01:05:46  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:05:47  CAP   slot0     09-04 08:25 tohoumeda/s02 劇場版 魔法少女まどか☆マギ lead=439m occ=1%
+09-04 01:06:05  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:06:06  CAP   slot0     09-04 08:40 tohoumeda/s04 映画クレヨンしんちゃん 奇々 lead=454m occ=3%
+09-04 01:06:23  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:06:24  CAP   slot0     09-04 08:50 tohoumeda/s01 スワロウテイル lead=464m occ=6%
+09-04 01:06:41  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:06:41  CAP   slot0     09-04 09:00 tohoumeda/s07 八月の声を運ぶ男 lead=474m occ=3%
+09-04 01:06:59  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:07:00  CAP   slot0     09-04 09:20 tohoumeda/s06 ラスト・サバイバー lead=493m occ=8%
+09-04 01:07:17  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:07:17  CAP   slot0     09-04 09:30 tohoumeda/s03 スパイダーマン：ブランド・ニ lead=503m occ=3%
+09-04 01:07:33  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:07:34  CAP   slot0     09-04 10:30 tohoumeda/s05 シェルター lead=563m occ=7%
+09-04 01:07:50  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:07:51  CAP   slot0     09-04 10:40 tohoumeda/s08 劇場版 魔法少女まどか☆マギ lead=572m occ=5%
+09-04 01:08:08  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:08:08  CAP   slot0     09-04 11:00 tohoumeda/s04 キングダム 魂の決戦 lead=592m occ=14%
+09-04 01:08:26  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:08:27  CAP   slot0     09-04 11:10 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=602m occ=8%
+09-04 01:08:44  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:08:45  CAP   slot0     09-04 11:25 tohoumeda/s07 バックルームズ lead=616m occ=30%
+09-04 01:09:01  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:09:02  CAP   slot0     09-04 12:00 tohoumeda/s01 Ｍｉｃｈａｅｌ／マイケル lead=651m occ=7%
+09-04 01:09:18  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:09:19  CAP   slot0     09-04 12:00 tohoumeda/s06 オークストリートの異変 lead=651m occ=13%
+09-04 01:09:37  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:09:37  CAP   slot0     09-04 12:45 tohoumeda/s03 劇場版 魔法少女まどか☆マギ lead=696m occ=3%
+09-04 01:09:55  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:09:55  CAP   slot0     09-04 13:00 tohoumeda/s05 時には懺悔を lead=710m occ=23%
+09-04 01:10:12  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:10:13  CAP   slot0     09-04 13:20 tohoumeda/s08 バックルームズ lead=730m occ=38%
+09-04 01:10:30  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:10:31  CAP   slot0     09-04 13:35 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=745m occ=14%
+09-04 01:10:47  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:10:48  CAP   slot0     09-04 14:00 tohoumeda/s04 ラスト・サバイバー lead=769m occ=4%
+09-04 01:11:06  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:11:06  CAP   slot0     09-04 14:10 tohoumeda/s07 シェルター lead=779m occ=9%
+09-04 01:11:24  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:11:24  CAP   slot0     09-04 14:20 tohoumeda/s06 スワロウテイル lead=789m occ=33%
+09-04 01:11:40  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:11:41  CAP   slot0     09-04 15:00 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=828m occ=9%
+09-04 01:11:58  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:11:59  CAP   slot0     09-04 15:30 tohoumeda/s03 スパイダーマン：ブランド・ニ lead=858m occ=4%
+09-04 01:12:15  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:12:16  CAP   slot0     09-04 15:45 tohoumeda/s05 トイ・ストーリー５ lead=873m occ=30%
+09-04 01:12:32  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:12:33  CAP   slot0     09-04 16:00 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=888m occ=5%
+09-04 01:12:50  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:12:50  CAP   slot0     09-04 16:05 tohoumeda/s08 バックルームズ lead=892m occ=16%
+09-04 01:13:06  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:13:07  CAP   slot0     09-04 16:35 tohoumeda/s07 ブルーロック lead=922m occ=13%
+09-04 01:13:25  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:13:26  CAP   slot0     09-04 16:40 tohoumeda/s04 モアナと伝説の海 lead=927m occ=14%
+09-04 01:13:43  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:13:43  CAP   slot0     09-04 17:30 tohoumeda/s06 バックルームズ lead=976m occ=38%
+09-04 01:14:01  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:14:01  CAP   slot0     09-04 17:50 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=996m occ=6%
+09-04 01:14:18  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:14:19  CAP   slot0     09-04 18:10 tohoumeda/s05 ラスト・サバイバー lead=1016m occ=9%
+09-04 01:14:36  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:14:37  CAP   slot0     09-04 18:25 tohoumeda/s02 映画「ヒプノシスマイク －Ｄ lead=1031m occ=12%
+09-04 01:14:53  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:14:53  CAP   slot0     09-04 18:50 tohoumeda/s03 映画ちいかわ 人魚の島のひみ lead=1055m occ=12%
+09-04 01:15:11  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:15:12  CAP   slot0     09-04 18:50 tohoumeda/s08 シェルター lead=1055m occ=8%
+09-04 01:15:29  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:15:30  CAP   slot0     09-04 19:15 tohoumeda/s04 キングダム 魂の決戦 lead=1080m occ=21%
+09-04 01:15:46  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:15:46  CAP   slot0     09-04 19:30 tohoumeda/s07 スパイダーマン：ブランド・ニ lead=1094m occ=17%
+09-04 01:16:03  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:16:04  CAP   slot0     09-04 20:15 tohoumeda/s06 映画「ケイティ・ペリー：Ｔｈ lead=1139m occ=3%
+09-04 01:16:20  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:16:21  CAP   slot0     09-04 20:40 tohoumeda/s01 バックルームズ lead=1164m occ=16%
+09-04 01:16:39  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:16:39  CAP   slot0     09-04 20:50 tohoumeda/s05 時には懺悔を lead=1174m occ=15%
+09-04 01:16:56  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:16:57  CAP   slot0     09-04 21:00 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=1183m occ=14%
+09-04 01:17:15  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:17:15  CAP   slot0     09-04 21:15 tohoumeda/s08 ドラマなふたり lead=1198m occ=10%
+09-04 01:17:33  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 01:17:33  CAP   slot0     09-04 21:20 tohoumeda/s03 劇場版 魔法少女まどか☆マギ lead=1203m occ=10%
+09-04 01:17:38  MISS  1         09-02 18:50
+09-04 01:17:38  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-04 01:17:38  CAP   sweep     対象 43 / 成功 43 / 失敗 0 / 765s
+09-04 01:17:39  INDEX poster    T・ジョイ側から 12 作品ぶん借用
+09-04 01:17:39  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 13:18:31  RUN   start     gap=12h13m   ← 前回から大きく空いた
+09-04 13:18:31  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 13:18:48  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 13:18:49  CAP   final     09-04 13:20 tohoumeda/s08 バックルームズ lead=1m occ=66%
+09-04 13:19:06  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 13:19:06  CAP   slot1     09-04 13:35 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=16m occ=23%
+09-04 13:19:11  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 13:19:11  CAP   done      対象 2 / 成功 2 / 失敗 0 / 40s
+09-04 13:19:11  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 13:19:11  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 13:28:12  RUN   start     gap=10m
+09-04 13:28:12  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 13:28:28  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 13:28:29  CAP   final     09-04 13:35 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=7m occ=24%
+09-04 13:28:47  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 13:28:47  CAP   slot1     09-04 14:00 tohoumeda/s04 ラスト・サバイバー lead=31m occ=17%
+09-04 13:28:51  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 13:28:52  CAP   done      対象 2 / 成功 2 / 失敗 0 / 40s
+09-04 13:28:52  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 13:28:52  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 13:33:36  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 13:33:37  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 13:38:07  RUN   start     gap=10m
+09-04 13:38:07  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 13:38:24  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 13:38:24  CAP   slot1     09-04 14:10 tohoumeda/s07 シェルター lead=32m occ=31%
+09-04 13:38:29  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 13:38:29  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-04 13:38:29  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 13:38:29  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 13:48:00  RUN   start     gap=10m
+09-04 13:48:00  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 13:48:17  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 13:48:18  CAP   slot1     09-04 14:20 tohoumeda/s06 スワロウテイル lead=32m occ=48%
+09-04 13:48:23  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 13:48:23  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+09-04 13:48:23  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 13:48:23  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 13:53:25  RUN   start     gap=5m
+09-04 13:53:25  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 13:54:23  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 13:54:23  CAP   final     09-04 14:00 tohoumeda/s04 ラスト・サバイバー lead=6m occ=33%
+09-04 13:54:27  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 13:54:27  CAP   done      対象 1 / 成功 1 / 失敗 0 / 62s
+09-04 13:54:27  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 13:54:27  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 13:58:41  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 13:58:41  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 14:03:11  RUN   start     gap=10m
+09-04 14:03:11  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 14:03:28  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 14:03:29  CAP   final     09-04 14:10 tohoumeda/s07 シェルター lead=7m occ=35%
+09-04 14:03:32  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 14:03:32  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
+09-04 14:03:33  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 14:03:33  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 14:13:12  RUN   start     gap=10m
+09-04 14:13:12  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 14:13:29  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 14:13:29  CAP   final     09-04 14:20 tohoumeda/s06 スワロウテイル lead=7m occ=53%
+09-04 14:13:32  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 14:13:32  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
+09-04 14:13:33  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 14:13:33  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 14:14:11  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 14:14:11  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 14:14:50  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 14:14:50  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 14:23:33  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 14:23:33  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 14:28:04  RUN   start     gap=15m
+09-04 14:28:04  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 14:28:21  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 14:28:22  CAP   slot1     09-04 15:00 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=32m occ=12%
+09-04 14:28:27  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 14:28:27  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+09-04 14:28:28  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 14:28:28  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 14:48:48  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 14:48:48  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 14:53:19  RUN   start     gap=25m
+09-04 14:53:19  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 14:53:35  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 14:53:36  CAP   final     09-04 15:00 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=7m occ=14%
+09-04 14:53:41  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 14:53:41  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+09-04 14:53:42  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 14:53:42  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 14:58:12  RUN   start     gap=5m
+09-04 14:58:12  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 14:58:29  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 14:58:29  CAP   slot1     09-04 15:30 tohoumeda/s03 スパイダーマン：ブランド・ニ lead=32m occ=17%
+09-04 14:58:34  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 14:58:34  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-04 14:58:34  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 14:58:35  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:03:19  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:03:19  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:13:49  RUN   start     gap=16m
+09-04 15:13:49  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 15:14:06  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 15:14:07  CAP   slot1     09-04 15:45 tohoumeda/s05 トイ・ストーリー５ lead=31m occ=63%
+09-04 15:14:11  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:14:11  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+09-04 15:14:12  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:14:12  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:23:12  RUN   start     gap=9m
+09-04 15:23:12  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 15:23:30  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 15:23:30  CAP   final     09-04 15:30 tohoumeda/s03 スパイダーマン：ブランド・ニ lead=7m occ=24%
+09-04 15:23:35  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:23:35  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+09-04 15:23:36  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:23:36  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:28:21  RUN   start     gap=5m
+09-04 15:28:21  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 15:28:38  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 15:28:39  CAP   slot1     09-04 16:00 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=32m occ=17%
+09-04 15:28:43  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:28:43  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-04 15:28:43  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:28:44  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:33:26  RUN   start     gap=5m
+09-04 15:33:26  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 15:33:43  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 15:33:43  CAP   slot1     09-04 16:05 tohoumeda/s08 バックルームズ lead=32m occ=48%
+09-04 15:33:48  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:33:48  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-04 15:33:49  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:33:49  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:38:41  RUN   start     gap=5m
+09-04 15:38:41  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 15:38:58  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 15:38:59  CAP   final     09-04 15:45 tohoumeda/s05 トイ・ストーリー５ lead=6m occ=76%
+09-04 15:39:03  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:39:04  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-04 15:39:04  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:39:04  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:48:12  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:48:13  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:48:53  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:48:53  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:49:33  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:49:33  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:53:03  RUN   start     gap=14m
+09-04 15:53:03  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 15:53:20  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 15:53:21  CAP   final     09-04 16:00 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=7m occ=23%
+09-04 15:53:25  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:53:25  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-04 15:53:25  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:53:26  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:58:40  RUN   start     gap=6m
+09-04 15:58:40  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 15:58:58  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 15:58:58  CAP   final     09-04 16:05 tohoumeda/s08 バックルームズ lead=6m occ=60%
+09-04 15:59:03  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:59:03  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-04 15:59:03  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 15:59:03  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 16:03:03  RUN   start     gap=4m
+09-04 16:03:03  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 16:03:20  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 16:03:21  CAP   slot1     09-04 16:35 tohoumeda/s07 ブルーロック lead=32m occ=26%
+09-04 16:03:25  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 16:03:25  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-04 16:03:26  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 16:03:26  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 16:08:26  RUN   start     gap=5m
+09-04 16:08:26  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 16:08:44  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 16:08:45  CAP   slot1     09-04 16:40 tohoumeda/s04 モアナと伝説の海 lead=32m occ=32%
+09-04 16:08:49  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 16:08:49  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-04 16:08:49  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 16:08:49  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 16:13:33  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 16:13:33  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 16:28:03  RUN   start     gap=20m
+09-04 16:28:03  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 16:28:21  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 16:28:21  CAP   final     09-04 16:35 tohoumeda/s07 ブルーロック lead=7m occ=32%
+09-04 16:28:25  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 16:28:25  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-04 16:28:25  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 16:28:25  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 16:33:26  RUN   start     gap=5m
+09-04 16:33:26  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 16:33:42  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 16:33:43  CAP   final     09-04 16:40 tohoumeda/s04 モアナと伝説の海 lead=6m occ=44%
+09-04 16:33:47  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 16:33:47  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-04 16:33:48  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 16:33:48  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 16:38:34  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 16:38:34  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 16:58:21  RUN   start     gap=25m
+09-04 16:58:21  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 16:58:40  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 16:58:40  CAP   slot1     09-04 17:30 tohoumeda/s06 バックルームズ lead=32m occ=66%
+09-04 16:58:45  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 16:58:45  CAP   done      対象 1 / 成功 1 / 失敗 0 / 24s
+09-04 16:58:46  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 16:58:47  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 17:18:18  RUN   start     gap=20m
+09-04 17:18:18  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 17:18:35  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 17:18:36  CAP   slot1     09-04 17:50 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=32m occ=10%
+09-04 17:18:41  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 17:18:41  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+09-04 17:18:41  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 17:18:41  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 17:23:28  RUN   start     gap=5m
+09-04 17:23:28  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 17:23:45  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 17:23:46  CAP   final     09-04 17:30 tohoumeda/s06 バックルームズ lead=6m occ=81%
+09-04 17:23:51  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 17:23:51  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-04 17:23:51  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 17:23:51  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 17:24:31  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 17:24:31  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 17:25:10  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 17:25:10  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 17:28:24  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 17:28:24  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 17:38:38  RUN   start     gap=15m
+09-04 17:38:38  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 17:38:54  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 17:38:55  CAP   slot1     09-04 18:10 tohoumeda/s05 ラスト・サバイバー lead=31m occ=17%
+09-04 17:38:59  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 17:38:59  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-04 17:39:00  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 17:39:00  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 17:43:00  RUN   start     gap=4m
+09-04 17:43:00  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 17:43:17  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 17:43:18  CAP   final     09-04 17:50 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=7m occ=11%
+09-04 17:43:21  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 17:43:21  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
+09-04 17:43:22  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 17:43:22  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 17:53:35  RUN   start     gap=11m
+09-04 17:53:35  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 17:53:52  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 17:53:52  CAP   slot1     09-04 18:25 tohoumeda/s02 映画「ヒプノシスマイク －Ｄ lead=31m occ=18%
+09-04 17:53:57  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 17:53:57  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-04 17:53:58  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 17:53:58  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 19:01:15  RUN   start     gap=1h07m   ← 前回から大きく空いた
+09-04 19:01:15  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 19:01:33  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 19:01:34  CAP   slot1     09-04 19:15 tohoumeda/s04 キングダム 魂の決戦 lead=14m occ=50%
+09-04 19:01:52  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 19:01:52  CAP   slot1     09-04 19:30 tohoumeda/s07 スパイダーマン：ブランド・ニ lead=28m occ=66%
+09-04 19:01:57  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 19:01:57  CAP   done      対象 2 / 成功 2 / 失敗 0 / 42s
+09-04 19:01:57  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 19:01:57  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 19:02:37  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 19:02:37  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 19:03:16  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 19:03:17  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 19:08:17  RUN   start     gap=7m
+09-04 19:08:17  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 19:08:35  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 19:08:35  CAP   final     09-04 19:15 tohoumeda/s04 キングダム 魂の決戦 lead=7m occ=51%
+09-04 19:08:40  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 19:08:40  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+09-04 19:08:41  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 19:08:41  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 19:23:11  RUN   start     gap=15m
+09-04 19:23:11  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 19:23:30  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 19:23:31  CAP   final     09-04 19:30 tohoumeda/s07 スパイダーマン：ブランド・ニ lead=7m occ=74%
+09-04 19:23:35  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 19:23:35  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+09-04 19:23:35  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 19:23:35  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 19:43:06  RUN   start     gap=20m
+09-04 19:43:06  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 19:43:24  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 19:43:25  CAP   slot1     09-04 20:15 tohoumeda/s06 映画「ケイティ・ペリー：Ｔｈ lead=32m occ=6%
+09-04 19:43:30  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 19:43:30  CAP   done      対象 1 / 成功 1 / 失敗 0 / 24s
+09-04 19:43:30  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 19:43:30  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 19:53:15  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 19:53:15  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:08:15  RUN   start     gap=25m
+09-04 20:08:15  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 20:08:33  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 20:08:34  CAP   final     09-04 20:15 tohoumeda/s06 映画「ケイティ・ペリー：Ｔｈ lead=7m occ=6%
+09-04 20:08:51  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 20:08:52  CAP   slot1     09-04 20:40 tohoumeda/s01 バックルームズ lead=31m occ=33%
+09-04 20:08:57  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:08:57  CAP   done      対象 2 / 成功 2 / 失敗 0 / 42s
+09-04 20:08:57  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:08:58  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:13:42  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:13:42  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:18:27  RUN   start     gap=10m
+09-04 20:18:27  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 20:18:44  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 20:18:45  CAP   slot1     09-04 20:50 tohoumeda/s05 時には懺悔を lead=32m occ=32%
+09-04 20:18:50  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:18:50  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+09-04 20:18:51  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:18:51  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:28:35  RUN   start     gap=10m
+09-04 20:28:35  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 20:28:53  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 20:28:54  CAP   slot1     09-04 21:00 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=31m occ=27%
+09-04 20:28:58  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:28:58  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+09-04 20:28:59  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:28:59  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:33:47  RUN   start     gap=5m
+09-04 20:33:47  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 20:34:05  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 20:34:06  CAP   final     09-04 20:40 tohoumeda/s01 バックルームズ lead=6m occ=35%
+09-04 20:34:10  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:34:10  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+09-04 20:34:11  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:34:11  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:34:51  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:34:51  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:35:32  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:35:32  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:38:25  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:38:26  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:43:39  RUN   start     gap=10m
+09-04 20:43:39  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 20:43:57  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 20:43:57  CAP   final     09-04 20:50 tohoumeda/s05 時には懺悔を lead=6m occ=36%
+09-04 20:44:14  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 20:44:14  CAP   slot1     09-04 21:15 tohoumeda/s08 ドラマなふたり lead=31m occ=29%
+09-04 20:44:18  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:44:18  CAP   done      対象 2 / 成功 2 / 失敗 0 / 39s
+09-04 20:44:19  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:44:19  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:48:19  RUN   start     gap=5m
+09-04 20:48:19  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 20:48:37  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 20:48:38  CAP   slot1     09-04 21:20 tohoumeda/s03 劇場版 魔法少女まどか☆マギ lead=32m occ=18%
+09-04 20:48:42  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:48:42  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+09-04 20:48:43  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:48:43  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:53:27  RUN   start     gap=5m
+09-04 20:53:27  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 20:53:44  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 20:53:45  CAP   final     09-04 21:00 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=6m occ=32%
+09-04 20:53:48  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:53:48  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
+09-04 20:53:49  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:53:49  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:58:32  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 20:58:32  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 21:03:15  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 21:03:15  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 21:08:28  RUN   start     gap=15m
+09-04 21:08:28  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 21:08:45  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 21:08:46  CAP   final     09-04 21:15 tohoumeda/s08 ドラマなふたり lead=6m occ=36%
+09-04 21:08:50  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 21:08:50  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-04 21:08:50  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 21:08:50  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 21:13:21  RUN   start     gap=5m
+09-04 21:13:21  CAP   day-skip  09-05 販売期間外 5/44 件
+09-04 21:13:37  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-04 21:13:38  CAP   final     09-04 21:20 tohoumeda/s03 劇場版 魔法少女まどか☆マギ lead=7m occ=18%
+09-04 21:13:41  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 21:13:41  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
+09-04 21:13:42  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-04 21:13:42  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 14:02:35  RUN   start     gap=16h49m   ← 前回から大きく空いた
+09-05 14:03:18  CAP   no-page   09-05 14:15 時には懺悔を
+09-05 14:03:21  MISS  20        09-05 08:15 09-05 08:20 09-05 08:20 09-05 08:35 09-05 08:40 09-05 09:10 09-05 09:15 09-05 09:30
+09-05 14:03:21  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 14:03:21  CAP   done      対象 1 / 成功 0 / 失敗 1 / 46s
+09-05 14:03:22  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 14:03:22  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 14:03:52  RUN   start     gap=1m
+09-05 14:04:25  CAP   no-page   09-05 14:15 時には懺悔を
+09-05 14:04:30  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 14:04:30  CAP   done      対象 1 / 成功 0 / 失敗 1 / 37s
+09-05 14:04:30  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 14:04:30  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 14:05:00  RUN   start     gap=1m
+09-05 14:05:33  CAP   no-page   09-05 14:15 時には懺悔を
+09-05 14:06:04  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 14:06:04  CAP   done      対象 1 / 成功 0 / 失敗 1 / 64s
+09-05 14:06:04  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 14:06:05  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 14:11:27  RUN   start     gap=6m
+09-05 14:11:31  SYNC  probe     tohoumeda date=20260905 tabs=8 blocks=23 rows=44 href=0
+09-05 14:11:31  SYNC  status    {"販売期間外": 20, "売り切れ": 6, "販売中": 18}
+09-05 14:11:44  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 14:11:44  SYNC  light     3日 129件  予定記録 129 件
+09-05 14:12:04  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:12:05  CAP   slot0     09-05 15:20 tohoumeda/s03 劇場版 魔法少女まどか☆マギ lead=68m occ=96%
+09-05 14:12:23  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:12:23  CAP   slot0     09-05 15:35 tohoumeda/s07 シェルター lead=83m occ=68%
+09-05 14:12:40  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:12:41  CAP   slot0     09-05 15:40 tohoumeda/s04 ラスト・サバイバー lead=88m occ=48%
+09-05 14:12:58  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:12:59  CAP   slot0     09-05 16:25 tohoumeda/s08 バックルームズ lead=132m occ=81%
+09-05 14:13:15  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:13:16  CAP   slot0     09-05 17:00 tohoumeda/s06 ブルーロック lead=167m occ=98%
+09-05 14:13:34  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:13:35  CAP   slot0     09-05 17:10 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=177m occ=53%
+09-05 14:13:53  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:13:53  CAP   slot0     09-05 17:45 tohoumeda/s05 バックルームズ lead=211m occ=58%
+09-05 14:14:11  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:14:11  CAP   slot0     09-05 18:00 tohoumeda/s07 映画「ケイティ・ペリー：Ｔｈ lead=226m occ=12%
+09-05 14:14:28  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:14:29  CAP   slot0     09-05 18:20 tohoumeda/s04 モアナと伝説の海 lead=246m occ=45%
+09-05 14:14:46  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:14:46  CAP   slot0     09-05 18:50 tohoumeda/s02 映画「ヒプノシスマイク －Ｄ lead=275m occ=22%
+09-05 14:15:04  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:15:05  CAP   slot0     09-05 19:10 tohoumeda/s08 シェルター lead=295m occ=12%
+09-05 14:15:23  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:15:23  CAP   slot0     09-05 19:50 tohoumeda/s06 キングダム 魂の決戦 lead=335m occ=40%
+09-05 14:15:40  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:15:41  CAP   slot0     09-05 20:00 tohoumeda/s01 バックルームズ lead=345m occ=18%
+09-05 14:15:59  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:15:59  CAP   slot0     09-05 20:30 tohoumeda/s05 スパイダーマン：ブランド・ニ lead=374m occ=36%
+09-05 14:16:17  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:16:17  CAP   slot0     09-05 20:50 tohoumeda/s07 時には懺悔を lead=394m occ=4%
+09-05 14:16:34  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:16:34  CAP   slot0     09-05 21:00 tohoumeda/s04 ラスト・サバイバー lead=404m occ=8%
+09-05 14:16:51  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:16:52  CAP   slot0     09-05 21:15 tohoumeda/s02 劇場版 魔法少女まどか☆マギ lead=418m occ=24%
+09-05 14:17:08  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:17:09  CAP   slot0     09-05 21:35 tohoumeda/s08 オークストリートの異変 lead=438m occ=8%
+09-05 14:17:25  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:17:26  CAP   slot0     09-06 08:15 tohoumeda/s07 パウっと！ファミリーシアター lead=1078m occ=2%
+09-05 14:17:43  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:17:44  CAP   slot0     09-06 08:20 tohoumeda/s02 劇場版 魔法少女まどか☆マギ lead=1082m occ=11%
+09-05 14:18:00  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:18:01  CAP   slot0     09-06 08:25 tohoumeda/s04 ラスト・サバイバー lead=1087m occ=16%
+09-05 14:18:18  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:18:19  CAP   slot0     09-06 08:30 tohoumeda/s08 バックルームズ lead=1092m occ=21%
+09-05 14:18:36  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:18:36  CAP   slot0     09-06 08:50 tohoumeda/s05 時には懺悔を lead=1112m occ=15%
+09-05 14:18:53  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:18:54  CAP   slot0     09-06 09:10 tohoumeda/s01 映画ちいかわ 人魚の島のひみ lead=1131m occ=64%
+09-05 14:19:11  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:19:12  CAP   slot0     09-06 09:10 tohoumeda/s06 スワロウテイル lead=1131m occ=65%
+09-05 14:19:29  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:19:29  CAP   slot0     09-06 09:30 tohoumeda/s03 スパイダーマン：ブランド・ニ lead=1151m occ=10%
+09-05 14:19:46  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:19:47  CAP   slot0     09-06 10:30 tohoumeda/s07 劇場版 魔法少女まどか☆マギ lead=1210m occ=66%
+09-05 14:20:05  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:20:05  CAP   slot0     09-06 11:00 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=1240m occ=76%
+09-05 14:20:23  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:20:24  CAP   slot0     09-06 11:05 tohoumeda/s04 映画クレヨンしんちゃん 奇々 lead=1245m occ=51%
+09-05 14:20:41  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:20:42  CAP   slot0     09-06 11:15 tohoumeda/s08 シェルター lead=1254m occ=22%
+09-05 14:21:00  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:21:00  CAP   slot0     09-06 11:35 tohoumeda/s05 時には懺悔を lead=1274m occ=44%
+09-05 14:21:18  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:21:19  CAP   slot0     09-06 11:40 tohoumeda/s01 Ｍｉｃｈａｅｌ／マイケル lead=1279m occ=17%
+09-05 14:21:35  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:21:36  CAP   slot0     09-06 12:15 tohoumeda/s06 キングダム 魂の決戦 lead=1314m occ=73%
+09-05 14:21:54  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:21:55  CAP   slot0     09-06 12:50 tohoumeda/s03 映画ちいかわ 人魚の島のひみ lead=1348m occ=74%
+09-05 14:22:14  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:22:14  CAP   slot0     09-06 13:20 tohoumeda/s02 スパイダーマン：ブランド・ニ lead=1378m occ=29%
+09-05 14:22:31  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:22:32  CAP   slot0     09-06 13:25 tohoumeda/s04 ミニオンズ＆モンスターズ lead=1383m occ=56%
+09-05 14:22:50  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:22:50  CAP   slot0     09-06 13:30 tohoumeda/s07 宝塚歌劇 宙組東京宝塚劇場公 lead=1387m occ=98%
+09-05 14:23:07  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:23:08  CAP   slot0     09-06 13:40 tohoumeda/s08 トイ・ストーリー５ lead=1397m occ=45%
+09-05 14:23:26  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:23:26  CAP   slot0     09-06 14:20 tohoumeda/s05 バックルームズ lead=1437m occ=79%
+09-05 14:23:44  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:23:45  CAP   slot0     09-06 14:40 tohoumeda/s01 映画ちいかわ 人魚の島のひみ lead=1456m occ=61%
+09-05 14:24:02  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:24:02  CAP   slot0     09-06 15:10 tohoumeda/s06 シェルター lead=1486m occ=22%
+09-05 14:24:20  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:24:21  CAP   slot0     09-06 15:20 tohoumeda/s03 劇場版 魔法少女まどか☆マギ lead=1496m occ=31%
+09-05 14:24:39  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:24:39  CAP   slot0     09-06 15:35 tohoumeda/s04 ラスト・サバイバー lead=1511m occ=15%
+09-05 14:24:57  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:24:58  CAP   slot0     09-06 16:05 tohoumeda/s08 バックルームズ lead=1540m occ=42%
+09-05 14:25:16  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:25:17  CAP   slot0     09-06 16:30 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=1565m occ=47%
+09-05 14:25:35  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:25:35  CAP   slot0     09-06 17:05 tohoumeda/s05 ドラマなふたり lead=1600m occ=30%
+09-05 14:25:53  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:25:54  CAP   slot0     09-06 17:10 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=1604m occ=12%
+09-05 14:26:11  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:26:12  CAP   slot0     09-06 17:35 tohoumeda/s06 キングダム 魂の決戦 lead=1629m occ=24%
+09-05 14:26:30  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:26:30  CAP   slot0     09-06 18:10 tohoumeda/s03 映画ちいかわ 人魚の島のひみ lead=1664m occ=19%
+09-05 14:26:48  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:26:48  CAP   slot0     09-06 18:15 tohoumeda/s04 スワロウテイル lead=1668m occ=23%
+09-05 14:27:05  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:27:05  CAP   slot0     09-06 18:25 tohoumeda/s07 ブルーロック lead=1678m occ=16%
+09-05 14:27:22  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:27:23  CAP   slot0     09-06 18:50 tohoumeda/s02 映画「ヒプノシスマイク －Ｄ lead=1703m occ=12%
+09-05 14:27:41  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:27:41  CAP   slot0     09-06 18:50 tohoumeda/s08 バックルームズ lead=1702m occ=6%
+09-05 14:28:02  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:28:02  CAP   slot0     09-06 19:30 tohoumeda/s05 映画「ケイティ・ペリー：Ｔｈ lead=1742m occ=3%
+09-05 14:28:18  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:28:19  CAP   slot0     09-06 20:00 tohoumeda/s01 バックルームズ lead=1772m occ=4%
+09-05 14:28:36  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:28:37  CAP   slot0     09-06 20:30 tohoumeda/s06 時には懺悔を lead=1802m occ=3%
+09-05 14:28:54  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:28:55  CAP   slot0     09-06 20:40 tohoumeda/s03 劇場版 魔法少女まどか☆マギ lead=1811m occ=3%
+09-05 14:29:13  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:29:13  CAP   slot0     09-06 21:15 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=1846m occ=21%
+09-05 14:29:32  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:29:32  CAP   slot0     09-06 21:15 tohoumeda/s07 オークストリートの異変 lead=1846m occ=4%
+09-05 14:29:51  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:29:51  CAP   slot0     09-06 21:20 tohoumeda/s04 モアナと伝説の海 lead=1850m occ=8%
+09-05 14:30:11  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:30:11  CAP   slot0     09-06 21:35 tohoumeda/s08 シェルター lead=1865m occ=2%
+09-05 14:30:31  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:30:32  CAP   slot0     09-07 08:20 tohoumeda/s05 ミニオンズ＆モンスターズ lead=2510m occ=56%   ⚠ 座席数 101 ≠ 公称 98（判定不能 0 件）
+09-05 14:30:49  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:30:50  CAP   slot0     09-07 08:20 tohoumeda/s08 映画ちいかわ 人魚の島のひみ lead=2509m occ=14%
+09-05 14:31:09  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:31:09  CAP   slot0     09-07 08:25 tohoumeda/s02 劇場版 魔法少女まどか☆マギ lead=2514m occ=1%
+09-05 14:31:28  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:31:28  CAP   slot0     09-07 08:40 tohoumeda/s04 映画クレヨンしんちゃん 奇々 lead=2529m occ=3%
+09-05 14:31:47  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:31:48  CAP   slot0     09-07 08:50 tohoumeda/s01 スワロウテイル lead=2538m occ=2%
+09-05 14:32:06  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:32:06  CAP   slot0     09-07 09:00 tohoumeda/s07 八月の声を運ぶ男 lead=2548m occ=2%
+09-05 14:32:23  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:32:23  CAP   slot0     09-07 09:20 tohoumeda/s06 ラスト・サバイバー lead=2568m occ=5%
+09-05 14:32:44  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:32:44  CAP   slot0     09-07 09:30 tohoumeda/s03 スパイダーマン：ブランド・ニ lead=2578m occ=1%
+09-05 14:33:04  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:33:05  CAP   slot0     09-07 10:30 tohoumeda/s05 シェルター lead=2637m occ=6%
+09-05 14:33:25  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:33:26  CAP   slot0     09-07 10:40 tohoumeda/s08 劇場版 魔法少女まどか☆マギ lead=2647m occ=3%
+09-05 14:33:44  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:33:45  CAP   slot0     09-07 11:00 tohoumeda/s04 キングダム 魂の決戦 lead=2666m occ=9%
+09-05 14:34:03  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:34:03  CAP   slot0     09-07 11:10 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=2676m occ=13%
+09-05 14:34:24  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:34:25  CAP   slot0     09-07 11:25 tohoumeda/s07 バックルームズ lead=2691m occ=4%
+09-05 14:34:44  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:34:45  CAP   slot0     09-07 12:00 tohoumeda/s01 Ｍｉｃｈａｅｌ／マイケル lead=2726m occ=4%
+09-05 14:35:02  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:35:02  CAP   slot0     09-07 12:00 tohoumeda/s06 オークストリートの異変 lead=2725m occ=3%
+09-05 14:35:21  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:35:21  CAP   slot0     09-07 12:45 tohoumeda/s03 劇場版 魔法少女まどか☆マギ lead=2770m occ=3%
+09-05 14:35:56  CAP   no-page   09-07 13:00 時には懺悔を
+09-05 14:36:15  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:36:16  CAP   slot0     09-07 13:20 tohoumeda/s08 バックルームズ lead=2804m occ=5%
+09-05 14:36:33  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:36:34  CAP   slot0     09-07 13:35 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=2819m occ=11%
+09-05 14:36:52  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:36:53  CAP   slot0     09-07 14:00 tohoumeda/s04 ラスト・サバイバー lead=2843m occ=6%
+09-05 14:37:10  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:37:11  CAP   slot0     09-07 14:10 tohoumeda/s07 シェルター lead=2853m occ=4%
+09-05 14:37:30  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:37:30  CAP   slot0     09-07 14:20 tohoumeda/s06 スワロウテイル lead=2863m occ=16%
+09-05 14:37:49  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:37:50  CAP   slot0     09-07 15:00 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=2902m occ=3%
+09-05 14:38:08  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:38:09  CAP   slot0     09-07 15:30 tohoumeda/s03 スパイダーマン：ブランド・ニ lead=2932m occ=1%
+09-05 14:38:30  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:38:30  CAP   slot0     09-07 15:45 tohoumeda/s05 トイ・ストーリー５ lead=2947m occ=7%
+09-05 14:38:49  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:38:50  CAP   slot0     09-07 16:00 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=2961m occ=8%
+09-05 14:39:08  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:39:09  CAP   slot0     09-07 16:10 tohoumeda/s08 シェルター lead=2971m occ=2%
+09-05 14:39:27  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:39:28  CAP   slot0     09-07 16:40 tohoumeda/s04 モアナと伝説の海 lead=3001m occ=5%
+09-05 14:39:47  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:39:47  CAP   slot0     09-07 16:40 tohoumeda/s07 ブルーロック lead=3000m occ=2%
+09-05 14:40:06  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:40:06  CAP   slot0     09-07 17:30 tohoumeda/s06 バックルームズ lead=3050m occ=5%
+09-05 14:40:24  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:40:25  CAP   slot0     09-07 17:50 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=3070m occ=1%
+09-05 14:40:44  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:40:45  CAP   slot0     09-07 18:10 tohoumeda/s05 ラスト・サバイバー lead=3090m occ=4%
+09-05 14:41:04  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:41:05  CAP   slot0     09-07 18:25 tohoumeda/s02 映画「ヒプノシスマイク －Ｄ lead=3104m occ=2%
+09-05 14:41:22  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:41:23  CAP   slot0     09-07 18:50 tohoumeda/s03 映画ちいかわ 人魚の島のひみ lead=3129m occ=12%
+09-05 14:41:41  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:41:41  CAP   slot0     09-07 19:15 tohoumeda/s04 キングダム 魂の決戦 lead=3154m occ=3%
+09-05 14:42:00  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:42:00  CAP   slot0     09-07 19:30 tohoumeda/s07 スパイダーマン：ブランド・ニ lead=3168m occ=9%
+09-05 14:42:19  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:42:20  CAP   slot0     09-07 20:15 tohoumeda/s06 映画「ケイティ・ペリー：Ｔｈ lead=3213m occ=3%
+09-05 14:42:37  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:42:38  CAP   slot0     09-07 20:40 tohoumeda/s01 バックルームズ lead=3238m occ=2%
+09-05 14:42:56  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:42:57  CAP   slot0     09-07 20:50 tohoumeda/s05 時には懺悔を lead=3247m occ=5%
+09-05 14:43:15  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:43:16  CAP   slot0     09-07 21:00 tohoumeda/s02 映画ちいかわ 人魚の島のひみ lead=3257m occ=4%
+09-05 14:43:33  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:43:34  CAP   slot0     09-07 21:20 tohoumeda/s03 劇場版 魔法少女まどか☆マギ lead=3277m occ=1%
+09-05 14:43:51  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 14:43:52  CAP   slot0     09-07 21:20 tohoumeda/s08 ドラマなふたり lead=3276m occ=3%
+09-05 14:43:55  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 14:43:55  CAP   sweep     対象 103 / 成功 102 / 失敗 1 / 1932s
+09-05 14:43:56  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 14:43:57  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:28:09  RUN   start     gap=1h16m   ← 前回から大きく空いた
+09-05 15:28:26  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 15:28:27  CAP   final     09-05 15:35 tohoumeda/s07 シェルター lead=7m occ=79%
+09-05 15:28:44  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 15:28:45  CAP   slot1     09-05 15:40 tohoumeda/s04 ラスト・サバイバー lead=12m occ=71%
+09-05 15:28:48  MISS  2         09-05 14:40 09-05 14:40
+09-05 15:28:48  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:28:48  CAP   done      対象 2 / 成功 2 / 失敗 0 / 39s
+09-05 15:28:49  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:28:49  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:29:33  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:29:33  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:33:04  RUN   start     gap=5m
+09-05 15:33:20  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 15:33:21  CAP   final     09-05 15:40 tohoumeda/s04 ラスト・サバイバー lead=7m occ=73%
+09-05 15:33:26  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:33:26  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-05 15:33:26  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:33:27  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:38:42  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:38:42  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:48:26  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:48:26  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:49:05  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:49:05  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:49:51  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:49:51  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:53:26  RUN   start     gap=20m
+09-05 15:53:43  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 15:53:43  CAP   slot1     09-05 16:25 tohoumeda/s08 バックルームズ lead=32m occ=95%
+09-05 15:53:48  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:53:48  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-05 15:53:48  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:53:49  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:58:19  RUN   start     gap=5m
+09-05 15:58:19  CAP   idle      対象なし
+09-05 15:58:19  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:58:20  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:58:50  RUN   start     gap=1m
+09-05 15:58:50  CAP   idle      対象なし
+09-05 15:58:50  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:58:50  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:59:21  RUN   start     gap=1m
+09-05 15:59:21  CAP   idle      対象なし
+09-05 15:59:21  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:59:21  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:59:51  RUN   start     gap=1m
+09-05 15:59:51  CAP   idle      対象なし
+09-05 15:59:52  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 15:59:52  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:00:22  RUN   start     gap=1m
+09-05 16:00:22  CAP   idle      対象なし
+09-05 16:00:22  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:00:22  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:00:53  RUN   start     gap=1m
+09-05 16:00:53  CAP   idle      対象なし
+09-05 16:00:53  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:00:53  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:01:24  RUN   start     gap=1m
+09-05 16:01:24  CAP   idle      対象なし
+09-05 16:01:24  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:01:24  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:01:55  RUN   start     gap=1m
+09-05 16:01:55  CAP   idle      対象なし
+09-05 16:01:55  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:01:55  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:02:25  RUN   start     gap=1m
+09-05 16:02:25  CAP   idle      対象なし
+09-05 16:02:26  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:02:26  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:02:56  RUN   start     gap=1m
+09-05 16:02:56  CAP   idle      対象なし
+09-05 16:02:56  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:02:57  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:03:27  RUN   start     gap=1m
+09-05 16:03:27  CAP   idle      対象なし
+09-05 16:03:27  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:03:27  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:03:57  RUN   start     gap=1m
+09-05 16:03:57  CAP   idle      対象なし
+09-05 16:03:58  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:03:58  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:04:28  RUN   start     gap=1m
+09-05 16:04:28  CAP   idle      対象なし
+09-05 16:04:28  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:04:29  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:04:59  RUN   start     gap=1m
+09-05 16:04:59  CAP   idle      対象なし
+09-05 16:04:59  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:04:59  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:05:29  RUN   start     gap=1m
+09-05 16:05:29  CAP   idle      対象なし
+09-05 16:05:30  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:05:30  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:06:00  RUN   start     gap=1m
+09-05 16:06:00  CAP   idle      対象なし
+09-05 16:06:00  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:06:01  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:06:31  RUN   start     gap=1m
+09-05 16:06:31  CAP   idle      対象なし
+09-05 16:06:31  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:06:31  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:07:02  RUN   start     gap=1m
+09-05 16:07:02  CAP   idle      対象なし
+09-05 16:07:02  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:07:02  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:07:32  RUN   start     gap=1m
+09-05 16:07:32  CAP   idle      対象なし
+09-05 16:07:33  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:07:33  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:08:03  RUN   start     gap=1m
+09-05 16:08:03  CAP   idle      対象なし
+09-05 16:08:03  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:08:04  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:08:34  RUN   start     gap=1m
+09-05 16:08:34  CAP   idle      対象なし
+09-05 16:08:34  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:08:34  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:09:05  RUN   start     gap=1m
+09-05 16:09:05  CAP   idle      対象なし
+09-05 16:09:05  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:09:05  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:09:35  RUN   start     gap=1m
+09-05 16:09:35  CAP   idle      対象なし
+09-05 16:09:36  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:09:36  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:10:06  RUN   start     gap=1m
+09-05 16:10:06  CAP   idle      対象なし
+09-05 16:10:07  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:10:07  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:10:37  RUN   start     gap=1m
+09-05 16:10:37  CAP   idle      対象なし
+09-05 16:10:37  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:10:38  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:11:08  RUN   start     gap=1m
+09-05 16:11:08  CAP   idle      対象なし
+09-05 16:11:08  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:11:08  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:11:38  RUN   start     gap=1m
+09-05 16:11:38  CAP   idle      対象なし
+09-05 16:11:39  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:11:39  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:12:09  RUN   start     gap=1m
+09-05 16:12:09  CAP   idle      対象なし
+09-05 16:12:10  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:12:10  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:12:40  RUN   start     gap=1m
+09-05 16:12:40  CAP   idle      対象なし
+09-05 16:12:40  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:12:41  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:13:20  RUN   start     gap=1m
+09-05 16:13:20  CAP   idle      対象なし
+09-05 16:13:21  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:13:21  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:13:51  RUN   start     gap=1m
+09-05 16:13:51  CAP   idle      対象なし
+09-05 16:13:51  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:13:52  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:14:22  RUN   start     gap=1m
+09-05 16:14:22  CAP   idle      対象なし
+09-05 16:14:22  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:14:22  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:14:52  RUN   start     gap=1m
+09-05 16:14:52  CAP   idle      対象なし
+09-05 16:14:53  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:14:53  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:15:23  RUN   start     gap=1m
+09-05 16:15:23  CAP   idle      対象なし
+09-05 16:15:23  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:15:24  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:15:54  RUN   start     gap=1m
+09-05 16:15:54  CAP   idle      対象なし
+09-05 16:15:54  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:15:54  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:16:25  RUN   start     gap=1m
+09-05 16:16:25  CAP   idle      対象なし
+09-05 16:16:25  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:16:25  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:16:55  RUN   start     gap=1m
+09-05 16:16:55  CAP   idle      対象なし
+09-05 16:16:56  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:16:56  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:17:26  RUN   start     gap=1m
+09-05 16:17:26  CAP   idle      対象なし
+09-05 16:17:26  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:17:27  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:17:57  RUN   start     gap=1m
+09-05 16:17:57  CAP   idle      対象なし
+09-05 16:17:57  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:17:57  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:18:27  RUN   start     gap=1m
+09-05 16:18:45  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 16:18:45  CAP   final     09-05 16:25 tohoumeda/s08 バックルームズ lead=6m occ=98%
+09-05 16:18:51  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:18:51  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+09-05 16:18:51  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:18:51  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:19:21  RUN   start     gap=1m
+09-05 16:19:21  CAP   idle      対象なし
+09-05 16:19:22  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:19:22  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:19:52  RUN   start     gap=1m
+09-05 16:19:52  CAP   idle      対象なし
+09-05 16:19:52  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:19:53  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:20:23  RUN   start     gap=1m
+09-05 16:20:23  CAP   idle      対象なし
+09-05 16:20:23  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:20:23  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:20:54  RUN   start     gap=1m
+09-05 16:20:54  CAP   idle      対象なし
+09-05 16:20:54  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:20:54  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:21:24  RUN   start     gap=1m
+09-05 16:21:24  CAP   idle      対象なし
+09-05 16:21:25  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:21:25  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:21:55  RUN   start     gap=1m
+09-05 16:21:55  CAP   idle      対象なし
+09-05 16:21:55  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:21:56  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:22:26  RUN   start     gap=1m
+09-05 16:22:26  CAP   idle      対象なし
+09-05 16:22:26  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:22:26  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:22:57  RUN   start     gap=1m
+09-05 16:22:57  CAP   idle      対象なし
+09-05 16:22:57  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:22:57  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:23:27  RUN   start     gap=1m
+09-05 16:23:27  CAP   idle      対象なし
+09-05 16:23:28  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:23:28  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:23:58  RUN   start     gap=1m
+09-05 16:23:58  CAP   idle      対象なし
+09-05 16:23:58  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:23:58  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:24:29  RUN   start     gap=1m
+09-05 16:24:29  CAP   idle      対象なし
+09-05 16:24:29  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:24:29  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:24:59  RUN   start     gap=1m
+09-05 16:24:59  CAP   idle      対象なし
+09-05 16:25:00  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:25:00  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:25:30  RUN   start     gap=1m
+09-05 16:25:30  CAP   idle      対象なし
+09-05 16:25:30  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:25:31  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:26:01  RUN   start     gap=1m
+09-05 16:26:01  CAP   idle      対象なし
+09-05 16:26:01  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:26:01  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:26:32  RUN   start     gap=1m
+09-05 16:26:32  CAP   idle      対象なし
+09-05 16:26:32  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:26:32  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:27:02  RUN   start     gap=1m
+09-05 16:27:02  CAP   idle      対象なし
+09-05 16:27:03  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:27:03  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:27:33  RUN   start     gap=1m
+09-05 16:27:33  CAP   idle      対象なし
+09-05 16:27:34  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:27:34  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:28:04  RUN   start     gap=1m
+09-05 16:28:37  CAP   no-page   09-05 17:00 ブルーロック
+09-05 16:28:42  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:28:42  CAP   done      対象 1 / 成功 0 / 失敗 1 / 38s
+09-05 16:28:42  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:28:42  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:29:12  RUN   start     gap=1m
+09-05 16:29:45  CAP   no-page   09-05 17:00 ブルーロック
+09-05 16:29:49  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:29:49  CAP   done      対象 1 / 成功 0 / 失敗 1 / 36s
+09-05 16:29:49  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:29:49  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:30:19  RUN   start     gap=1m
+09-05 16:30:52  CAP   no-page   09-05 17:00 ブルーロック
+09-05 16:30:55  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:30:55  CAP   done      対象 1 / 成功 0 / 失敗 1 / 36s
+09-05 16:30:56  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:30:56  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:31:26  RUN   start     gap=1m
+09-05 16:31:26  CAP   idle      対象なし
+09-05 16:31:26  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:31:27  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:31:57  RUN   start     gap=1m
+09-05 16:31:57  CAP   idle      対象なし
+09-05 16:31:57  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:31:57  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:32:28  RUN   start     gap=1m
+09-05 16:32:28  CAP   idle      対象なし
+09-05 16:32:28  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:32:28  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:32:59  RUN   start     gap=1m
+09-05 16:32:59  CAP   idle      対象なし
+09-05 16:32:59  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:32:59  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:33:30  RUN   start     gap=1m
+09-05 16:33:30  CAP   idle      対象なし
+09-05 16:33:30  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:33:30  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:34:00  RUN   start     gap=1m
+09-05 16:34:00  CAP   idle      対象なし
+09-05 16:34:01  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:34:01  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:34:31  RUN   start     gap=1m
+09-05 16:34:31  CAP   idle      対象なし
+09-05 16:34:31  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:34:31  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:38:06  RUN   start     gap=4m
+09-05 16:38:24  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 16:38:24  CAP   slot1     09-05 17:10 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=32m occ=63%
+09-05 16:38:29  MISS  1         09-05 16:30
+09-05 16:38:29  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:38:29  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+09-05 16:38:30  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 16:38:30  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:03:16  RUN   start     gap=25m
+09-05 17:03:33  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 17:03:33  CAP   final     09-05 17:10 tohoumeda/s01 劇場版 魔法少女まどか☆マギ lead=7m occ=64%
+09-05 17:03:37  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:03:37  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
+09-05 17:03:37  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:03:37  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:13:08  RUN   start     gap=10m
+09-05 17:13:27  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 17:13:28  CAP   slot1     09-05 17:45 tohoumeda/s05 バックルームズ lead=32m occ=91%
+09-05 17:13:32  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:13:32  CAP   done      対象 1 / 成功 1 / 失敗 0 / 25s
+09-05 17:13:33  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:13:33  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:23:12  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:23:13  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:23:51  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:23:51  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:24:30  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:24:30  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:28:22  RUN   start     gap=15m
+09-05 17:28:38  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 17:28:39  CAP   slot1     09-05 18:00 tohoumeda/s07 映画「ケイティ・ペリー：Ｔｈ lead=32m occ=14%
+09-05 17:28:44  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:28:44  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-05 17:28:44  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:28:44  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:38:27  RUN   start     gap=10m
+09-05 17:38:43  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 17:38:44  CAP   final     09-05 17:45 tohoumeda/s05 バックルームズ lead=6m occ=96%
+09-05 17:38:48  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:38:48  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
+09-05 17:38:48  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:38:49  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:39:19  RUN   start     gap=1m
+09-05 17:39:19  CAP   idle      対象なし
+09-05 17:39:19  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:39:19  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:39:50  RUN   start     gap=1m
+09-05 17:39:50  CAP   idle      対象なし
+09-05 17:39:50  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:39:50  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:40:20  RUN   start     gap=1m
+09-05 17:40:20  CAP   idle      対象なし
+09-05 17:40:21  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:40:21  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:40:51  RUN   start     gap=1m
+09-05 17:40:51  CAP   idle      対象なし
+09-05 17:40:51  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:40:52  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:41:22  RUN   start     gap=1m
+09-05 17:41:22  CAP   idle      対象なし
+09-05 17:41:23  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:41:23  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:41:53  RUN   start     gap=1m
+09-05 17:41:53  CAP   idle      対象なし
+09-05 17:41:53  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:41:53  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:42:24  RUN   start     gap=1m
+09-05 17:42:24  CAP   idle      対象なし
+09-05 17:42:24  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:42:24  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:42:54  RUN   start     gap=1m
+09-05 17:42:54  CAP   idle      対象なし
+09-05 17:42:55  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:42:55  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:43:25  RUN   start     gap=1m
+09-05 17:43:25  CAP   idle      対象なし
+09-05 17:43:25  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:43:26  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:43:56  RUN   start     gap=1m
+09-05 17:43:56  CAP   idle      対象なし
+09-05 17:43:56  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:43:56  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:44:26  RUN   start     gap=1m
+09-05 17:44:26  CAP   idle      対象なし
+09-05 17:44:27  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:44:27  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:44:57  RUN   start     gap=1m
+09-05 17:44:57  CAP   idle      対象なし
+09-05 17:44:58  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:44:58  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:45:28  RUN   start     gap=1m
+09-05 17:45:28  CAP   idle      対象なし
+09-05 17:45:28  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:45:28  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:45:59  RUN   start     gap=1m
+09-05 17:45:59  CAP   idle      対象なし
+09-05 17:45:59  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:45:59  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:46:30  RUN   start     gap=1m
+09-05 17:46:30  CAP   idle      対象なし
+09-05 17:46:30  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:46:30  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:47:00  RUN   start     gap=1m
+09-05 17:47:00  CAP   idle      対象なし
+09-05 17:47:01  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:47:01  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:47:31  RUN   start     gap=1m
+09-05 17:47:31  CAP   idle      対象なし
+09-05 17:47:32  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:47:32  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:48:02  RUN   start     gap=1m
+09-05 17:48:19  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 17:48:19  CAP   slot1     09-05 18:20 tohoumeda/s04 モアナと伝説の海 lead=32m occ=73%
+09-05 17:48:23  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:48:23  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
+09-05 17:48:23  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:48:23  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:48:54  RUN   start     gap=1m
+09-05 17:48:54  CAP   idle      対象なし
+09-05 17:48:54  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:48:54  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:49:24  RUN   start     gap=1m
+09-05 17:49:24  CAP   idle      対象なし
+09-05 17:49:25  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:49:25  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:49:55  RUN   start     gap=1m
+09-05 17:49:55  CAP   idle      対象なし
+09-05 17:49:55  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:49:56  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:50:26  RUN   start     gap=1m
+09-05 17:50:26  CAP   idle      対象なし
+09-05 17:50:26  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:50:26  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:50:56  RUN   start     gap=1m
+09-05 17:50:56  CAP   idle      対象なし
+09-05 17:50:57  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:50:57  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:51:27  RUN   start     gap=1m
+09-05 17:51:27  CAP   idle      対象なし
+09-05 17:51:27  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:51:28  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:51:58  RUN   start     gap=1m
+09-05 17:51:58  CAP   idle      対象なし
+09-05 17:51:58  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:51:59  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:52:29  RUN   start     gap=1m
+09-05 17:52:29  CAP   idle      対象なし
+09-05 17:52:29  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:52:29  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:53:13  RUN   start     gap=1m
+09-05 17:53:29  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 17:53:30  CAP   final     09-05 18:00 tohoumeda/s07 映画「ケイティ・ペリー：Ｔｈ lead=7m occ=15%
+09-05 17:53:33  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:53:33  CAP   done      対象 1 / 成功 1 / 失敗 0 / 21s
+09-05 17:53:34  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:53:34  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:54:04  RUN   start     gap=1m
+09-05 17:54:04  CAP   idle      対象なし
+09-05 17:54:04  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:54:05  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:54:35  RUN   start     gap=1m
+09-05 17:54:35  CAP   idle      対象なし
+09-05 17:54:35  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:54:35  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:55:06  RUN   start     gap=1m
+09-05 17:55:06  CAP   idle      対象なし
+09-05 17:55:06  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:55:06  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:55:36  RUN   start     gap=1m
+09-05 17:55:36  CAP   idle      対象なし
+09-05 17:55:37  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:55:37  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:56:07  RUN   start     gap=1m
+09-05 17:56:07  CAP   idle      対象なし
+09-05 17:56:07  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:56:08  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:56:38  RUN   start     gap=1m
+09-05 17:56:38  CAP   idle      対象なし
+09-05 17:56:38  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:56:38  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:57:09  RUN   start     gap=1m
+09-05 17:57:09  CAP   idle      対象なし
+09-05 17:57:09  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:57:09  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:57:39  RUN   start     gap=1m
+09-05 17:57:39  CAP   idle      対象なし
+09-05 17:57:40  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:57:40  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:58:10  RUN   start     gap=1m
+09-05 17:58:10  CAP   idle      対象なし
+09-05 17:58:10  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:58:10  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:58:41  RUN   start     gap=1m
+09-05 17:58:41  CAP   idle      対象なし
+09-05 17:58:41  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:58:41  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:59:12  RUN   start     gap=1m
+09-05 17:59:12  CAP   idle      対象なし
+09-05 17:59:12  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:59:12  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:59:42  RUN   start     gap=1m
+09-05 17:59:42  CAP   idle      対象なし
+09-05 17:59:43  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 17:59:43  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:00:13  RUN   start     gap=1m
+09-05 18:00:13  CAP   idle      対象なし
+09-05 18:00:13  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:00:14  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:00:44  RUN   start     gap=1m
+09-05 18:00:44  CAP   idle      対象なし
+09-05 18:00:44  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:00:44  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:01:14  RUN   start     gap=1m
+09-05 18:01:14  CAP   idle      対象なし
+09-05 18:01:15  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:01:15  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:01:45  RUN   start     gap=1m
+09-05 18:01:45  CAP   idle      対象なし
+09-05 18:01:46  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:01:46  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:02:16  RUN   start     gap=1m
+09-05 18:02:16  CAP   idle      対象なし
+09-05 18:02:16  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:02:17  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:02:47  RUN   start     gap=1m
+09-05 18:02:47  CAP   idle      対象なし
+09-05 18:02:47  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:02:47  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:03:31  RUN   start     gap=1m
+09-05 18:03:31  CAP   idle      対象なし
+09-05 18:03:32  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:03:32  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:04:02  RUN   start     gap=1m
+09-05 18:04:02  CAP   idle      対象なし
+09-05 18:04:02  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:04:03  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:04:33  RUN   start     gap=1m
+09-05 18:04:33  CAP   idle      対象なし
+09-05 18:04:33  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:04:33  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:05:04  RUN   start     gap=1m
+09-05 18:05:04  CAP   idle      対象なし
+09-05 18:05:04  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:05:04  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:05:34  RUN   start     gap=1m
+09-05 18:05:34  CAP   idle      対象なし
+09-05 18:05:35  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:05:35  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:06:05  RUN   start     gap=1m
+09-05 18:06:05  CAP   idle      対象なし
+09-05 18:06:05  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:06:06  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:06:36  RUN   start     gap=1m
+09-05 18:06:36  CAP   idle      対象なし
+09-05 18:06:36  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:06:36  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:07:06  RUN   start     gap=1m
+09-05 18:07:06  CAP   idle      対象なし
+09-05 18:07:07  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:07:07  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:07:37  RUN   start     gap=1m
+09-05 18:07:37  CAP   idle      対象なし
+09-05 18:07:37  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:07:38  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:08:21  RUN   start     gap=1m
+09-05 18:08:21  CAP   idle      対象なし
+09-05 18:08:21  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:08:21  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:08:52  RUN   start     gap=1m
+09-05 18:08:52  CAP   idle      対象なし
+09-05 18:08:52  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:08:52  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:09:22  RUN   start     gap=1m
+09-05 18:09:22  CAP   idle      対象なし
+09-05 18:09:23  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:09:23  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:09:53  RUN   start     gap=1m
+09-05 18:09:53  CAP   idle      対象なし
+09-05 18:09:53  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:09:54  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:10:24  RUN   start     gap=1m
+09-05 18:10:24  CAP   idle      対象なし
+09-05 18:10:24  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:10:25  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:10:55  RUN   start     gap=1m
+09-05 18:10:55  CAP   idle      対象なし
+09-05 18:10:55  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:10:56  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:11:26  RUN   start     gap=1m
+09-05 18:11:26  CAP   idle      対象なし
+09-05 18:11:27  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:11:27  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:11:57  RUN   start     gap=1m
+09-05 18:11:57  CAP   idle      対象なし
+09-05 18:11:58  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:11:59  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:12:29  RUN   start     gap=1m
+09-05 18:12:29  CAP   idle      対象なし
+09-05 18:12:29  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:12:30  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:13:14  RUN   start     gap=1m
+09-05 18:13:32  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 18:13:33  CAP   final     09-05 18:20 tohoumeda/s04 モアナと伝説の海 lead=7m occ=76%
+09-05 18:13:36  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:13:36  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-05 18:13:37  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:13:37  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:14:07  RUN   start     gap=1m
+09-05 18:14:07  CAP   idle      対象なし
+09-05 18:14:08  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:14:08  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:14:39  RUN   start     gap=1m
+09-05 18:14:39  CAP   idle      対象なし
+09-05 18:14:39  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:14:40  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:18:10  RUN   start     gap=4m
+09-05 18:18:27  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 18:18:28  CAP   slot1     09-05 18:50 tohoumeda/s02 映画「ヒプノシスマイク －Ｄ lead=32m occ=28%
+09-05 18:18:32  MISS  1         09-05 18:10
+09-05 18:18:32  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:18:32  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-05 18:18:33  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:18:33  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:28:34  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:28:35  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:33:20  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:33:21  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:38:36  RUN   start     gap=20m
+09-05 18:38:53  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 18:38:54  CAP   slot1     09-05 19:10 tohoumeda/s08 シェルター lead=31m occ=24%
+09-05 18:38:58  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:38:58  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-05 18:38:59  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:38:59  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:43:00  RUN   start     gap=4m
+09-05 18:43:17  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 18:43:18  CAP   final     09-05 18:50 tohoumeda/s02 映画「ヒプノシスマイク －Ｄ lead=7m occ=33%
+09-05 18:43:22  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:43:22  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-05 18:43:22  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:43:23  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:48:37  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:48:37  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:53:30  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:53:31  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:58:11  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:58:11  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:58:52  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:58:52  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:59:32  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 18:59:33  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 19:03:03  RUN   start     gap=20m
+09-05 19:03:21  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 19:03:22  CAP   final     09-05 19:10 tohoumeda/s08 シェルター lead=7m occ=26%
+09-05 19:03:25  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 19:03:25  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-05 19:03:26  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 19:03:27  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 19:13:41  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 19:13:41  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 19:18:12  RUN   start     gap=15m
+09-05 19:18:29  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 19:18:30  CAP   slot1     09-05 19:50 tohoumeda/s06 キングダム 魂の決戦 lead=32m occ=70%
+09-05 19:18:35  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 19:18:35  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+09-05 19:18:35  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 19:18:36  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 19:28:07  RUN   start     gap=10m
+09-05 19:28:24  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 19:28:25  CAP   slot1     09-05 20:00 tohoumeda/s01 バックルームズ lead=32m occ=30%
+09-05 19:28:29  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 19:28:29  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+09-05 19:28:30  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 19:28:30  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 19:43:01  RUN   start     gap=15m
+09-05 19:43:20  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 19:43:21  CAP   final     09-05 19:50 tohoumeda/s06 キングダム 魂の決戦 lead=7m occ=80%
+09-05 19:43:24  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 19:43:24  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-05 19:43:24  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 19:43:25  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 19:53:25  RUN   start     gap=10m
+09-05 19:53:45  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 19:53:46  CAP   final     09-05 20:00 tohoumeda/s01 バックルームズ lead=6m occ=33%
+09-05 19:53:51  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 19:53:52  CAP   done      対象 1 / 成功 1 / 失敗 0 / 26s
+09-05 19:53:52  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 19:53:53  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 19:58:23  RUN   start     gap=5m
+09-05 19:58:43  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 19:58:44  CAP   slot1     09-05 20:30 tohoumeda/s05 スパイダーマン：ブランド・ニ lead=32m occ=79%
+09-05 19:58:48  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 19:58:48  CAP   done      対象 1 / 成功 1 / 失敗 0 / 24s
+09-05 19:58:48  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 19:58:49  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:08:19  RUN   start     gap=10m
+09-05 20:08:19  CAP   idle      対象なし
+09-05 20:08:20  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:08:20  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:08:50  RUN   start     gap=1m
+09-05 20:08:50  CAP   idle      対象なし
+09-05 20:08:50  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:08:50  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:09:21  RUN   start     gap=1m
+09-05 20:09:21  CAP   idle      対象なし
+09-05 20:09:21  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:09:21  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:09:51  RUN   start     gap=1m
+09-05 20:09:51  CAP   idle      対象なし
+09-05 20:09:52  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:09:52  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:10:22  RUN   start     gap=1m
+09-05 20:10:22  CAP   idle      対象なし
+09-05 20:10:22  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:10:23  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:10:53  RUN   start     gap=1m
+09-05 20:10:53  CAP   idle      対象なし
+09-05 20:10:53  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:10:53  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:11:24  RUN   start     gap=1m
+09-05 20:11:24  CAP   idle      対象なし
+09-05 20:11:24  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:11:24  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:11:54  RUN   start     gap=1m
+09-05 20:11:54  CAP   idle      対象なし
+09-05 20:11:55  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:11:55  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:12:25  RUN   start     gap=1m
+09-05 20:12:25  CAP   idle      対象なし
+09-05 20:12:25  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:12:26  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:12:56  RUN   start     gap=1m
+09-05 20:12:56  CAP   idle      対象なし
+09-05 20:12:56  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:12:56  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:13:39  RUN   start     gap=1m
+09-05 20:13:39  CAP   idle      対象なし
+09-05 20:13:39  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:13:39  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:14:10  RUN   start     gap=1m
+09-05 20:14:10  CAP   idle      対象なし
+09-05 20:14:10  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:14:10  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:14:40  RUN   start     gap=1m
+09-05 20:14:40  CAP   idle      対象なし
+09-05 20:14:41  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:14:41  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:15:11  RUN   start     gap=1m
+09-05 20:15:11  CAP   idle      対象なし
+09-05 20:15:11  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:15:12  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:15:42  RUN   start     gap=1m
+09-05 20:15:42  CAP   idle      対象なし
+09-05 20:15:42  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:15:42  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:16:13  RUN   start     gap=1m
+09-05 20:16:13  CAP   idle      対象なし
+09-05 20:16:13  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:16:13  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:16:43  RUN   start     gap=1m
+09-05 20:16:43  CAP   idle      対象なし
+09-05 20:16:44  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:16:44  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:17:14  RUN   start     gap=1m
+09-05 20:17:14  CAP   idle      対象なし
+09-05 20:17:14  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:17:15  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:17:45  RUN   start     gap=1m
+09-05 20:17:45  CAP   idle      対象なし
+09-05 20:17:45  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:17:45  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:18:16  RUN   start     gap=1m
+09-05 20:18:32  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 20:18:33  CAP   slot1     09-05 20:50 tohoumeda/s07 時には懺悔を lead=32m occ=14%
+09-05 20:18:37  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:18:37  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-05 20:18:38  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:18:38  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:19:08  RUN   start     gap=1m
+09-05 20:19:08  CAP   idle      対象なし
+09-05 20:19:08  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:19:09  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:19:39  RUN   start     gap=1m
+09-05 20:19:39  CAP   idle      対象なし
+09-05 20:19:39  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:19:39  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:20:10  RUN   start     gap=1m
+09-05 20:20:10  CAP   idle      対象なし
+09-05 20:20:10  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:20:10  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:20:40  RUN   start     gap=1m
+09-05 20:20:40  CAP   idle      対象なし
+09-05 20:20:41  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:20:41  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:21:11  RUN   start     gap=1m
+09-05 20:21:11  CAP   idle      対象なし
+09-05 20:21:11  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:21:12  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:21:42  RUN   start     gap=1m
+09-05 20:21:42  CAP   idle      対象なし
+09-05 20:21:42  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:21:42  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:22:13  RUN   start     gap=1m
+09-05 20:22:13  CAP   idle      対象なし
+09-05 20:22:13  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:22:13  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:22:43  RUN   start     gap=1m
+09-05 20:22:43  CAP   idle      対象なし
+09-05 20:22:44  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:22:44  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:23:14  RUN   start     gap=1m
+09-05 20:23:32  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 20:23:32  CAP   final     09-05 20:30 tohoumeda/s05 スパイダーマン：ブランド・ニ lead=7m occ=88%
+09-05 20:23:36  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:23:36  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-05 20:23:37  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:23:37  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:24:07  RUN   start     gap=1m
+09-05 20:24:07  CAP   idle      対象なし
+09-05 20:24:08  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:24:08  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:24:38  RUN   start     gap=1m
+09-05 20:24:38  CAP   idle      対象なし
+09-05 20:24:38  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:24:39  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:25:09  RUN   start     gap=1m
+09-05 20:25:09  CAP   idle      対象なし
+09-05 20:25:09  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:25:09  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:25:39  RUN   start     gap=1m
+09-05 20:25:39  CAP   idle      対象なし
+09-05 20:25:40  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:25:40  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:26:10  RUN   start     gap=1m
+09-05 20:26:10  CAP   idle      対象なし
+09-05 20:26:11  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:26:11  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:26:41  RUN   start     gap=1m
+09-05 20:26:41  CAP   idle      対象なし
+09-05 20:26:41  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:26:41  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:27:12  RUN   start     gap=1m
+09-05 20:27:12  CAP   idle      対象なし
+09-05 20:27:12  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:27:12  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:27:42  RUN   start     gap=1m
+09-05 20:27:42  CAP   idle      対象なし
+09-05 20:27:43  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:27:43  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:28:26  RUN   start     gap=1m
+09-05 20:28:43  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 20:28:43  CAP   slot1     09-05 21:00 tohoumeda/s04 ラスト・サバイバー lead=32m occ=21%
+09-05 20:28:46  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:28:46  CAP   done      対象 1 / 成功 1 / 失敗 0 / 20s
+09-05 20:28:47  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:28:47  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:29:17  RUN   start     gap=1m
+09-05 20:29:17  CAP   idle      対象なし
+09-05 20:29:17  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:29:18  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:29:48  RUN   start     gap=1m
+09-05 20:29:48  CAP   idle      対象なし
+09-05 20:29:48  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:29:48  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:30:19  RUN   start     gap=1m
+09-05 20:30:19  CAP   idle      対象なし
+09-05 20:30:19  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:30:19  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:30:49  RUN   start     gap=1m
+09-05 20:30:49  CAP   idle      対象なし
+09-05 20:30:50  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:30:50  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:31:20  RUN   start     gap=1m
+09-05 20:31:20  CAP   idle      対象なし
+09-05 20:31:20  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:31:21  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:31:51  RUN   start     gap=1m
+09-05 20:31:51  CAP   idle      対象なし
+09-05 20:31:51  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:31:51  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:32:22  RUN   start     gap=1m
+09-05 20:32:22  CAP   idle      対象なし
+09-05 20:32:22  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:32:23  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:32:53  RUN   start     gap=1m
+09-05 20:32:53  CAP   idle      対象なし
+09-05 20:32:54  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:32:54  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:33:42  RUN   start     gap=1m
+09-05 20:33:42  CAP   idle      対象なし
+09-05 20:33:42  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:33:43  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:34:22  RUN   start     gap=1m
+09-05 20:34:22  CAP   idle      対象なし
+09-05 20:34:23  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:34:23  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:35:02  RUN   start     gap=1m
+09-05 20:35:02  CAP   idle      対象なし
+09-05 20:35:02  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:35:03  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:35:33  RUN   start     gap=1m
+09-05 20:35:33  CAP   idle      対象なし
+09-05 20:35:34  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:35:34  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:36:05  RUN   start     gap=1m
+09-05 20:36:05  CAP   idle      対象なし
+09-05 20:36:05  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:36:06  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:36:36  RUN   start     gap=1m
+09-05 20:36:36  CAP   idle      対象なし
+09-05 20:36:37  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:36:37  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:37:07  RUN   start     gap=1m
+09-05 20:37:07  CAP   idle      対象なし
+09-05 20:37:08  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:37:08  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:37:39  RUN   start     gap=1m
+09-05 20:37:39  CAP   idle      対象なし
+09-05 20:37:39  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:37:40  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:38:42  RUN   start     gap=1m
+09-05 20:38:42  CAP   idle      対象なし
+09-05 20:38:43  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:38:43  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:39:14  RUN   start     gap=1m
+09-05 20:39:14  CAP   idle      対象なし
+09-05 20:39:14  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:39:15  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:39:45  RUN   start     gap=1m
+09-05 20:39:45  CAP   idle      対象なし
+09-05 20:39:46  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:39:46  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:40:16  RUN   start     gap=1m
+09-05 20:40:16  CAP   idle      対象なし
+09-05 20:40:17  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:40:17  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:40:48  RUN   start     gap=1m
+09-05 20:40:48  CAP   idle      対象なし
+09-05 20:40:48  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:40:49  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:41:19  RUN   start     gap=1m
+09-05 20:41:19  CAP   idle      対象なし
+09-05 20:41:20  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:41:20  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:41:50  RUN   start     gap=1m
+09-05 20:41:50  CAP   idle      対象なし
+09-05 20:41:51  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:41:52  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:42:22  RUN   start     gap=1m
+09-05 20:42:22  CAP   idle      対象なし
+09-05 20:42:23  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:42:23  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:42:54  RUN   start     gap=1m
+09-05 20:42:54  CAP   idle      対象なし
+09-05 20:42:54  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:42:55  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:43:38  RUN   start     gap=1m
+09-05 20:43:56  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 20:43:56  CAP   final     09-05 20:50 tohoumeda/s07 時には懺悔を lead=6m occ=19%
+09-05 20:44:13  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 20:44:14  CAP   slot1     09-05 21:15 tohoumeda/s02 劇場版 魔法少女まどか☆マギ lead=31m occ=39%
+09-05 20:44:18  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:44:19  CAP   done      対象 2 / 成功 2 / 失敗 0 / 40s
+09-05 20:44:19  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:44:20  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:44:50  RUN   start     gap=1m
+09-05 20:44:50  CAP   idle      対象なし
+09-05 20:44:51  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:44:51  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:53:35  RUN   start     gap=9m
+09-05 20:53:53  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 20:53:53  CAP   final     09-05 21:00 tohoumeda/s04 ラスト・サバイバー lead=6m occ=27%
+09-05 20:53:58  MISS  1         09-05 20:40
+09-05 20:53:58  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:53:58  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-05 20:53:58  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:53:59  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:58:43  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 20:58:43  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 21:03:37  RUN   start     gap=10m
+09-05 21:03:54  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 21:03:55  CAP   slot1     09-05 21:35 tohoumeda/s08 オークストリートの異変 lead=31m occ=19%
+09-05 21:03:59  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 21:03:59  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-05 21:04:00  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 21:04:00  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 21:08:14  RUN   start     gap=5m
+09-05 21:08:32  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 21:08:33  CAP   final     09-05 21:15 tohoumeda/s02 劇場版 魔法少女まどか☆マギ lead=7m occ=43%
+09-05 21:08:37  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 21:08:37  CAP   done      対象 1 / 成功 1 / 失敗 0 / 22s
+09-05 21:08:37  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 21:08:38  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 21:28:09  RUN   start     gap=20m
+09-05 21:28:26  CAP   advance   ログインせずに進む → TNPI2010J01.do
+09-05 21:28:27  CAP   final     09-05 21:35 tohoumeda/s08 オークストリートの異変 lead=7m occ=23%
+09-05 21:28:31  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 21:28:31  CAP   done      対象 1 / 成功 1 / 失敗 0 / 23s
+09-05 21:28:32  INDEX poster    T・ジョイ側から 13 作品ぶん借用
+09-05 21:28:32  INDEX poster    T・ジョイ側から 13 作品ぶん借用

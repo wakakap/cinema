@@ -23,9 +23,9 @@
       "C4806000"
     ],
     "first_seen": "2026-08-27",
-    "last_seen": "2026-09-03",
-    "showing_count": 9,
-    "capture_count": 4
+    "last_seen": "2026-09-10",
+    "showing_count": 13,
+    "capture_count": 6
   },
   "puella-magi-madoka-magica-f4772b": {
     "key": "puella-magi-madoka-magica-f4772b",
@@ -56,9 +56,9 @@
       "C4918200"
     ],
     "first_seen": "2026-08-27",
-    "last_seen": "2026-09-03",
-    "showing_count": 24,
-    "capture_count": 11
+    "last_seen": "2026-09-10",
+    "showing_count": 32,
+    "capture_count": 17
   },
   "moana-3624e0": {
     "key": "moana-3624e0",
@@ -72,9 +72,9 @@
       "C4902200"
     ],
     "first_seen": "2026-08-27",
-    "last_seen": "2026-09-03",
-    "showing_count": 8,
-    "capture_count": 4
+    "last_seen": "2026-09-10",
+    "showing_count": 12,
+    "capture_count": 6
   },
   "chiikawa-0377e3": {
     "key": "chiikawa-0377e3",
@@ -86,9 +86,9 @@
       "C4805000"
     ],
     "first_seen": "2026-08-27",
-    "last_seen": "2026-09-03",
-    "showing_count": 38,
-    "capture_count": 20
+    "last_seen": "2026-09-10",
+    "showing_count": 57,
+    "capture_count": 33
   },
   "minions-monsters-a63f70": {
     "key": "minions-monsters-a63f70",
@@ -103,9 +103,9 @@
       "C4860200"
     ],
     "first_seen": "2026-08-27",
-    "last_seen": "2026-09-03",
-    "showing_count": 16,
-    "capture_count": 9
+    "last_seen": "2026-09-10",
+    "showing_count": 20,
+    "capture_count": 12
   },
   "shiranuhi-6c2ef4": {
     "key": "shiranuhi-6c2ef4",
@@ -117,9 +117,9 @@
       "C4819000"
     ],
     "first_seen": "2026-08-27",
-    "last_seen": "2026-09-03",
-    "showing_count": 18,
-    "capture_count": 9
+    "last_seen": "2026-09-10",
+    "showing_count": 22,
+    "capture_count": 13
   },
   "the-end-of-oak-street-964311": {
     "key": "the-end-of-oak-street-964311",
@@ -135,9 +135,9 @@
       "C4943100"
     ],
     "first_seen": "2026-08-27",
-    "last_seen": "2026-09-03",
-    "showing_count": 18,
-    "capture_count": 10
+    "last_seen": "2026-09-10",
+    "showing_count": 22,
+    "capture_count": 14
   },
   "performance1984-2012-tatsuro-yamashita-t-6f5b8b": {
     "key": "performance1984-2012-tatsuro-yamashita-t-6f5b8b",
@@ -151,7 +151,7 @@
     "first_seen": "2026-08-27",
     "last_seen": "2026-09-03",
     "showing_count": 12,
-    "capture_count": 5
+    "capture_count": 7
   },
   "michael-michael-43664c": {
     "key": "michael-michael-43664c",
@@ -166,9 +166,9 @@
       "C4739100"
     ],
     "first_seen": "2026-08-27",
-    "last_seen": "2026-09-03",
-    "showing_count": 11,
-    "capture_count": 4
+    "last_seen": "2026-09-10",
+    "showing_count": 15,
+    "capture_count": 7
   },
   "kingdom-ae54ae": {
     "key": "kingdom-ae54ae",
@@ -180,9 +180,9 @@
       "C4804000"
     ],
     "first_seen": "2026-08-27",
-    "last_seen": "2026-09-03",
-    "showing_count": 9,
-    "capture_count": 4
+    "last_seen": "2026-09-10",
+    "showing_count": 13,
+    "capture_count": 6
   },
   "blue-lock-4f16c3": {
     "key": "blue-lock-4f16c3",
@@ -197,9 +197,9 @@
       "C4803000"
     ],
     "first_seen": "2026-08-27",
-    "last_seen": "2026-09-03",
-    "showing_count": 18,
-    "capture_count": 10
+    "last_seen": "2026-09-10",
+    "showing_count": 22,
+    "capture_count": 14
   },
   "film-39f4f9": {
     "key": "film-39f4f9",
@@ -225,9 +225,9 @@
       "C4986300"
     ],
     "first_seen": "2026-08-27",
-    "last_seen": "2026-09-09",
-    "showing_count": 12,
-    "capture_count": 5
+    "last_seen": "2026-09-10",
+    "showing_count": 13,
+    "capture_count": 6
   },
   "toy-story-5-7e34e5": {
     "key": "toy-story-5-7e34e5",
@@ -241,23 +241,23 @@
       "C4901201"
     ],
     "first_seen": "2026-08-27",
-    "last_seen": "2026-09-03",
-    "showing_count": 8,
-    "capture_count": 5
+    "last_seen": "2026-09-10",
+    "showing_count": 12,
+    "capture_count": 7
   },
   "film-29719f": {
     "key": "film-29719f",
     "title": "追加上映『髑髏城の七人 1997』",
-    "poster": null,
+    "poster": "media/posters/film-29719f.jpg",
     "tags": [],
     "runtime_min": 175,
     "codes": [
       "E2805000"
     ],
     "first_seen": "2026-08-27",
-    "last_seen": "2026-09-09",
-    "showing_count": 12,
-    "capture_count": 6
+    "last_seen": "2026-09-10",
+    "showing_count": 13,
+    "capture_count": 8
   },
   "kamen-rider-zeztz-and-super-space-sherif-e34ed8": {
     "key": "kamen-rider-zeztz-and-super-space-sherif-e34ed8",
@@ -269,9 +269,9 @@
       "C4864000"
     ],
     "first_seen": "2026-08-27",
-    "last_seen": "2026-09-03",
-    "showing_count": 8,
-    "capture_count": 5
+    "last_seen": "2026-09-10",
+    "showing_count": 12,
+    "capture_count": 7
   },
   "puella-magi-madoka-magica-walpurgisnacht-0fd537": {
     "key": "puella-magi-madoka-magica-walpurgisnacht-0fd537",
@@ -286,9 +286,9 @@
       "C4463060"
     ],
     "first_seen": "2026-08-28",
-    "last_seen": "2026-09-03",
-    "showing_count": 59,
-    "capture_count": 38
+    "last_seen": "2026-09-10",
+    "showing_count": 78,
+    "capture_count": 53
   },
   "25-harry-potter-and-the-sorcerer-s-stone-0c741e": {
     "key": "25-harry-potter-and-the-sorcerer-s-stone-0c741e",
@@ -308,7 +308,7 @@
     "first_seen": "2026-08-28",
     "last_seen": "2026-09-03",
     "showing_count": 21,
-    "capture_count": 12
+    "capture_count": 15
   },
   "in-ohsama-sentai-king-ohger-film-concert-9144c0": {
     "key": "in-ohsama-sentai-king-ohger-film-concert-9144c0",
@@ -320,9 +320,9 @@
       "C5008000"
     ],
     "first_seen": "2026-08-28",
-    "last_seen": "2026-09-03",
-    "showing_count": 14,
-    "capture_count": 7
+    "last_seen": "2026-09-10",
+    "showing_count": 18,
+    "capture_count": 11
   },
   "heikou-to-suichoku-b9aaec": {
     "key": "heikou-to-suichoku-b9aaec",
@@ -334,9 +334,9 @@
       "C4908000"
     ],
     "first_seen": "2026-08-28",
-    "last_seen": "2026-09-03",
-    "showing_count": 32,
-    "capture_count": 20
+    "last_seen": "2026-09-10",
+    "showing_count": 40,
+    "capture_count": 28
   },
   "puella-magi-madoka-magica-walpurgisnacht-e46fb0": {
     "key": "puella-magi-madoka-magica-walpurgisnacht-e46fb0",
@@ -358,8 +358,114 @@
     "runtime_min": 80,
     "codes": [],
     "first_seen": "2026-09-03",
-    "last_seen": "2026-09-03",
+    "last_seen": "2026-09-10",
+    "showing_count": 40,
+    "capture_count": 0
+  },
+  "sekiro-no-defeat-pg12-319644": {
+    "key": "sekiro-no-defeat-pg12-319644",
+    "title": "SEKIRO:NO DEFEAT(PG12)",
+    "poster": "media/posters/sekiro-no-defeat-pg12-319644.jpg",
+    "tags": [
+      "Dolby Atmos",
+      "PG12",
+      "字幕"
+    ],
+    "runtime_min": 108,
+    "codes": [
+      "C4986060",
+      "C4986000"
+    ],
+    "first_seen": "2026-09-04",
+    "last_seen": "2026-09-10",
+    "showing_count": 17,
+    "capture_count": 8
+  },
+  "the-alfee-3000premium-3000-29f8c2": {
+    "key": "the-alfee-3000premium-3000-29f8c2",
+    "title": "THE ALFEE 3000PREMIUM～トラベリングバンドが刻んだ3000本の奇跡と軌跡～",
+    "poster": "media/posters/the-alfee-3000premium-3000-29f8c2.jpg",
+    "tags": [],
+    "runtime_min": 123,
+    "codes": [
+      "C2589000"
+    ],
+    "first_seen": "2026-09-04",
+    "last_seen": "2026-09-10",
     "showing_count": 8,
+    "capture_count": 3
+  },
+  "6days-6days-480eb6": {
+    "key": "6days-6days-480eb6",
+    "title": "6DAYS 6Days",
+    "poster": "media/posters/6days-6days-480eb6.jpg",
+    "tags": [],
+    "runtime_min": 81,
+    "codes": [
+      "C5043000"
+    ],
+    "first_seen": "2026-09-04",
+    "last_seen": "2026-09-10",
+    "showing_count": 8,
+    "capture_count": 3
+  },
+  "backrooms-a1c35e": {
+    "key": "backrooms-a1c35e",
+    "title": "バックルームズ Backrooms",
+    "poster": "media/posters/backrooms-a1c35e.jpg",
+    "tags": [
+      "DolbyCinema",
+      "字幕"
+    ],
+    "runtime_min": 130,
+    "codes": [
+      "C5032180"
+    ],
+    "first_seen": "2026-09-04",
+    "last_seen": "2026-09-10",
+    "showing_count": 8,
+    "capture_count": 3
+  },
+  "the-ribbon-hero-60470e": {
+    "key": "the-ribbon-hero-60470e",
+    "title": "THE RIBBON HERO リボンヒーロー",
+    "poster": "media/posters/the-ribbon-hero-60470e.jpg",
+    "tags": [],
+    "runtime_min": 109,
+    "codes": [
+      "C5095000"
+    ],
+    "first_seen": "2026-09-04",
+    "last_seen": "2026-09-10",
+    "showing_count": 8,
+    "capture_count": 3
+  },
+  "dazn-j1-9-vs-7cde29": {
+    "key": "dazn-j1-9-vs-7cde29",
+    "title": "DAZN主催 明治安田J1リーグ 第9節 鹿島アントラーズ VS ガンバ大阪",
+    "poster": null,
+    "tags": [],
+    "runtime_min": 160,
+    "codes": [
+      "O2474000"
+    ],
+    "first_seen": "2026-09-05",
+    "last_seen": "2026-09-10",
+    "showing_count": 3,
+    "capture_count": 1
+  },
+  "revue-starlight-the-movie-4579a4": {
+    "key": "revue-starlight-the-movie-4579a4",
+    "title": "『劇場版 少女☆歌劇 レヴュースタァライト』リバイバル上映 Revue Starlight The Movie",
+    "poster": null,
+    "tags": [
+      "Dolby Atmos"
+    ],
+    "runtime_min": 138,
+    "codes": [],
+    "first_seen": "2026-09-09",
+    "last_seen": "2026-09-10",
+    "showing_count": 2,
     "capture_count": 0
   }
 }

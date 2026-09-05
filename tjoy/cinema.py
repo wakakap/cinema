@@ -819,10 +819,14 @@ def due_showings(schedule: dict, now: datetime, lead_min: int,
         # 販売対象外になるので、これを数えると今日の残りまで飛ばす。
         #
         # まれにある先行販売はこれで取り逃すが、翌日の走査で拾える。
-        hits = not_on_sale(showings)
-        if date > today and hits >= DAY_SKIP_HITS:
-            EV.add("CAP", "day-skip", f"{date[5:]} 販売対象外 {hits}/{len(showings)} 件")
-            continue
+        # 判定するのは走査のときだけ。通常の capture では先の日付の回は
+        # そもそも窓に入らないので、数えても意味が無いうえログが埋まる。
+        if sweep and date > today:
+            hits = not_on_sale(showings)
+            if hits >= DAY_SKIP_HITS:
+                EV.add("CAP", "day-skip",
+                       f"{date[5:]} 販売対象外 {hits}/{len(showings)} 件")
+                continue
         for s in showings:
             if s.get("status") not in ("pending", "retry", "provisional"):
                 continue

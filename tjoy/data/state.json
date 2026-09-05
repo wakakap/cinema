@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-08-31T02:23:13.430836+09:00",
+  "last_run_at": "2026-09-05T21:08:01.371705+09:00",
   "sync_changes": [
     {
       "at": "2026-08-27T22:55:17.848177+09:00",
@@ -77,6 +77,42 @@
       "at": "2026-08-30T22:25:35.526973+09:00",
       "changes": [
         "2026-08-30 +20260830-2120-s06-puella-magi-madoka-magica-walpurgisnacht-0fd537"
+      ]
+    },
+    {
+      "at": "2026-09-01T14:56:03.479868+09:00",
+      "changes": [
+        "2026-09-01 +20260901-0830-s01-blue-lock-4f16c3",
+        "2026-09-01 +20260901-0830-s03-minions-monsters-a63f70",
+        "2026-09-01 +20260901-0830-s06-puella-magi-madoka-magica-walpurgisnacht-0fd537",
+        "2026-09-01 +20260901-0835-s05-crayon-shin-chan-2026-07920d",
+        "2026-09-01 +20260901-0840-s07-moana-3624e0",
+        "2026-09-01 +20260901-0845-s02-kingdom-ae54ae",
+        "2026-09-01 +20260901-0845-s04-spider-man-brand-new-day-0fdee1",
+        "2026-09-01 +20260901-1030-s03-puella-magi-madoka-magica-walpurgisnacht-0fd537",
+        "2026-09-01 +20260901-1040-s05-shiranuhi-6c2ef4",
+        "2026-09-01 +20260901-1100-s06-puella-magi-madoka-magica-walpurgisnacht-0fd537",
+        "2026-09-01 +20260901-1105-s07-heikou-to-suichoku-b9aaec",
+        "2026-09-01 +20260901-1110-s01-25-harry-potter-and-the-sorcerer-s-stone-0c741e",
+        "2026-09-01 +20260901-1130-s02-chiikawa-0377e3",
+        "2026-09-01 +20260901-1140-s04-in-ohsama-sentai-king-ohger-film-concert-9144c0",
+        "2026-09-01 +20260901-1140-s05-the-end-of-oak-street-964311",
+        "2026-09-01 +20260901-1305-s03-performance1984-2012-tatsuro-yamashita-t-6f5b8b",
+        "2026-09-01 +20260901-1305-s03-sekiro-no-defeat-pg12-334c43",
+        "2026-09-01 +20260901-1330-s07-heikou-to-suichoku-b9aaec",
+        "2026-09-01 +20260901-1335-s06-puella-magi-madoka-magica-walpurgisnacht-0fd537",
+        "2026-09-01 +20260901-1345-s02-chiikawa-0377e3",
+        "2026-09-01 +20260901-1350-s05-toy-story-5-7e34e5",
+        "2026-09-01 +20260901-1435-s01-puella-magi-madoka-magica-walpurgisnacht-0fd537",
+        "2026-09-01 +20260901-1450-s04-spider-man-brand-new-day-0fdee1",
+        "2026-09-02 -20260902-1300-s06-film-39f4f9"
+      ]
+    },
+    {
+      "at": "2026-09-05T14:08:28.429609+09:00",
+      "changes": [
+        "2026-09-09 +20260909-1900-s07-dazn-j1-9-vs-7cde29",
+        "2026-09-10 +20260910-1900-s07-dazn-j1-9-vs-7cde29"
       ]
     }
   ]

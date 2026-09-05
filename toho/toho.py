@@ -4,7 +4,7 @@
 toho.py — TOHOシネマズ梅田（本館・別館）上映スケジュール & 座席表アーカイバ
 
 各回の開映前に座席選択画面へ入り、その時点の埋まり具合を画像と数値で記録する。
-cinema.py（T・ジョイ梅田）と同じ骨格だが、次の点が違う。
+tjoy.py（T・ジョイ梅田）と同じ骨格だが、次の点が違う。
 
   * 1 つの「劇場コード」の下に **複数の館** がぶら下がる構造にした。
     TOHOシネマズ梅田は 1 ページ（コード 037）に本館スクリーン1〜8 と
@@ -1312,10 +1312,14 @@ def due_showings(schedule: dict, now: datetime, lead_min: int,
         # 販売期間外になるので、これを数えると今日の残りまで飛ばす。
         #
         # まれにある先行販売はこれで取り逃すが、翌日の走査で拾える。
-        hits = not_on_sale(showings)
-        if date > today and hits >= DAY_SKIP_HITS:
-            EV.add("CAP", "day-skip", f"{date[5:]} 販売期間外 {hits}/{len(showings)} 件")
-            continue
+        # 判定するのは走査のときだけ。通常の capture では先の日付の回は
+        # そもそも窓に入らないので、数えても意味が無いうえログが埋まる。
+        if sweep and date > today:
+            hits = not_on_sale(showings)
+            if hits >= DAY_SKIP_HITS:
+                EV.add("CAP", "day-skip",
+                       f"{date[5:]} 販売期間外 {hits}/{len(showings)} 件")
+                continue
         for s in showings:
             if s.get("cinema") not in active_ids:
                 continue

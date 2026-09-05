@@ -49,10 +49,10 @@
       "active": true
     }
   ],
-  "generated_at": "2026-08-31T02:50:19.566160+09:00",
-  "total_records": 176,
-  "total_captures": 162,
-  "pending_showings": 0,
+  "generated_at": "2026-09-05T21:28:32.855440+09:00",
+  "total_records": 436,
+  "total_captures": 394,
+  "pending_showings": 1,
   "warnings": [],
   "venues": [
     {
@@ -61,8 +61,8 @@
       "cinema_name": "TOHOシネマズ梅田",
       "venue": "honkan",
       "venue_name": "本館",
-      "count": 176,
-      "captured": 162,
+      "count": 436,
+      "captured": 394,
       "screens": [
         "06",
         "02",
@@ -84,10 +84,175 @@
     {
       "month": "2026-09",
       "file": "data/captures/2026-09.json",
-      "count": 44
+      "count": 304
     }
   ],
   "dates": [
+    {
+      "date": "2026-09-07",
+      "count": 42,
+      "captured": 41,
+      "films": [
+        "film-e97bc9",
+        "film-3838a2",
+        "film-dfd467",
+        "film-5a6ba2",
+        "film-d03854",
+        "film-8ff868",
+        "film-71cf8f",
+        "film-2fcda0",
+        "film-01dfa3",
+        "film-5043c7",
+        "film-a42e71",
+        "michael-9b1cba",
+        "film-f63727",
+        "film-e259f3",
+        "film-b1b479",
+        "film-a90019",
+        "film-d3b025",
+        "division-rap-battle-efe430",
+        "the-lifetimes-tour-live-from-paris-e561e0",
+        "film-8d7903"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "count": 43,
+      "captured": 43,
+      "films": [
+        "film-2bf82d",
+        "film-dfd467",
+        "film-71cf8f",
+        "film-a42e71",
+        "film-e259f3",
+        "film-3838a2",
+        "film-d03854",
+        "film-2fcda0",
+        "film-5a6ba2",
+        "film-01dfa3",
+        "michael-9b1cba",
+        "film-5043c7",
+        "film-e97bc9",
+        "diamond-impulse-2e2cd5",
+        "film-b1b479",
+        "film-8d7903",
+        "film-d3b025",
+        "division-rap-battle-efe430",
+        "the-lifetimes-tour-live-from-paris-e561e0",
+        "film-f63727",
+        "film-a90019"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "count": 44,
+      "captured": 18,
+      "films": [
+        "film-2bf82d",
+        "film-dfd467",
+        "film-e259f3",
+        "film-01dfa3",
+        "film-71cf8f",
+        "film-3838a2",
+        "film-d03854",
+        "film-2fcda0",
+        "film-a42e71",
+        "film-8d7903",
+        "film-5043c7",
+        "michael-9b1cba",
+        "film-5a6ba2",
+        "film-b1b479",
+        "film-e97bc9",
+        "film-d3b025",
+        "the-lifetimes-tour-live-from-paris-e561e0",
+        "film-a90019",
+        "division-rap-battle-efe430",
+        "film-f63727"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "count": 43,
+      "captured": 43,
+      "films": [
+        "film-e97bc9",
+        "film-3838a2",
+        "film-dfd467",
+        "film-5a6ba2",
+        "film-d03854",
+        "film-8ff868",
+        "film-71cf8f",
+        "film-2fcda0",
+        "film-01dfa3",
+        "film-5043c7",
+        "film-a42e71",
+        "michael-9b1cba",
+        "film-f63727",
+        "film-e259f3",
+        "film-b1b479",
+        "film-d3b025",
+        "film-a90019",
+        "division-rap-battle-efe430",
+        "the-lifetimes-tour-live-from-paris-e561e0",
+        "film-8d7903"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "count": 44,
+      "captured": 44,
+      "films": [
+        "film-2bf82d",
+        "film-5043c7",
+        "film-e259f3",
+        "film-5a6ba2",
+        "film-e97bc9",
+        "film-71cf8f",
+        "film-dfd467",
+        "film-2fcda0",
+        "film-b1b479",
+        "film-01dfa3",
+        "film-3838a2",
+        "film-8ff868",
+        "film-f63727",
+        "film-8d7903",
+        "film-d3b025",
+        "film-87658e",
+        "michael-9b1cba",
+        "the-lifetimes-tour-live-from-paris-e561e0",
+        "film-a90019",
+        "division-rap-battle-efe430",
+        "film-d0ad07"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "count": 44,
+      "captured": 43,
+      "films": [
+        "film-2bf82d",
+        "film-5043c7",
+        "film-e259f3",
+        "film-5a6ba2",
+        "film-e97bc9",
+        "film-71cf8f",
+        "film-dfd467",
+        "film-2fcda0",
+        "film-b1b479",
+        "film-01dfa3",
+        "film-3838a2",
+        "film-8ff868",
+        "film-f63727",
+        "film-8d7903",
+        "film-d3b025",
+        "film-87658e",
+        "michael-9b1cba",
+        "the-lifetimes-tour-live-from-paris-e561e0",
+        "film-a90019",
+        "division-rap-battle-efe430",
+        "film-d0ad07"
+      ]
+    },
     {
       "date": "2026-09-01",
       "count": 44,
@@ -202,12 +367,12 @@
         "字幕"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-01",
+      "last_seen": "2026-09-07",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 4,
-      "capture_count": 4,
+      "showing_count": 10,
+      "capture_count": 9,
       "poster_from": "tjoy"
     },
     {
@@ -218,12 +383,12 @@
         "レイトショー"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-01",
+      "last_seen": "2026-09-07",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 20,
-      "capture_count": 18
+      "showing_count": 38,
+      "capture_count": 33
     },
     {
       "key": "film-5a6ba2",
@@ -231,12 +396,12 @@
       "poster": "../tjoy/media/posters/crayon-shin-chan-2026-07920d.jpg",
       "tags": [],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-01",
+      "last_seen": "2026-09-07",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 4,
-      "capture_count": 4,
+      "showing_count": 10,
+      "capture_count": 9,
       "poster_from": "tjoy"
     },
     {
@@ -247,28 +412,39 @@
         "レイトショー"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-01",
+      "last_seen": "2026-09-07",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 20,
-      "capture_count": 20,
+      "showing_count": 56,
+      "capture_count": 49,
       "poster_from": "tjoy"
     },
     {
-      "key": "film-d0ad07",
-      "title": "大長編 タローマン 万博大爆発",
+      "key": "division-rap-battle-efe430",
+      "title": "映画「ヒプノシスマイク －Ｄｉｖｉｓｉｏｎ Ｒａｐ Ｂａｔｔｌｅ－」",
       "poster": null,
-      "tags": [
-        "レイトショー"
-      ],
-      "first_seen": "2026-08-31",
-      "last_seen": "2026-09-01",
+      "tags": [],
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-07",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 2,
-      "capture_count": 2
+      "showing_count": 7,
+      "capture_count": 6
+    },
+    {
+      "key": "the-lifetimes-tour-live-from-paris-e561e0",
+      "title": "映画「ケイティ・ペリー：Ｔｈｅ Ｌｉｆｅｔｉｍｅｓ Ｔｏｕｒ － Ｌｉｖｅ ｆｒｏｍ Ｐａｒｉｓ」",
+      "poster": null,
+      "tags": [],
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-07",
+      "cinemas": [
+        "tohoumeda"
+      ],
+      "showing_count": 6,
+      "capture_count": 6
     },
     {
       "key": "film-dfd467",
@@ -279,12 +455,12 @@
         "レイトショー"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-01",
+      "last_seen": "2026-09-07",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 20,
-      "capture_count": 18,
+      "showing_count": 52,
+      "capture_count": 48,
       "poster_from": "tjoy"
     },
     {
@@ -293,12 +469,12 @@
       "poster": null,
       "tags": [],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-01",
+      "last_seen": "2026-09-07",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 4,
-      "capture_count": 3
+      "showing_count": 8,
+      "capture_count": 7
     },
     {
       "key": "film-71cf8f",
@@ -310,12 +486,12 @@
         "レイトショー"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-01",
+      "last_seen": "2026-09-07",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 18,
-      "capture_count": 17
+      "showing_count": 37,
+      "capture_count": 35
     },
     {
       "key": "film-a90019",
@@ -326,12 +502,12 @@
         "レイトショー"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-01",
+      "last_seen": "2026-09-07",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 4,
-      "capture_count": 4,
+      "showing_count": 10,
+      "capture_count": 10,
       "poster_from": "tjoy"
     },
     {
@@ -343,12 +519,12 @@
         "レイトショー"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-01",
+      "last_seen": "2026-09-07",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 8,
-      "capture_count": 8,
+      "showing_count": 16,
+      "capture_count": 15,
       "poster_from": "tjoy"
     },
     {
@@ -357,44 +533,30 @@
       "poster": "../tjoy/media/posters/blue-lock-4f16c3.jpg",
       "tags": [],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-01",
+      "last_seen": "2026-09-07",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 4,
-      "capture_count": 4,
+      "showing_count": 10,
+      "capture_count": 10,
       "poster_from": "tjoy"
     },
     {
-      "key": "film-2bf82d",
-      "title": "パウっと！ファミリーシアター",
-      "poster": null,
+      "key": "film-a42e71",
+      "title": "バックルームズ",
+      "poster": "../tjoy/media/posters/backrooms-a1c35e.jpg",
       "tags": [
-        "吹替"
-      ],
-      "first_seen": "2026-08-29",
-      "last_seen": "2026-09-01",
-      "cinemas": [
-        "tohoumeda"
-      ],
-      "showing_count": 4,
-      "capture_count": 3
-    },
-    {
-      "key": "film-87658e",
-      "title": "ハリー・ポッターと賢者の石",
-      "poster": "../tjoy/media/posters/25-harry-potter-and-the-sorcerer-s-stone-0c741e.jpg",
-      "tags": [
-        "吹替",
+        "字幕",
+        "Dolby Atmos",
         "レイトショー"
       ],
-      "first_seen": "2026-08-29",
-      "last_seen": "2026-09-01",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-07",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 8,
-      "capture_count": 8,
+      "showing_count": 19,
+      "capture_count": 17,
       "poster_from": "tjoy"
     },
     {
@@ -406,12 +568,12 @@
         "レイトショー"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-01",
+      "last_seen": "2026-09-07",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 6,
-      "capture_count": 6
+      "showing_count": 12,
+      "capture_count": 11
     },
     {
       "key": "film-b1b479",
@@ -421,13 +583,28 @@
         "吹替"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-01",
+      "last_seen": "2026-09-07",
+      "cinemas": [
+        "tohoumeda"
+      ],
+      "showing_count": 16,
+      "capture_count": 15,
+      "poster_from": "tjoy"
+    },
+    {
+      "key": "film-d03854",
+      "title": "スワロウテイル",
+      "poster": null,
+      "tags": [
+        "Dolby Atmos"
+      ],
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-07",
       "cinemas": [
         "tohoumeda"
       ],
       "showing_count": 8,
-      "capture_count": 8,
-      "poster_from": "tjoy"
+      "capture_count": 6
     },
     {
       "key": "film-2fcda0",
@@ -439,12 +616,12 @@
         "レイトショー"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-01",
+      "last_seen": "2026-09-07",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 11,
-      "capture_count": 9,
+      "showing_count": 27,
+      "capture_count": 23,
       "poster_from": "tjoy"
     },
     {
@@ -456,12 +633,12 @@
         "レイトショー"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-01",
+      "last_seen": "2026-09-07",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 16,
-      "capture_count": 13
+      "showing_count": 36,
+      "capture_count": 32
     },
     {
       "key": "film-5043c7",
@@ -472,12 +649,12 @@
         "レイトショー"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-01",
+      "last_seen": "2026-09-07",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 8,
-      "capture_count": 7,
+      "showing_count": 20,
+      "capture_count": 18,
       "poster_from": "tjoy"
     },
     {
@@ -485,15 +662,76 @@
       "title": "オークストリートの異変",
       "poster": "../tjoy/media/posters/the-end-of-oak-street-964311.jpg",
       "tags": [
-        "字幕"
+        "字幕",
+        "レイトショー"
       ],
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-01",
+      "last_seen": "2026-09-07",
       "cinemas": [
         "tohoumeda"
       ],
-      "showing_count": 6,
-      "capture_count": 5,
+      "showing_count": 12,
+      "capture_count": 11,
+      "poster_from": "tjoy"
+    },
+    {
+      "key": "diamond-impulse-2e2cd5",
+      "title": "宝塚歌劇 宙組東京宝塚劇場公演『黒蜥蜴』『Ｄｉａｍｏｎｄ ＩＭＰＵＬＳＥ（ダイヤモンド インパルス）",
+      "poster": null,
+      "tags": [],
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-09-06",
+      "cinemas": [
+        "tohoumeda"
+      ],
+      "showing_count": 1,
+      "capture_count": 1
+    },
+    {
+      "key": "film-2bf82d",
+      "title": "パウっと！ファミリーシアター",
+      "poster": null,
+      "tags": [
+        "吹替"
+      ],
+      "first_seen": "2026-08-29",
+      "last_seen": "2026-09-06",
+      "cinemas": [
+        "tohoumeda"
+      ],
+      "showing_count": 8,
+      "capture_count": 6
+    },
+    {
+      "key": "film-d0ad07",
+      "title": "大長編 タローマン 万博大爆発",
+      "poster": null,
+      "tags": [
+        "レイトショー"
+      ],
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-09-03",
+      "cinemas": [
+        "tohoumeda"
+      ],
+      "showing_count": 4,
+      "capture_count": 4
+    },
+    {
+      "key": "film-87658e",
+      "title": "ハリー・ポッターと賢者の石",
+      "poster": "../tjoy/media/posters/25-harry-potter-and-the-sorcerer-s-stone-0c741e.jpg",
+      "tags": [
+        "吹替",
+        "レイトショー"
+      ],
+      "first_seen": "2026-08-29",
+      "last_seen": "2026-09-03",
+      "cinemas": [
+        "tohoumeda"
+      ],
+      "showing_count": 12,
+      "capture_count": 12,
       "poster_from": "tjoy"
     },
     {
